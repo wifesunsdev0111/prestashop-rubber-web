@@ -1,0 +1,257 @@
+.ogone-aliases .card-info-title {
+  display: block;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: 600;
+  color: #333;
+}
+
+.subscribe-title {
+  margin: 15px 0 10px 0;
+  color: #414141;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.info-subscribe {
+  margin: 10px 0;
+  font-size: 13px;
+  line-height: 14px;
+  font-style: italic;
+}
+
+.subscribe-info-list dl {
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  -js-display: flex;
+  display: flex;
+  -webkit-box-lines: multiple;
+  -moz-box-lines: multiple;
+  box-lines: multiple;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.subscribe-info-list dl dd, .subscribe-info-list dl dt {
+  background: #fff;
+  flex: 0 0 50%;
+  font-size: 13px;
+  padding: 6px 8px;
+  margin: 0;
+  border: 1px solid #fff;
+  color: #414141;
+}
+
+.subscribe-info-list dl dd:nth-of-type(2n), .subscribe-info-list dl dt:nth-of-type(2n)
+  {
+  background: #f6f6f6;
+}
+
+.bt-subscribe {
+  float: right !important;
+  margin-bottom: 10px;
+}
+
+#ogone_subscriptions_list .subscribe-info-list dl dd,
+  #ogone_subscriptions_list .subscribe-info-list dl dt {
+  background: #e3e3e3;
+  flex: 0 0 50%;
+  font-size: 13px;
+  padding: 6px 8px;
+  margin: 0;
+  border: 1px solid #fff;
+  color: #414141;
+}
+
+#ogone_subscriptions_list .subscribe-info-list dl dd:nth-of-type(2n),
+  #ogone_subscriptions_list .subscribe-info-list dl dt:nth-of-type(2n) {
+  background: #f6f6f6;
+}
+
+#ogone_subscriptions_list .page-header {
+  margin-bottom: 1.5625rem;
+}
+
+#ogone_subscriptions_list #content {
+  box-shadow: 2px 2px 11px 0 rgba(0, 0, 0, .1);
+  background: #fff;
+  padding: 1rem;
+  font-size: .875rem;
+  color: #878787;
+}
+
+.subscribe-resume {
+  margin-bottom: 20px;
+}
+
+.subscribe-resume.ended {
+  opacity: 0.75;
+}
+
+.subscribe-resume .data-info-wrapper {
+  padding: 15px;
+  background: #f6f6f6;
+  margin-bottom: 15px;
+  border: 2px solid #e3e3e3;
+}
+
+.subscribe-resume .data-info {
+  margin: 0;
+  font-size: 0;
+  width: 100%;
+  border: 2px solid #e3e3e3;
+  border-bottom: 0;
+}
+
+.subscribe-resume .data-info th {
+  background: #e3e3e3;
+  font-size: 13px;
+  color: #414141 !important;
+  text-align: center;
+  word-wrap: break-word;
+}
+
+.subscribe-resume .data-info td {
+  word-wrap: break-word !important;
+}
+
+.subscribe-resume .data-info .datas {
+  position: relative;
+  margin-bottom: 5px;
+}
+
+.subscribe-resume .data-info .datas .item-number {
+  position: absolute;
+  text-align: center;
+  font-size: 13px;
+  line-height: 20px;
+  color: #fff;
+  width: 20px;
+  height: 20px;
+  background: #2fb5d2;
+  border-radius: 100%;
+  left: -5px;
+  top: -5px;
+}
+
+.subscribe-resume .data-info .item-order {
+  padding: 2px 10px;
+  margin: 3px 3px;
+  font-size: 12px;
+  border: 2px solid #e3e3e3;
+  background: #fff;
+  text-align: center;
+}
+
+.subscribe-resume .data-info .item-order a {
+  color: #2592a9;
+  font-weight: 600;
+}
+
+.subscribe-resume .data-info .item-order a:hover {
+  text-decoration: underline;
+}
+
+.subscribe-resume .data-info .item-order b {
+  color: #414141;
+}
+
+.subscription_form .btn {
+  vertical-align: top;
+  margin-right: 5px;
+  line-height: 15px;
+}
+
+.subscription_form .btn-toggle {
+  background: #e3e3e3;
+  color: #414141;
+}
+
+.item-order .label-pill {
+  color: white;
+  border-radius: 6px;
+  padding: 2px 5px 2px 5px;
+  margin: 2px;
+  display: inline-block;
+}
+
+.actions_container FORM {
+  display: inline
+}
+
+.actions_container BUTTON {
+  display: inline-block
+}
+
+.subscribe-resume {
+  margin-bottom: 20px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #eaeaea
+}
+
+.subscription-end {
+  padding: 5px;
+  margin: 5px;
+  border: solid 1px #eaeaea
+}
+
+.message {
+  background-color: white;
+  padding: 10px;
+  border: 1px solid #eaeaea;
+  font-weight: bold
+}
+
+.error {
+  background-color: white;
+  padding: 10px;
+  border: 1px solid #eaeaea;
+  font-weight: bold;
+  color: red
+}
+
+.ogone-sub-payment A {
+  padding-left: 15px !important
+}
+
+#HOOK_PAYMENT TABLE TH {
+  font-weight: bold;
+  border-bottom: 1px solid #eaeaea
+}
+
+#HOOK_PAYMENT TABLE {
+  padding: 10px;
+}
+
+#HOOK_PAYMENT TABLE TR TD:first {
+  border-right: 1px solid #eaeaea
+}
+/*.alias_block {     margin-bottom: 10px;
+    border: 1px solid #d6d4d4 !important;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    vertical-align: middle;
+}
+*/
+.scheduled A {
+  padding-left: 15px !important
+}
+
+
+
+.ogone_cvc {    display: block;
+    line-height: 16px;
+    font-size: 12px;
+    font-weight: normal;
+    text-shadow: 1px 1px }
+
+.inner-card-cvc-adjust {height: auto!important}
+.ogone-cvc-container {text-align: right;padding-top: 10px;clear: both;}
+.ogone-cvc-input {border-radius: 3px;border: 1px solid #dedede;box-shadow: none;outline: none;padding: 5px 10px;text-align: center;}
+.ogone-cvc-info {display: block;clear: both;font-size: 10px;line-height: 12px;padding-top: 7px;}
+.ogone-cvc-input-container  {float:right;}

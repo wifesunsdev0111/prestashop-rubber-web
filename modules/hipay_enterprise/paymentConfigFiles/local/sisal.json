@@ -1,0 +1,28 @@
+{
+  "name": "sisal",
+  "config": {
+    "displayNameBO": "Mooney",
+    "displayName": {
+      "fr": "Mooney",
+      "en": "Mooney"
+    },
+    "frontPosition": 27,
+    "activated": 0,
+    "displayConfigurationFields": [
+      "displayName",
+      "minAmount",
+      "maxAmount",
+      "countries"
+    ],
+    "countrySelectorReadOnly": 0,
+    "currencySelectorReadOnly": 0,
+    "minAmount": {
+      "EUR": 0
+    },
+    "maxAmount": {
+      "EUR": false
+    },
+    "logo": "sisal.svg",
+    "orderOnPending": true
+  }
+}

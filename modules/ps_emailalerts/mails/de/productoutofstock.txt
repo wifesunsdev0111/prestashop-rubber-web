@@ -1,0 +1,17 @@
+ 
+
+{shop_url}
+
+Hallo,
+
+{product} ist fast ausverkauft.
+
+Im Moment sind weniger als {last_qty} Stück an Lager.
+
+Verbleibender Lagerbestand: {qty}
+
+Füllen Sie Ihren Lagerbestand auf, gehen Sie zum Abschnitt Katalog > Stocks in Ihrem Back Office, um Ihr Lager zu verwalten.
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop.com/?utm_source=marchandprestashop&utm_medium=e-mail&utm_campaign=footer_1-7)

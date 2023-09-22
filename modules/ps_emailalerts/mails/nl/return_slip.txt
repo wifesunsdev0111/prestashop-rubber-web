@@ -1,0 +1,31 @@
+ 
+
+{shop_url}
+
+Hallo,
+
+U hebt een nieuw retourverzoek ontvangen voor {shop_name}.
+
+Retour Details
+
+Bestelling: {order_name} Geplaatst op {date}
+
+Klant: {firstname} {lastname}, ({email})
+
+Referentie	Product	Aantal   {items}
+
+Afleveradres
+
+{delivery_block_html}
+
+Factuuradres
+
+{invoice_block_html}
+
+Klantbericht:
+
+{message}
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop.com/?utm_source=marchandprestashop&utm_medium=e-mail&utm_campaign=footer_1-7)

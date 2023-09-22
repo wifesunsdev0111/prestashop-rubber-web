@@ -1,0 +1,29 @@
+p.checkbox {
+	border: 0;
+	width: auto;
+}
+
+td.carrier_price label {
+    white-space: nowrap;
+}
+
+div#container_express_checkout {
+	display: none;
+}
+
+table#cart_summary tfoot#tfoot_static td form#voucher {
+    height: auto;
+    width: auto;
+}
+
+fieldset.account_creation.customerprivacy {
+    margin-top: 10px !important;
+}
+
+form.std h3, #new_account_form.std h3, #order-opc h2, #payments_section h3 {
+    background: none repeat scroll 0 0 #cacaca;
+}
+
+#payments_section fieldset {
+    border: 0 !important;
+}

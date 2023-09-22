@@ -1,0 +1,13 @@
+{
+  "name": "cb",
+  "config": {
+    "displayName": "Carte Bancaire",
+    "activated": 1,
+    "minAmount": {
+      "EUR": 0
+    },
+    "maxAmount": {
+      "EUR": false
+    }
+  }
+}

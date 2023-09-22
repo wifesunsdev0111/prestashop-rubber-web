@@ -1,0 +1,9 @@
+*ERROR* 	v1.7.8.8	2023/02/21 - 04:30:45: Link to database cannot be established: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+ at line 137 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.8	2023/02/21 - 12:58:30: Table &#039;u929520151_rubberfun_nl.prstshp_shop_url&#039; doesn&#039;t exist&lt;br /&gt;&lt;br /&gt;&lt;pre&gt;SELECT s.id_shop, CONCAT(su.physical_uri, su.virtual_uri) AS uri, su.domain, su.main
+                    FROM prstshp_shop_url su
+                    LEFT JOIN prstshp_shop s ON (s.id_shop = su.id_shop)
+                    WHERE (su.domain = &#039;eggrovila.com&#039; OR su.domain_ssl = &#039;eggrovila.com&#039;)
+                        AND s.active = 1
+                        AND s.deleted = 0
+                    ORDER BY LENGTH(CONCAT(su.physical_uri, su.virtual_uri)) DESC&lt;/pre&gt; at line 769 in file classes/db/Db.php

@@ -1,0 +1,34 @@
+GitHub contributors:
+--------------------------------
+- Alex Even
+- Alex Sampaio
+- Francois Gaillard
+- François-Marie de Jouvencel
+- GoT
+- Gregory Roussac
+- Jerome Nadaud
+- John Cocula
+- Jorge Vargas
+- Julien Bourdeau
+- Jérôme Nadaud
+- MathiasReker
+- Mathieu Ferment
+- Maxime Biloé
+- Michel ANTOINE
+- Mickaël Andrieu
+- Mickaël Fernandez
+- Pablo Borowicz
+- Pierre RAMBAUD
+- Presta Module
+- PrestaEdit
+- Progi1984
+- Quetzacoalt91
+- Sacha Froment
+- Thibaud Chauviere
+- Thomas N
+- Thomas Nabord
+- cedricfontaine
+- emilien-puget
+- gRoussac
+- khouloud Belguiith
+- marionf

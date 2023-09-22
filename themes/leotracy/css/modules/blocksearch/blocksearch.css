@@ -1,0 +1,90 @@
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/**
+ * Product Item Selectors
+ */
+/***********************************************************************/
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/** CHECKOUT BY STEP */
+/*  
+ * LAYOUT VARIABLES 
+ */
+.ac_results {
+  background: white;
+  border: 1px solid #e5e5e5;
+  width: 271px;
+  margin-top: -1px;
+}
+.ac_results li {
+  padding: 0 10px;
+  font-weight: normal;
+  color: #686666;
+  font-size: 13px;
+  line-height: 22px;
+}
+.ac_results li.ac_odd {
+  background: white;
+}
+.ac_results li:hover, .ac_results li.ac_over {
+  background: #fbfbfb;
+}
+
+form#searchbox {
+  margin: 0 auto;
+  position: relative;
+  float: right;
+  width: 50%;
+}
+form#searchbox .unvisible {
+  display: none;
+}
+.rtl form#searchbox {
+  float: left;
+}
+form#searchbox .input-group {
+  width: 100%;
+}
+form#searchbox label {
+  color: #7e7f80;
+}
+form#searchbox input#search_query_block {
+  display: inline-block;
+}
+form#searchbox .input-group-btn {
+  right: 21px;
+  z-index: 9;
+  position: absolute;
+}
+.rtl form#searchbox .input-group-btn {
+  left: 21px;
+  right: auto;
+}
+form#searchbox .input-group-btn .btn {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  padding: 0px 0px 0px 2px;
+  background-color: #2b2b2b;
+  border-color: transparent;
+}
+form#searchbox .input-group-btn .btn .fa {
+  margin-right: 0;
+  margin-left: -2px;
+}
+form#searchbox .input-group-btn .btn:hover {
+  background-color: #21a6df;
+}

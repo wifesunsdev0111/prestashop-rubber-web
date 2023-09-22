@@ -1,0 +1,13 @@
+GitHub contributors:
+--------------------------------
+ - Damien Metzger
+ - Francois Gaillard
+ - Jérôme Nadaud
+ - Maxime Biloé
+ - Quetzacoalt91
+ - antoin-m
+ - eternoendless
+ - gaillafr
+ - maximebiloe
+ - rGaillard
+ - sfroment

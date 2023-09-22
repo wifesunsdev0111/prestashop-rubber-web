@@ -1,0 +1,31 @@
+// Block Modules 
+// ========================================================================
+
+$block-margin-bottom: 					20px !default;
+
+$block-heading-radius: 					0px;
+$block-heading-border: 					$main-border !default;
+$block-heading-transform:        		uppercase !default;
+$block-heading-line-height:      		normal !default;
+$block-heading-letter-spacing:        	1px !default; 
+$block-heading-font-family:    			$headings-font-family !default;
+$block-heading-font-size:				30px !default;
+$block-heading-bg:						$nocolor!default;
+$block-heading-color:					#000000 !default;
+$block-heading-padding: 				26px 0px !default;
+
+$block-content-bg:						$white !default;
+$block-content-border:					none !default;
+$block-content-padding:					0 !default;
+$block-content-margin:         			1px !default;
+$block-content-radius:         			0px !default;
+
+// get content icon from link http://fortawesome.github.io/Font-Awesome/icons/ or img icon from theme folder 
+$block-icon-content:         	"\f0c9" !default; 
+//$block-icon-content:         	url(#{$image-theme-base-path}icon/form-ok.png) !default;
+
+
+$block-highlighted-bg			: $nocolor !default;
+$block-highlighted-border		: $border-color !default;
+$block-highlighted-text			: $theme-color-secondary !default;
+$block-highlighted-transform    : uppercase !default;

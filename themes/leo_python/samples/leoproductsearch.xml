@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<dataSample><sql><![CDATA[]]></sql><hooks><hook module="leoproductsearch" hook="Header" position="38" exceptions=""/><hook module="leoproductsearch" hook="displayMobileTopSiteMap" position="2" exceptions=""/></hooks></dataSample>

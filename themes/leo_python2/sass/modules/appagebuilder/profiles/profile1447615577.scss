@@ -1,0 +1,138 @@
+@import "compass";
+@import "theme_variables";
+
+.display-product-special{
+	.produst_list_default{
+
+	}
+}
+
+// slider
+.bannercontainer{
+	.slide_config{
+		background-color: #f8f8f8;
+	}
+}
+
+#index{
+	.product_list.grid.produst_list_default{
+		padding: 0px;
+		margin-left: -15px;
+		margin-right: -15px;
+		&:after,&:before{
+			content: "";
+			clear: both;
+			display: table;
+		}
+	}
+}
+
+.display-product-special{
+	.block.products_block{
+		margin-bottom: 0px;
+	}
+}
+
+// testimonials
+.testimonials{
+	text-align: center;
+	&:before {
+	    left: 15px !important;
+	    right: auto !important;
+	    top: 0px;
+	    bottom: 0px;
+	    margin: auto;
+	    height: 50px;
+	}
+	&:after{
+		content: "";
+		position: absolute;
+		right: 15px !important;
+	    top: 0px;
+	    bottom: 0px;
+	    margin: auto;
+		height: 6px;
+	    content: "\f10d";
+	    font-family: $font-icon;
+	    @include rotate(180deg);
+	    font-size: 24px;
+	    color: #cccccc;
+	}
+	.title{
+		position: static;
+	}
+	.descript{
+		position: relative;
+		padding-bottom: 25px;
+		padding:0 10% 25px 10%;
+		max-height: 69px;
+    	overflow: hidden;
+		&:before{
+			@include size(30px,1px);
+			content: "";
+			position: absolute;
+			bottom: 0px;
+			left: 0px; right: 0px;
+			margin: auto;
+			background-color: $theme-color-default;
+			
+		}
+	}
+	img{
+		margin:0 auto 28px auto;
+	}
+}
+
+// contact-content
+.contact-content{
+	margin-top:60px;
+	.submit{
+		margin-top: 15px;
+	}
+}
+
+
+
+@media (min-width: 991px) {
+	.display-product-special{
+		.block.products_block{
+			margin-bottom: 0px;
+		}
+		.product_list.grid.produst_list_default{
+			.ajax_block_product{
+				width: 50%;
+				&.first_item,&.last_item{
+					width: 25%;
+					margin-top: 9%;
+					@include opacity(0.3);
+					&:hover{
+						@include opacity(1);
+					}
+				}
+			}
+		}
+	}
+}
+@media (min-width: 620px) {
+	// contact-content
+	.contact-content{
+		margin-top:60px;
+		.form-group{
+			width: 50%;
+			@include rtl-float-left();
+			@include rtl-margin-right(0);
+			padding-left: 15px;
+	    	padding-right: 15px;
+	    	&.fmessage{
+	    		width: 100%;
+	    		float: none !important;
+	    		.form-control{
+	    			min-height: 110px;
+	    		}
+	    	}
+		}
+		.submit{
+			margin-top: 15px;
+		}
+	}
+}

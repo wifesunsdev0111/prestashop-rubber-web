@@ -1,0 +1,25 @@
+<?php return array (
+  'parameters' => 
+  array (
+    'database_host' => 'localhost',
+    'database_port' => 3306,
+    'database_user' => 'u929520151_rubberfun_nl',
+    'database_password' => 'Rubberfunnl@2023',
+    'database_name' => 'u929520151_rubberfun_nl',
+    'database_prefix' => 'prstshp_',
+    'database_engine' => 'InnoDB',
+    'cookie_key' => 'pePc2tjmGwuZDPOMVkDdSwBeaVs4FX3G4sX4qwqNmexz4dLdshRf7MJD',
+    'cookie_iv' => 'WFz3vYMY',
+    'new_cookie_key' => 'def00000c89e2b4d92abd82b6fedb142006d2fd17f45a6635cae4d138cf5c32ccd33b638c0a32239592b1c0123f0c12c1aa6eefea57322086c70c3a3a3a2870fdaf54302',
+    'ps_caching' => 'CacheMemcache',
+    'ps_cache_enable' => false,
+    'ps_creation_date' => '2023-02-11 12:20:00',
+    'secret' => 'ELTXZnduDdExo7ThCfStTMYDmk4OGxCGEYhm7nimXIkAg82EQsQmDwsUdvtk3PvC',
+    'mailer_transport' => 'smtp',
+    'mailer_host' => '127.0.0.1',
+    'mailer_user' => '',
+    'mailer_password' => '',
+    'locale' => 'en-US',
+    'use_debug_toolbar' => true,
+  ),
+);

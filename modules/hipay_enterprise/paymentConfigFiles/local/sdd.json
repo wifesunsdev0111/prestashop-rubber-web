@@ -1,0 +1,28 @@
+{
+  "name": "sdd",
+  "config": {
+    "displayNameBO": "SEPA Direct Debit",
+    "displayName": {
+      "fr": "SEPA Direct Debit",
+      "en": "SEPA Direct Debit"
+    },
+    "frontPosition": 26,
+    "activated": 0,
+    "displayConfigurationFields": [
+      "displayName",
+      "minAmount",
+      "maxAmount",
+      "countries"
+    ],
+    "countrySelectorReadOnly": 0,
+    "currencySelectorReadOnly": 0,
+    "minAmount": {
+      "EUR": 0
+    },
+    "maxAmount": {
+      "EUR": false
+    },
+    "logo": "sdd.png",
+    "orderOnPending": true
+  }
+}

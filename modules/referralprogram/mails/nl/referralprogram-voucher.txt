@@ -1,0 +1,16 @@
+ 
+
+{shop_url}
+
+Hallo {firstname} {lastname},
+
+Sponser Programma
+
+We hebben een waardebon aangemaakt op uw naam voor het verwijzen van een vriend.
+Hier is de code van uw waardebon: {voucher_num}Ter waarde van: {voucher_num}
+
+Plaats bij uw volgende bestelling de code in uw winkelwagen voordat u de bestelling gaat betalen.
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop.com/?utm_source=marchandprestashop&utm_medium=e-mail&utm_campaign=footer_1-7)

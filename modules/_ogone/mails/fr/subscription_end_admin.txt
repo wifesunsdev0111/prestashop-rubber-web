@@ -1,0 +1,10 @@
+Message from {shop_name}
+
+
+Dear admin
+
+Customer has demanded deactivation of subscription #{SUBSCRIPTION_ID}
+This action necessites an manual action in your Ingenico Backoffice
+You can consult subscriptions on {SUBSCRIPTION_URL_BO}
+Here are details of subscription:
+{SUBSCRIPTION_DESCRIPTION_TXT}

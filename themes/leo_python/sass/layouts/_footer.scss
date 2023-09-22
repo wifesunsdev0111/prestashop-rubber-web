@@ -1,0 +1,51 @@
+// footer.scss
+@import "vars/footer.vars";
+
+// block in footer
+
+
+#powered{
+	.copyright{
+		a{
+			color: $theme-color-default;
+			&:hover{
+				color: $theme-color-secondary;
+			}
+		}
+	}
+	.ApImage{
+		img{
+			display: inline-block;
+		}
+	}
+}
+.powered{
+	border-top: $main-border;
+}
+#footer-center{
+	overflow: hidden;
+	> .ApColumn {
+		padding: 50px 30px 60px;
+		&:before{
+		  	@include rtl-border-right(1px solid rgba(0,0,0,0.08));
+		  	content: "";
+		  	height: 1000%;
+		  	@include rtl-right(0);
+		  	position: absolute;
+		  	top: 0;
+		}
+		&:last-child{
+			&:before{
+				border: none;
+			}
+		}
+	}
+}
+.footer-center{
+	border-top: 1px solid #ebebeb;
+}
+.footer_about{
+	.block{
+		margin-bottom: 0px;
+	}
+}

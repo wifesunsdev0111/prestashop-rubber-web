@@ -1,0 +1,13 @@
+{
+  "name": "bcmc",
+  "config": {
+    "displayName": "Bancontact",
+    "activated": 1,
+    "minAmount": {
+      "EUR": 0
+    },
+    "maxAmount": {
+      "EUR": false
+    }
+  }
+}

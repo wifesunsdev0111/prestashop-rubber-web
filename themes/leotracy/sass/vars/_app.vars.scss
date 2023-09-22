@@ -1,0 +1,121 @@
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+$app-brand-prefix        : leo !default;
+
+/**
+ *   Blocks Layout Selectors 
+ */
+$block-prefix 			 : block!default;
+$block-selector          : block !default;
+$block-heading-selector  : title_block !default;
+$block-content-selector  : block_content !default;
+
+/**
+ * Product Item Selectors
+ */
+$products-container-selector : products_block !default;
+$products-row-selector 		 : products-row !default; 
+$products-col-selector 		 : product-col !default;
+//------- Path Variables
+$image-path:                   "images/"!default;
+$font-custom-path:             "../font/"!default;
+$image-theme-base-path:        "../img/"!default;
+$image-theme-path:             "../img/icon/"!default;
+$image-base-path:              "../../../img/"!default;
+$image-skin-path:              "../../img/icon/"!default;
+$image-module-path:            "../../../img/icon/"!default;
+$module-path:                  "../../../modules/"!default;
+
+$theme-font-path	   :          	 "../fonts/" !default;
+
+
+/***********************************************************************/
+// some basic colors
+
+$sky:                  			    #7bbd42 !default;  // Skin sky
+$blue:                              #6087D2 !default;  // Skin blue
+$yellow:                  			#ffc801 !default;  // Skin yellow
+$coral:								#EE6C92 !default;  // Slin Coral
+$rico:								#51BAA9 !default;  // Skin Rico
+$green:                 			#29C76A !default;  // Skin Green
+$red:                   			#e27f7a !default;  // Skin Red
+$pink:                  			#c3325f !default;
+$white:			 				    #FFFFFF !default;
+$black:							    #000000 !default;
+$cyandark:   						#4e4d49 !default;
+$orange:                			#df995e !default;
+$aqua: 								#75aab8 !default;
+$turquoise:                         #4ACFD4 !default; // label new
+$nav-border-color-hover:            #e2e2e2 !default;
+$golden-poppy:                      #F2BE01 !default;
+$valencia:      					#D44A4A !default;
+$tundora:                           #8c8c8c !default;  // Topbar + Vertical Menu Content
+$wild-sand:                         #ffffff !default;  // Background Body - default
+$silver:                            #f5f5f5 !default;  
+//------- Themes colors
+$red-light:            				#ff9999!default;
+$yellow-light:           			#ffdc73!default;
+$nocolor:							transparent!default;
+$black2b:                           #2b2b2b;
+
+ 
+// some basic font family
+// ========================================================================
+$font-tamoha: "tahoma";
+$font-arial: "Arial";
+
+
+// Variables paths 
+// ========================================================================
+
+
+$font-family:			 			 "Open Sans" !default;
+$font-family-secondary :             "Open Sans" !default;
+$font-family-tertiary  :             "Open Sans" !default;
+$font-family-senary    : 		 	 "tahoma" !default;
+$font-family-septenary : 			 "tahoma" !default; 
+
+
+$font-icon-family 	   : 			 "FontAwesome" !default;
+
+//////////////////// Variables defined for Themes + Skins ////////////////
+
+$body-bg:                           url(#{$image-theme-base-path}bg_body.png);
+$theme-color:  				        #21a6df !default; 
+
+
+
+$theme-color-default : 			    #21a6df !default;
+$theme-color-secondary :			#7e7f80 !default;
+$theme-color-tertiary:              #7e7f80 !default;
+
+
+
+
+$font-body-family	   : $font-family !default;
+$font-headding-family  : $font-family !default;
+$font-menu-family      : $font-family !default; 
+$font-highlighted-family: $font-family !default;
+
+
+$theme-bg-default		: $gray-lighter!default; 
+$theme-bg-secondary 	 : $red!default; // using variable  for Theme  Skin 
+$theme-bg-threedary  	 : $brand-warning!default; // using skin product list
+
+
+
+
+
+
+ 
+
+ 
+$border-color  : #e5e5e5 !default;
+
+$table-bg-color	:  #e5e5e5 !default;
+//
+// Variables
+// --------------------------------------------------
+$rtl-left : left;
+$rtl-right : right;

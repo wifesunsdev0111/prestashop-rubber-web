@@ -1,0 +1,13 @@
+ 
+
+{shop_url}
+
+Bonjour {firstname} {lastname},
+
+{reply}
+
+Veuillez ne pas répondre directement à ce message, nous ne recevrons pas votre réponse. Pour répondre, cliquer sur le lien suivant : {link}
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop.com/?utm_source=marchandprestashop&utm_medium=e-mail&utm_campaign=footer_1-7)

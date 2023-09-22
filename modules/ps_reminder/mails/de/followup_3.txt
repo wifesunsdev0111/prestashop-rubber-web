@@ -1,0 +1,17 @@
+ 
+
+{shop_url}
+
+Hallo {firstname} {lastname},
+
+Danke für Ihr Vertrauen.
+
+Wir freuen uns, Ihnen einen Rabatt von {amount} % auf Ihre nächste Bestellung anbieten zu können. Dieses Angebot ist gültig für {days} Tage, also warten Sie nicht zu lange!
+
+Hier ist Ihr GUTSCHEIN-CODE: {voucher_num}
+
+Geben Sie diesen Code in Ihrem Warenkorb ein, um den Rabatt zu erhalten.
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop.com/?utm_source=marchandprestashop&utm_medium=e-mail&utm_campaign=footer_1-7)

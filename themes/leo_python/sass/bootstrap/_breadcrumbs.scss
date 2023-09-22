@@ -1,0 +1,36 @@
+//
+// Breadcrumbs
+// --------------------------------------------------
+#breadcrumb{
+    background: url("../img/bg-breadcrumb.jpg") center center no-repeat;
+}
+
+.breadcrumb {
+    // padding: $breadcrumb-padding-vertical $breadcrumb-padding-horizontal;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border-radius: $border-radius-base;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    .content-br{
+        position: relative;
+        top: 26px;
+        display: inline;
+    }
+  > li {
+    display: inline-block;
+
+    + li:before {
+      content: "#{$breadcrumb-separator}\00a0"; // Unicode space added since inline-block means non-collapsing white-space
+      padding: 0 5px;
+      color: $breadcrumb-color;
+    }
+  }
+
+  > .active {
+    color: $breadcrumb-active-color;
+  }
+}

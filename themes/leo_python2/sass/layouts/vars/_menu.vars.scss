@@ -1,0 +1,90 @@
+
+// Mega Menu Module
+// ========================================================================
+$megamenu-bg: 			 					$nocolor!default;
+$megamenu-color:							#272727 !default;
+$megamenu-font-family:              		$font-family-tertiary !default;
+$megamenu-link-color: 						#272727 !default;
+$megamenu-link-hover-color:         		$theme-color-default !default;
+$megamenu-link-bg-hover-color:      		transparent !default;
+$megamenu-link-font-family:         		$font-family-tertiary !default;
+$megamenu-font-weight: 						normal !default;
+$megamenu-caret:                    		$megamenu-link-color !default;
+
+$megamenu-text-align:              		 	left !default;
+
+
+$megamenu-parent-font-size: 				14px !default;
+$megamenu-parent-padding: 					31px 25px !default;
+$megamenu-parent-text-transform:  			uppercase !default;
+
+$megamenu-sub-bg-color: 					$white !default;
+$megamenu-sub-radius:               		0px !default;
+$megamenu-sub-text-color:           		#272727 !default;
+$megamenu-sub-link-color: 					$text-color !default;
+$megamenu-sub-link-hover-color:     		$theme-color-default !default;
+$megamenu-sub-shadow:    					0px 0px 5px 0px rgba(0, 0, 0, 0.24) !default;
+$megamenu-sub-padding:              		20px !default;
+$megamenu-sub-min-width:  					185px !default;
+$megamenu-sub-border:              			0 !default;
+$megamenu-sub-font-size:            		$font-size-base - 1 !default;
+$megamenu-sub-caret-color:  				$megamenu-sub-text-color !default;
+
+$megamenu-heading-letter:           		3px !default;
+$megamenu-heading-title-font-family:        $font-family-tertiary !default;
+$megamenu-heading-color:            		$white !default;
+$megamenu-line-border:  					1px solid #646464 !default;
+$megamenu-arrow-bg:                			darken($megamenu-sub-bg-color, 20%) !default;
+
+// Vertical Menu Module
+// ========================================================================
+$vertical-menu-font-family:         		$font-family-tertiary !default;
+$vertical-menu-content-bg:          		$white !default;
+$vertical-menu-content-height:      		320px !default;
+$vertical-menu-content-padding:     		0 !default;
+$vertical-menu-content-margin:      		0 !default;
+$vertical-menu-content-border:      		2px solid $theme-color-default !default;
+$vertical-menu-font-size:           		12px !default;
+$vertical-menu-color:              			#333333 !default;
+$vertical-menu-font-weight:         		bold !default;
+$vertical-menu-link-padding: 				16px 10px 15px 20px !default;
+$vertical-menu-link-hover-color:    		$theme-color-default !default;
+$vertical-menu-link:                		$text-color !default;
+$vertical-menu-line-height:        		 	normal !default;
+$vertical-border-color:            			#595959 !default;
+$vertical-caret-border:             		$text-color !default;
+
+$vertical-description-font-size:    		11px !default;          
+$vertical-description-font-style:   		italic !default;
+$vertical-description-color: 	    		red !default;
+$vertical-description-font-weight:  		300 !default;
+
+$vertical-sub-menu-padding:         		20px 28px !default;
+$vertical-sub-menu-width:           		215px !default;
+$vertical-sub-menu-link-color:      		#6a6a6b !default;
+$vertical-sub-menu-link-font-size:  		$font-size-base - 1 !default;
+$vertical-sub-menu-link-font-family:       	$font-family-base !default;
+$vertical-sub-menu-heading-color:   		#262626 !default;
+$vertical-sub-menu-bg:              		$white !default;
+$vertical-sub-product-link:         		$black !default;
+$vertical-sub-shadow:  						0px 0px 5px 0px rgba(0, 0, 0, 0.35) !default;
+
+
+
+// OffCanvas Menu 
+// ========================================================================
+$offcanvas-menu-bg:                 $silver !default;
+$offcanvas-menu-padding:            12px 15px !default;
+$offcanvas-menu-link-color:         $white !default;
+$offcanvas-menu-font-size:          $font-size-base !default;
+$offcanvas-menu-transform:          uppercase !default;
+$offcanvas-menu-font-family: 		$font-family-tertiary !default;
+$offcanvas-menu-border:             1px solid lighten($offcanvas-menu-bg, 10%) !default;
+$offcanvas-menu-icon-color:         $white !default;
+$offcanvas-menu-icon-font-size:     $font-size-base * 2 + 2 !default;
+$offcanvas-menu-icon-padding:       8px 15px !default;
+$offcanvas-menu-border-caret:       1px solid $white !default;
+$offcanvas-menu-caret-color:        $white !default;
+$offcanvas-menu-text-color:         $text-color !default;
+$offcanvas-menu-text-fs:            $font-size-base + 1 !default;
+ 

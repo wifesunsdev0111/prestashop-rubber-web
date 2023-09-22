@@ -1,0 +1,268 @@
+@import "compass";
+@import "theme_variables";
+
+/* MENU */
+
+/* category */
+
+/* blog listing */
+
+.blog-container{
+	.title_block{
+		font-size: 25px;
+	}
+	.btn{
+		padding: 10px 20px;
+	}
+}
+
+.blog-item{
+ 	padding: 20px 0;
+ 	display: inline-block;
+ 	border-bottom: $main-border;
+ 	.blog-image,
+ 	.blog-shortinfo{
+ 		margin: 0;
+ 	}
+ 	.title{
+ 		margin-bottom: 25px;
+ 	}
+ 	.blog-shortinfo{
+ 		clear: both;
+ 	}
+ 	.btn{
+ 		margin-top: 20px;
+   		margin-bottom: 20px;
+ 	}
+ 	.blog-meta {
+ 		width: 140px;
+ 		border: $main-border;
+ 		text-align: center;
+ 		@include rtl-float-left();
+ 		@include rtl-margin-right(20px);
+  		> span{
+		  	font-size: $font-size-base;
+	  		color: #333;
+	  		border-bottom: $main-border;
+	  		width: 100%;
+	  		display: inline-block;
+	  		padding: 10px;
+		  	span{
+		  		width: 100%;
+		  		display: inline-block;
+		  	}
+		  	&:last-child{
+		 		border-bottom: none;
+		 	}
+		}
+		a{
+			color: $theme-color-default;
+		}
+	}
+	.blog-info{
+		@include rtl-float-left();
+		width: 80%;
+	}
+	.blog-image{
+		margin: 0 0 20px 0;
+		@include rtl-float-left();
+    	width: 76%;
+		img{
+			width: 100%;
+		}
+	}
+	.name{
+		font-family: $font-family-secondary;
+		color: $theme-color-secondary;
+	}
+}
+
+/* blog */
+
+
+.blog-detail{
+	.blog-description{
+		line-height: 1.6em;
+	}
+	.blog-meta{
+	  	border-bottom: 1px solid $border-color;
+	   	padding-bottom: 10px;
+	}
+	h4{
+		font-size: 18px;
+	}
+	.blog-title{
+		font-size: 18px;
+		margin-bottom: 20px;
+	}
+	.blog-image{
+		margin: 20px 0;
+		img{
+			width: 100%;
+		}
+	}
+}
+
+.blog-tags, 
+.extra-blogs, 
+.blog-comments, 
+.social-share{
+  	padding-bottom: 15px;
+}
+
+.blog-comment-block{
+	h3{
+		font-size: 16px;
+	}
+}
+.blog-tags a span{
+   	background: none repeat scroll 0 0 #666666;
+    border-radius: 2px;
+    color: #FFFFFF;
+    font-weight: bold;
+    line-height: 1;
+    padding: 5px 10px;
+}
+
+.extra-blogs ul li {
+  	padding: 6px 0 ;
+  	border-bottom: dotted 1px $border-color;
+}
+
+.blog-video-code .inner{
+   	background: #DDD;
+  	padding: 12px;
+   	margin-bottom: 15px;
+   	text-align: center;
+}
+
+.title_blog{
+	font-size: 24px;
+	font-family: $font-family-tertiary;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #000;
+}
+
+.read-more{
+	margin-top: 15px;
+	a{
+		color: $theme-color-default;
+		text-decoration: underline;
+		&:hover{
+			color: $theme-color-secondary;
+		}
+	}
+}
+/* comment */
+.comment-item{
+  	padding: 12px 0;
+  	img{
+  		padding-right: 12px;
+  	}
+}
+.comment-wrap{
+    overflow: hidden;
+    background: $light-background;
+    border: 1px solid #E5E5E5;
+    padding: 20px;
+    position: relative;
+    @include transition(all 0.3s ease-out 0s);
+    .comment-meta{
+	    border-bottom: 1px solid #E5E5E5;
+	    font-size: 11px;
+	    margin: -20px -20px 10px;
+	    padding: 10px 20px;
+	    > span { 
+	    	font-weight:bold;
+	    	span{
+	    		font-weight:normal;
+	    	}
+	    }
+	}
+}
+
+.blog-social{
+	.social-wrap{
+		>div{
+			@include rtl-float-left();
+		}
+	}
+	.social-heading{ 
+		@include rtl-padding-right(12px);
+	}
+}
+
+.comment-link{
+    background: none repeat scroll 0 0 #F4F4F4;
+    border-left: 1px solid #E5E5E5;
+    display: block;
+    @include rtl-float-right();
+    font-weight: bold;
+    @include rtl-margin(-11px, -20px, -10px, 0);
+    padding: 10px 20px;
+}
+
+.ipts-captcha{
+	img{
+	  	@include rtl-float-left();
+	  	@include rtl-padding-right(12px);
+	}
+	input{
+	   	width: 100px;
+	}
+}
+ 
+/* categories menu display on left or right sidebar */
+
+.blog-menu{
+	ul{
+		li{
+			position: relative;
+			a {
+			  	color: #000;
+			  	display: block;
+			  	font-size: $font-size-base - 1;
+			  	line-height: 30px;
+			  	padding: 0;
+			  	border-bottom: 1px solid #d6d4d4;
+			  	&:hover,
+			  	&.selected{
+			  		color: $theme-color-default;
+			  	}
+			}
+			li{
+				a{
+					font-weight: normal;
+				  	color: #000;
+				}
+			}
+			span{
+				&.grower{
+				  	display: block;
+			      	position: absolute;
+			      	top: 0;
+			      	cursor: pointer;
+				    font-size: $font-size-base - 1;
+				   	font-family: $font-icon;
+				    @include rtl-right(0);
+			      	&.OPEN,
+			      	&.CLOSE {
+				        &:before {
+				        	width: 30px;
+				        	height: 30px;
+				        	line-height: 30px;
+				        	@include rtl-text-align-right();
+						    content: "+";
+				          	display: block;
+				          	text-align: center;
+				        }
+			      	}
+			      	&.CLOSE:before {
+				       content: "-";
+			      	}
+				}
+			}
+		}
+	}
+}

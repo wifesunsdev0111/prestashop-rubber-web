@@ -1,0 +1,72 @@
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/** CHECKOUT BY STEP */
+.header-container .top {
+  padding: 25px 0px 25px 0;
+  background-color: #f8f8f8;
+  border-color: #dddddd;
+}
+.header-container .top .col-lg-9.col-md-9 {
+  position: static;
+}
+
+#leo-megamenu .navbar-nav {
+  float: right;
+  float: none;
+}
+.rtl #leo-megamenu .navbar-nav {
+  float: left;
+}
+
+.leo-megamenu .navbar-nav > li > a {
+  padding: 37px 25px 31px 25px;
+}
+@media (max-width: 1024px) {
+  .leo-megamenu .navbar-nav > li > a {
+    padding: 37px 15px 31px 15px;
+  }
+}
+.leo-megamenu .dropdown:hover > .dropdown-menu {
+  left: auto;
+  right: 0;
+  top: 116px;
+}
+.rtl .leo-megamenu .dropdown:hover > .dropdown-menu {
+  right: auto;
+  left: auto;
+}
+.rtl .leo-megamenu .dropdown:hover > .dropdown-menu {
+  left: 0;
+  right: auto;
+}
+.leo-megamenu .dropdown-submenu .dropdown-menu {
+  right: 100%;
+}
+.rtl .leo-megamenu .dropdown-submenu .dropdown-menu {
+  left: 100%;
+  right: auto;
+}
+.leo-megamenu .navbar-nav > li.aligned-fullwidth > .dropdown-menu {
+  top: 116px;
+}
+
+.lang_fr .leo-megamenu .navbar-nav > li > a, .lang_es .leo-megamenu .navbar-nav > li > a, .lang_de .leo-megamenu .navbar-nav > li > a, .lang_br .leo-megamenu .navbar-nav > li > a {
+  padding: 37px 15px 31px 15px;
+}
+
+.rtl .leo-megamenu .dropdown-submenu .dropdown-menu {
+  left: auto;
+  right: 100%;
+}

@@ -1,0 +1,223 @@
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/** CHECKOUT BY STEP */
+a {
+  color: #666666;
+}
+a:hover, a:focus {
+  color: #d5ba3a;
+}
+
+.btn {
+  background-color: black;
+}
+.btn:hover {
+  background-color: #d5ba3a;
+}
+
+.block .title_block:before {
+  background-color: #d5ba3a;
+}
+
+.top_nav_ct .popup-over .popup-title:hover {
+  color: #d5ba3a;
+}
+
+.popup-over .popup-content a:hover {
+  color: #d5ba3a !important;
+}
+
+#topbar p a:hover {
+  color: #d5ba3a;
+}
+#topbar a:hover {
+  color: #d5ba3a;
+}
+#topbar .header_user_info .popup-title a:hover {
+  color: #d5ba3a;
+}
+#topbar .header_user_info .header_info a:hover {
+  color: #d5ba3a;
+}
+#topbar .popup-title .popup-title:hover {
+  color: #d5ba3a;
+}
+#topbar .selected a {
+  color: #d5ba3a !important;
+}
+
+#topbar .popup-over .popup-title:hover {
+  color: #d5ba3a;
+}
+
+#header .cart_block {
+  border-color: #d5ba3a;
+}
+#header .cart_block a:hover {
+  color: #d5ba3a;
+}
+
+#cart:hover .title-cart {
+  color: #d5ba3a;
+}
+
+.popup-over .popup-content {
+  border-color: #d5ba3a;
+}
+
+.leo-megamenu .navbar-nav > li.active > a, .leo-megamenu .navbar-nav > li:hover > a, .leo-megamenu .navbar-nav > li:focus > a {
+  color: #d5ba3a;
+}
+.leo-megamenu .dropdown-menu {
+  border-color: #d5ba3a;
+}
+.leo-megamenu .dropdown-menu li a:hover {
+  color: #d5ba3a;
+}
+.leo-megamenu .dropdown-menu li a:hover > .menu-title {
+  color: #d5ba3a;
+}
+
+.breadcrumb {
+  color: #d5ba3a;
+}
+.breadcrumb a:hover {
+  color: #d5ba3a;
+}
+
+.pagination .btn:hover {
+  background-color: #d5ba3a;
+}
+
+.pagination > .active > a, .pagination > .active > a:hover, .pagination > .active > a:focus,
+.pagination > .active > span, .pagination > .active > span:hover, .pagination > .active > span:focus {
+  color: #d5ba3a;
+}
+
+.pagination > li.pagination_next a:hover, .pagination > li.pagination_previous a:hover {
+  background-color: #d5ba3a;
+}
+
+.carousel-control:hover {
+  background-color: #d5ba3a;
+}
+
+.owl-theme .owl-controls .owl-buttons div:hover {
+  background-color: #d5ba3a;
+  color: white;
+}
+
+.latest-blogs .blog-container .btn-links:hover {
+  border-color: #d5ba3a;
+}
+
+#footer #newsletter_block_left form .btn:hover:before {
+  color: #d5ba3a;
+}
+
+#footer #social_block ul li a:hover:before {
+  color: #d5ba3a;
+}
+
+.product-block .name a:hover {
+  color: #d5ba3a;
+}
+.product-block .functional-buttons a:hover {
+  background-color: #d5ba3a;
+}
+.product-block .quick-view:hover {
+  background-color: #d5ba3a;
+}
+
+.our_price_display {
+  color: #d5ba3a;
+}
+
+.box-cart-bottom .btn {
+  background-color: #d5ba3a;
+}
+
+.latest-blogs .blog-container .blog-title a:hover {
+  color: #d5ba3a;
+}
+
+#categories_block_left li a:hover {
+  color: #d5ba3a;
+}
+
+#categories_block_left li ul li a:hover {
+  color: #d5ba3a;
+}
+
+#categories_block_left li span.grower.OPEN:before, #categories_block_left li span.grower.CLOSE:before {
+  color: #d5ba3a;
+}
+
+.blog-menu ul li a:hover, .blog-menu ul li a.selected {
+  color: #d5ba3a;
+}
+
+.box-cart-bottom .btn.add_to_compare:hover,
+.box-cart-bottom .btn.add_to_wishlist:hover {
+  color: #d5ba3a;
+}
+
+.nav-tabs.page-product-heading > li > a:hover {
+  border-color: #d5ba3a;
+  color: #d5ba3a;
+}
+
+.nav-tabs.page-product-heading > li.active > a,
+.nav-tabs.page-product-heading > li.active > a:hover,
+.nav-tabs.page-product-heading > li.active > a:focus {
+  border-color: #d5ba3a;
+  color: #d5ba3a;
+}
+
+#quantity_wanted_p .btn:hover {
+  background-color: #d5ba3a;
+  border-color: #d5ba3a;
+}
+
+#footer a:hover {
+  color: #d5ba3a;
+}
+
+#back-top a {
+  background: #d5ba3a;
+}
+
+.navbar-header .navbar-toggle {
+  background-color: #d5ba3a;
+}
+
+table#product_comparison .remove a:hover {
+  color: #d5ba3a;
+}
+
+.cart_block .cart-info .product-name a:hover {
+  color: #d5ba3a !important;
+}
+
+.box-icon i:after {
+  background-color: #d5ba3a;
+}
+
+.tabs-top .nav-tabs > li > a:hover,
+.tabs-top .nav-tabs > li.active a,
+.tabs-top .nav-tabs > li.active a:active,
+.tabs-top .nav-tabs > li.active a:focus {
+  color: #d5ba3a;
+}

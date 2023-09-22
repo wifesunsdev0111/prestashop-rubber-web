@@ -1,0 +1,15 @@
+ 
+
+{shop_url}
+
+Bonjour,
+
+Nouveau message d'alerte enregistré
+
+ATTENTION : vous avez reçu un nouveau message d'alerte dans votre back office.
+
+Vous pouvez le consulter dans la section Paramètres Avancés > Logs de votre back office.
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop.com/?utm_source=marchandprestashop&utm_medium=e-mail&utm_campaign=footer_1-7)

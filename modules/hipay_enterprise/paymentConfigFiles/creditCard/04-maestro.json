@@ -1,0 +1,13 @@
+{
+  "name": "maestro",
+  "config": {
+    "displayName": "Maestro",
+    "activated": 1,
+    "minAmount": {
+      "EUR": 0
+    },
+    "maxAmount": {
+      "EUR": false
+    }
+  }
+}

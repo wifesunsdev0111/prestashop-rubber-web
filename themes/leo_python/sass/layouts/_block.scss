@@ -1,0 +1,170 @@
+@import "vars/block.vars";
+
+// block.scss
+.#{$block-selector} {
+    margin-bottom: $block-margin-bottom + 20px;   
+    .#{$block-heading-selector}{
+        color: $block-heading-color;
+        a{
+           color: $block-heading-color;
+        }
+        position: relative;                                                             
+        text-transform: $block-heading-transform;
+        font-family: $block-heading-font-family;    
+        padding: $block-heading-padding;         
+        font-size: $block-heading-font-size; 
+        background:$block-heading-bg;  
+        margin: 0;           
+        font-weight: 600;
+        text-shadow: 0 0 0 #000;
+        span{
+            display: block;
+            font-family: $font-family-secondary;
+            font-size: 14px;
+            color: #666666;
+            text-transform: none;
+            text-shadow: none;
+            font-weight: 400;
+            margin-top: 10px;
+        }
+        &:before{
+            content: "";
+            position: absolute;
+            bottom: 0px;
+            @include rtl-left(0);
+            width: 50px;
+            height: 2px;
+            background-color:$theme-color-default; 
+        }
+    }
+}
+
+// block in sidebar - left column, right column
+.sidebar{
+    .#{$block-selector} {
+        margin-bottom: $block-margin-bottom + 20px;   
+        background-color: $white;
+        padding: 0px 0;
+        .#{$block-heading-selector}{                                                                 
+            font-size: 15px;   
+            padding: 0 0 20px 0;        
+            &:before{
+                height: 1px ;
+                width: 30px;
+            }
+        }
+        .#{$block-content-selector} {        
+            @include rounded-corners ($block-content-radius);
+            padding: 20px 0 0 0;
+            margin-bottom: 0px;
+            @include clearfix();     
+            border: $block-content-border;  
+            background: $block-content-bg;             
+        }
+        .lnk{
+            margin-bottom: 20px;
+        }
+    }
+    //Widget
+    .ApColumn{
+        .#{$block-selector} {
+            .#{$block-heading-selector}{
+                border-bottom: none;
+                text-transform: uppercase;
+                margin: 0;
+            }
+            .#{$block-content-selector} {
+                border: $main-border;
+            }
+        }
+    }
+    .products_block{
+        .media{
+            margin: 0px;
+        }
+        .lnk{
+            padding:20px 20px 0 20px;
+            margin-bottom: 0px;
+        }
+    }
+    //Product Item
+    .products_block{
+        .block_content{
+            padding-top: 0;
+        }
+    }
+    .product-block{
+        margin: 0;
+        padding:20px;
+        @include box-shadow(none);
+        border-bottom: 1px solid $border-color;
+        .name{
+            @include rtl-float-left();
+            width: 100%;
+            margin: 0px 0 10px 0;
+            a{
+                font-size: 13px;
+                color: #787878;
+            }
+        }
+        .product-meta{
+            @include rtl-text-align-left();
+        }
+        .comments_note{
+            margin-bottom: 10px;
+            display: none;
+        }
+        .product-description{
+            display: none;
+        }
+        .comments_note , .content_price{
+            float: none;
+            clear: both;
+        }
+        .product-content{
+            @include rtl-text-align-left();
+        }
+        .content_price{
+            padding: 0;
+            margin-top: 0;
+        }
+        .old-price, .price-old{
+            position: static;
+            color: $white;
+            font-weight: 400;
+            margin-left: 5px;
+        }
+    }
+
+    // block-variant($border, $heading-text-color, $heading-bg-color, $heading-border)
+    // Contextual variations
+    .#{$block-prefix}-default {
+      @include block-variant($panel-default-border, $panel-default-text, $panel-default-heading-bg, $panel-default-border);
+    }
+    .#{$block-prefix}-primary {
+      @include block-variant($panel-primary-border, $panel-primary-text, $panel-primary-heading-bg, $panel-primary-border);
+    }
+    .#{$block-prefix}-success {
+      @include block-variant($panel-success-border, $panel-success-text, $panel-success-heading-bg, $panel-success-border);
+    }
+    .#{$block-prefix}-info {
+      @include block-variant($panel-info-border, $panel-info-text, $panel-info-heading-bg, $panel-info-border);
+    }
+    .#{$block-prefix}-warning {
+      @include block-variant($panel-warning-border, $panel-warning-text, $panel-warning-heading-bg, $panel-warning-border);
+    }
+    .#{$block-prefix}-danger {
+      @include block-variant($panel-danger-border, $panel-danger-text, $panel-danger-heading-bg, $panel-danger-border);
+    }
+    .#{$block-prefix}-highlighted {
+        @include block-variant($block-highlighted-border, $block-highlighted-text, $block-highlighted-bg, $block-highlighted-border);
+        .#{$block-heading-selector}{
+            text-transform: $block-highlighted-transform;
+        }
+    }
+}
+
+// block in header
+
+
+// block in main

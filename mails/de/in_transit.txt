@@ -1,0 +1,21 @@
+ 
+
+{shop_url}
+
+Hallo {firstname} {lastname},
+
+{meta_products}
+
+Bestellung {order_name} - Verschickt
+
+Ihre Bestellung mit der Referenz {order_name} wurde versendet.
+
+Sie können Ihr Paket verfolgen, indem Sie auf den folgenden Link klicken: {followup}
+
+Verfolgen Sie Ihre Bestellung und laden Sie Ihre Rechnung in unserem Shop herunter. Gehen Sie hierzu zum Abschnitt "[Verlauf und Details Ihrer Bestellungen]({history_url})" Ihres Kundenkontos.
+
+Wenn Sie ein Gast-Konto haben, können Sie Ihre Bestellung im Abschnitt "[Bestellverfolgung]({guest_tracking_url})" in unserem Shop verfolgen.
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop.com/?utm_source=marchandprestashop&utm_medium=e-mail&utm_campaign=footer_1-7)

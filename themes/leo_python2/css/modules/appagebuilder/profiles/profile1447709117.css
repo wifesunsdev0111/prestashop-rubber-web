@@ -1,0 +1,91 @@
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/** CHECKOUT BY STEP */
+#header .top {
+  background-color: white;
+}
+
+.html-img-home {
+  text-align: center;
+}
+.html-img-home .title_block {
+  font-size: 15px;
+  padding: 26px 0px 15px 0;
+  margin-bottom: 30px;
+}
+.html-img-home .title_block:before {
+  width: 30px;
+  height: 1px;
+  right: 0px;
+  left: 0 !important;
+  margin: auto;
+}
+.html-img-home .btn {
+  margin-top: 20px;
+}
+.html-img-home .ApHtml.block {
+  margin-bottom: 0px;
+  padding: 55px 15px 76px 15px;
+}
+
+.product-deals .owl-item .product-block .product-desc {
+  display: block;
+  height: auto;
+  max-height: 88px;
+  border-top: 1px solid #eaeaea;
+  padding-top: 30px;
+}
+.product-deals .owl-item .product-block .name a {
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.product-deals .owl-item .product-block .content_price .price {
+  color: #f75253;
+}
+
+@media (max-width: 1024px) {
+  .html-img-home .ApHtml.block {
+    margin-bottom: 0px;
+    padding: 30px 10px 36px 10px;
+  }
+}
+@media (min-width: 620px) {
+  .product-deals .owl-item .product-block .left-block {
+    width: 50%;
+    float: left;
+  }
+  .rtl .product-deals .owl-item .product-block .left-block {
+    float: right;
+  }
+  .product-deals .owl-item .product-block .right-block {
+    padding-top: 30px;
+    position: static !important;
+    width: 50%;
+    float: left;
+    opacity: 1;
+    filter: alpha(opacity=100);
+    visibility: visible;
+  }
+  .rtl .product-deals .owl-item .product-block .right-block {
+    float: right;
+  }
+  .product-deals .owl-item .product-block .name a {
+    font-size: 28px;
+  }
+  .product-deals .owl-item .product-block .content_price .price {
+    font-size: 28px;
+  }
+}

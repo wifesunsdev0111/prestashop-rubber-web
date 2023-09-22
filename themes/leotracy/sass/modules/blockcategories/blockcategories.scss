@@ -1,0 +1,109 @@
+@import "compass";
+@import "theme_variables";
+#categories_block_top {
+  clear: both;
+  position: relative;
+  top: 30px;
+  .sf-menu {
+    position: relative;
+    > li {
+      position: static;
+      > ul {
+        width: 100%;
+        top: 60px;
+        margin: 0 20px;
+        > li {
+          display: block;
+          @include rtl-float-left();
+          width: 20%;
+          @include box-sizing(border-box);
+          padding: 0 10px;
+        }
+        > .category_thumb {
+          display: block;
+          clear: both;
+          overflow: hidden;
+          width: 100%;
+          img {
+            display: inline-block;
+            width: 33%;
+          }
+        }
+      }
+      h4 {
+        a {
+          font-size: 1.1em;
+          &:before {
+            display: none;
+          }
+        }
+      }
+      .main-level-submenus {
+        position: relative;
+        display: block !important;
+        visibility: visible !important;
+        top: 0;
+        background: none;
+        box-shadow: none;
+        padding: 0;
+        @include rtl-left(0);
+      }
+    }
+    .category_thumb {
+      display: none;
+    }
+  }
+}
+
+#categories_block_left {
+  li {
+    span.grower {
+      display: block;
+      position: absolute;
+      @include rtl-right(0);
+      top: 8px;
+      cursor: pointer;
+      font-family: $font-icon;
+      font-size: 14px;
+      width: 25px;
+      height: 25px;
+      z-index: 999;
+      &.OPEN,
+      &.CLOSE {
+        &:before {
+          content: "-";
+          display: block;
+          vertical-align: middle;
+          width: 25px;
+          height: 25px;
+          color: $base-text-color;
+          line-height: 25px;
+          text-align: center;
+        }
+      }
+      &.CLOSE:before {
+        content: "+";
+        color: $base-text-color;
+      }
+    }
+    & span.grower:hover {
+      color: $link-hover-color;
+    }
+    ul {
+      margin-top: 3px;
+      li {
+        a {
+          &:before {
+            display: none;
+          }
+          &:hover {
+          }
+        }
+        li {
+        	a {
+        	}
+        }
+      }
+    }
+  }
+}

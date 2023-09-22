@@ -1,0 +1,20 @@
+ 
+
+{shop_url}
+
+Hallo {firstname} {lastname},
+
+Uw gastaccount is omgezet in een klantaccount
+
+Proficiat, uw gastaccount voor {shop_name} is omgezet naar een klantaccount!
+
+E-mailadres: {email}
+
+Klik op de volgende link om uw wachtwoord in te stellen:
+{url}
+
+U hebt toegang tot uw account op onze website: {shop_url} [{shop_name}]({shop_url})
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop.com/?utm_source=marchandprestashop&utm_medium=e-mail&utm_campaign=footer_1-7)

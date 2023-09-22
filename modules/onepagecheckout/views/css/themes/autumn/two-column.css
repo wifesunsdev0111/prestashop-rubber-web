@@ -1,0 +1,117 @@
+#opc_new_account #new_account_form {
+    width: 430px !important;
+    float: left !important;
+}
+
+div#opc_new_account #login_form fieldset {
+    min-height: 20px;
+}
+
+div#opc_new_account #login_form {
+    width: 430px;
+   /* display: none;*/
+}
+
+
+#order-opc #login_form fieldset p {
+    clear: both;
+    padding: 0;
+}
+
+
+#login_form #login_form_content label {
+    margin: 11px 0 14px !important;
+}
+
+#opc_new_account, #order_address_wrapper, #carrier_area, #payment_methods_wrapper {
+    border-top: 0px !important;
+    margin-top: 0px !important;
+    padding-top: 0px !important;
+}
+
+#order-detail-content {
+    margin-left: 0px; /* cart summary at the top */
+    width: auto;
+}
+
+form#payments_section, form#carriers_section {
+    margin-left: 451px;
+}
+
+#new_account_form p.text input, #new_account_form p.textarea textarea, #new_account_form p.password input, #new_account_form p.select select {
+    width: 265px !important;
+}
+
+#new_account_form p.text label, #new_account_form p.password label, #new_account_form p.select label, #new_account_form p.textarea label {
+    width: 103px !important;
+    display: inline-block !important;
+}
+
+#opc_account_form {
+    padding-top: 0px !important;
+}
+
+form#new_account_form p {
+    text-align: left;
+    margin-left: 12px;
+}    
+
+#new_account_form p.select span{
+    margin-left: 2px !important;
+    padding: 4px !important;
+    width: 18px !important;
+    display: inline-block !important;
+}    
+
+table#cart_summary tr td {
+    padding: 4px !important;
+}
+
+#opc_delivery_methods textarea#message {
+    height: 55px !important;
+    margin-top: 0 !important;
+    margin-bottom: 15px;
+    width: 100% !important;
+}
+
+table#carrierTable tr td, table#paymentMethodsTable tr td{
+    padding: 7px 9px !important;
+}
+
+div#opc_delivery_methods, div#opc_payment_methods {
+    padding: 0;
+}
+
+#payments_section fieldset {
+    border: 0px;
+}    
+
+@media only screen and (max-width: 1210px) and (min-width: 960px) {
+    #left-column {
+       display: none
+    }
+    
+    .two-third {
+        width: 890px !important;
+    }
+    
+    #opc_new_account #new_account_form {
+        clear: both;
+    }
+    
+    #opc_new_account {
+        width: 410px;
+    }
+    
+    div#opc_new_account {
+        float: left;
+    }
+}
+
+@media only screen and (max-width: 959px) {
+    form#payments_section, form#carriers_section {
+        margin-left: 0;
+    }
+    
+    
+}

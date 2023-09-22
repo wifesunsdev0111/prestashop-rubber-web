@@ -1,0 +1,12 @@
+ 
+
+{shop_url}
+
+Hallo,
+
+Vielen Dank, dass Sie sich für unseren Newsletter angemeldet haben. Bitte klicken Sie auf den folgenden Link, um Ihre Anmeldung zu bestätigen:
+{verif_url}
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop.com/?utm_source=marchandprestashop&utm_medium=e-mail&utm_campaign=footer_1-7)

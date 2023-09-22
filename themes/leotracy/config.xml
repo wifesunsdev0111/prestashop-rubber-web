@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<theme>
+    <version value="1.4">
+        <ccc available="true" />
+        <guest_checkout available="true" />
+        <one_page_checkout available="true" />
+        <store_locator available="true" />
+    </version>
+    <theme_key>leo_tracy</theme_key>
+        <modules>
+            <module>
+                <name>leotempcp</name>
+                <fields>
+                    <field>
+                        <table_name>leohook</table_name>
+                        <string_column>theme,name_hook</string_column>
+                        <searchField>id_shop</searchField>
+                    </field>
+                    <field>
+                        <objectMName>LeoTempcpWidget</objectMName>
+                        <objectMFile>widget.php</objectMFile>
+                        <searchField>id_shop</searchField>
+                    </field>
+                </fields>
+                <config_prefix>leo_tracy</config_prefix>
+                <table_prefix>leowidgets,leohook</table_prefix>
+            </module>
+            <module>
+                <name>leomanagewidgets</name>
+                <fields>
+                    <field>
+                        <objectMName>LeoManageWidgetGroup</objectMName>
+                        <objectMFile>LeoManageWidgetGroup.php</objectMFile>
+                        <searchField>id_shop</searchField>
+                        <field>
+                            <objectMName>LeoManageWidget</objectMName>
+                            <objectMFile>LeoManageWidget.php</objectMFile>
+                            <searchField>id_group</searchField>
+                        </field>
+                    </field>
+                </fields>
+                <table_prefix>leomanagewidget</table_prefix>
+            </module>     
+            <module>
+                <name>leosliderlayer</name>
+                <fields>
+                    <field>
+                        <objectMName>LeoSliderGroup</objectMName>
+                        <objectMFile>grouplayer.php</objectMFile>
+                        <searchField>id_shop</searchField>
+                        <field>
+                            <objectMName>SliderLayer</objectMName>
+                            <objectMFile>leosliderlayer.php</objectMFile>
+                            <searchField>id_group</searchField>
+                        </field>
+                    </field>
+                </fields>
+                <table_prefix>leosliderlayer</table_prefix>
+            </module>
+            <module>
+                <name>leobootstrapmenu</name>
+                <fields>
+                    <field>
+                        <objectMName>Btmegamenu</objectMName>
+                        <objectMFile>Btmegamenu.php</objectMFile>
+                        <searchField>id_shop</searchField>
+                        <treeField>id_parent</treeField>
+                    </field>
+                </fields>
+                <table_prefix>btmegamenu</table_prefix>
+                <config_prefix>LEO_MEGAMENU</config_prefix>
+            </module>
+        </modules>
+</theme>

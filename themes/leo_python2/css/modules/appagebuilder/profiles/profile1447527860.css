@@ -1,0 +1,70 @@
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/** CHECKOUT BY STEP */
+.title-center .title_block {
+  text-align: center;
+  padding-top: 90px;
+}
+.title-center .title_block:before {
+  right: 0px !important;
+  left: 0px !important;
+  margin: auto;
+}
+
+.manufacturers_block {
+  padding: 0px;
+  margin-bottom: 0px;
+}
+
+.box-icon {
+  font-size: 16px;
+  color: #888888;
+  text-align: center;
+}
+.box-icon i {
+  display: block;
+  font-size: 40px;
+  position: relative;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+.box-icon i:after {
+  content: "";
+  width: 30px;
+  height: 1px;
+  position: absolute;
+  background-color: #f75253;
+  left: 0;
+  right: 0px;
+  bottom: 0px;
+  margin: auto;
+}
+.box-icon i.fa-anchor, .box-icon i .fa-smile-o {
+  font-size: 33px;
+}
+.box-icon h4 {
+  font-size: 16px;
+  color: #888888;
+  font-weight: 700;
+}
+.box-icon h5 {
+  font-size: 30px;
+  color: black;
+  font-weight: 700;
+  font-family: "Raleway";
+}
+.box-icon h5 span:before {
+  content: "+";
+}

@@ -1,0 +1,23 @@
+@import "compass";
+@import "theme_variables";
+#topbar .languages_block_top{
+	background-color: $theme-color-default;
+	border-color: $theme-color-default;
+	color: $white;
+	.quick-setting{
+		background-color: $theme-color-default;
+		color: $white;
+		top: 87%;
+		width: 0px;
+		@include rtl-left(-1px);
+		min-width: 160px;
+		a{
+			color: $white;
+			@include opacity(0.8);
+			&:hover{
+				color: $white;
+				@include opacity(1);
+			}
+		}
+	}
+}

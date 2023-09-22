@@ -1,0 +1,22 @@
+GitHub contributors:
+--------------------------------
+- aleeks
+- antoin-m
+- dkarvounaris
+- emilien-puget
+- eternoendless
+- jocel1
+- julienbourdeau
+- LouDk
+- maximebiloe
+- M03G
+- nihco2
+- PatrykMakowski
+- PrestaEdit
+- Progi1984
+- Quetzacoalt91
+- sLorenzini
+- tchauviere
+- toutantic
+- tucoinfo
+- xBorderie

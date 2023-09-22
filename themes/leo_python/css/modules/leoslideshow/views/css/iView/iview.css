@@ -1,0 +1,267 @@
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/** CHECKOUT BY STEP */
+/* The slider */
+.iviewSlider {
+  overflow: hidden;
+}
+
+/* The timer in the Slider */
+.iview-timer {
+  position: absolute;
+  z-index: 100;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.iview-timer div {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+}
+
+/* The Preloader in the Slider */
+.iview-preloader {
+  position: absolute;
+  z-index: 1000;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  border: #000 1px solid;
+  padding: 1px;
+  width: 100px;
+  height: 3px;
+}
+.iview-preloader div {
+  float: left;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  height: 3px;
+  background: #000;
+  width: 0px;
+}
+
+/* The strips and boxes in the Slider */
+.iview-strip {
+  display: block;
+  position: absolute;
+  z-index: 5;
+}
+
+.iview-block {
+  display: block;
+  position: absolute;
+  z-index: 5;
+}
+
+/* Direction nav styles (e.g. Next & Prev) */
+.iview-directionNav a {
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+  cursor: pointer;
+  margin-top: -13px;
+  text-align: center;
+  font-size: 0px;
+  width: 35px;
+  height: 70px;
+  text-indent: -99999px;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+}
+.iview-directionNav a.iview-prevNav {
+  background: url(btn-slider-prev.png) no-repeat center;
+  left: 20px;
+}
+.iview-directionNav a.iview-nextNav {
+  background: url(btn-slider-next.png) no-repeat center;
+  right: 20px;
+}
+.iview-directionNav a:hover {
+  opacity: 1 !important;
+}
+
+.bannercontainer:hover .iview-directionNav a {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+
+/* Control nav styles (e.g. 1,2,3...) */
+.iview-controlNav div.iview-items {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+}
+.iview-controlNav div.iview-items ul li {
+  display: inline-block;
+  position: relative;
+}
+.iview-controlNav div.iview-items ul li a.iview-control {
+  width: 10px;
+  height: 10px;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  border-radius: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-indent: -9999px;
+  display: inline-block;
+  margin-right: 5px;
+  cursor: pointer;
+}
+.iview-controlNav div.iview-items ul li a.iview-control.active, .iview-controlNav div.iview-items ul li a.iview-control:hover {
+  background-color: #f75253;
+}
+.iview-controlNav div.iview-items.customHtmlBullet {
+  float: left;
+  padding: 0px;
+  height: 645px;
+  width: 270px;
+  background: #FFF;
+  position: absolute;
+  left: 0;
+  top: 0;
+  text-align: left;
+  z-index: 9;
+}
+.iview-controlNav div.iview-items.customHtmlBullet ul li {
+  width: 270px;
+  height: 129px;
+  float: left;
+  padding: 0;
+  border-bottom: 1px solid #eaeaea;
+}
+.iview-controlNav div.iview-items.customHtmlBullet a.iview-control {
+  padding: 20px 25px 20px 20px;
+  float: left;
+  width: 270px;
+  height: 100%;
+  color: black;
+  background: none;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+  text-indent: inherit;
+  margin: 0;
+}
+.iview-controlNav div.iview-items.customHtmlBullet a.iview-control.active, .iview-controlNav div.iview-items.customHtmlBullet a.iview-control:hover {
+  background: #f5f5f5;
+  cursor: pointer;
+}
+.iview-controlNav div.iview-items.customHtmlBullet a.iview-control.active:after, .iview-controlNav div.iview-items.customHtmlBullet a.iview-control:hover:after {
+  content: "\f0da";
+  font-family: "FontAwesome";
+  position: absolute;
+  right: -8px;
+  top: 30%;
+  font-size: 40px;
+  color: #f5f5f5;
+}
+.iview-controlNav div.iview-items.customHtmlBullet a.iview-control span {
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  border-radius: 100%;
+  background: #f75253;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  color: #FFF;
+  display: inline-block;
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 14px;
+  margin: 20px 20px 25px 0;
+  float: left;
+}
+.iview-controlNav div.iview-items.customHtmlBullet a.iview-control h5 {
+  font-size: 12px;
+  color: black;
+  margin: 15px 0 10px;
+}
+.iview-controlNav div.iview-items.customHtmlBullet a.iview-control.green span {
+  background: #68b235;
+}
+.iview-controlNav div.iview-items.customHtmlBullet a.iview-control.pink span {
+  background: #e881ff;
+}
+.iview-controlNav div.iview-items.customHtmlBullet a.iview-control.yellow span {
+  background: #ebb04e;
+}
+.iview-controlNav div.iview-items.customHtmlBullet a.iview-control.purple span {
+  background: #6b3de5;
+}
+.iview-controlNav div.iview-items.customHtmlBullet a.iview-control p {
+  margin: 0;
+  color: #666666;
+}
+
+.iview-tooltip {
+  position: absolute;
+}
+
+/* The video show in the Slider */
+.iview-video-show {
+  background: #000;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 101;
+}
+.iview-video-show .iview-video-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.iview-video-show .iview-video-container a.iview-video-close {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  background: #222;
+  color: #FFF;
+  height: 20px;
+  width: 20px;
+  text-align: center;
+  line-height: 29px;
+  font-size: 22px;
+  font-weight: bold;
+  overflow: hidden;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  border-radius: 15px;
+}
+.iview-video-show .iview-video-container a.iview-video-close:hover {
+  background: #444;
+}

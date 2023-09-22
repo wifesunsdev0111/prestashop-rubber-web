@@ -1,0 +1,38 @@
+@import "compass";
+@import "theme_variables";
+
+// Menu and logo
+@media (min-width:991px) {
+	.abs_logo{
+		position: absolute !important;
+	    top: -10px !important;
+	    left: 0 !important;
+	    right: 0 !important;
+	    bottom: 0 !important;
+	    margin: auto !important;
+	    width: 23%!important; 
+	    text-align: center !important;
+	    z-index: 9 !important;
+	}
+	#leo-megamenu{
+		.navbar-nav{
+			float: none;
+		}
+		.margin-float-menu{
+			@include rtl-float-right();
+		}
+		.padding-right{
+			@include rtl-float-right();
+			> a{
+				@include rtl-padding(31px, 0px, 31px ,25px);
+			}
+		}
+	}
+}
+#leo-top-menu{
+	padding-right: 0px;
+	padding-left: 0px;	
+}
+.rtl .navbar-nav > li {
+    float: right;
+}

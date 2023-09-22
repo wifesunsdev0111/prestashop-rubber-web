@@ -1,0 +1,58 @@
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/** CHECKOUT BY STEP */
+@media (min-width: 991px) {
+  .abs_logo {
+    position: absolute !important;
+    top: -10px !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    margin: auto !important;
+    width: 32%!important;
+    text-align: center !important;
+    z-index: 9 !important;
+  }
+
+  #leo-megamenu .navbar-nav {
+    float: none;
+  }
+  #leo-megamenu .margin-float-menu {
+    float: right;
+  }
+  .rtl #leo-megamenu .margin-float-menu {
+    float: left;
+  }
+  #leo-megamenu .padding-right {
+    float: right;
+  }
+  .rtl #leo-megamenu .padding-right {
+    float: left;
+  }
+  #leo-megamenu .padding-right > a {
+    padding: 31px 0px 31px 25px;
+  }
+  .rtl #leo-megamenu .padding-right > a {
+    padding: 31px 25px 31px 0px;
+  }
+}
+#leo-top-menu {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.rtl .navbar-nav > li {
+  float: right;
+}

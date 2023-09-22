@@ -1,0 +1,17 @@
+ 
+
+{shop_url}
+
+Bonjour {firstname} {lastname},
+
+Identifiant de commande {order_name} - Bon de réduction généré
+
+Nous avons le plaisir de vous informer qu'un bon de réduction a été généré à votre nom relatif à votre commande ayant pour référence {order_name}.
+
+BON DE REDUCTION : {voucher_num} d'un montant de {voucher_amount}
+
+Pour en bénéficier, copier/coller ce code lors de l'achat.
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop.com/?utm_source=marchandprestashop&utm_medium=e-mail&utm_campaign=footer_1-7)

@@ -1,0 +1,67 @@
+@import "compass";
+@import "theme_variables";
+
+/* Block newsletter */
+#columns #newsletter_block_left {	 
+	.success_inline, .warning_inline {
+		@include rtl-text-align-left();
+		padding: 1px 0 0 0;
+		margin-bottom: -19px;	
+	}
+	.success_inline	{
+		color: #418B19;
+	}
+	.warning_inline {
+		color: #f13340;
+	}
+}
+/* Block newsletter footer */
+#footer {
+	#newsletter_block_left {
+		overflow: hidden;
+		margin-bottom: 0;
+		@media (max-width: $screen-xs-max) { // max 767px
+			width: 100%;
+		}
+		h5 {
+			text-transform: none;
+			font-size: 12px;
+			text-transform: uppercase;
+			margin-top: 0;
+			&:after {
+				display: none;
+			}
+		}
+		.block_content {
+			overflow: hidden;
+			margin: 5px 0;
+		}
+		
+		.warning_inline {
+			display: block;
+			color: #f13340; 
+			font-size: 13px;
+			line-height :26px;
+			clear: both;
+		}
+		.newsletter-input {
+  			@include rtl-float-left();
+  			width: 80%;
+  			height: 30px;
+			@include border-radius(0);
+
+  		}
+  		.success_inline	{
+		color: #418B19;
+		}
+		.btn{
+			@include border-radius(0);
+			font-size: $font-size-base;		
+			text-transform: uppercase;	
+			height: 30px;
+			width: 30px;
+			padding: 0px 6px;
+			position: relative;
+		}
+	}
+}

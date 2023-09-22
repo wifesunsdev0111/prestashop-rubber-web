@@ -1,0 +1,16 @@
+ 
+
+{shop_url}
+
+Hallo {firstname} {lastname},
+
+Sponsoring-Programm
+
+Für Ihre Empfehlung erhalten Sie von uns einems ein Gutschein auf Ihren Namen.
+Hier Ihr persönlicher Gutscheincode: {voucher_num}Über: {voucher_num}
+
+Kopieren Sie diesen Code bei Ihrer nächsten Bestellung während des Bezahlvorgangs einfach in das Gutscheinfeld.
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop.com/?utm_source=marchandprestashop&utm_medium=e-mail&utm_campaign=footer_1-7)

@@ -1,0 +1,38 @@
+GitHub contributors:
+--------------------------------
+ - Alex Sampaio
+ - AlexEven
+ - Antoine Mille
+ - Aurélien Pelletier
+ - Axome
+ - Damien Metzger
+ - Dimitrios Karvounaris
+ - Francois Gaillard
+ - François-Marie de Jouvencel
+ - Gregory Roussac
+ - Jerome Nadaud
+ - Julien Bourdeau
+ - KoKsPfLaNzE
+ - Marius Kiznis
+ - Mathieu Ferment
+ - Matthieu Mota
+ - Maxime Biloé
+ - Michel ANTOINE
+ - Mickaël Andrieu
+ - NielsH
+ - Pablo Borowicz
+ - PrestaEdit
+ - Quetzacoalt91
+ - Rémi Gaillard
+ - Sacha Froment
+ - Samuel Marchal
+ - Thibaud Chauviere
+ - Thomas N
+ - Wayann
+ - Xavier
+ - ZiZuu.com
+ - djfm
+ - indesign47
+ - joce
+ - marionf
+ - montes

@@ -1,0 +1,405 @@
+
+TEXT: cURL Retrieved SSL Certificate:
+      * Hostname was NOT found in DNS cache
+      *   Trying 178.22.59.148...
+      * Connected to www.ideal-checkout.nl (178.22.59.148) port 443 (#0)
+      * successfully set certificate verify locations:
+      *   CAfile: /etc/ssl/certs/ca-bundle.crt
+        CApath: none
+      * SSL connection using ECDHE-RSA-AES256-GCM-SHA384
+      * --- Certificate chain
+      *  0 Subject: OU=GT84058518; OU=See www.rapidssl.com/resources/cps (c)15; OU=Domain Control Validated - RapidSSL(R); CN=www.ideal-checkout.nl
+      *    Issuer: C=US; O=GeoTrust Inc.; CN=RapidSSL SHA256 CA - G3
+      *    Version: 3 (0x2)
+      *    Serial Number: 432847 (0x69acf)
+      *    Signature Algorithm: sha256WithRSAEncryption
+      *    Start date: 2015-08-30 07:16:53 GMT
+      *    Expire date: 2016-10-31 06:11:11 GMT
+      *    Public Key Algorithm: rsaEncryption
+      *    RSA Public Key (2048 bits)
+      *    rsa(n): b6:ee:23:22:56:50:34:5e:db:3a:f1:5f:b7:0d:7f:d4:80:5c:fd:27:fd:01:04:a6:57:bb:3c:58:0c:54:9e:d5:d5:e8:df:bf:15:2d:e3:74:a3:f0:c3:40:3d:e1:fb:2e:d4:58:2a:29:09:15:70:23:7b:ff:32:0e:74:5c:99:c0:bb:73:eb:35:d2:c9:49:ae:19:07:68:54:47:82:b8:a4:37:a2:d2:f0:cf:01:6e:f5:7f:8e:dd:37:11:7c:97:8e:1c:03:34:93:7a:26:8e:10:02:b0:74:47:8d:e2:0b:73:f2:29:c6:13:ea:0d:f0:bc:1a:a0:ea:15:69:36:b3:0c:f5:8a:90:71:3b:f6:5b:b1:31:84:a0:b8:77:31:3f:c8:bd:a4:46:e9:e7:9d:8a:89:23:51:80:bf:04:c4:b8:78:c7:bd:6c:c8:93:fe:38:b2:98:4a:60:a9:1d:e4:07:aa:b9:f0:c5:70:69:d6:d0:8d:e3:66:29:57:c9:0a:b0:20:80:41:f0:74:fd:9b:7a:b5:b9:9b:6f:f3:d4:84:93:b0:37:4e:a0:c1:68:9e:8c:ea:d4:51:32:54:40:9a:1e:9f:f3:f4:a3:79:f4:10:72:7e:1c:b2:27:ab:d0:92:6d:c6:a3:05:b2:2e:dc:67:14:32:09:bd:06:4f:cd:63:42:03:
+      *    rsa(e): 01:00:01:
+      * X509v3 Authority Key Identifier: 
+      *   keyid:C3:9C:F3:FC:D3:46:08:34:BB:CE:46:7F:A0:7C:5B:F3:E2:08:CB:59
+      * Authority Information Access: 
+      *   OCSP-URI:http://gv.symcd.com, CAIssuers-URI:http://gv.symcb.com/gv.crt
+      * X509v3 Key Usage: (critical)
+      *   DigitalSignature,KeyEncipherment
+      * X509v3 Extended Key Usage: 
+      *   TLSWebServerAuthentication,TLSWebClientAuthentication
+      * X509v3 Subject Alternative Name: 
+      *   DNS:www.ideal-checkout.nl,DNS:ideal-checkout.nl
+      * X509v3 CRL Distribution Points: 
+      *   , FullName:, URI:http://gv.symcb.com/gv.crl
+      * X509v3 Basic Constraints: (critical)
+      *   CA:FALSE
+      * X509v3 Certificate Policies: 
+      *   Policy:2.23.140.1.2.1, CPS:https://www.rapidssl.com/legal
+      *  Signature: 0c:08:65:d6:b6:a6:dd:e1:76:70:7a:3c:91:e8:6d:88:a6:b9:db:72:7a:7e:94:d2:15:f1:f0:b2:68:b9:70:05:62:c9:ca:5c:5b:f9:fc:38:1a:a3:56:9c:92:84:f4:23:d9:ef:57:c8:a3:71:ec:c3:91:ea:83:b3:ef:7f:3b:52:68:12:96:1b:95:ee:4d:23:44:44:6e:e6:67:27:a8:3e:47:3e:42:2e:5b:80:94:54:d6:da:41:b0:36:f9:1c:93:db:66:26:5c:64:af:5d:7d:06:d4:21:2b:32:6a:ed:1d:67:e2:49:96:4d:6c:bb:a2:e3:7c:e9:6f:93:61:bd:26:f5:92:04:ce:de:26:21:c5:59:e6:a2:6d:53:b9:f4:5a:46:5c:43:84:86:d0:e2:a9:3d:f3:1f:14:9d:3d:c3:ae:17:75:c1:8b:7b:78:69:c3:fe:7e:e3:5d:9b:e6:a5:b9:88:91:0f:91:3e:10:62:43:1e:f2:4c:73:85:01:86:98:01:a8:e1:a0:31:b2:d5:30:35:1e:35:e7:ad:18:1c:b7:f6:a5:de:7c:f3:7b:ef:9b:46:3b:0d:0e:3f:49:57:6c:d6:ea:e8:14:40:ae:f2:12:85:96:34:ff:b4:b9:15:db:a1:3a:0c:27:a1:56:a1:76:89:ac:a2:d7:20:37:30:66:
+      * -----BEGIN CERTIFICATE-----
+      MIIEwDCCA6igAwIBAgIDBprPMA0GCSqGSIb3DQEBCwUAMEcxCzAJBgNVBAYTAlVT
+      MRYwFAYDVQQKEw1HZW9UcnVzdCBJbmMuMSAwHgYDVQQDExdSYXBpZFNTTCBTSEEy
+      NTYgQ0EgLSBHMzAeFw0xNTA4MzAwNzE2NTNaFw0xNjEwMzEwNjExMTFaMIGZMRMw
+      EQYDVQQLEwpHVDg0MDU4NTE4MTEwLwYDVQQLEyhTZWUgd3d3LnJhcGlkc3NsLmNv
+      bS9yZXNvdXJjZXMvY3BzIChjKTE1MS8wLQYDVQQLEyZEb21haW4gQ29udHJvbCBW
+      YWxpZGF0ZWQgLSBSYXBpZFNTTChSKTEeMBwGA1UEAxMVd3d3LmlkZWFsLWNoZWNr
+      b3V0Lm5sMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtu4jIlZQNF7b
+      OvFftw1/1IBc/Sf9AQSmV7s8WAxUntXV6N+/FS3jdKPww0A94fsu1FgqKQkVcCN7
+      /zIOdFyZwLtz6zXSyUmuGQdoVEeCuKQ3otLwzwFu9X+O3TcRfJeOHAM0k3omjhAC
+      sHRHjeILc/IpxhPqDfC8GqDqFWk2swz1ipBxO/ZbsTGEoLh3MT/IvaRG6eediokj
+      UYC/BMS4eMe9bMiT/jiymEpgqR3kB6q58MVwadbQjeNmKVfJCrAggEHwdP2berW5
+      m2/z1ISTsDdOoMFonozq1FEyVECaHp/z9KN59BByfhyyJ6vQkm3GowWyLtxnFDIJ
+      vQZPzWNCAwIDAQABo4IBYDCCAVwwHwYDVR0jBBgwFoAUw5zz/NNGCDS7zkZ/oHxb
+      8+IIy1kwVwYIKwYBBQUHAQEESzBJMB8GCCsGAQUFBzABhhNodHRwOi8vZ3Yuc3lt
+      Y2QuY29tMCYGCCsGAQUFBzAChhpodHRwOi8vZ3Yuc3ltY2IuY29tL2d2LmNydDAO
+      BgNVHQ8BAf8EBAMCBaAwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMDMG
+      A1UdEQQsMCqCFXd3dy5pZGVhbC1jaGVja291dC5ubIIRaWRlYWwtY2hlY2tvdXQu
+      bmwwKwYDVR0fBCQwIjAgoB6gHIYaaHR0cDovL2d2LnN5bWNiLmNvbS9ndi5jcmww
+      DAYDVR0TAQH/BAIwADBBBgNVHSAEOjA4MDYGBmeBDAECATAsMCoGCCsGAQUFBwIB
+      Fh5odHRwczovL3d3dy5yYXBpZHNzbC5jb20vbGVnYWwwDQYJKoZIhvcNAQELBQAD
+      ggEBAAwIZda2pt3hdnB6PJHobYimudtyen6U0hXx8LJouXAFYsnKXFv5/Dgao1ac
+      koT0I9nvV8ijcezDkeqDs+9/O1JoEpYble5NI0REbuZnJ6g+Rz5CLluAlFTW2kGw
+      Nvkck9tmJlxkr119BtQhKzJq7R1n4kmWTWy7ouN86W+TYb0m9ZIEzt4mIcVZ5qJt
+      U7n0WkZcQ4SG0OKpPfMfFJ09w64XdcGLe3hpw/5+412b5qW5iJEPkT4QYkMe8kxz
+      hQGGmAGo4aAxstUwNR41560YHLf2pd5883vvm0Y7DQ4/SVds1uroFECu8hKFljT/
+      tLkV26E6DCehVqF2iayi1yA3MGY=
+      -----END CERTIFICATE-----
+      
+      *  1 Subject: C=US; O=GeoTrust Inc.; CN=RapidSSL SHA256 CA - G3
+      *    Issuer: C=US; O=GeoTrust Inc.; CN=GeoTrust Global CA
+      *    Version: 3 (0x2)
+      *    Serial Number: 146039 (0x23a77)
+      *    Signature Algorithm: sha256WithRSAEncryption
+      *    Start date: 2014-08-29 21:39:32 GMT
+      *    Expire date: 2022-05-20 21:39:32 GMT
+      *    Public Key Algorithm: rsaEncryption
+      *    RSA Public Key (2048 bits)
+      *    rsa(n): af:54:9b:d9:58:5d:1e:2c:56:c6:d5:e8:7f:f4:7d:16:03:ff:d0:8b:5a:e4:8e:a7:dd:54:2e:d4:04:c0:5d:98:9c:8d:90:0f:bc:10:65:5f:da:9a:d6:44:7c:c0:9f:b5:e9:4a:8c:0b:06:43:04:bb:f4:96:e2:26:f6:61:01:91:66:31:22:c3:34:34:5f:3f:3f:91:2f:44:5f:dc:c7:14:b6:03:9f:86:4b:0e:a3:ff:a0:80:02:83:c3:d3:1f:69:52:d6:9d:64:0f:c9:83:e7:1b:c4:70:ac:94:e7:c3:a4:6a:2c:bd:b8:9e:69:d8:be:0a:8f:16:63:5a:68:71:80:7b:30:de:15:04:bf:cc:d3:bf:3e:48:05:55:7a:b3:d7:10:0c:03:fc:9b:fd:08:a7:8c:8c:db:a7:8e:f1:1e:63:dc:b3:01:2f:7f:af:57:c3:3c:48:a7:83:68:21:a7:2f:e7:a7:3f:f0:b5:0c:fc:f5:84:d1:53:bc:0e:72:4f:60:0c:42:b8:98:ad:19:88:57:d7:04:ec:87:bf:7e:87:4e:a3:21:f9:53:fd:36:98:48:8d:d6:f8:bb:48:f2:29:c8:64:d1:cc:54:48:53:8b:af:b7:65:1e:bf:29:33:29:d9:29:60:48:f8:ff:91:bc:57:58:e5:35:2e:bb:69:b6:59:
+      *    rsa(e): 01:00:01:
+      * X509v3 Authority Key Identifier: 
+      *   keyid:C0:7A:98:68:8D:89:FB:AB:05:64:0C:11:7D:AA:7D:65:B8:CA:CC:4E
+      * X509v3 Subject Key Identifier: 
+      *   C3:9C:F3:FC:D3:46:08:34:BB:CE:46:7F:A0:7C:5B:F3:E2:08:CB:59
+      * X509v3 Basic Constraints: (critical)
+      *   CA:TRUE,pathlen:0
+      * X509v3 Key Usage: (critical)
+      *   CertificateSign,CRLSign
+      * X509v3 CRL Distribution Points: 
+      *   , FullName:, URI:http://g.symcb.com/crls/gtglobal.crl
+      * Authority Information Access: 
+      *   OCSP-URI:http://g.symcd.com
+      * X509v3 Certificate Policies: 
+      *   Policy:2.16.840.1.113733.1.7.54, CPS:http://www.geotrust.com/resources/cps
+      *  Signature: a3:58:1e:c6:43:32:ac:ac:2f:93:78:b7:ea:ae:54:40:47:2d:7e:78:8d:50:f6:f8:66:ac:d6:4f:73:d6:44:ef:af:0b:cc:5b:c1:f4:4f:9a:8f:49:7e:60:af:c2:27:c7:16:f1:fb:93:81:90:a9:7c:ef:6f:7e:6e:45:94:16:84:bd:ec:49:f1:c4:0e:f4:af:04:59:83:87:0f:2c:3b:97:c3:5a:12:9b:7b:04:35:7b:a3:95:33:08:7b:93:71:22:42:b3:a9:d9:6f:4f:81:92:fc:07:b6:79:bc:84:4a:9d:77:09:f1:c5:89:f2:f0:b4:9c:54:aa:12:7b:0d:ba:4f:ef:93:19:ec:ef:7d:4e:61:a3:8e:76:9c:59:cf:8c:94:b1:84:97:f7:1a:b9:07:b8:b2:c6:4f:13:79:db:bf:4f:51:1b:7f:69:0d:51:2a:c1:d6:15:ff:37:51:34:65:51:f4:1e:be:38:6a:ec:0e:ab:bf:3d:7b:39:05:7b:f4:f3:fb:1a:a1:d0:c8:7e:4e:64:8d:cd:8c:61:55:90:fe:3a:ca:5d:25:0f:f8:1d:a3:4a:74:56:4f:1a:55:40:70:75:25:a6:33:2e:ba:4b:a5:5d:53:9a:0d:30:e1:8d:5f:61:2c:af:cc:ef:b0:99:a1:80:ff:0b:f2:62:4c:70:26:98:
+      * -----BEGIN CERTIFICATE-----
+      MIIEJTCCAw2gAwIBAgIDAjp3MA0GCSqGSIb3DQEBCwUAMEIxCzAJBgNVBAYTAlVT
+      MRYwFAYDVQQKEw1HZW9UcnVzdCBJbmMuMRswGQYDVQQDExJHZW9UcnVzdCBHbG9i
+      YWwgQ0EwHhcNMTQwODI5MjEzOTMyWhcNMjIwNTIwMjEzOTMyWjBHMQswCQYDVQQG
+      EwJVUzEWMBQGA1UEChMNR2VvVHJ1c3QgSW5jLjEgMB4GA1UEAxMXUmFwaWRTU0wg
+      U0hBMjU2IENBIC0gRzMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCv
+      VJvZWF0eLFbG1eh/9H0WA//Qi1rkjqfdVC7UBMBdmJyNkA+8EGVf2prWRHzAn7Xp
+      SowLBkMEu/SW4ib2YQGRZjEiwzQ0Xz8/kS9EX9zHFLYDn4ZLDqP/oIACg8PTH2lS
+      1p1kD8mD5xvEcKyU58Okaiy9uJ5p2L4KjxZjWmhxgHsw3hUEv8zTvz5IBVV6s9cQ
+      DAP8m/0Ip4yM26eO8R5j3LMBL3+vV8M8SKeDaCGnL+enP/C1DPz1hNFTvA5yT2AM
+      QriYrRmIV9cE7Ie/fodOoyH5U/02mEiN1vi7SPIpyGTRzFRIU4uvt2UevykzKdkp
+      YEj4/5G8V1jlNS67abZZAgMBAAGjggEdMIIBGTAfBgNVHSMEGDAWgBTAephojYn7
+      qwVkDBF9qn1luMrMTjAdBgNVHQ4EFgQUw5zz/NNGCDS7zkZ/oHxb8+IIy1kwEgYD
+      VR0TAQH/BAgwBgEB/wIBADAOBgNVHQ8BAf8EBAMCAQYwNQYDVR0fBC4wLDAqoCig
+      JoYkaHR0cDovL2cuc3ltY2IuY29tL2NybHMvZ3RnbG9iYWwuY3JsMC4GCCsGAQUF
+      BwEBBCIwIDAeBggrBgEFBQcwAYYSaHR0cDovL2cuc3ltY2QuY29tMEwGA1UdIARF
+      MEMwQQYKYIZIAYb4RQEHNjAzMDEGCCsGAQUFBwIBFiVodHRwOi8vd3d3Lmdlb3Ry
+      dXN0LmNvbS9yZXNvdXJjZXMvY3BzMA0GCSqGSIb3DQEBCwUAA4IBAQCjWB7GQzKs
+      rC+TeLfqrlRARy1+eI1Q9vhmrNZPc9ZE768LzFvB9E+aj0l+YK/CJ8cW8fuTgZCp
+      fO9vfm5FlBaEvexJ8cQO9K8EWYOHDyw7l8NaEpt7BDV7o5UzCHuTcSJCs6nZb0+B
+      kvwHtnm8hEqddwnxxYny8LScVKoSew26T++TGezvfU5ho452nFnPjJSxhJf3GrkH
+      uLLGTxN5279PURt/aQ1RKsHWFf83UTRlUfQevjhq7A6rvz17OQV79PP7GqHQyH5O
+      ZI3NjGFVkP46yl0lD/gdo0p0Vk8aVUBwdSWmMy66S6VdU5oNMOGNX2Esr8zvsJmh
+      gP8L8mJMcCaY
+      -----END CERTIFICATE-----
+      
+      * Server certificate:
+      * 	 subject: OU=GT84058518; OU=See www.rapidssl.com/resources/cps (c)15; OU=Domain Control Validated - RapidSSL(R); CN=www.ideal-checkout.nl
+      * 	 start date: 2015-08-30 07:16:53 GMT
+      * 	 expire date: 2016-10-31 06:11:11 GMT
+      * 	 subjectAltName: www.ideal-checkout.nl matched
+      * 	 issuer: C=US; O=GeoTrust Inc.; CN=RapidSSL SHA256 CA - G3
+      * 	 SSL certificate verify ok.
+      > POST /ping.php HTTP/1.1
+      Host: www.ideal-checkout.nl
+      Accept: */*
+      Content-Length: 74
+      Content-Type: application/x-www-form-urlencoded
+      
+      * upload completely sent off: 74 out of 74 bytes
+      < HTTP/1.1 200 OK
+      < Date: Mon, 12 Oct 2015 08:31:30 GMT
+      * Server Apache/2 is not blacklisted
+      < Server: Apache/2
+      < Vary: User-Agent
+      < Content-Length: 2
+      < Content-Type: text/html
+      < 
+      * Connection #0 to host www.ideal-checkout.nl left intact
+FILE: /mnt/webb/b2/88/54052188/htdocs/Prestashop_02/idealcheckout/includes/library.php
+LINE: 536
+
+
+TEXT: Firewall check completed, status: OK
+FILE: /mnt/webb/b2/88/54052188/htdocs/Prestashop_02/idealcheckout/install/includes/install.php
+LINE: 483
+
+
+TEXT: LOCAL: Creating file: /mnt/webb/b2/88/54052188/htdocs/Prestashop_02/idealcheckout/configuration/database.php
+FILE: /mnt/webb/b2/88/54052188/htdocs/Prestashop_02/idealcheckout/install/includes/install.php
+LINE: 767
+
+
+TEXT: LOCAL: Creating file: /mnt/webb/b2/88/54052188/htdocs/Prestashop_02/idealcheckout/configuration/install.php
+FILE: /mnt/webb/b2/88/54052188/htdocs/Prestashop_02/idealcheckout/install/includes/install.php
+LINE: 767
+
+
+TEXT: Running installation.
+FILE: /mnt/webb/b2/88/54052188/htdocs/Prestashop_02/idealcheckout/install/includes/install.php
+LINE: 427
+
+
+TEXT: Changing CHMOD for: /mnt/webb/b2/88/54052188/htdocs/Prestashop_02/idealcheckout/configuration/afterpay.php
+FILE: /mnt/webb/b2/88/54052188/htdocs/Prestashop_02/idealcheckout/install/includes/install.php
+LINE: 434
+
+
+TEXT: Changing CHMOD for: /mnt/webb/b2/88/54052188/htdocs/Prestashop_02/idealcheckout/configuration/authorizedtransfer.php
+FILE: /mnt/webb/b2/88/54052188/htdocs/Prestashop_02/idealcheckout/install/includes/install.php
+LINE: 434
+
+
+TEXT: Changing CHMOD for: /mnt/webb/b2/88/54052188/htdocs/Prestashop_02/idealcheckout/configuration/cartebleue.php
+FILE: /mnt/webb/b2/88/54052188/htdocs/Prestashop_02/idealcheckout/install/includes/install.php
+LINE: 434
+
+
+TEXT: Changing CHMOD for: /mnt/webb/b2/88/54052188/htdocs/Prestashop_02/idealcheckout/configuration/clickandbuy.php
+FILE: /mnt/webb/b2/88/54052188/htdocs/Prestashop_02/idealcheckout/install/includes/install.php
+LINE: 434
+
+
+TEXT: Changing CHMOD for: /mnt/webb/b2/88/54052188/htdocs/Prestashop_02/idealcheckout/configuration/creditcard.php
+FILE: /mnt/webb/b2/88/54052188/htdocs/Prestashop_02/idealcheckout/install/includes/install.php
+LINE: 434
+
+
+TEXT: Changing CHMOD for: /mnt/webb/b2/88/54052188/htdocs/Prestashop_02/idealcheckout/configuration/database.php
+FILE: /mnt/webb/b2/88/54052188/htdocs/Prestashop_02/idealcheckout/install/includes/install.php
+LINE: 434
+
+
+TEXT: Changing CHMOD for: /mnt/webb/b2/88/54052188/htdocs/Prestashop_02/idealcheckout/configuration/directebanking.php
+FILE: /mnt/webb/b2/88/54052188/htdocs/Prestashop_02/idealcheckout/install/includes/install.php
+LINE: 434
+
+
+TEXT: Changing CHMOD for: /mnt/webb/b2/88/54052188/htdocs/Prestashop_02/idealcheckout/configuration/ebon.php
+FILE: /mnt/webb/b2/88/54052188/htdocs/Prestashop_02/idealcheckout/install/includes/install.php
+LINE: 434
+
+
+TEXT: Changing CHMOD for: /mnt/webb/b2/88/54052188/htdocs/Prestashop_02/idealcheckout/configuration/fasterpay.php
+FILE: /mnt/webb/b2/88/54052188/htdocs/Prestashop_02/idealcheckout/install/includes/install.php
+LINE: 434
+
+
+TEXT: Changing CHMOD for: /mnt/webb/b2/88/54052188/htdocs/Prestashop_02/idealcheckout/configuration/giropay.php
+FILE: /mnt/webb/b2/88/54052188/htdocs/Prestashop_02/idealcheckout/install/includes/install.php
+LINE: 434
+
+
+TEXT: Changing CHMOD for: /mnt/webb/b2/88/54052188/htdocs/Prestashop_02/idealcheckout/configuration/ideal.php
+FILE: /mnt/webb/b2/88/54052188/htdocs/Prestashop_02/idealcheckout/install/includes/install.php
+LINE: 434
+
+
+TEXT: Changing CHMOD for: /mnt/webb/b2/88/54052188/htdocs/Prestashop_02/idealcheckout/configuration/maestro.php
+FILE: /mnt/webb/b2/88/54052188/htdocs/Prestashop_02/idealcheckout/install/includes/install.php
+LINE: 434
+
+
+TEXT: Changing CHMOD for: /mnt/webb/b2/88/54052188/htdocs/Prestashop_02/idealcheckout/configuration/manualtransfer.php
+FILE: /mnt/webb/b2/88/54052188/htdocs/Prestashop_02/idealcheckout/install/includes/install.php
+LINE: 434
+
+
+TEXT: Changing CHMOD for: /mnt/webb/b2/88/54052188/htdocs/Prestashop_02/idealcheckout/configuration/mastercard.php
+FILE: /mnt/webb/b2/88/54052188/htdocs/Prestashop_02/idealcheckout/install/includes/install.php
+LINE: 434
+
+
+TEXT: Changing CHMOD for: /mnt/webb/b2/88/54052188/htdocs/Prestashop_02/idealcheckout/configuration/minitix.php
+FILE: /mnt/webb/b2/88/54052188/htdocs/Prestashop_02/idealcheckout/install/includes/install.php
+LINE: 434
+
+
+TEXT: Changing CHMOD for: /mnt/webb/b2/88/54052188/htdocs/Prestashop_02/idealcheckout/configuration/mistercash.php
+FILE: /mnt/webb/b2/88/54052188/htdocs/Prestashop_02/idealcheckout/install/includes/install.php
+LINE: 434
+
+
+TEXT: Changing CHMOD for: /mnt/webb/b2/88/54052188/htdocs/Prestashop_02/idealcheckout/configuration/paypal.php
+FILE: /mnt/webb/b2/88/54052188/htdocs/Prestashop_02/idealcheckout/install/includes/install.php
+LINE: 434
+
+
+TEXT: Changing CHMOD for: /mnt/webb/b2/88/54052188/htdocs/Prestashop_02/idealcheckout/configuration/paysafecard.php
+FILE: /mnt/webb/b2/88/54052188/htdocs/Prestashop_02/idealcheckout/install/includes/install.php
+LINE: 434
+
+
+TEXT: Changing CHMOD for: /mnt/webb/b2/88/54052188/htdocs/Prestashop_02/idealcheckout/configuration/postepay.php
+FILE: /mnt/webb/b2/88/54052188/htdocs/Prestashop_02/idealcheckout/install/includes/install.php
+LINE: 434
+
+
+TEXT: Changing CHMOD for: /mnt/webb/b2/88/54052188/htdocs/Prestashop_02/idealcheckout/configuration/visa.php
+FILE: /mnt/webb/b2/88/54052188/htdocs/Prestashop_02/idealcheckout/install/includes/install.php
+LINE: 434
+
+
+TEXT: Changing CHMOD for: /mnt/webb/b2/88/54052188/htdocs/Prestashop_02/idealcheckout/configuration/vpay.php
+FILE: /mnt/webb/b2/88/54052188/htdocs/Prestashop_02/idealcheckout/install/includes/install.php
+LINE: 434
+
+
+TEXT: Changing CHMOD for: /mnt/webb/b2/88/54052188/htdocs/Prestashop_02/idealcheckout/configuration/webshopgiftcard.php
+FILE: /mnt/webb/b2/88/54052188/htdocs/Prestashop_02/idealcheckout/install/includes/install.php
+LINE: 434
+
+
+TEXT: Changing CHMOD for: /mnt/webb/b2/88/54052188/htdocs/Prestashop_02/idealcheckout/temp
+FILE: /mnt/webb/b2/88/54052188/htdocs/Prestashop_02/idealcheckout/install/includes/install.php
+LINE: 434
+
+
+TEXT: Changing CHMOD for: /mnt/webb/b2/88/54052188/htdocs/Prestashop_02/idealcheckout/temp/issuers.cache
+FILE: /mnt/webb/b2/88/54052188/htdocs/Prestashop_02/idealcheckout/install/includes/install.php
+LINE: 434
+
+
+TEXT: Creating database table #_idealcheckout
+FILE: /mnt/webb/b2/88/54052188/htdocs/Prestashop_02/idealcheckout/install/includes/install.php
+LINE: 439
+
+
+TEXT: Primary installation completed.
+FILE: /mnt/webb/b2/88/54052188/htdocs/Prestashop_02/idealcheckout/install/includes/install.php
+LINE: 467
+
+
+TEXT: Creating default configuration settings in database table #_configuration for ideal
+FILE: /mnt/webb/b2/88/54052188/htdocs/Prestashop_02/idealcheckout/install/software/idealcheckout-for-prestashop-1-5.php
+LINE: 129
+
+
+TEXT: Creating default configuration settings in database table #_configuration for afterpay
+FILE: /mnt/webb/b2/88/54052188/htdocs/Prestashop_02/idealcheckout/install/software/idealcheckout-for-prestashop-1-5.php
+LINE: 129
+
+
+TEXT: Creating default configuration settings in database table #_configuration for authorizedtransfer
+FILE: /mnt/webb/b2/88/54052188/htdocs/Prestashop_02/idealcheckout/install/software/idealcheckout-for-prestashop-1-5.php
+LINE: 129
+
+
+TEXT: Creating default configuration settings in database table #_configuration for cartebleue
+FILE: /mnt/webb/b2/88/54052188/htdocs/Prestashop_02/idealcheckout/install/software/idealcheckout-for-prestashop-1-5.php
+LINE: 129
+
+
+TEXT: Creating default configuration settings in database table #_configuration for clickandbuy
+FILE: /mnt/webb/b2/88/54052188/htdocs/Prestashop_02/idealcheckout/install/software/idealcheckout-for-prestashop-1-5.php
+LINE: 129
+
+
+TEXT: Creating default configuration settings in database table #_configuration for creditcard
+FILE: /mnt/webb/b2/88/54052188/htdocs/Prestashop_02/idealcheckout/install/software/idealcheckout-for-prestashop-1-5.php
+LINE: 129
+
+
+TEXT: Creating default configuration settings in database table #_configuration for directebanking
+FILE: /mnt/webb/b2/88/54052188/htdocs/Prestashop_02/idealcheckout/install/software/idealcheckout-for-prestashop-1-5.php
+LINE: 129
+
+
+TEXT: Creating default configuration settings in database table #_configuration for ebon
+FILE: /mnt/webb/b2/88/54052188/htdocs/Prestashop_02/idealcheckout/install/software/idealcheckout-for-prestashop-1-5.php
+LINE: 129
+
+
+TEXT: Creating default configuration settings in database table #_configuration for fasterpay
+FILE: /mnt/webb/b2/88/54052188/htdocs/Prestashop_02/idealcheckout/install/software/idealcheckout-for-prestashop-1-5.php
+LINE: 129
+
+
+TEXT: Creating default configuration settings in database table #_configuration for giropay
+FILE: /mnt/webb/b2/88/54052188/htdocs/Prestashop_02/idealcheckout/install/software/idealcheckout-for-prestashop-1-5.php
+LINE: 129
+
+
+TEXT: Creating default configuration settings in database table #_configuration for maestro
+FILE: /mnt/webb/b2/88/54052188/htdocs/Prestashop_02/idealcheckout/install/software/idealcheckout-for-prestashop-1-5.php
+LINE: 129
+
+
+TEXT: Creating default configuration settings in database table #_configuration for manualtransfer
+FILE: /mnt/webb/b2/88/54052188/htdocs/Prestashop_02/idealcheckout/install/software/idealcheckout-for-prestashop-1-5.php
+LINE: 129
+
+
+TEXT: Creating default configuration settings in database table #_configuration for mastercard
+FILE: /mnt/webb/b2/88/54052188/htdocs/Prestashop_02/idealcheckout/install/software/idealcheckout-for-prestashop-1-5.php
+LINE: 129
+
+
+TEXT: Creating default configuration settings in database table #_configuration for minitix
+FILE: /mnt/webb/b2/88/54052188/htdocs/Prestashop_02/idealcheckout/install/software/idealcheckout-for-prestashop-1-5.php
+LINE: 129
+
+
+TEXT: Creating default configuration settings in database table #_configuration for mistercash
+FILE: /mnt/webb/b2/88/54052188/htdocs/Prestashop_02/idealcheckout/install/software/idealcheckout-for-prestashop-1-5.php
+LINE: 129
+
+
+TEXT: Creating default configuration settings in database table #_configuration for paypal
+FILE: /mnt/webb/b2/88/54052188/htdocs/Prestashop_02/idealcheckout/install/software/idealcheckout-for-prestashop-1-5.php
+LINE: 129
+
+
+TEXT: Creating default configuration settings in database table #_configuration for paysafecard
+FILE: /mnt/webb/b2/88/54052188/htdocs/Prestashop_02/idealcheckout/install/software/idealcheckout-for-prestashop-1-5.php
+LINE: 129
+
+
+TEXT: Creating default configuration settings in database table #_configuration for postepay
+FILE: /mnt/webb/b2/88/54052188/htdocs/Prestashop_02/idealcheckout/install/software/idealcheckout-for-prestashop-1-5.php
+LINE: 129
+
+
+TEXT: Creating default configuration settings in database table #_configuration for visa
+FILE: /mnt/webb/b2/88/54052188/htdocs/Prestashop_02/idealcheckout/install/software/idealcheckout-for-prestashop-1-5.php
+LINE: 129
+
+
+TEXT: Creating default configuration settings in database table #_configuration for vpay
+FILE: /mnt/webb/b2/88/54052188/htdocs/Prestashop_02/idealcheckout/install/software/idealcheckout-for-prestashop-1-5.php
+LINE: 129
+
+
+TEXT: Creating default configuration settings in database table #_configuration for webshopgiftcard
+FILE: /mnt/webb/b2/88/54052188/htdocs/Prestashop_02/idealcheckout/install/software/idealcheckout-for-prestashop-1-5.php
+LINE: 129
+
+
+TEXT: Adding order state "pending".
+FILE: /mnt/webb/b2/88/54052188/htdocs/Prestashop_02/idealcheckout/install/software/idealcheckout-for-prestashop-1-5.php
+LINE: 157
+

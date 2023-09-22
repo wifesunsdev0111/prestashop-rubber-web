@@ -1,0 +1,9 @@
+Messaggio da {shop_name}
+
+Gentile cliente
+
+Hai richiesto la disattivazione del tuo abbonamento
+La verifica è necessaria dal nostro servizio clienti e può richiedere un po 'di tempo.
+Puoi consultare i tuoi abbonamenti su {SUBSCRIPTION_URL}
+Ecco i dettagli del tuo abbonamento:
+{SUBSCRIPTION_DESCRIPTION_TXT}

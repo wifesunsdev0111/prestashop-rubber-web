@@ -1,0 +1,21 @@
+ 
+
+{shop_url}
+
+Hallo {firstname} {lastname},
+
+{meta_products}
+
+Bestelling {order_name} - In verzendproces
+
+Uw bestelling met referentie {order_name} is onderweg.
+
+U kunt uw pakket volgen door op de volgende link te klikken: {followup}
+
+Volg uw bestelling en download uw factuur via onze online shop, ga naar [Bestellingen en details]({history_url}) in uw klantenaccount.
+
+Met een gast account kunt de bestelling volgen via ["Bestelling volgen"]({guest_tracking_url}) in onze online shop.
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop.com/?utm_source=marchandprestashop&utm_medium=e-mail&utm_campaign=footer_1-7)

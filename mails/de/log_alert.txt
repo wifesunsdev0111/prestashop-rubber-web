@@ -1,0 +1,15 @@
+ 
+
+{shop_url}
+
+Hallo,
+
+Neue Warnmeldung gespeichert
+
+ACHTUNG: Sie haben einen neuen Eintrag in der Log-Datei im Back Office.
+
+Sie können dies im Abschnitt Erweiterte Einstellungen > Log-Dateien Ihres Back Office überprüfen.
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop.com/?utm_source=marchandprestashop&utm_medium=e-mail&utm_campaign=footer_1-7)

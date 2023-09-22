@@ -1,0 +1,1 @@
+*ERROR* 	v1.7.8.8	2023/02/26 - 21:07:20: Link to database cannot be established: SQLSTATE[HY000] [1226] User &#039;u929520151_rubberfun_nl&#039; has exceeded the &#039;max_user_connections&#039; resource (current value: 25) at line 137 in file classes/db/DbPDO.php

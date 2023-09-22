@@ -1,0 +1,713 @@
+/*** GLOBAL STRUCTURE ***/
+div{
+    box-sizing: border-box;
+}
+.full-block{
+    width: 100%;
+    padding: 0 15px;
+    margin: 10px 0;
+}
+.half-block{
+    float: left;
+    width: 50%;
+    padding: 0 15px;
+    margin: 10px 0;
+}
+.third-block{
+    float: left;
+    width: 33.33333%;
+    padding: 0 15px;
+    margin: 10px 0;
+}
+.third-block-2{
+    float: left;
+    width: 66.66666%;
+    padding: 0 15px;
+    margin: 10px 0;
+}
+.quarter-block{
+    float: left;
+    width: 25%;
+    padding: 0 15px;
+    margin: 10px 0;
+}
+.quarter-block-3{
+    float: left;
+    width: 75%;
+    padding: 0 15px;
+    margin: 10px 0;
+}
+.ogone-tabs p,.ogone-tabs  ul,.ogone-tabs  li,.ogone-tabs  a{
+    font-size: 13px;
+    line-height: 15px;
+    color: #333;
+}
+.ogone-tabs p{
+    margin-top: 0px;
+    margin-bottom: 12px;
+}
+.ogone-tabs h2{
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    position: relative;
+}
+.ogone-tabs h2:before{
+        content: "";
+        display: block;
+        width: 200px;
+        height: 2px;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        background: #1cbfdb;
+}
+.ogone-tabs  h3{
+    font-size: 15px;
+    font-weight: normal;
+    color: #777;
+    margin-bottom: 10px;
+    border-bottom: 1px dotted #1cbfdb;
+}
+.ogone-tabs table{
+    width: 100%;
+    margin: 15px 0 30px 0;
+}
+.ogone-tabs table thead{
+    border: 1px solid #eaeaea;
+    background: #1cbfdb;
+    color: #fff;
+    font-size: 16px;
+    font-weight: normal;
+}
+.ogone-tabs table tr th{
+    padding: 5px;
+    font-weight: normal;
+}
+.ogone-tabs table tr td{
+    padding: 8px;
+    font-size: 13px;
+    border: 1px solid #eaeaea;
+}
+
+/*** TABS ***/
+.ogone-tabs {
+    padding: 0;
+    margin :10px;
+}
+.ogone-tabs nav {
+    padding: 0;
+    margin: 30px 0 0 0;
+}
+.ogone-tabs nav a {
+    padding: 8px 12px;
+    background-color: #1cbfdb;
+    color: #fff;
+    text-decoration: none;
+    margin: 0 5px 0 0;
+    font-size: 13px;
+    text-transform: uppercase;
+    border-radius: 3px 3px 0 0;
+        vertical-align: top;
+        position: relative;
+        top: -7px;
+        transition: all 0.3s;
+}
+.ogone-tabs nav a:hover {
+    background-color: #333;
+    color: #fff;
+}
+.ogone-tabs nav a.active {
+    background-color: #333;
+    color: #1cbfdb;
+}
+.ogone-tabs .content {
+    margin:0;
+    padding: 10px;
+    border: 1px solid #1cbfdb;
+    border-radius: 0 3px 3px 3px;
+}
+
+/*** FORM ***/
+.ogone-panel .ogone-help {
+    font-size: 0.9em;
+    font-style: italic;
+    margin-left: 0px;
+    margin-top: 5px;
+}
+
+.ogone-panel .form-group {
+    clear: both;
+    margin-bottom: 1em;
+    float: left;
+    width: 100%;
+}
+.ogone-panel .control-label  {
+    box-sizing: border-box;
+    width: 30%;
+    float: left;
+}
+.ogone-panel .control-field  {
+    box-sizing: border-box;
+    width: 70%;
+    float: left;
+}
+
+.ogone-config-block {
+    margin-top: 10px;
+    clear: both;
+}
+
+.ogone-panel  {
+    clear: both;
+}
+.ogone-panel .contact-top{
+    margin-top: 30px;
+}
+
+.ogone-radio-block {
+}
+.ogone-radio-block label{
+    float: none;
+        width: 170px;
+}
+.ogone-radio-block input{
+        margin-right: 5px;
+}
+
+.ogone-submit {
+    text-align: center;
+}
+.ogone-submit input[type="submit"] {
+    box-shadow: 0px 0px 5px #fff;
+    margin: 0;
+    padding: 10px;
+    background-color: #1cbfdb;
+    font-size: 14px;
+    font-weight: normal;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    min-width: 100px;
+    border: 1px solid #1CA4BB;
+    border-radius: 3px;
+    transition: all 0.3s;
+}
+.ogone-submit input[type="submit"]:hover {
+    box-shadow: 0px 0px 15px #888888;
+}
+
+
+/*** OGONE MESSAGES ***/
+.ogone-messages {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.alert-warning.alert-notify-url {
+    color: #333 !important;
+    font-weight: bold;
+    font-size: 13px;
+    padding: 40px 0!important;
+    border-radius: 3px;
+    background-color: orange !important;
+    border: 1px solid darkorange !important;
+    margin: 5px 0;
+}
+.alert-warning.alert-notify-url p span {
+    font-size: 16px;
+}
+.ogone-messages .alert-successes {
+    background-color: #ADD47A !important;
+    border: 1px solid #93BD5C !important;
+      margin: 5px 0;
+}
+.ogone-messages .alert-errors {
+    background-color: #D47A7A !important;
+    border: 1px solid #C35555 !important;
+    margin: 5px 0;
+}
+.ogone-messages .alert-warnings {
+    background-color: #E4B661 !important;
+    border: 1px solid #D0A14A !important;
+    margin: 5px 0;
+}
+.ogone-messages .alert-informations {
+    background-color: #7AC7D4 !important;
+    border: 1px solid #5AB2C1 !important;
+    margin: 5px 0;
+}
+.ogone-messages .alert {
+    color: #333 !important;
+    font-weight: bold;
+    font-size: 13px;
+    padding: 5px;
+    border-radius: 3px;
+}
+.ogone-messages .alert p{
+    padding: 5px 15px;
+    margin: 4px 0;
+}
+
+.ogone_info_list li img {
+    width: 50px;
+}
+
+img.step {
+    height: 50px;
+}
+
+
+/*** INFO TAB ***/
+#ogone-tabs-info ul.ogone_info_list{
+    list-style-type: none;
+}
+#ogone-tabs-info ul.ogone_info_list li{
+    margin-bottom: 10px;
+}
+#ogone-tabs-info ul.ogone_info_list li img{
+    vertical-align: middle;
+    margin-right: 12px;
+}
+#ogone-tabs-info .step-text img{
+    margin: 0 auto;
+}
+#ogone-tabs-info #step_02 .step-text img,
+#ogone-tabs-info #step_03 .step-text img{
+    margin: 0 auto;
+    max-width: 70px;
+}
+
+/*** PRICE TAB ***/
+
+/*** CONFIGURATION TAB ***/
+#configuration_wrapper .block-info .inner{
+    border: none;
+    padding: 15px;
+    background-color: #eaeaea;
+    margin-bottom: 15px;
+    border-radius: 3px;
+}
+#configuration_wrapper .block-info .inner h4{
+    margin-top: 0px;
+    font-size: 13px;
+    line-height: 15px;
+    color: #222;
+}
+#configuration_wrapper .block-info .inner ul{
+    padding-left: 15px;
+    list-style-type: disc;
+}
+#configuration_wrapper .block-info .inner ul li{
+    font-size: 12px;
+}
+
+/*** STATIC TAB ***/
+#static_wrapper .block-info .inner{
+    border: none;
+    padding: 15px;
+    background-color: #eaeaea;
+    margin-bottom: 15px;
+    border-radius: 3px;
+}
+#static_wrapper .block-info .inner h4{
+    margin-top: 0px;
+    font-size: 13px;
+    line-height: 15px;
+    color: #222;
+}
+#static_wrapper .block-info .inner ul{
+    padding-left: 15px;
+    list-style-type: disc;
+}
+#static_wrapper .block-info .inner ul li{
+    font-size: 12px;
+}
+#static_wrapper.ogone-panel #template_conf .control-label  {
+    box-sizing: border-box;
+    width: 50%;
+}
+#static_wrapper.ogone-panel #template_conf .control-field  {
+    box-sizing: border-box;
+    width: 50%;
+}
+#static_wrapper.ogone-panel #st_save_alert{
+    display: none;
+}
+#static_wrapper.ogone-panel .alert-info{
+        color: #333;
+        padding: 5px;
+        margin-bottom: 15px;
+        border-radius: 3px;
+        background: #E4B661;
+    border: 1px solid #D0A14A;
+}
+#static_wrapper.ogone-panel input.small-submit {
+    margin: 0;
+    padding: 4px 8px;
+    background-color: #1cbfdb;
+    font-size: 12px;
+    font-weight: normal;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    min-width: 100px;
+    border: 1px solid #1CA4BB;
+    border-radius: 3px;
+    box-shadow: none;
+    transition: all 0.3s;
+}
+#static_wrapper.ogone-panel input.small-submit:hover {
+    box-shadow: none;
+    background: #1CA4BB;
+}
+
+/*** PAYMENT TAB ***/
+#payment_wrapper .block-info .inner{
+    border: none;
+    padding: 15px;
+    background-color: #eaeaea;
+    margin-bottom: 15px;
+    border-radius: 3px;
+}
+#payment_wrapper .block-info .inner h4{
+    margin-top: 0px;
+    font-size: 13px;
+    line-height: 15px;
+    color: #222;
+}
+#payment_wrapper .block-info .inner ul{
+    padding-left: 15px;
+    list-style-type: disc;
+}
+#payment_wrapper .block-info .inner ul li{
+    font-size: 12px;
+}
+#payment_wrapper .current{
+    display: inline-block;
+    font-size: 12px;
+    text-align: center;
+    margin: 5px 0;
+    padding: 2px 2px;
+    border-radius: 3px;
+    background: #ADD47A;
+    border: 1px solid #93BD5C;
+}
+#payment_wrapper .ogone_pm_list{
+    padding: 5px 10px;
+    list-style-type: none;
+    border-radius: 3px;
+    background: #eaeaea;
+}
+#payment_wrapper .ogone_pm_list li{
+    background: #DEDEDE;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        font-size: 16px;
+        text-transform: uppercase;
+        margin: 5px 0;
+        padding: 8px 5px;
+        opacity: 0.6;
+        cursor: pointer;
+        transition: all 0.3s;
+}
+#payment_wrapper .ogone_pm_list li.checked{
+    background: #fff;
+        border: 1px solid #8AC52B;
+        color: #8AC52B;
+        opacity: 1;
+}
+#payment_wrapper .ogone_pm_list li:hover{
+    background: rgba(147, 230, 94, 0.89);
+    border: 1px solid #1CBFDB;
+        color: #1CBFDB;
+    opacity: 1;
+}
+#payment_wrapper .ogone_pm_list li img{
+    vertical-align: middle;
+    margin-right: 10px;
+    max-height: 35px;
+    border-radius: 3px;
+}
+#payment_wrapper .ogone_pm_list input{
+    display: none;
+}
+
+/*** TOOLS ***/
+.clearfix:before,
+.clearfix:after {
+        content: " ";
+        display: table;
+}
+.clear{
+    clear: both;
+}
+.text-center{
+    text-align: center;
+}
+.row{
+    margin: 0 -15px;
+}
+hr{
+    clear: both;
+    margin: 10px 0;
+    height: 1px;
+    border: none;
+    background-color: #eaeaea;
+}
+small{
+    font-size: 12px;
+    line-height: 13px;
+    display: inline-block;
+}
+.img-responsive{
+    display: block;
+        max-width: 100%;
+        height: auto;
+}
+.img-center{
+    margin: 0 auto;
+}
+.displayed_flag{
+    display: inline-block;
+        margin: 4px 0 0 10px;
+}
+.language_flags{
+    display: block;
+        text-align: left;
+        text-indent: 0;
+        margin-top: 5px;
+}
+.red-button{
+    background-color: #D47A7A !important;
+    border: 1px solid #C35555 !important;
+}
+input.small-submit {
+    margin: 0;
+    padding: 4px 8px;
+    background-color: #1cbfdb;
+    font-size: 12px;
+    font-weight: normal;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    min-width: 100px;
+    border: 1px solid #1CA4BB;
+    border-radius: 3px;
+    box-shadow: none;
+    transition: all 0.3s;
+}
+input.small-submit:hover {
+    box-shadow: none;
+    background: #1CA4BB;
+}
+
+.ogone_default_option_logo {width: 194px; height: 80px}
+
+.ogone-pm-actions { float: right; margin-right: 10px ; margin-top: 5px}
+
+.language_flags {display: none}
+
+
+.long-url {
+
+/* These are technically the same, but use both */
+overflow-wrap: break-word;
+word-wrap: break-word;
+
+-ms-word-break: break-all;
+/* This is the dangerous one in WebKit, as it breaks things wherever */
+word-break: break-all;
+/* Instead use this non-standard one: */
+word-break: break-word;
+
+/* Adds a hyphen where the word breaks, if supported (No Blink) */
+-ms-hyphens: auto;
+-moz-hyphens: auto;
+-webkit-hyphens: auto;
+hyphens: auto;
+
+}
+
+.branded {
+    float: right;
+    padding: 20px;
+    width: 190px
+}
+.hidden{
+    display: none;
+}
+
+.save_alert {display: none}
+
+SPAN.ogone-pm-pm {
+    background: #999;
+    color: #fff;
+    padding: 5px;
+    border-radius: 3px;
+    font-size: 12px !important;
+borer: 1px solid #eaeaea;
+}
+SPAN.ogone-pm-name {text-decoration: none;  text-transform: none;color: #666; font-weight: normal; margin-left: 20px; }
+
+
+SPAN.ogone-pm-description {    text-transform: none; text-decoration: none; color: #666; font-weight: normal; font-size:small; margin-left: 20px;}
+.ogone-panel {position: relative}
+.sticky-help {
+    position: absolute;
+    top: -10px;
+    right: 15px;
+    border-radius: 3px;
+    border: 1px solid #EAEAEA;
+    z-index: 99;
+    background-color: #D0F5FB;
+    padding: 10px;
+}
+
+.ogone-activate {font-size: 1.3em}
+
+
+.ogone_score_G SPAN {background-color: green !important}
+.ogone_score_O SPAN {background-color: orange !important}
+.ogone_score_R SPAN {background-color: red !important}
+
+#ingenicoOrder fieldset > div{
+    padding: 0 15px;
+}
+#capture_amount, #refund_amount{
+    height: 32px;
+    border: 1px solid #C7D6DB;
+    padding-left: 5px;
+}
+#ogone_capture, #ogone_refund{
+    border-radius: 0 3px 3px 0;
+}
+
+BODY:not(.ps_back-office) #ingenicoOrder {
+  margin-top: 20px !important;
+  margin-right: 30px;
+  /*  background: #EBEDF4;
+    border: 1px solid #CCCED7;
+    font-weight: 700;
+    padding: .2em .5em;
+    text-align: left;*/
+}
+
+BODY:not(.ps_back-office) #ingenicoOrder .third-block {
+   padding-bottom: 10px;
+   margin-right: 20px !important;
+   width: 100%
+
+}
+
+BODY:not(.ps_back-office) #ingenicoOrder .third-block DIV {
+   margin-right: 40px !important;
+
+}
+
+BODY:not(.ps_back-office) #ingenicoOrder .third-block LEGEND {
+   margin-bottom: 10px;
+   margin-top: -10px;
+
+
+}
+BODY:not(.ps_back-office) #ingenicoOrder .ogone_scoring SPAN {
+  padding: 5px;
+  border-radius: 10px;
+  color: white;
+  margin-top: 10px;
+
+
+}
+BODY:not(.ps_back-office) #ingenicoOrder .ogone_scoring {
+  display: inline-block;
+  margin: 10px 0 10px 0;
+}
+/*
+BODY:not(.ps_back-office) #ingenicoOrder  H3 {
+    background: #EBEDF4;
+    border: 1px solid #CCCED7;
+    font-weight: 700;
+    margin-top: -10px !important;
+    padding: 3px;
+    display: block-inline;
+    text-align: left;
+}*/
+
+
+
+.subscribe-resume .data-info-wrapper{
+  padding: 15px;
+  background: #f6f6f6;
+  margin-bottom: 15px;
+  border: 2px solid #e3e3e3;
+}
+.subscribe-resume .data-info{
+  margin: 0;
+  font-size: 0;
+  width: 100%;
+  border: 2px solid #e3e3e3;
+  border-bottom: 0;
+}
+.subscribe-resume .data-info th{
+  background: #e3e3e3;
+  font-size: 13px;
+  color: #414141 !important;
+  text-align: center;
+  word-wrap: break-word;
+}
+.subscribe-resume .data-info td{
+  word-wrap: break-word !important;
+}
+.subscribe-resume .data-info .datas{
+  position: relative;
+  margin-bottom: 5px;
+}
+.subscribe-resume .data-info .datas .item-number{
+  position: absolute;
+  text-align: center;
+  font-size: 13px;
+  line-height: 20px;
+  color: #fff;
+  width: 20px;
+  height: 20px;
+  background: #2fb5d2;
+  border-radius: 100%;
+  left: -5px;
+  top: -5px;
+}
+.subscribe-resume .data-info .item-order{
+  padding: 2px 10px;
+  margin: 3px 3px;
+  font-size: 12px;
+  border: 2px solid #e3e3e3;
+  background: #fff;
+  text-align: center;
+}
+.subscribe-resume .data-info .item-order a{
+  color: #2592a9;
+  font-weight: 600;
+}
+.subscribe-resume .data-info .item-order a:hover{
+  text-decoration: underline;
+}
+.subscribe-resume .data-info .item-order b{
+  color: #414141;
+}
+
+.label-pill {color: white;
+    border-radius: 6px;
+    padding: 2px 5px 2px 5px;
+    margin: 2px;
+    display: inline-block; }
+
+
+
+#top_container .ogone-tabs NAV a {
+    padding: 8px 11px !important;
+    margin: 0px 0px 0 0  !important;;
+    font-size: 11px !important;
+
+}

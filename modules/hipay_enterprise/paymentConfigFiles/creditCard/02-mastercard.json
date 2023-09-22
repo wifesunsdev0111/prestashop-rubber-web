@@ -1,0 +1,13 @@
+{
+  "name": "mastercard",
+  "config": {
+    "displayName": "Mastercard",
+    "activated": 1,
+    "minAmount": {
+      "EUR": 0
+    },
+    "maxAmount": {
+      "EUR": false
+    }
+  }
+}

@@ -1,0 +1,18 @@
+GitHub contributors:
+--------------------------------
+ - Caleydon
+ - Damien Metzger
+ - Francois Gaillard
+ - Gregory Roussac
+ - Jerome Nadaud
+ - Jérôme Nadaud
+ - Maxime Biloé
+ - Quetzacoalt91
+ - aleeks
+ - antoin-m
+ - djfm
+ - eternoendless
+ - julienbourdeau
+ - kpodemski
+ - maximebiloe
+ - xBorderie

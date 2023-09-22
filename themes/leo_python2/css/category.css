@@ -1,0 +1,93 @@
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/** CHECKOUT BY STEP */
+.heading-counter {
+  display: none;
+}
+
+.content_scene_cat_bg {
+  display: none;
+}
+
+.content_scene_cat .cat-desc {
+  display: none;
+}
+
+#subcategories {
+  margin-bottom: 20px;
+}
+#subcategories .product-list {
+  margin: 0;
+}
+
+.subcategories {
+  position: relative;
+  overflow: hidden;
+}
+.subcategories .image {
+  overflow: hidden;
+}
+.subcategories .image img {
+  opacity: 0.7;
+  filter: alpha(opacity=70);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -webkit-transition: opacity 0.35s ease 0s, transform 0.35s ease 0s;
+  -o-transition: opacity 0.35s ease 0s, transform 0.35s ease 0s;
+  transition: opacity 0.35s ease 0s, transform 0.35s ease 0s;
+  display: inline-block;
+}
+.subcategories .image a {
+  display: block;
+  background-color: black;
+  overflow: hidden;
+}
+.subcategories .cat-name a {
+  position: absolute;
+  font-size: 16px;
+  left: 0px;
+  right: 0px;
+  top: 0;
+  bottom: 0px;
+  margin: auto;
+  color: white;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  overflow: hidden;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  letter-spacing: 2px;
+}
+.subcategories .cat-desc {
+  overflow: hidden;
+  height: 53px;
+  display: none;
+}
+.subcategories:hover img {
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+}
+.subcategories:hover .cat-name a {
+  letter-spacing: 1px;
+  background-color: rgba(0, 0, 0, 0.2);
+  -webkit-transform: translate(0, -10px);
+  -ms-transform: translate(0, -10px);
+  transform: translate(0, -10px);
+}

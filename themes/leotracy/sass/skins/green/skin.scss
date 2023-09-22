@@ -1,0 +1,102 @@
+@import "compass";
+@import "theme_variables";
+
+$image-theme-base-path: "img/";
+
+$link-hover-color: 			#00923e;
+
+$theme-color-default: 		#00923e;
+
+$topbar-outside-bg: 		#212525;
+$topbar-bg: 				$topbar-outside-bg;
+$topbar-color: 				#9c9c9c;
+$topbar-color-hover: 		$link-hover-color;
+$topbar-link-color: 		#9c9c9c;
+$topbar-link-hover-color: 	$link-hover-color;
+$topbar-border:             1px solid #f6f4f4;
+
+$megamenu-link-bg-hover-color: $theme-color-default;
+$megamenu-sub-bg-color:          $theme-color-default;
+$background-custom-menu         :#045b00;
+
+$headermain-outside-bg: 	$body-bg;
+$headermain-bg: 			$headermain-outside-bg;
+$headermain-color: 			#9c9c9c;
+$headermain-color-hover: 		$link-hover-color;
+$headermain-link-hover-color: 	$link-hover-color;
+
+$mainnav-outside-border:	1px solid #e4e4e4;
+$mainnav-bg: 				$mainnav-outside-bg;
+$mainnav-color: 			#9c9c9c;
+$mainnav-color-hover: 		$link-hover-color;
+$mainnav-link-color: 		#9c9c9c;
+$mainnav-link-hover-color: 	$link-hover-color;
+
+$footer-color-hover:     	$link-hover-color;
+
+$footer-top-outside-border: 	#2c3131;
+$footer-top-outside-bg: 		#212525;
+$footer-top-bg: 				$footer-top-outside-bg;
+$footer-top-color: 				#9c9c9c;
+$footer-top-color-hover: 		$link-hover-color;
+
+$footer-center-outside-border: 	#2c3131;
+$footer-center-outside-bg: 		#1c1f1f;
+$footer-center-bg: 				$footer-center-outside-bg;
+$footer-center-color: 			#9c9c9c;
+$footer-center-color-hover: 	$link-hover-color;
+
+$footer-nav-outside-bg: 		#212525;
+$footer-nav-bg: 				$footer-nav-outside-bg;
+$footer-nav-color: 				#9c9c9c;
+$footer-nav-color-hover: 		$link-hover-color;
+
+$cart-heading-color : 					$theme-color-default;
+
+$vertical-menu-link-hover-color:    	$theme-color-default;
+
+$block-module-heading-bg:				$theme-color-default;
+$block-module-border-color: 			$border-color;
+$block-module-content-bg:				$white;
+
+$block-module-highlighted-bg			: #ffd926;
+$block-module-highlighted-border		: $base-border-color;
+
+$button-addtocart-bg-hover:         $theme-color-default;
+$button-addtocart-color:            $white;
+$button-addtocart-border-2:         $theme-color-default;
+$button-addtocart-hover-color:      $white;
+
+$product-name-color: 				#212525;
+$product-name-hover-color: 			$link-hover-color;
+$product-price-color: 				#e9573f;
+
+$breadcrumb-active-color: 			$link-hover-color;
+
+$nav-pills-active-link-hover-bg: 	$theme-color-default;
+
+$btn-success-bg: #00923e;
+
+// form 
+.product-block{
+  .functional-buttons{
+    .btn{
+      border: none;
+      &:hover{
+        background-color: #045b00;
+      }
+    }
+  }
+} 
+
+.btn-outline{
+  &:hover{
+     @include background-image(linear-gradient(#00ca56, #00923e)); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ca56', endColorstr='#00923e',GradientType=0 );
+    @include box-shadow(inset 0px 1px 0px #52bb7f);
+  }
+} 
+    .ct_menu{
+      background-color: $background-custom-menu;
+    }  
+@import "../_skin";

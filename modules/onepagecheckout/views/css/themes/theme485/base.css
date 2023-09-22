@@ -1,0 +1,55 @@
+textarea#message {
+  width: 99% !important;
+}
+
+#new_account_form p.checkbox input {
+    margin-left: 25px;
+	margin-bottom: 3px;
+}
+
+#carriers_section p.checkbox {
+    margin-bottom: 10px;
+    margin-left: 0;
+}
+
+form#voucher > fieldset > h4 {
+    float: left;
+    margin: 0 10px 3px 0;
+    padding: 12px 1px 3px 0;
+    text-align: left;
+}
+
+form#voucher > fieldset {
+	padding: 3px 0px;
+	border: 0px;
+}
+
+input.discount_name {
+	width: 270px; 
+}
+
+th.cart_delete {
+	display: none;
+}
+
+div#login_form_content p.submit {
+	padding-left: 0px !important;
+	margin-top: 2px;
+}
+
+#login_form {
+	padding-bottom: 7px;
+}
+
+#new_account_form p.select span {
+    display: inline;
+    margin: 0 0 3px 3px;
+    padding: 9px;
+    vertical-align: middle;
+    width: 18px;
+}
+
+#carriers_section p.checkbox span {
+    display: inline;
+    padding: 9px;
+}

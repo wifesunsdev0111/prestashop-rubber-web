@@ -1,0 +1,151 @@
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+.margin-form input[type="radio"] ~ label {
+    width: auto;
+    float: none;
+    vertical-align: -1px;
+}
+*, *:after, *:before {
+    box-sizing: border-box;
+}
+input[type="text"], select {
+    min-height: 26px;
+}
+table.table.list-ttn_reviews {
+    width: 100%;
+}
+.ets_ttn-panel .panel-heading {
+    font-size: 14px;
+    font-weight: 700;
+    color: #666;
+    line-height: 20px;
+    margin-top: 20px;
+}
+.no-record.not_items_found {
+    text-align: center;
+}
+.list-ttn_reviews label {
+    width: auto;
+    float: none;
+}
+input {
+    outline: none;
+}
+input[type="radio"],
+input[type="file"],
+input[type="checkbox"] {
+    cursor: pointer;
+}
+input[name="btnSubmit"],
+input[name="saveReview"] {
+    padding: 5px 15px;
+}
+.col-lg-2 {
+    width: 16.666%;
+    float: left;
+    position: relative;
+}
+.col-lg-9 {
+    float: left;
+    width: 83.333%;
+}
+ul.dropdown-menu {
+    background: #fff;
+    border: 1px solid #ddd;
+    position: absolute;
+    top: 100%;
+    display: none;
+}
+ul.dropdown-menu li a {
+    padding: 8px 12px;
+    display: block;
+}
+ul.dropdown-menu li:not(:last-child) {
+    border-bottom: 1px solid #ddd;
+}
+ul.dropdown-menu li a:hover {
+    background: #49b2ff;
+    color: #fff;
+}
+button.dropdown-toggle {
+    padding: 3px 10px;
+    min-height: 26px;
+}
+.panel-heading-action .add_new_link i {
+    font-size: 16px;
+    color: #999;
+}
+.ets_ttn-panel span.panel-heading-action {
+    float: right;
+}
+.form-control, 
+input[type=password], 
+input[type=search], 
+input[type=text], 
+select, 
+textarea {
+    -webkit-transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    -webkit-transition: border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    background-color: #f5f8f9;
+    background-image: none;
+    border: 1px solid #c7d6db;
+    border-radius: 3px;
+    color: #555;
+    font-size: 12px;
+    height: 31px;
+    line-height: 1.42857;
+    padding: 6px 8px;
+    transition: border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+}
+#ps_ets_ttn_review_form textarea {
+    width: 250px;
+    max-width: 100%;
+}
+.margin-form{
+    padding: 0 0 1em 260px;
+    color: #7F7F7F;
+    font-size: 0.85em;
+    position: relative;
+}
+div[class*="lang_"] {
+    
+}
+.btn-group {
+    position: relative;
+}
+td.enabled .action-disabled {
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,10 @@
+Message from {shop_name}
+
+
+Dear customer,
+
+You demanded deactivation of your subscription
+The verification is necessary from our customer service and can take a while.
+You can consult your subscriptions on {SUBSCRIPTION_URL}
+Here are details of your subscription:
+{SUBSCRIPTION_DESCRIPTION_TXT}

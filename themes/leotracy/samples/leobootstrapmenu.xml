@@ -1,0 +1,1103 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<dataSample>                                                   
+    <configurations>                                                   
+        <config>                                                   
+            <name><![CDATA[LEO_MEGAMENU_CAVAS]]></name>                                                   
+            <value><![CDATA[1]]></value>                                                   
+        </config>                                                   
+        <config>                                                   
+            <name><![CDATA[LEO_MEGAMENU_VERSION]]></name>                                                   
+            <value><![CDATA[3.0]]></value>                                                   
+        </config>                                                   
+    </configurations>                                                   
+    <fields objectName="Btmegamenu" objectFile="Btmegamenu.php" searchField="id_shop">
+        <field>
+            <id>1</id>
+            <image><![CDATA[]]></image>
+            <id_parent>0</id_parent>
+            <is_group>1</is_group>
+            <width><![CDATA[]]></width>
+            <submenu_width><![CDATA[]]></submenu_width>
+            <submenu_colum_width><![CDATA[]]></submenu_colum_width>
+            <item><![CDATA[]]></item>
+            <colums><![CDATA[1]]></colums>
+            <type><![CDATA[]]></type>
+            <is_content>0</is_content>
+            <show_title>0</show_title>
+            <is_cattree>1</is_cattree>
+            <level_depth>0</level_depth>
+            <active>0</active>
+            <position>0</position>
+            <show_sub>0</show_sub>
+            <url>
+            <en><![CDATA[]]></en>
+            <fr><![CDATA[]]></fr>
+            <de><![CDATA[]]></de>
+            <br><![CDATA[]]></br>
+            <it><![CDATA[]]></it>
+            <es><![CDATA[]]></es>
+            <ru><![CDATA[]]></ru>
+            <pl><![CDATA[]]></pl>
+            <ar><![CDATA[]]></ar>
+            <fa><![CDATA[]]></fa>
+            </url>
+            <target><![CDATA[]]></target>
+            <privacy></privacy>
+            <position_type><![CDATA[]]></position_type>
+            <menu_class><![CDATA[]]></menu_class>
+            <icon_class><![CDATA[]]></icon_class>
+            <content><![CDATA[]]></content>
+            <submenu_content><![CDATA[]]></submenu_content>
+            <level>0</level>
+            <left>0</left>
+            <right>0</right>
+            <date_add><![CDATA[]]></date_add>
+            <date_upd><![CDATA[]]></date_upd>
+            <title>
+            <en><![CDATA[Root]]></en>
+            <fr><![CDATA[Root]]></fr>
+            <de><![CDATA[Root]]></de>
+            <br><![CDATA[Root]]></br>
+            <it><![CDATA[Root]]></it>
+            <es><![CDATA[Root]]></es>
+            <ru><![CDATA[Root]]></ru>
+            <pl><![CDATA[Root]]></pl>
+            <ar><![CDATA[Root]]></ar>
+            <fa><![CDATA[Root]]></fa>
+            </title>
+            <text>
+            <en><![CDATA[]]></en>
+            <fr><![CDATA[]]></fr>
+            <de><![CDATA[]]></de>
+            <br><![CDATA[]]></br>
+            <it><![CDATA[]]></it>
+            <es><![CDATA[]]></es>
+            <ru><![CDATA[]]></ru>
+            <pl><![CDATA[]]></pl>
+            <ar><![CDATA[]]></ar>
+            <fa><![CDATA[]]></fa>
+            </text>
+            <description>
+            <en><![CDATA[]]></en>
+            <fr><![CDATA[]]></fr>
+            <de><![CDATA[]]></de>
+            <br><![CDATA[]]></br>
+            <it><![CDATA[]]></it>
+            <es><![CDATA[]]></es>
+            <ru><![CDATA[]]></ru>
+            <pl><![CDATA[]]></pl>
+            <ar><![CDATA[]]></ar>
+            <fa><![CDATA[]]></fa>
+            </description>
+            <content_text>
+            <en><![CDATA[]]></en>
+            <fr><![CDATA[]]></fr>
+            <de><![CDATA[]]></de>
+            <br><![CDATA[]]></br>
+            <it><![CDATA[]]></it>
+            <es><![CDATA[]]></es>
+            <ru><![CDATA[]]></ru>
+            <pl><![CDATA[]]></pl>
+            <ar><![CDATA[]]></ar>
+            <fa><![CDATA[]]></fa>
+            </content_text>
+            <submenu_catids><![CDATA[]]></submenu_catids>
+            <params><![CDATA[null]]></params>
+            <child_field field="id_parent">
+        <field>
+            <id>22</id>
+            <image><![CDATA[]]></image>
+            <id_parent>1</id_parent>
+            <is_group>0</is_group>
+            <width><![CDATA[]]></width>
+            <submenu_width><![CDATA[]]></submenu_width>
+            <submenu_colum_width><![CDATA[]]></submenu_colum_width>
+            <item><![CDATA[]]></item>
+            <colums><![CDATA[1]]></colums>
+            <type><![CDATA[url]]></type>
+            <is_content>0</is_content>
+            <show_title>1</show_title>
+            <is_cattree>1</is_cattree>
+            <level_depth>1</level_depth>
+            <active>1</active>
+            <position>0</position>
+            <show_sub>0</show_sub>
+            <url>
+            <en><![CDATA[]]></en>
+            <fr><![CDATA[]]></fr>
+            <de><![CDATA[]]></de>
+            <br><![CDATA[]]></br>
+            <it><![CDATA[]]></it>
+            <es><![CDATA[]]></es>
+            <ru><![CDATA[]]></ru>
+            <pl><![CDATA[]]></pl>
+            <ar><![CDATA[]]></ar>
+            <fa><![CDATA[]]></fa>
+            </url>
+            <target><![CDATA[_self]]></target>
+            <privacy>0</privacy>
+            <position_type><![CDATA[]]></position_type>
+            <menu_class><![CDATA[]]></menu_class>
+            <icon_class><![CDATA[]]></icon_class>
+            <content><![CDATA[]]></content>
+            <submenu_content><![CDATA[]]></submenu_content>
+            <level>0</level>
+            <left>0</left>
+            <right>0</right>
+            <date_add><![CDATA[2014-06-24 08:43:39]]></date_add>
+            <date_upd><![CDATA[2014-06-24 08:43:39]]></date_upd>
+            <title>
+            <en><![CDATA[Home]]></en>
+            <fr><![CDATA[Maison]]></fr>
+            <de><![CDATA[Zuhause]]></de>
+            <br><![CDATA[Casa]]></br>
+            <it><![CDATA[Casa]]></it>
+            <es><![CDATA[Casa]]></es>
+            <ru><![CDATA[домой]]></ru>
+            <pl><![CDATA[Dom]]></pl>
+            <ar><![CDATA[منزل]]></ar>
+            <fa><![CDATA[Home]]></fa>
+            </title>
+            <text>
+            <en><![CDATA[]]></en>
+            <fr><![CDATA[]]></fr>
+            <de><![CDATA[]]></de>
+            <br><![CDATA[]]></br>
+            <it><![CDATA[]]></it>
+            <es><![CDATA[]]></es>
+            <ru><![CDATA[]]></ru>
+            <pl><![CDATA[]]></pl>
+            <ar><![CDATA[]]></ar>
+            <fa><![CDATA[]]></fa>
+            </text>
+            <description>
+            <en><![CDATA[]]></en>
+            <fr><![CDATA[]]></fr>
+            <de><![CDATA[]]></de>
+            <br><![CDATA[]]></br>
+            <it><![CDATA[]]></it>
+            <es><![CDATA[]]></es>
+            <ru><![CDATA[]]></ru>
+            <pl><![CDATA[]]></pl>
+            <ar><![CDATA[]]></ar>
+            <fa><![CDATA[]]></fa>
+            </description>
+            <content_text>
+            <en><![CDATA[]]></en>
+            <fr><![CDATA[]]></fr>
+            <de><![CDATA[]]></de>
+            <br><![CDATA[]]></br>
+            <it><![CDATA[]]></it>
+            <es><![CDATA[]]></es>
+            <ru><![CDATA[]]></ru>
+            <pl><![CDATA[]]></pl>
+            <ar><![CDATA[]]></ar>
+            <fa><![CDATA[]]></fa>
+            </content_text>
+            <submenu_catids><![CDATA[]]></submenu_catids>
+            <params><![CDATA[null]]></params>
+        </field>
+        <field>
+            <id>23</id>
+            <image><![CDATA[]]></image>
+            <id_parent>1</id_parent>
+            <is_group>0</is_group>
+            <width><![CDATA[]]></width>
+            <submenu_width><![CDATA[]]></submenu_width>
+            <submenu_colum_width><![CDATA[]]></submenu_colum_width>
+            <item><![CDATA[3]]></item>
+            <colums><![CDATA[3]]></colums>
+            <type><![CDATA[category]]></type>
+            <is_content>0</is_content>
+            <show_title>1</show_title>
+            <is_cattree>1</is_cattree>
+            <level_depth>1</level_depth>
+            <active>1</active>
+            <position>1</position>
+            <show_sub>0</show_sub>
+            <url>
+            <en><![CDATA[]]></en>
+            <fr><![CDATA[]]></fr>
+            <de><![CDATA[]]></de>
+            <br><![CDATA[]]></br>
+            <it><![CDATA[]]></it>
+            <es><![CDATA[]]></es>
+            <ru><![CDATA[]]></ru>
+            <pl><![CDATA[]]></pl>
+            <ar><![CDATA[]]></ar>
+            <fa><![CDATA[]]></fa>
+            </url>
+            <target><![CDATA[_self]]></target>
+            <privacy>0</privacy>
+            <position_type><![CDATA[]]></position_type>
+            <menu_class><![CDATA[]]></menu_class>
+            <icon_class><![CDATA[]]></icon_class>
+            <content><![CDATA[]]></content>
+            <submenu_content><![CDATA[]]></submenu_content>
+            <level>0</level>
+            <left>0</left>
+            <right>0</right>
+            <date_add><![CDATA[2014-06-24 08:43:41]]></date_add>
+            <date_upd><![CDATA[2014-06-24 08:43:41]]></date_upd>
+            <title>
+            <en><![CDATA[Categories]]></en>
+            <fr><![CDATA[Catégories]]></fr>
+            <de><![CDATA[Kategorien]]></de>
+            <br><![CDATA[Categorias]]></br>
+            <it><![CDATA[Categorie]]></it>
+            <es><![CDATA[Categorías]]></es>
+            <ru><![CDATA[Категории]]></ru>
+            <pl><![CDATA[Categories]]></pl>
+            <ar><![CDATA[الفئات]]></ar>
+            <fa><![CDATA[Categories]]></fa>
+            </title>
+            <text>
+            <en><![CDATA[]]></en>
+            <fr><![CDATA[]]></fr>
+            <de><![CDATA[]]></de>
+            <br><![CDATA[]]></br>
+            <it><![CDATA[]]></it>
+            <es><![CDATA[]]></es>
+            <ru><![CDATA[]]></ru>
+            <pl><![CDATA[]]></pl>
+            <ar><![CDATA[]]></ar>
+            <fa><![CDATA[]]></fa>
+            </text>
+            <description>
+            <en><![CDATA[]]></en>
+            <fr><![CDATA[]]></fr>
+            <de><![CDATA[]]></de>
+            <br><![CDATA[]]></br>
+            <it><![CDATA[]]></it>
+            <es><![CDATA[]]></es>
+            <ru><![CDATA[]]></ru>
+            <pl><![CDATA[]]></pl>
+            <ar><![CDATA[]]></ar>
+            <fa><![CDATA[]]></fa>
+            </description>
+            <content_text>
+            <en><![CDATA[]]></en>
+            <fr><![CDATA[]]></fr>
+            <de><![CDATA[]]></de>
+            <br><![CDATA[]]></br>
+            <it><![CDATA[]]></it>
+            <es><![CDATA[]]></es>
+            <ru><![CDATA[]]></ru>
+            <pl><![CDATA[]]></pl>
+            <ar><![CDATA[]]></ar>
+            <fa><![CDATA[]]></fa>
+            </content_text>
+            <submenu_catids><![CDATA[]]></submenu_catids>
+            <params><![CDATA[{"submenu":1,"group":0,"align":"aligned-left","subwidth":680,"id":"23","cols":3,"rows":[{"cols":[{"widgets":"wid-1396516735","colwidth":4},{"widgets":"wid-1396514966","colwidth":4,"colclass":"list_poduct_menu"},{"widgets":"wid-1396517320","colwidth":4}]}]}]]></params>
+        </field>
+        <field>
+            <id>24</id>
+            <image><![CDATA[]]></image>
+            <id_parent>1</id_parent>
+            <is_group>0</is_group>
+            <width><![CDATA[]]></width>
+            <submenu_width><![CDATA[]]></submenu_width>
+            <submenu_colum_width><![CDATA[]]></submenu_colum_width>
+            <item><![CDATA[8]]></item>
+            <colums><![CDATA[3]]></colums>
+            <type><![CDATA[category]]></type>
+            <is_content>0</is_content>
+            <show_title>1</show_title>
+            <is_cattree>1</is_cattree>
+            <level_depth>1</level_depth>
+            <active>1</active>
+            <position>2</position>
+            <show_sub>0</show_sub>
+            <url>
+            <en><![CDATA[]]></en>
+            <fr><![CDATA[]]></fr>
+            <de><![CDATA[]]></de>
+            <br><![CDATA[]]></br>
+            <it><![CDATA[]]></it>
+            <es><![CDATA[]]></es>
+            <ru><![CDATA[]]></ru>
+            <pl><![CDATA[]]></pl>
+            <ar><![CDATA[]]></ar>
+            <fa><![CDATA[]]></fa>
+            </url>
+            <target><![CDATA[_self]]></target>
+            <privacy>0</privacy>
+            <position_type><![CDATA[]]></position_type>
+            <menu_class><![CDATA[]]></menu_class>
+            <icon_class><![CDATA[]]></icon_class>
+            <content><![CDATA[]]></content>
+            <submenu_content><![CDATA[]]></submenu_content>
+            <level>0</level>
+            <left>0</left>
+            <right>0</right>
+            <date_add><![CDATA[2014-06-24 08:43:43]]></date_add>
+            <date_upd><![CDATA[2014-06-24 08:43:43]]></date_upd>
+            <title>
+            <en><![CDATA[Community]]></en>
+            <fr><![CDATA[Communauté]]></fr>
+            <de><![CDATA[Gemeinde]]></de>
+            <br><![CDATA[Comunidade]]></br>
+            <it><![CDATA[Comunità]]></it>
+            <es><![CDATA[Comunidad]]></es>
+            <ru><![CDATA[сообщество]]></ru>
+            <pl><![CDATA[społeczność]]></pl>
+            <ar><![CDATA[مجتمع]]></ar>
+            <fa><![CDATA[Community]]></fa>
+            </title>
+            <text>
+            <en><![CDATA[]]></en>
+            <fr><![CDATA[]]></fr>
+            <de><![CDATA[]]></de>
+            <br><![CDATA[]]></br>
+            <it><![CDATA[]]></it>
+            <es><![CDATA[]]></es>
+            <ru><![CDATA[]]></ru>
+            <pl><![CDATA[]]></pl>
+            <ar><![CDATA[]]></ar>
+            <fa><![CDATA[]]></fa>
+            </text>
+            <description>
+            <en><![CDATA[]]></en>
+            <fr><![CDATA[]]></fr>
+            <de><![CDATA[]]></de>
+            <br><![CDATA[]]></br>
+            <it><![CDATA[]]></it>
+            <es><![CDATA[]]></es>
+            <ru><![CDATA[]]></ru>
+            <pl><![CDATA[]]></pl>
+            <ar><![CDATA[]]></ar>
+            <fa><![CDATA[]]></fa>
+            </description>
+            <content_text>
+            <en><![CDATA[]]></en>
+            <fr><![CDATA[]]></fr>
+            <de><![CDATA[]]></de>
+            <br><![CDATA[]]></br>
+            <it><![CDATA[]]></it>
+            <es><![CDATA[]]></es>
+            <ru><![CDATA[]]></ru>
+            <pl><![CDATA[]]></pl>
+            <ar><![CDATA[]]></ar>
+            <fa><![CDATA[]]></fa>
+            </content_text>
+            <submenu_catids><![CDATA[]]></submenu_catids>
+            <params><![CDATA[{"submenu":1,"group":0,"align":"aligned-left","subwidth":680,"id":"24","cols":3,"rows":[{"cols":[{"widgets":"wid-1396514966","colwidth":4},{"widgets":"wid-1396515200","colwidth":4},{"widgets":"wid-1396515406","colwidth":4}]},{"cols":[{"widgets":"wid-1396515821","colwidth":12}]}]}]]></params>
+        </field>
+        <field>
+            <id>25</id>
+            <image><![CDATA[]]></image>
+            <id_parent>1</id_parent>
+            <is_group>0</is_group>
+            <width><![CDATA[]]></width>
+            <submenu_width><![CDATA[]]></submenu_width>
+            <submenu_colum_width><![CDATA[]]></submenu_colum_width>
+            <item><![CDATA[4]]></item>
+            <colums><![CDATA[1]]></colums>
+            <type><![CDATA[category]]></type>
+            <is_content>0</is_content>
+            <show_title>1</show_title>
+            <is_cattree>1</is_cattree>
+            <level_depth>1</level_depth>
+            <active>1</active>
+            <position>3</position>
+            <show_sub>0</show_sub>
+            <url>
+            <en><![CDATA[]]></en>
+            <fr><![CDATA[]]></fr>
+            <de><![CDATA[]]></de>
+            <br><![CDATA[]]></br>
+            <it><![CDATA[]]></it>
+            <es><![CDATA[]]></es>
+            <ru><![CDATA[]]></ru>
+            <pl><![CDATA[]]></pl>
+            <ar><![CDATA[]]></ar>
+            <fa><![CDATA[]]></fa>
+            </url>
+            <target><![CDATA[_self]]></target>
+            <privacy>0</privacy>
+            <position_type><![CDATA[]]></position_type>
+            <menu_class><![CDATA[]]></menu_class>
+            <icon_class><![CDATA[]]></icon_class>
+            <content><![CDATA[]]></content>
+            <submenu_content><![CDATA[]]></submenu_content>
+            <level>0</level>
+            <left>0</left>
+            <right>0</right>
+            <date_add><![CDATA[2014-06-24 08:43:46]]></date_add>
+            <date_upd><![CDATA[2014-06-24 08:43:46]]></date_upd>
+            <title>
+            <en><![CDATA[Shop]]></en>
+            <fr><![CDATA[boutique]]></fr>
+            <de><![CDATA[Geschäft]]></de>
+            <br><![CDATA[loja]]></br>
+            <it><![CDATA[negozio]]></it>
+            <es><![CDATA[tienda]]></es>
+            <ru><![CDATA[магазин]]></ru>
+            <pl><![CDATA[sklep]]></pl>
+            <ar><![CDATA[متجر]]></ar>
+            <fa><![CDATA[shop]]></fa>
+            </title>
+            <text>
+            <en><![CDATA[]]></en>
+            <fr><![CDATA[]]></fr>
+            <de><![CDATA[]]></de>
+            <br><![CDATA[]]></br>
+            <it><![CDATA[]]></it>
+            <es><![CDATA[]]></es>
+            <ru><![CDATA[]]></ru>
+            <pl><![CDATA[]]></pl>
+            <ar><![CDATA[]]></ar>
+            <fa><![CDATA[]]></fa>
+            </text>
+            <description>
+            <en><![CDATA[]]></en>
+            <fr><![CDATA[]]></fr>
+            <de><![CDATA[]]></de>
+            <br><![CDATA[]]></br>
+            <it><![CDATA[]]></it>
+            <es><![CDATA[]]></es>
+            <ru><![CDATA[]]></ru>
+            <pl><![CDATA[]]></pl>
+            <ar><![CDATA[]]></ar>
+            <fa><![CDATA[]]></fa>
+            </description>
+            <content_text>
+            <en><![CDATA[]]></en>
+            <fr><![CDATA[]]></fr>
+            <de><![CDATA[]]></de>
+            <br><![CDATA[]]></br>
+            <it><![CDATA[]]></it>
+            <es><![CDATA[]]></es>
+            <ru><![CDATA[]]></ru>
+            <pl><![CDATA[]]></pl>
+            <ar><![CDATA[]]></ar>
+            <fa><![CDATA[]]></fa>
+            </content_text>
+            <submenu_catids><![CDATA[]]></submenu_catids>
+            <params><![CDATA[{"submenu":1,"group":0,"subwidth":150,"id":"25","cols":1,"rows":[]}]]></params>
+            <child_field field="id_parent">
+        <field>
+            <id>26</id>
+            <image><![CDATA[]]></image>
+            <id_parent>25</id_parent>
+            <is_group>0</is_group>
+            <width><![CDATA[]]></width>
+            <submenu_width><![CDATA[]]></submenu_width>
+            <submenu_colum_width><![CDATA[]]></submenu_colum_width>
+            <item><![CDATA[]]></item>
+            <colums><![CDATA[1]]></colums>
+            <type><![CDATA[url]]></type>
+            <is_content>0</is_content>
+            <show_title>1</show_title>
+            <is_cattree>1</is_cattree>
+            <level_depth>2</level_depth>
+            <active>1</active>
+            <position>0</position>
+            <show_sub>0</show_sub>
+            <url>
+            <en><![CDATA[]]></en>
+            <fr><![CDATA[]]></fr>
+            <de><![CDATA[]]></de>
+            <br><![CDATA[]]></br>
+            <it><![CDATA[]]></it>
+            <es><![CDATA[]]></es>
+            <ru><![CDATA[]]></ru>
+            <pl><![CDATA[]]></pl>
+            <ar><![CDATA[]]></ar>
+            <fa><![CDATA[]]></fa>
+            </url>
+            <target><![CDATA[_self]]></target>
+            <privacy>0</privacy>
+            <position_type><![CDATA[]]></position_type>
+            <menu_class><![CDATA[]]></menu_class>
+            <icon_class><![CDATA[]]></icon_class>
+            <content><![CDATA[]]></content>
+            <submenu_content><![CDATA[]]></submenu_content>
+            <level>0</level>
+            <left>0</left>
+            <right>0</right>
+            <date_add><![CDATA[2014-06-24 08:43:48]]></date_add>
+            <date_upd><![CDATA[2014-06-24 08:43:48]]></date_upd>
+            <title>
+            <en><![CDATA[Samsung]]></en>
+            <fr><![CDATA[Samsung]]></fr>
+            <de><![CDATA[Samsung]]></de>
+            <br><![CDATA[Samsung]]></br>
+            <it><![CDATA[Samsung]]></it>
+            <es><![CDATA[Samsung]]></es>
+            <ru><![CDATA[Samsung]]></ru>
+            <pl><![CDATA[Samsung]]></pl>
+            <ar><![CDATA[Samsung]]></ar>
+            <fa><![CDATA[Samsung]]></fa>
+            </title>
+            <text>
+            <en><![CDATA[]]></en>
+            <fr><![CDATA[]]></fr>
+            <de><![CDATA[]]></de>
+            <br><![CDATA[]]></br>
+            <it><![CDATA[]]></it>
+            <es><![CDATA[]]></es>
+            <ru><![CDATA[]]></ru>
+            <pl><![CDATA[]]></pl>
+            <ar><![CDATA[]]></ar>
+            <fa><![CDATA[]]></fa>
+            </text>
+            <description>
+            <en><![CDATA[]]></en>
+            <fr><![CDATA[]]></fr>
+            <de><![CDATA[]]></de>
+            <br><![CDATA[]]></br>
+            <it><![CDATA[]]></it>
+            <es><![CDATA[]]></es>
+            <ru><![CDATA[]]></ru>
+            <pl><![CDATA[]]></pl>
+            <ar><![CDATA[]]></ar>
+            <fa><![CDATA[]]></fa>
+            </description>
+            <content_text>
+            <en><![CDATA[]]></en>
+            <fr><![CDATA[]]></fr>
+            <de><![CDATA[]]></de>
+            <br><![CDATA[]]></br>
+            <it><![CDATA[]]></it>
+            <es><![CDATA[]]></es>
+            <ru><![CDATA[]]></ru>
+            <pl><![CDATA[]]></pl>
+            <ar><![CDATA[]]></ar>
+            <fa><![CDATA[]]></fa>
+            </content_text>
+            <submenu_catids><![CDATA[]]></submenu_catids>
+            <params><![CDATA[{"id":"26","group":0,"cols":1,"submenu":1,"rows":[]}]]></params>
+            <child_field field="id_parent">
+        <field>
+            <id>27</id>
+            <image><![CDATA[]]></image>
+            <id_parent>26</id_parent>
+            <is_group>0</is_group>
+            <width><![CDATA[]]></width>
+            <submenu_width><![CDATA[]]></submenu_width>
+            <submenu_colum_width><![CDATA[]]></submenu_colum_width>
+            <item><![CDATA[]]></item>
+            <colums><![CDATA[1]]></colums>
+            <type><![CDATA[url]]></type>
+            <is_content>0</is_content>
+            <show_title>1</show_title>
+            <is_cattree>1</is_cattree>
+            <level_depth>3</level_depth>
+            <active>1</active>
+            <position>0</position>
+            <show_sub>0</show_sub>
+            <url>
+            <en><![CDATA[]]></en>
+            <fr><![CDATA[]]></fr>
+            <de><![CDATA[]]></de>
+            <br><![CDATA[]]></br>
+            <it><![CDATA[]]></it>
+            <es><![CDATA[]]></es>
+            <ru><![CDATA[]]></ru>
+            <pl><![CDATA[]]></pl>
+            <ar><![CDATA[]]></ar>
+            <fa><![CDATA[]]></fa>
+            </url>
+            <target><![CDATA[_self]]></target>
+            <privacy>0</privacy>
+            <position_type><![CDATA[]]></position_type>
+            <menu_class><![CDATA[]]></menu_class>
+            <icon_class><![CDATA[]]></icon_class>
+            <content><![CDATA[]]></content>
+            <submenu_content><![CDATA[]]></submenu_content>
+            <level>0</level>
+            <left>0</left>
+            <right>0</right>
+            <date_add><![CDATA[2014-06-24 08:43:51]]></date_add>
+            <date_upd><![CDATA[2014-06-24 08:43:51]]></date_upd>
+            <title>
+            <en><![CDATA[Test]]></en>
+            <fr><![CDATA[Test]]></fr>
+            <de><![CDATA[Test]]></de>
+            <br><![CDATA[Test]]></br>
+            <it><![CDATA[Test]]></it>
+            <es><![CDATA[Test]]></es>
+            <ru><![CDATA[Test]]></ru>
+            <pl><![CDATA[Test]]></pl>
+            <ar><![CDATA[Test]]></ar>
+            <fa><![CDATA[Test]]></fa>
+            </title>
+            <text>
+            <en><![CDATA[]]></en>
+            <fr><![CDATA[]]></fr>
+            <de><![CDATA[]]></de>
+            <br><![CDATA[]]></br>
+            <it><![CDATA[]]></it>
+            <es><![CDATA[]]></es>
+            <ru><![CDATA[]]></ru>
+            <pl><![CDATA[]]></pl>
+            <ar><![CDATA[]]></ar>
+            <fa><![CDATA[]]></fa>
+            </text>
+            <description>
+            <en><![CDATA[]]></en>
+            <fr><![CDATA[]]></fr>
+            <de><![CDATA[]]></de>
+            <br><![CDATA[]]></br>
+            <it><![CDATA[]]></it>
+            <es><![CDATA[]]></es>
+            <ru><![CDATA[]]></ru>
+            <pl><![CDATA[]]></pl>
+            <ar><![CDATA[]]></ar>
+            <fa><![CDATA[]]></fa>
+            </description>
+            <content_text>
+            <en><![CDATA[]]></en>
+            <fr><![CDATA[]]></fr>
+            <de><![CDATA[]]></de>
+            <br><![CDATA[]]></br>
+            <it><![CDATA[]]></it>
+            <es><![CDATA[]]></es>
+            <ru><![CDATA[]]></ru>
+            <pl><![CDATA[]]></pl>
+            <ar><![CDATA[]]></ar>
+            <fa><![CDATA[]]></fa>
+            </content_text>
+            <submenu_catids><![CDATA[]]></submenu_catids>
+            <params><![CDATA[{"id":"27","group":0,"cols":1,"submenu":1,"rows":[]}]]></params>
+            <child_field field="id_parent">
+        <field>
+            <id>28</id>
+            <image><![CDATA[]]></image>
+            <id_parent>27</id_parent>
+            <is_group>0</is_group>
+            <width><![CDATA[]]></width>
+            <submenu_width><![CDATA[]]></submenu_width>
+            <submenu_colum_width><![CDATA[]]></submenu_colum_width>
+            <item><![CDATA[]]></item>
+            <colums><![CDATA[1]]></colums>
+            <type><![CDATA[url]]></type>
+            <is_content>0</is_content>
+            <show_title>1</show_title>
+            <is_cattree>1</is_cattree>
+            <level_depth>4</level_depth>
+            <active>1</active>
+            <position>0</position>
+            <show_sub>0</show_sub>
+            <url>
+            <en><![CDATA[]]></en>
+            <fr><![CDATA[]]></fr>
+            <de><![CDATA[]]></de>
+            <br><![CDATA[]]></br>
+            <it><![CDATA[]]></it>
+            <es><![CDATA[]]></es>
+            <ru><![CDATA[]]></ru>
+            <pl><![CDATA[]]></pl>
+            <ar><![CDATA[]]></ar>
+            <fa><![CDATA[]]></fa>
+            </url>
+            <target><![CDATA[_self]]></target>
+            <privacy>0</privacy>
+            <position_type><![CDATA[]]></position_type>
+            <menu_class><![CDATA[]]></menu_class>
+            <icon_class><![CDATA[]]></icon_class>
+            <content><![CDATA[]]></content>
+            <submenu_content><![CDATA[]]></submenu_content>
+            <level>0</level>
+            <left>0</left>
+            <right>0</right>
+            <date_add><![CDATA[2014-06-24 08:43:53]]></date_add>
+            <date_upd><![CDATA[2014-06-24 08:43:53]]></date_upd>
+            <title>
+            <en><![CDATA[Proin ac sapien ut]]></en>
+            <fr><![CDATA[Proin ac sapien ut]]></fr>
+            <de><![CDATA[Proin ac sapien ut]]></de>
+            <br><![CDATA[Proin ac sapien ut]]></br>
+            <it><![CDATA[Proin ac sapien ut]]></it>
+            <es><![CDATA[Proin ac sapien ut]]></es>
+            <ru><![CDATA[Proin ac sapien ut]]></ru>
+            <pl><![CDATA[Proin ac sapien ut]]></pl>
+            <ar><![CDATA[Proin ac sapien ut]]></ar>
+            <fa><![CDATA[Proin ac sapien ut]]></fa>
+            </title>
+            <text>
+            <en><![CDATA[]]></en>
+            <fr><![CDATA[]]></fr>
+            <de><![CDATA[]]></de>
+            <br><![CDATA[]]></br>
+            <it><![CDATA[]]></it>
+            <es><![CDATA[]]></es>
+            <ru><![CDATA[]]></ru>
+            <pl><![CDATA[]]></pl>
+            <ar><![CDATA[]]></ar>
+            <fa><![CDATA[]]></fa>
+            </text>
+            <description>
+            <en><![CDATA[]]></en>
+            <fr><![CDATA[]]></fr>
+            <de><![CDATA[]]></de>
+            <br><![CDATA[]]></br>
+            <it><![CDATA[]]></it>
+            <es><![CDATA[]]></es>
+            <ru><![CDATA[]]></ru>
+            <pl><![CDATA[]]></pl>
+            <ar><![CDATA[]]></ar>
+            <fa><![CDATA[]]></fa>
+            </description>
+            <content_text>
+            <en><![CDATA[]]></en>
+            <fr><![CDATA[]]></fr>
+            <de><![CDATA[]]></de>
+            <br><![CDATA[]]></br>
+            <it><![CDATA[]]></it>
+            <es><![CDATA[]]></es>
+            <ru><![CDATA[]]></ru>
+            <pl><![CDATA[]]></pl>
+            <ar><![CDATA[]]></ar>
+            <fa><![CDATA[]]></fa>
+            </content_text>
+            <submenu_catids><![CDATA[]]></submenu_catids>
+            <params><![CDATA[null]]></params>
+        </field>
+            </child_field>
+        </field>
+            </child_field>
+        </field>
+        <field>
+            <id>29</id>
+            <image><![CDATA[]]></image>
+            <id_parent>25</id_parent>
+            <is_group>0</is_group>
+            <width><![CDATA[]]></width>
+            <submenu_width><![CDATA[]]></submenu_width>
+            <submenu_colum_width><![CDATA[]]></submenu_colum_width>
+            <item><![CDATA[]]></item>
+            <colums><![CDATA[1]]></colums>
+            <type><![CDATA[url]]></type>
+            <is_content>0</is_content>
+            <show_title>1</show_title>
+            <is_cattree>1</is_cattree>
+            <level_depth>2</level_depth>
+            <active>1</active>
+            <position>1</position>
+            <show_sub>0</show_sub>
+            <url>
+            <en><![CDATA[]]></en>
+            <fr><![CDATA[]]></fr>
+            <de><![CDATA[]]></de>
+            <br><![CDATA[]]></br>
+            <it><![CDATA[]]></it>
+            <es><![CDATA[]]></es>
+            <ru><![CDATA[]]></ru>
+            <pl><![CDATA[]]></pl>
+            <ar><![CDATA[]]></ar>
+            <fa><![CDATA[]]></fa>
+            </url>
+            <target><![CDATA[_self]]></target>
+            <privacy>0</privacy>
+            <position_type><![CDATA[]]></position_type>
+            <menu_class><![CDATA[]]></menu_class>
+            <icon_class><![CDATA[]]></icon_class>
+            <content><![CDATA[]]></content>
+            <submenu_content><![CDATA[]]></submenu_content>
+            <level>0</level>
+            <left>0</left>
+            <right>0</right>
+            <date_add><![CDATA[2014-06-24 08:43:54]]></date_add>
+            <date_upd><![CDATA[2014-06-24 08:43:54]]></date_upd>
+            <title>
+            <en><![CDATA[Donec magna diam]]></en>
+            <fr><![CDATA[Donec magna diam]]></fr>
+            <de><![CDATA[Donec magna diam]]></de>
+            <br><![CDATA[Donec magna diam]]></br>
+            <it><![CDATA[Donec magna diam]]></it>
+            <es><![CDATA[Donec magna diam]]></es>
+            <ru><![CDATA[Donec magna diam]]></ru>
+            <pl><![CDATA[Donec magna diam]]></pl>
+            <ar><![CDATA[Donec magna diam]]></ar>
+            <fa><![CDATA[Donec magna diam]]></fa>
+            </title>
+            <text>
+            <en><![CDATA[]]></en>
+            <fr><![CDATA[]]></fr>
+            <de><![CDATA[]]></de>
+            <br><![CDATA[]]></br>
+            <it><![CDATA[]]></it>
+            <es><![CDATA[]]></es>
+            <ru><![CDATA[]]></ru>
+            <pl><![CDATA[]]></pl>
+            <ar><![CDATA[]]></ar>
+            <fa><![CDATA[]]></fa>
+            </text>
+            <description>
+            <en><![CDATA[]]></en>
+            <fr><![CDATA[]]></fr>
+            <de><![CDATA[]]></de>
+            <br><![CDATA[]]></br>
+            <it><![CDATA[]]></it>
+            <es><![CDATA[]]></es>
+            <ru><![CDATA[]]></ru>
+            <pl><![CDATA[]]></pl>
+            <ar><![CDATA[]]></ar>
+            <fa><![CDATA[]]></fa>
+            </description>
+            <content_text>
+            <en><![CDATA[]]></en>
+            <fr><![CDATA[]]></fr>
+            <de><![CDATA[]]></de>
+            <br><![CDATA[]]></br>
+            <it><![CDATA[]]></it>
+            <es><![CDATA[]]></es>
+            <ru><![CDATA[]]></ru>
+            <pl><![CDATA[]]></pl>
+            <ar><![CDATA[]]></ar>
+            <fa><![CDATA[]]></fa>
+            </content_text>
+            <submenu_catids><![CDATA[]]></submenu_catids>
+            <params><![CDATA[null]]></params>
+        </field>
+            </child_field>
+        </field>
+        <field>
+            <id>30</id>
+            <image><![CDATA[]]></image>
+            <id_parent>1</id_parent>
+            <is_group>0</is_group>
+            <width><![CDATA[]]></width>
+            <submenu_width><![CDATA[]]></submenu_width>
+            <submenu_colum_width><![CDATA[]]></submenu_colum_width>
+            <item><![CDATA[1]]></item>
+            <colums><![CDATA[1]]></colums>
+            <type><![CDATA[cms]]></type>
+            <is_content>0</is_content>
+            <show_title>1</show_title>
+            <is_cattree>1</is_cattree>
+            <level_depth>1</level_depth>
+            <active>1</active>
+            <position>4</position>
+            <show_sub>0</show_sub>
+            <url>
+            <en><![CDATA[]]></en>
+            <fr><![CDATA[]]></fr>
+            <de><![CDATA[]]></de>
+            <br><![CDATA[]]></br>
+            <it><![CDATA[]]></it>
+            <es><![CDATA[]]></es>
+            <ru><![CDATA[]]></ru>
+            <pl><![CDATA[]]></pl>
+            <ar><![CDATA[]]></ar>
+            <fa><![CDATA[]]></fa>
+            </url>
+            <target><![CDATA[_self]]></target>
+            <privacy>0</privacy>
+            <position_type><![CDATA[]]></position_type>
+            <menu_class><![CDATA[]]></menu_class>
+            <icon_class><![CDATA[]]></icon_class>
+            <content><![CDATA[]]></content>
+            <submenu_content><![CDATA[]]></submenu_content>
+            <level>0</level>
+            <left>0</left>
+            <right>0</right>
+            <date_add><![CDATA[2014-06-24 08:43:55]]></date_add>
+            <date_upd><![CDATA[2014-06-24 08:43:55]]></date_upd>
+            <title>
+            <en><![CDATA[Delivery]]></en>
+            <fr><![CDATA[livraison]]></fr>
+            <de><![CDATA[Lieferung]]></de>
+            <br><![CDATA[entrega]]></br>
+            <it><![CDATA[consegna]]></it>
+            <es><![CDATA[entrega]]></es>
+            <ru><![CDATA[доставка]]></ru>
+            <pl><![CDATA[dostawa]]></pl>
+            <ar><![CDATA[تسليم]]></ar>
+            <fa><![CDATA[Delivery]]></fa>
+            </title>
+            <text>
+            <en><![CDATA[]]></en>
+            <fr><![CDATA[]]></fr>
+            <de><![CDATA[]]></de>
+            <br><![CDATA[]]></br>
+            <it><![CDATA[]]></it>
+            <es><![CDATA[]]></es>
+            <ru><![CDATA[]]></ru>
+            <pl><![CDATA[]]></pl>
+            <ar><![CDATA[]]></ar>
+            <fa><![CDATA[]]></fa>
+            </text>
+            <description>
+            <en><![CDATA[]]></en>
+            <fr><![CDATA[]]></fr>
+            <de><![CDATA[]]></de>
+            <br><![CDATA[]]></br>
+            <it><![CDATA[]]></it>
+            <es><![CDATA[]]></es>
+            <ru><![CDATA[]]></ru>
+            <pl><![CDATA[]]></pl>
+            <ar><![CDATA[]]></ar>
+            <fa><![CDATA[]]></fa>
+            </description>
+            <content_text>
+            <en><![CDATA[]]></en>
+            <fr><![CDATA[]]></fr>
+            <de><![CDATA[]]></de>
+            <br><![CDATA[]]></br>
+            <it><![CDATA[]]></it>
+            <es><![CDATA[]]></es>
+            <ru><![CDATA[]]></ru>
+            <pl><![CDATA[]]></pl>
+            <ar><![CDATA[]]></ar>
+            <fa><![CDATA[]]></fa>
+            </content_text>
+            <submenu_catids><![CDATA[]]></submenu_catids>
+            <params><![CDATA[{"submenu":1,"group":0,"subwidth":325,"id":"30","cols":1,"rows":[]}]]></params>
+        </field>
+        <field>
+            <id>31</id>
+            <image><![CDATA[]]></image>
+            <id_parent>1</id_parent>
+            <is_group>0</is_group>
+            <width><![CDATA[]]></width>
+            <submenu_width><![CDATA[]]></submenu_width>
+            <submenu_colum_width><![CDATA[]]></submenu_colum_width>
+            <item><![CDATA[4]]></item>
+            <colums><![CDATA[1]]></colums>
+            <type><![CDATA[url]]></type>
+            <is_content>0</is_content>
+            <show_title>1</show_title>
+            <is_cattree>1</is_cattree>
+            <level_depth>1</level_depth>
+            <active>1</active>
+            <position>5</position>
+            <show_sub>0</show_sub>
+            <url>
+            <en><![CDATA[]]></en>
+            <fr><![CDATA[]]></fr>
+            <de><![CDATA[]]></de>
+            <br><![CDATA[]]></br>
+            <it><![CDATA[]]></it>
+            <es><![CDATA[]]></es>
+            <ru><![CDATA[]]></ru>
+            <pl><![CDATA[]]></pl>
+            <ar><![CDATA[]]></ar>
+            <fa><![CDATA[]]></fa>
+            </url>
+            <target><![CDATA[_self]]></target>
+            <privacy>0</privacy>
+            <position_type><![CDATA[]]></position_type>
+            <menu_class><![CDATA[]]></menu_class>
+            <icon_class><![CDATA[]]></icon_class>
+            <content><![CDATA[]]></content>
+            <submenu_content><![CDATA[]]></submenu_content>
+            <level>0</level>
+            <left>0</left>
+            <right>0</right>
+            <date_add><![CDATA[2014-06-24 08:43:57]]></date_add>
+            <date_upd><![CDATA[2014-06-24 08:43:57]]></date_upd>
+            <title>
+            <en><![CDATA[About Us]]></en>
+            <fr><![CDATA[Qui sommes-nous]]></fr>
+            <de><![CDATA[Über uns]]></de>
+            <br><![CDATA[Quem Somos]]></br>
+            <it><![CDATA[About Us]]></it>
+            <es><![CDATA[Quiénes somos]]></es>
+            <ru><![CDATA[О нас]]></ru>
+            <pl><![CDATA[o nas]]></pl>
+            <ar><![CDATA[من نحن]]></ar>
+            <fa><![CDATA[About Us]]></fa>
+            </title>
+            <text>
+            <en><![CDATA[]]></en>
+            <fr><![CDATA[]]></fr>
+            <de><![CDATA[]]></de>
+            <br><![CDATA[]]></br>
+            <it><![CDATA[]]></it>
+            <es><![CDATA[]]></es>
+            <ru><![CDATA[]]></ru>
+            <pl><![CDATA[]]></pl>
+            <ar><![CDATA[]]></ar>
+            <fa><![CDATA[]]></fa>
+            </text>
+            <description>
+            <en><![CDATA[]]></en>
+            <fr><![CDATA[]]></fr>
+            <de><![CDATA[]]></de>
+            <br><![CDATA[]]></br>
+            <it><![CDATA[]]></it>
+            <es><![CDATA[]]></es>
+            <ru><![CDATA[]]></ru>
+            <pl><![CDATA[]]></pl>
+            <ar><![CDATA[]]></ar>
+            <fa><![CDATA[]]></fa>
+            </description>
+            <content_text>
+            <en><![CDATA[]]></en>
+            <fr><![CDATA[]]></fr>
+            <de><![CDATA[]]></de>
+            <br><![CDATA[]]></br>
+            <it><![CDATA[]]></it>
+            <es><![CDATA[]]></es>
+            <ru><![CDATA[]]></ru>
+            <pl><![CDATA[]]></pl>
+            <ar><![CDATA[]]></ar>
+            <fa><![CDATA[]]></fa>
+            </content_text>
+            <submenu_catids><![CDATA[]]></submenu_catids>
+            <params><![CDATA[null]]></params>
+        </field>
+            </child_field>
+        </field>
+    </fields>
+    <sql><![CDATA[CREATE TABLE IF NOT EXISTS `PREFIX_btmegamenu` (
+  `id_btmegamenu` int(11) NOT NULL AUTO_INCREMENT,
+  `image` varchar(255) NOT NULL,
+  `id_parent` int(11) NOT NULL,
+  `is_group` tinyint(1) NOT NULL,
+  `width` varchar(255) DEFAULT NULL,
+  `submenu_width` varchar(255) DEFAULT NULL,
+  `submenu_colum_width` varchar(255) DEFAULT NULL,
+  `item` varchar(255) DEFAULT NULL,
+  `colums` varchar(255) DEFAULT NULL,
+  `type` varchar(255) NOT NULL,
+  `is_content` tinyint(1) NOT NULL,
+  `show_title` tinyint(1) NOT NULL,
+  `type_submenu` varchar(10) NOT NULL,
+  `level_depth` smallint(6) NOT NULL,
+  `active` tinyint(1) NOT NULL,
+  `position` int(11) NOT NULL,
+  `submenu_content` text NOT NULL,
+  `show_sub` tinyint(1) NOT NULL,
+  `target` varchar(25) DEFAULT NULL,
+  `privacy` smallint(6) DEFAULT NULL,
+  `position_type` varchar(25) DEFAULT NULL,
+  `menu_class` varchar(25) DEFAULT NULL,
+  `content` text,
+  `icon_class` varchar(255) DEFAULT NULL,
+  `level` int(11) NOT NULL,
+  `left` int(11) NOT NULL,
+  `right` int(11) NOT NULL,
+  `submenu_catids` text,
+  `is_cattree` tinyint(1) DEFAULT '1',
+  `date_add` datetime DEFAULT NULL,
+  `date_upd` datetime DEFAULT NULL,
+  PRIMARY KEY (`id_btmegamenu`)
+) ENGINE=ENGINE_TYPE AUTO_INCREMENT=32 DEFAULT CHARSET=utf8;
+
+CREATE TABLE IF NOT EXISTS `PREFIX_btmegamenu_lang` (
+  `id_btmegamenu` int(11) NOT NULL,
+  `id_lang` int(11) NOT NULL,
+  `title` varchar(255) DEFAULT NULL,
+  `text` varchar(255) DEFAULT NULL,
+  `url` varchar(255) DEFAULT NULL,
+  `description` text,
+  `content_text` text,
+  `submenu_content_text` text,
+  PRIMARY KEY (`id_btmegamenu`,`id_lang`)
+) ENGINE=ENGINE_TYPE DEFAULT CHARSET=utf8;
+
+CREATE TABLE IF NOT EXISTS `PREFIX_btmegamenu_shop` (
+  `id_btmegamenu` int(11) NOT NULL DEFAULT '0',
+  `id_shop` int(11) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id_btmegamenu`,`id_shop`)
+) ENGINE=ENGINE_TYPE DEFAULT CHARSET=utf8;
+
+]]></sql>
+    <hooks>
+        <hook module="leobootstrapmenu" hook="topNavigation" position="1" exceptions=""/>
+    </hooks>
+</dataSample>

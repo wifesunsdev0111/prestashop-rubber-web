@@ -1,0 +1,91 @@
+.product-block {
+	.quick-view{
+        @include opacity(0);
+        visibility: hidden;   
+        position: absolute; 
+        top: 50%;
+        @include rtl-left(50%);
+	    @include rtl-margin-left(-14px);
+        margin-top: -14px;
+        @include transition (all 0.4s ease 0s);
+    }
+    .functional-buttons{
+        width: 101%;
+        position: absolute;
+        @include rtl-left(0);
+        bottom: -300px;
+        @include transition(all ease 0.5s);   
+        .wishlist{
+            border-left: 1px solid darken($button-addtocart-bg-hover,5%);
+            border-right: 1px solid darken($button-addtocart-bg-hover,5%);
+            @include box-sizing(border-box);
+        }
+        .lnk_view{
+            background-image: url(#{$image-theme-base-path}icon_lnk.png) ;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .btn{
+            width: 20%;
+            line-height: 23px;
+            @include rtl-float-left();
+            height: 33px;
+            @include transition(all ease 0.6s);  
+            @include border-radius (0);
+            span{display: none;}
+            position: relative;
+        }
+        .ajax_add_to_cart_button{
+            width: 60%;
+            @extend .lnk_view;
+            background-image: url(#{$image-theme-base-path}icon-cart.png) ;
+            background-position: 7px 6px;
+            span{display: inline-block;}
+            .fa{
+                font-size: 16px;
+            }
+        }
+    }
+    &:hover{
+        .quick-view{
+            @include opacity(1);
+            visibility: visible;  
+            @include transition (all 0.4s ease 0s);
+        }
+        .functional-buttons{
+            @include transition(all ease 0.5s);
+            @include rtl-left(0);
+            bottom: 0;
+        }
+    }
+}
+
+.effect {    
+    a{
+        position: relative;
+        display: inline-block;
+        &:before{
+            position: absolute;
+            content: "";
+            top: 0;
+            @include rtl-left(0);
+            @include size(0,0);
+            margin: auto;
+            background-color: rgba(255, 255, 255, 0.1);
+            @include transition (all 0.3s ease-out 0s);
+        }
+        &:after{
+            content: "";
+            position: absolute;
+            @include rtl-right(0);
+            bottom: 0;
+            @include size(0,0);
+            background-color: rgba(255, 255, 255, 0.1);
+            @include transition (all 0.3s ease-out 0s);
+        }
+        &:hover:before,
+        &:hover:after{
+            @include size(100%,100%);
+        }
+    }
+}

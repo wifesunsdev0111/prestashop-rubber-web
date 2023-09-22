@@ -1,0 +1,301 @@
+/**
+* 2007-2018 PrestaShop
+*
+* NOTICE OF LICENSE
+*
+* This source file is subject to the Academic Free License (AFL 3.0)
+* that is bundled with this package in the file LICENSE.txt.
+* It is also available through the world-wide-web at this URL:
+* http://opensource.org/licenses/afl-3.0.php
+* If you did not receive a copy of the license and are unable to
+* obtain it through the world-wide-web, please send an email
+* to license@prestashop.com so we can send you a copy immediately.
+*
+* DISCLAIMER
+*
+* Do not edit or add to this file if you wish to upgrade PrestaShop to newer
+* versions in the future. If you wish to customize PrestaShop for your
+* needs please refer to http://www.prestashop.com for more information.
+*
+*  @author    PrestaShop SA <contact@prestashop.com>
+*  @copyright 2007-2018 PrestaShop SA
+*  @license   http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+*  International Registered Trademark & Property of PrestaShop SA
+*
+* Don't forget to prefix your containers with your own identifier
+* to avoid any conflicts with others containers.
+*/
+
+#submitAge{
+    margin-top:20px;
+}
+
+.btn_confirm{
+    margin-left: 20px;
+}
+
+.day{
+    width: 75px;
+    float: left;
+}
+
+.month{
+    width: 75px;
+    float: left;
+    margin-left: 5px;
+}
+
+.year{
+    width: 97px;
+    float: left;
+    margin-left: 5px;
+}
+
+.psagechecker-hide {
+    display: none;
+}
+
+.deny_msg_age_verify{
+    text-align:center;
+    width: 230px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.age_verify_input{
+    margin: auto;
+    width:260px;
+    margin-top: 20px;
+    text-align:center;
+}
+
+.logo_age_verify{
+    margin-top: 20px;
+    text-align:center;
+    height: 20%;
+}
+
+.logo_age_verify img{
+    height: 100%;
+}
+
+.age_verify{
+    margin-top: 25px;
+    text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	width:70%
+}
+.age_verify_text_content {
+    padding-top:14%;
+}
+
+.custom_msg_age_verify{
+    text-align:center;
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.age_verify_buttons{
+    margin-top: 25px;
+    text-align:center;
+}
+
+.psagechecker_hide {
+    display: block;
+}
+
+#psagechecker_block {
+    background: #fff;
+    border-radius: 2px;
+    margin-bottom: 1.5rem;
+    margin-top: 2.5rem;
+    padding: 3.125rem;
+}
+#psagechecker_block .custom_title {
+    text-align:center;
+    margin-bottom: 15px;
+}
+#psagechecker_block .desc {
+    color: #232323;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.preload {
+    /*CSS transitions*/
+    -o-transition-property: none !important;
+    -moz-transition-property: none !important;
+    -ms-transition-property: none !important;
+    -webkit-transition-property: none !important;
+    transition-property: none !important;
+    /*CSS transforms*/
+    -o-transform: none !important;
+    -moz-transform: none !important;
+    -ms-transform: none !important;
+    -webkit-transform: none !important;
+    transform: none !important;
+    /*CSS animations*/
+    -webkit-animation: none !important;
+    -moz-animation: none !important;
+    -o-animation: none !important;
+    -ms-animation: none !important;
+    animation: none !important;
+}
+#psagechecker_block .insta-card {
+    transition: 0.3s;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    padding-top: 100%;
+    margin-bottom: 30px;
+
+    /*-webkit-transform: scale(0.6);*/
+	/*transform: scale(0.6);*/
+	/*-webkit-animation: scaleUp 0.65s ease-in-out forwards;*/
+	/*animation: scaleUp 0.65s ease-in-out forwards;*/
+}
+@-webkit-keyframes scaleUp {
+	0% { }
+	100% { -webkit-transform: scale(1); opacity: 1; }
+}
+
+@keyframes scaleUp {
+	0% { }
+	100% { -webkit-transform: scale(1); transform: scale(1); opacity: 1; }
+}
+#psagechecker_block .insta-card:hover {
+    opacity: 0.5;
+}
+#psagechecker_block .insta-card-img {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+#psagechecker_block .load-more {
+    text-align: center;
+}
+/* LIGHTBLOX */
+#psagechecker_block .lightbox {
+    position: fixed;
+    min-width: 400px;
+    min-height: 300px;
+    top: 15%;
+    left : 0;
+    right : 0;
+    margin: auto;
+    width: 1000px;
+    background-color: white;
+    z-index: 99999;
+	border-radius:4px;
+}
+/* LIGHTBOX CONTENT */
+#psagechecker_block .lightbox-content {
+    height: 500px;
+}
+/* LIGHTBOX CONTENT LEFT */
+#psagechecker_block .content-left {
+
+}
+
+#psagechecker_block .psagechecker-account-block-mobile{
+    padding: 10px;
+    display: none;
+}
+/* LIGHTBOX CONTENT RIGHT */
+#psagechecker_block .content-right {
+    padding: 20px;
+}
+
+#psagechecker_block .lightbox-img {
+    min-height: 500px;
+    background-position:center;
+    background-size:cover;
+}
+
+@media only screen and (max-width: 1200px) {
+    #psagechecker_block .lightbox {
+        width: 80%;
+    }
+}
+@media only screen and (max-width: 991px) {
+    #psagechecker_block .lightbox {
+        width: 60% !important;
+    }
+    #psagechecker_block .psagechecker-account-block-mobile {
+        display: block;
+    }
+    #psagechecker_block .psagechecker-account-block {
+        display: none;
+    }
+    #psagechecker_block .lightbox-content {
+        overflow-y: scroll;
+        height: 500px;
+    }
+    #psagechecker_block .lightbox-img {
+        min-height: 350px;
+    }
+}
+@media only screen and (max-width: 576px) {
+    #psagechecker_block .lightbox {
+        width: 80% !important;
+    }
+}
+@media only screen and (max-width: 350px) {
+    #psagechecker_block .lightbox {
+        left: 5%;
+        width: 90%;
+    }
+}
+
+#psagechecker_block #close {
+    position: absolute;
+    font-size: 40px;
+    top: -30px;
+    right: 0;
+    color: white;
+    cursor: pointer;
+}
+
+#psagechecker_block .posted {
+    font-size: 14px;
+    color: #7a7a7a;
+}
+#psagechecker_block .author {
+    color: #232323;
+}
+#psagechecker_block .via {
+    font-size: 14px;
+    color: #7a7a7a;
+}
+#psagechecker_block .text {
+    display: -webkit-box;
+    margin-top: 20px;
+    max-height: 100px;
+    font-size: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: pre-line;
+}
+#psagechecker_block .custom-title {
+    text-align: center;
+}
+#psagechecker_block .product-image {
+    text-align: center;
+}
+#psagechecker_block .price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #232323;
+    /*line-height: 35px;*/
+}
+#psagechecker_block .product-button {
+    /*text-align: right;*/
+}
+#psagechecker_block .product-name {
+    margin-top: 10px;
+    text-align: center;
+    /* height: 50px; */
+    max-height: 50px;
+}

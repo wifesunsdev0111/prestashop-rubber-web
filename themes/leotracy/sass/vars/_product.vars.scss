@@ -1,0 +1,148 @@
+ 
+// Button
+// ========================================================================
+ 
+
+
+$button-addtocart-bg:               $theme-color-secondary !default;
+$button-addtocart-color:            $white !default;
+$button-addtocart-hover-color:      $white !default;
+$button-addtocart-bg-hover:         $theme-color-default !default;
+$button-addtocart-border:           $theme-color-secondary !default;
+$button-addtocart-border-2:         $theme-color-default !default;
+$button-addtocart-font-size:        $font-size-base !default;
+$button-addtocart-padding:          5px 20px !default;
+$button-addtocart-icon-bg:          $theme-color-secondary !default;
+$button-addtocart-icon-color:       $white !default;
+$button-addtocart-icon-bg-hover:    $white !default;
+$button-addtocart-icon-border:      0 !default;
+$button-addtocart-height:           33px !default;
+$button-addtocart-icon-size:        50px !default;
+$button-addtocart-font-family:      $font-family-base !default;
+$button-bg-color: 					#f5f5f5 !default;
+ 
+ 
+
+// product label 
+$product-label-border-color:   $border-color!default;
+$product-label-color :  $label-color!default;
+$product-label-font-size  :12px;
+$product-label-new-bg: $theme-color-default  !default;
+$product-label-special-bg: $theme-color-default !default;
+
+// product lable - variable, discount, online_only 
+$product-warning-display		 : none !default;	// none or block
+$product-warning-avariable-now-bg: green !default;
+$product-warning-avariable-now-color: $white !default;
+
+$product-warning-outofstock-bg : red !default;
+$product-warning-outofstock-color : $white !default;
+
+
+
+///////// other 
+
+	
+
+//---------- Product Elements
+$product-name-color:                #2E3039!default;
+$product-name-hover-color:          $link-hover-color!default;
+$product-link-color:                $link-hover-color!default;
+$product-link-hover-color:          $white!default;
+
+$price-color:						#f94b4b !default;
+$product-price-color:				$price-color;
+$product-reduced-price:				$theme-color-secondary!default;
+$product-special-price-color:		$gray!default;
+$product-old-price-color:			$gray!default;
+
+$product-new-box-bg:                $yellow-light!default;
+$product-new-box-text-color:        #b28500!default;
+$product-sale-box-bg:               $red-light!default;
+$product-sale-box-text-color:       #ae4e42!default;
+$product-price-font:                500 22px/28px "Open Sans" !default;
+
+// Product alert stock 
+
+$product-stock-font-size : 11px; 
+$product-instock-color   : 	$white !default;
+$product-instock-bg  	 : 	$brand-info !default; 
+
+$product-outofstock-color:  $white !default; 
+$product-outofstock-bg      : 	$brand-warning !default; 
+
+
+// Product Block
+// ========================================================================
+$product-bg-color:                  $white !default;
+$product-border-color : 			$border-color !default;
+$product-content-bg: 				$product-bg-color !default;
+$product-hover-content-bg: 			#f5f5f5;
+$product-content-padding:			10px 0px !default;
+$product-container-border:			1px solid $border-color !default;
+
+
+$product-name-line-height:          18px !default;
+$product-name-font-family:          $font-family-base !default;
+$product-name-font-size: 			$font-size-base + 2!default;
+
+//$product-color-display: 				none !default; // none or block
+$product-desc-display: 				none !default; // none or block
+$product-desc-height: 				34px !default;
+
+$product-border:                    1px solid $border-color !default;
+$product-border-inner:              0px !default;
+$product-padding:                   0 0 $padding-small-horizontal * 2 0 !default;
+$product-text-align:                left !default;
+$product-float:                     left !default;
+$product-button-bg: 				$theme-color-secondary !default;
+$product-button-hover-color:		$white !default;
+
+
+$product-filter-bg:                 #f5f5f5 !default;
+$product-filter-font-size:          $font-size-base !default;
+$product-filter-color:              $theme-color-secondary !default;
+$product-filter-padding: 			8px !default;
+$product-filter-border-color :		$border-color !default;
+
+$product-container-bg:              transparent !default;
+$product-deals-link-color:          $black !default;
+$product-deals-link-hover-color:    $theme-color-default !default;
+$product-image-border:              0px !default;
+$product-image-radius:              0px !default;
+
+$product-price-old-color: 			#6e6f70 !default;
+$product-price-new-color:           $product-price-color !default;
+$product-price-font-family:         $font-family-senary !default;
+$product-price-font-size:           $font-size-base !default;
+
+
+$product-icon-font-size:            10px !default;
+$product-icon-border:               1px solid #28313c !default;
+
+$product-icon-color:                $white !default;
+$product-icon-bg:                   $theme-color-secondary !default;
+$product-icon-hover-color:          $theme-color-default !default;
+
+$product-zoom-bg:                   $theme-color-secondary !default;
+$product-zoom-color:                $white !default;
+$product-list-padding:              20px 18px !default;
+
+$product-item-border:               1px solid $border-color !default;
+
+$product-gallery-border-color : 	darken( $border-color, 20%);
+
+$product-rating-font-size: 12px !default;
+
+
+ 
+
+// Product Info
+// ========================================================================
+$product-info-padding:              19px !default;
+$product-info-margin:               10px !default;
+$product-info-border:               1px solid $border-color !default;
+$product-info-bg:                   $white !default;
+
+$product-info-price-font-size: 		 30px !default; 
+$product-info-price-old-font-size:  22px !default;

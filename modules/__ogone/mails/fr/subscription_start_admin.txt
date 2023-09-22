@@ -1,0 +1,9 @@
+Message from {shop_name}
+
+
+Dear admin,
+
+Subscription #{SUBSCRIPTION_ID} has started.
+You can consult subscriptions on {SUBSCRIPTION_URL_BO}
+Here are details of subscription:
+{SUBSCRIPTION_DESCRIPTION_TXT}

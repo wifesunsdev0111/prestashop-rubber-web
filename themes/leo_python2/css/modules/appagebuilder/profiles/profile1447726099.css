@@ -1,0 +1,92 @@
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/** CHECKOUT BY STEP */
+#header .top {
+  background-color: white;
+}
+
+.manufacturers_block {
+  padding: 0px;
+}
+
+.testimonials {
+  text-align: center;
+}
+.testimonials:before {
+  left: 15px !important;
+  right: auto !important;
+  top: 0px;
+  bottom: 0px;
+  margin: auto;
+  height: 50px;
+}
+.testimonials:after {
+  content: "";
+  position: absolute;
+  right: 15px;
+  top: 0px;
+  bottom: 0px;
+  margin: auto;
+  height: 6px;
+  content: "\f10d";
+  font-family: "FontAwesome";
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+  font-size: 24px;
+  color: #cccccc;
+}
+.testimonials .title {
+  position: static;
+}
+.testimonials .descript {
+  position: relative;
+  padding-bottom: 25px;
+  padding: 0 10% 25px 10%;
+  max-height: 69px;
+  overflow: hidden;
+}
+.testimonials .descript:before {
+  width: 30px;
+  height: 1px;
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+  background-color: #f75253;
+}
+.testimonials img {
+  margin: 0 auto 28px auto;
+}
+
+.about-home {
+  line-height: 1.6em;
+}
+.about-home p::first-letter {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  display: inline-block;
+}
+.about-home .title_block {
+  margin-bottom: 30px;
+}

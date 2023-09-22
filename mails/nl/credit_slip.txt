@@ -1,0 +1,15 @@
+ 
+
+{shop_url}
+
+Hallo {firstname} {lastname},
+
+Bestelling {order_name} - Creditnota
+
+Een creditnota is aangemaakt op uw naam voor uw bestelling met referentie {order_name}.
+
+Bekijk deze creditnota en download uw factuur via onze online shop, ga naar [Creditnota's]({history_url}) in uw klantenaccount.
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop.com/?utm_source=marchandprestashop&utm_medium=e-mail&utm_campaign=footer_1-7)

@@ -1,0 +1,19 @@
+// Make sure the charset is set appropriately
+@charset "UTF-8";
+
+@import "compass";
+@import "compass/reset";
+ 
+@import "theme_variables";
+@import "bootstrap";
+ 
+@import "app/base";
+@import "app/block";
+@import "app/product";
+@import "app/layout";
+@import "app/menu";
+@import "app/form";
+@import "app/animation";
+
+@import "prestashop-module";
+@import "prestashop-pages"; 

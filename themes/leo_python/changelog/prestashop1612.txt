@@ -1,0 +1,57 @@
+**** File tpl ****
+1. address.tpl
+2. authentication.tpl
+3. breadcrumb.tpl
+4. category.tpl
+5. contact-form.tpl
+6. discount.tpl
+7. footer.tpl
+8. global.tpl
+9. header.tpl
+10. identity.tpl
+11. order-address-product-line.tpl
+12. order-carrier-opc-advanced.tpl
+13. order-opc-new-account.tpl
+14. order-return.tpl
+15. pagination.tpl
+17. product.tpl
+18. scenes.tpl
+19. shopping-cart.tpl
+20. shopping-cart-advanced.tpl
+21. shopping-cart-product-line.tpl
+22. supplier-list.tpl
+23. \sub\product-item\product-item.tpl
+24. \sub\product-item\special-product-item.tpl
+25. \modules\blockcms\blockcms.tpl
+26. \modules\blockcurrencies\blockcurrencies.tpl
+27. \modules\blocklanguages\blocklanguages.tpl
+28. \modules\blocksocial\blocksocial.tpl
+29. \modules\blockuserinfo\nav.tpl
+30. \modules\blockwishlist\blockwishlist_button.tpl
+31. \modules\blockwishlist\blockwishlist-extra.tpl
+32. \modules\leobootstrapmenu\views\templates\hook\megamenu.tpl
+33. \modules\leobootstrapmenu\views\widgets\widget_product.tpl
+34. \modules\leobootstrapmenu\views\widgets\widget_products.tpl
+35. \modules\loyalty\views\templates\hook\product.tpl
+36. \modules\productcomments\productcomments.tpl
+37. \modules\productcomments\products-comparison.tpl
+
+
+***** File JS *****
+- js\modules\blockcart\ajax-cart.js
+- js\modules\blocklayered\blocklayered.js
+- js\modules\blocktopmenu\js\blocktopmenu.js
+- js\modules\loyalty\js\loyalty.js
+- js\modules\blockwishlist\js\ajax-wishlist.js
+- js\tools\statesManagement.js
+- js\global.js
+- js\product.js
+- js\stores.js
+- js\products-comparison.js
+
+*** File CSS ***
+- global.css
+- delete font-awesome.min.css
+
+*** Fonts ***
+- Update folder fonts to get the latest font

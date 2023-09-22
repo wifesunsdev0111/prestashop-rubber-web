@@ -1,0 +1,37 @@
+@import "compass";
+@import "theme_variables";
+
+
+#leo_block_top{
+	@include rtl-float-right();
+	@include rtl-padding-right(8px);
+	&:before{
+		content: "";
+		position: absolute;
+		top: 15px;
+		@include rtl-right(11px);
+		width: 1px;
+		height: 19px;
+		background-color: #e0e0e0;
+	}
+	.popup-content{
+		@include rtl-left(auto !important);
+		@include rtl-right(0);
+	}
+	#first-languages{
+		li{
+			@include rtl-margin-right(5px);
+			a{
+				margin: 0px;
+			}
+		}
+	}
+	p{
+		font-weight: 700;
+		text-transform: uppercase;
+  		font-size: 11px;
+	}
+	#setCurrency{
+		margin-top: 10px;
+	}
+}

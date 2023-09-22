@@ -1,0 +1,47 @@
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/**
+ * Product Item Selectors
+ */
+/***********************************************************************/
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/** CHECKOUT BY STEP */
+/*  
+ * LAYOUT VARIABLES 
+ */
+#topbar .languages_block_top {
+ 
+   color: #2E2E2E;
+}
+#topbar .languages_block_top .quick-setting {
+  background: #b5b2a9;
+  color: white;
+  top: 87%;
+  width: 0px;
+  left: -1px;
+  min-width: 50px;
+}
+.rtl #topbar .languages_block_top .quick-setting {
+  right: -1px;
+  left: auto;
+}
+#topbar .languages_block_top .quick-setting a {
+  color: white;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+#topbar .languages_block_top .quick-setting a:hover {
+  color: white;
+  opacity: 1;
+  filter: alpha(opacity=100);
+}

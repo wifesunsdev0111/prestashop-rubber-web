@@ -1,0 +1,346 @@
+/******************************************************
+ * $package Leo Theme Framework for Leo THeme 1.6.x
+ * $version 1.1
+ * $author http://www.leotheme.com
+ * $copyright   Copyright (C) Augus 2013 PavoThemes.com <$emai:leotheme$gmail.com>.All rights reserved.
+ * $license     GNU General Public License version 2
+ *******************************************************/
+body{
+    &.layout-boxed-md{
+        background: $body-bg;
+        #page{  
+            max-width: $container-desktop + 20px; 
+            @include box-shadow(0 0 5px lighten($gray, 50%));
+            margin: 0 auto;    
+            background: $white;
+            .container {
+                max-width: $container-desktop;
+            }
+        }  
+        
+    }
+    &.layout-boxed-lg{
+        background: $body-bg;
+        #page{  
+            max-width: $container-lg + 20px; 
+            @include box-shadow(0 0 5px lighten($gray, 50%));
+            margin: 0 auto;    
+            background: $white;
+            .container {
+                max-width: $container-lg;
+            }
+        }
+    }
+} 
+
+.container{
+    position: relative;
+    background: $white;
+    border-left: 1px solid $border-color;
+    border-right: 1px solid $border-color;
+    @include rtl-padding(0px,20px,0px,20px);
+}
+
+/*
+* HEADER 
+*/
+
+#topbar  {
+    min-height: $topbar-height; 
+    font-weight: $topbar-font-weight; 
+    font-size: $topbar-font-size;
+    .container{
+        background: $topbar-outside-bg;
+        border-bottom: $topbar-border;
+        nav{
+            @include rtl-padding(6px , 0px , 6px ,0px) ;
+        }
+      >  .inner{
+        @include container-layout-variant($topbar-color, $topbar-bg, $topbar-link-color, $topbar-link-hover-color ); 
+        padding: $topbar-padding;  
+        }
+        }
+        a{
+            font-size: $topbar-font-size;
+             &.account{
+            display: inline-block;
+            @include rtl-margin(5px , 10px ,0,0);
+        }
+    }
+    .links{ 
+        @include rtl-float-left(); 
+        margin: 6px 0;  
+        @include rtl-margin(6px,0px,6px,0px);    
+    } 
+    .links-outline{
+        a{ color: $topbar-link-hover-color; }
+    }    
+    .btn-group{
+    	position: relative;
+    	background: $page-bg-subheading;
+    	border: 1px solid $border-color;
+    	@include rtl-margin-left(7px);
+        @include border-radius(3px 3px 3px 3px);
+        &:hover{
+            cursor: pointer; 
+        }
+    	.dropdown-toggle{
+    		@include rtl-padding(5px,20px,5px,5px);
+	    	&:before{
+				content: "\f0d7";
+				position: absolute;
+				top: 6px;
+				@include rtl-right(6px);
+				font-family: $font-icon;
+	    	}
+    		span{
+                @include rtl-padding-left(5px);
+    		}
+    	}
+    	.quick-setting{
+    		padding: 10px;
+            @include border-radius (3px 3px 3px 3px);
+    		border: none;
+            color: $base-text-color;
+            a{
+                color: $base-text-color;
+                &:hover{
+                    color: $link-hover-color;
+                }
+            }
+    	}
+    }    
+}
+
+ 
+#header-main{
+    min-height: 60px;
+   // container-layout-variant($color, $background, $linkcolor,  $topbar-link-color-hover )
+   .container {
+    background: $headermain-outside-bg;
+        > .inner{
+            @include container-layout-variant($headermain-color, $headermain-bg, $headermain-color, $headermain-color-hover );   
+       }
+   }
+    .header-wrap{
+        min-height: 94px;
+        margin: 0;
+    }
+    .inner{   
+        text-align: left;                  
+        padding-top: 35px;
+        padding-bottom:  30px;
+        & > *{
+            vertical-align: middle;
+        }
+    }   
+}
+
+
+#header{        
+    .show-mobile{ 
+        @include clearfix();     
+        text-align: right;       
+        > div{
+            margin: 0;
+            padding: 0;
+            position: relative;
+            float: none !important;
+            display: inline-block;
+            &:hover{
+                .inner-toggle{
+                    display: block;
+                }
+            }
+        }
+        .quickaccess-toggle{
+            @include size(30px, 30px);
+            line-height: $line-height-computed + 7;
+            text-align: center;            
+            cursor: pointer;  
+            border: 1px solid #dcdcdc;    
+            .fa{                
+                margin: 0;
+                font-size: $respon-topbar-icon-font-size;
+            }
+            &:hover, &:focus, &:active {
+                background-color: $white;
+            }                 
+        }
+        .inner-toggle{
+            color: #8c8c8c;
+            display: none;
+            position: absolute;            
+            @include rtl-right(0);
+            @include rtl-left(auto);
+            min-width: 160px;
+            display: none;
+            z-index: 99999;
+            border: 1px solid #dcdcdc;
+            background: $white;
+            @include rtl-padding(15px,15px,15px,15px);
+            text-align: left;                        
+        }  
+    }
+ 
+}
+
+##{$app-brand-prefix}-masshead {
+   .container > .inner{
+        @include container-layout-variant($masshead-color, $masshead-bg, $masshead-color, $masshead-color-hover );   
+        padding: $masshead-content-padding;    
+   }
+}
+
+/*
+* NAVIGATION
+*/
+##{$app-brand-prefix}-mainnav {
+    border-top: $mainnav-outside-border;
+    border-bottom: $mainnav-outside-border;
+    .container > .inner{
+        @include container-layout-variant($mainnav-color, $mainnav-bg, $mainnav-color, $mainnav-color-hover);   
+        padding: $mainnav-content-padding;   
+   }
+   background: $mainnav-outside-bg;
+}
+
+/*
+* SLIDESHOW 
+*/
+##{$app-brand-prefix}-slideshow {
+    
+}
+/*
+* SHOWCASE 
+*/
+##{$app-brand-prefix}-showcase {
+
+}
+/*
+* PROMOTION TOP 
+*/
+##{$app-brand-prefix}-promotion {    
+    
+}
+/*
+* MAIN CONTENT
+*/  
+#content {
+    min-height: 400px;
+    margin-bottom: 25px;
+}
+
+#columns{
+    overflow: hidden;
+        .main-page-indent{
+        margin-bottom: 15px;
+    }
+    .bloc_adresses{
+        margin-bottom: 15px;
+        .address{
+            border: 1px solid $border-color;
+            .page-subheading{
+                @include rtl-margin-right(-10px);
+                @include rtl-margin-left(-10px);
+            }
+        }
+    } 
+}
+
+.wrapper-danger{
+
+}
+.wrap-outline{
+
+}
+
+/*end*/
+#bottom{
+    
+}
+/* FOOTER */
+#footer{
+    @include clearfix(); 
+    min-height: $line-height-computed * 5;
+    color: $footer-color;
+    font-size: $footer-font-size;
+     ul, ol {
+            list-style: none;
+        li{
+            padding: 6px 0px;
+        }
+     }
+     position:relative; 
+     .add_phone{
+        font-size: $footer-font-size + 8;
+        font-weight: 600;
+        color: #4a4a4a;
+     }
+     .nav-links{
+        li{
+            background-repeat: no-repeat;
+            background-image: url(#{$image-theme-base-path}divider-bg.png) ; 
+            background-position: left center;
+            padding: 6px 0px 6px 20px;
+        }
+     }  
+     a{
+        &:hover{
+            color: $footer-nav-color-hover;
+        }
+     }
+}
+
+.footer-top{
+    position:relative;
+    .container > .inner{
+        @include container-layout-variant($footer-top-color, $footer-top-bg, $footer-top-color, $footer-top-color-hover ); 
+        padding: $footer-top-content-padding; 
+        background: $nocolor;
+    }
+    .#{$block-heading-selector},
+    .#{$block-content-selector}{
+       
+    }
+}
+.footer-center{
+    position:relative;
+   .container{
+        > .inner{
+            @include container-layout-variant($footer-center-color, $footer-center-bg, $footer-center-color, $footer-center-color-hover );   
+            padding: $footer-center-content-padding;    
+            overflow: hidden;
+            background-color: $white;
+            background:  url(#{$image-theme-base-path}footer-style.png);
+            background-repeat: repeat-x;
+            border-bottom: 1px solid $border-color;
+       }
+   }
+}   
+.footer-bottom{
+    position:relative;
+   .container > .inner{
+    @include container-layout-variant($footer-bottom-color, $footer-bottom-bg, $footer-bottom-color, $footer-bottom-color-hover );   
+    padding: $footer-bottom-content-padding;    
+    background: $nocolor;
+   }
+}
+
+.footer-nav{ // copyright
+    position:relative;
+   .container > .inner{
+    @include container-layout-variant($footer-nav-color, $footer-nav-bg, $footer-nav-color, $footer-nav-color-hover );   
+    padding: $footer-nav-content-padding;  
+    .linksfooter{
+        text-align: right;
+        li{
+            display: inline-block;
+            margin-left: 10px;
+            a{
+                color: $footer-nav-color;
+            }
+        }
+    }
+   }
+}

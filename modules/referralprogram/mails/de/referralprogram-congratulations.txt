@@ -1,0 +1,15 @@
+ 
+
+{shop_url}
+
+Glückwunsch!
+
+Auf Ihre Empfehlung hat Ihr Freund {sponsored_firstname} {sponsored_lastname} seine erste Bestellung bei [{shop_name}]({shop_url}) ausgeführt!
+
+Wir freuen uns, Ihnen einen Gutschein über {discount_display} (Gutscheincode # {discount_name}) schenken zu dürfen, den Sie bei Ihrer nächsten Bestellung einlösen können.
+
+Mit freundlichen Grüßen,
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop.com/?utm_source=marchandprestashop&utm_medium=e-mail&utm_campaign=footer_1-7)

@@ -1,0 +1,35 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+$_MODULE['<{apcontactform}leo_python>apcontactform_14fb496c434e3cfac16e2aef3a316c4a'] = 'Apolo Formulario de contacto';
+$_MODULE['<{apcontactform}leo_python>apcontactform_80d472f30ee90c630ef5f3ef9f601355'] = 'Este módulo mostrará contacto de en fuente-office';
+$_MODULE['<{apcontactform}leo_python>apcontactform_f4f70727dc34561dfde1a3c529b6205c'] = 'Ajustes';
+$_MODULE['<{apcontactform}leo_python>apcontactform_cebd5bbe0ffdecc270a8a324e5a277dd'] = 'Modo directo';
+$_MODULE['<{apcontactform}leo_python>apcontactform_ea9df7a306e2f8b5af37b67084d0c984'] = 'Utilice este módulo en modo directo';
+$_MODULE['<{apcontactform}leo_python>apcontactform_00d23a76e43b46dae9ec7aa9dcbebb32'] = 'Activado';
+$_MODULE['<{apcontactform}leo_python>apcontactform_b9f5c797ebbf55adccdd8539a65a0241'] = 'Incapacitado';
+$_MODULE['<{apcontactform}leo_python>apcontactform_cffa70587159989d91e6ce586ea65c14'] = 'Ingrese una dirección de correo válida';
+$_MODULE['<{apcontactform}leo_python>apcontactform_ce8ae9da5b7cd6c3df2929543a9af92d'] = 'Email';
+$_MODULE['<{apcontactform}leo_python>apcontactform_dc647eb65e6711e155375218212b3964'] = 'Clave';
+$_MODULE['<{apcontactform}leo_python>apcontactform_c9cc8cce247e49bae79f15173ce97354'] = 'Guardar';
+$_MODULE['<{apcontactform}leo_python>configure_14fb496c434e3cfac16e2aef3a316c4a'] = 'Apolo Formulario de contacto';
+$_MODULE['<{apcontactform}leo_python>configure_97ef4c38620de4481c6fdf342838c728'] = 'Aquí está mi nuevo módulo genérico!';
+$_MODULE['<{apcontactform}leo_python>configure_13adfa430efbb8fd38d9ca2ffe8cbc83'] = 'Gracias a PrestaShop, ahora tienen un gran módulo.';
+$_MODULE['<{apcontactform}leo_python>configure_e2377297f08a03a493c134d08731fbae'] = 'Puedo configurarlo utilizando el siguiente formulario de configuración.';
+$_MODULE['<{apcontactform}leo_python>configure_476f0d83e3f181072b9f1e350336bf36'] = 'Este módulo aumentar sus ventas!';
+$_MODULE['<{apcontactform}leo_python>apcontactform_f787618e514c038851726224d7e4421e'] = 'Ningún archivo seleccionado';
+$_MODULE['<{apcontactform}leo_python>apcontactform_e635032a5f71d809146d3872389f5b0c'] = 'Elija el archivo';
+$_MODULE['<{apcontactform}leo_python>apcontactform_4d637b9da66cdde1a3c0e3890de8d338'] = 'Por favor introduce todos los datos antes de presentar';
+$_MODULE['<{apcontactform}leo_python>apcontactform_4ec1c39345fe8820d68463eea8803b0f'] = 'Su mensaje ha sido enviado con éxito a nuestro equipo.';
+$_MODULE['<{apcontactform}leo_python>apcontactform_8cf04a9734132302f96da8e113e80ce5'] = 'Casa';
+$_MODULE['<{apcontactform}leo_python>apcontactform_7c9d4636fc5ed97bb78bc2aac486beab'] = 'Su mensaje ha sido enviado.';
+$_MODULE['<{apcontactform}leo_python>apcontactform_9cfc9b74983d504ec71db33967591249'] = 'Contáctenos';
+$_MODULE['<{apcontactform}leo_python>apcontactform_6c27c08f40e1b0d9901deb9ff5f722f7'] = 'Cabecera';
+$_MODULE['<{apcontactform}leo_python>apcontactform_7bc873cba11f035df692c3549366c722'] = '-- Escoger --';
+$_MODULE['<{apcontactform}leo_python>apcontactform_b357b524e740bc85b9790a0712d84a30'] = 'Dirección de correo electrónico';
+$_MODULE['<{apcontactform}leo_python>apcontactform_5d4710f9a8250b13164a82c94d5b00d1'] = 'Pedir Referencia';
+$_MODULE['<{apcontactform}leo_python>apcontactform_deb10517653c255364175796ace3553f'] = 'Producto';
+$_MODULE['<{apcontactform}leo_python>apcontactform_13d6078da2e6592822ede083931d6826'] = 'Adjuntar archivo';
+$_MODULE['<{apcontactform}leo_python>apcontactform_4c2a8fe7eaf24721cc7a9f0175115bd4'] = 'Mensaje';
+$_MODULE['<{apcontactform}leo_python>apcontactform_eeed9e667f590a07ceff2223f0211649'] = 'enviar mensaje';

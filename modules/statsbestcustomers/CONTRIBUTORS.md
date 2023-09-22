@@ -1,0 +1,19 @@
+GitHub contributors:
+--------------------------------
+ - Francois Gaillard
+ - Gregory Roussac
+ - Jérôme Nadaud
+ - Maxime Biloé
+ - PhpMadman
+ - Quetzacoalt91
+ - aleeks
+ - antoin-m
+ - eternoendless
+ - gaillafr
+ - julienbourdeau
+ - maximebiloe
+ - rGaillard
+ - sfroment
+ - shaffe-fr
+ - toutantic
+ - xBorderie

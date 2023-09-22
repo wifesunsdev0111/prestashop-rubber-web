@@ -1,0 +1,202 @@
+.hide {
+    display: none!important;
+}
+.fl {float: left!important;}
+.fr {float: right!important;}
+.list-all-hooks a {
+    margin-left: 5px;
+    display: inline-block;
+}
+.icon-AdminApPageBuilder:before {
+    content: "\f044";
+}
+
+#home_wrapper .position-cover {
+    border: 1px solid #00aff0;
+    box-shadow: 0 0 5px #eee;
+    padding: 5px;
+    margin-bottom: 30px;
+    transition: all 0.3s ease 0s;
+}
+#home_wrapper .position-cover:hover {
+    box-shadow: 0 0 5px #bdbdbd;
+    transition: all 0.6s ease 0s;
+}
+.position-area {
+    min-height: 100px;
+    clear: both;
+}
+.bootstrap .tree-panel-heading-controls {
+    margin: -20px 0 20px!important;
+}
+.modal-body {
+    /*overflow: hidden!important;*/
+}
+.column-controll-right .btn-group .btn {
+    background-color: #bbb;
+    transition: all 0.2s ease 0s;
+}
+.column-controll-right .btn-group .btn:hover {
+    transition: all 0.3s ease 0s;
+    background-color: #333;
+}
+.position-cover .list-position span {
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 150px;
+    line-height: 12px;
+}
+.box-edit-position {
+    background-color: #fff;
+    box-shadow: 0 0 5px;
+    padding: 20px;
+    position: absolute;
+    right: 0;
+    width: 300px;
+    z-index: 1;
+}
+.position-cover .list-position i:hover {
+    color: #000!important;
+}
+.position-name i {
+    color: #fff;
+}
+.modal.ui-draggable {
+    top:0!important;
+}
+.item a {
+    display: table-cell;
+    height: 65px !important;
+    vertical-align: middle;
+    padding: 0 10px 0 40px;
+}
+.cover-short-code {
+    background-color: #f5f5f5;
+    border: 1px solid transparent;
+    margin: 5px 0;
+    cursor: pointer;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    transition: all 0.2s ease 0s;
+    box-shadow: 0 -2px 0 #e6e6e6 inset;
+    height: 65px;
+    overflow: hidden;
+}
+.cover-short-code:hover {
+    background-color: #ededed;
+    transition: all 0.4s ease 0s;
+    color: #333;
+    box-shadow: 0 -2px 0 #bdbdbd inset;
+}
+.cover-short-code .icon {
+    left: 20px;
+    position: absolute;
+    top: 35px;
+}
+.cover-short-code .label {
+    position: relative;
+    font-weight: bold;
+    color: #0066CC;
+    white-space:normal;
+    padding: 0!important;
+    margin: 0!important;
+}
+.cover-short-code:hover .label {
+    color: #333;
+    text-decoration: underline;
+}
+.cover-short-code:hover .icon {
+    color: #333;
+}
+
+#txt-search {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+#txt-search:hover, #txt-search:focus {
+    box-shadow: 0 -2px 0 #bdbdbd inset!important;
+    background-color: #fff7d0;
+}
+.box-search-widget {
+    opacity: 1;
+    float: right;
+    margin-right: 10px;
+    margin-top: -5px;
+}
+
+#tab-new-widget {
+    border-bottom: 1px solid #ddd;
+    min-height: 40px;
+}
+#modal_form .tab-content {
+    margin-top: 10px;
+}
+#modal_form .btn.is-checked {
+    font-weight: bold;
+    color: #333;
+    border: 1px dashed #ddd;
+}
+img.icon {
+    max-width: 20px;
+}
+#list-slider li {
+	cursor: move;
+}
+.list-link-block {
+    list-style-type: none;
+    padding: 0;
+}
+.list-link-block > li {
+    background-color: #f5f5f5;
+    display: inline-block;
+    padding: 10px 0;
+    width: 100%;
+}
+.list-link-block > li .btn-remove-block-link {
+	display: block;
+}
+.list-link-block > li:hover .btn-remove-block-link {
+	display: block;
+}
+.latest-blog-category {
+    background-color: #fefefe;
+    border: 1px solid #ccc;
+    padding: 10px 0;
+}
+.latest-blog-category ol, .latest-blog-category li {
+	list-style-type: none;
+}
+.list-font-awesome {
+    clear: both;
+    margin: 10px 0 !important;
+    padding: 0;
+}
+.list-font-awesome > li, .preview-widget {
+    border: 1px solid #bdbdbd;
+    cursor: pointer;
+    float: left;
+    list-style-type: none;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    width: 30px;
+}
+.list-font-awesome .selected, .list-font-awesome > li:hover {
+    background-color: #333;
+    color: #fff;
+    transition: all 0.3s ease 0s;
+}
+.preview-widget {
+
+}
+.dropdown-menu-right .selected {
+    background-color: #bdbdbd;
+}
+#s-image{margin: 10px 0;}
+.open-content i{
+    margin-left:7px;
+}

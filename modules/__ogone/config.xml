@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>ogone</name>
+	<displayName><![CDATA[Ingenico ePayments (formerly Ogone)]]></displayName>
+	<version><![CDATA[4.0.6]]></version>
+	<description><![CDATA[Ingenico ePayment offers you one single platform to handle all your online transactions whatever the channel.]]></description>
+	<author><![CDATA[Ingenico ePayments]]></author>
+	<tab><![CDATA[payments_gateways]]></tab>
+	<is_configurable>1</is_configurable>
+	<need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

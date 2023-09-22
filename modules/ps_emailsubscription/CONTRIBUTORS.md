@@ -1,0 +1,35 @@
+GitHub contributors:
+--------------------------------
+- Alex Even
+- Alex Sampaio
+- Aurélien Pelletier
+- Codencode
+- Francois Gaillard
+- François-Marie de Jouvencel
+- Pierre Rambaud
+- Gregory Roussac
+- Jerome Nadaud
+- Julien Bourdeau
+- Jérôme Nadaud
+- Krystian Podemski
+- Matthieu Rolland
+- Maxime Biloé
+- Michel ANTOINE
+- Mickaël Andrieu
+- Nicolas Martin
+- Pablo Borowicz
+- Presta Module
+- Franck Lefevre
+- Rémi Gaillard
+- Sacha Froment
+- Sébastien Bareyre
+- Thibaud Chauviere
+- Thomas Nabord
+- Xavier
+- Clement Daubeuf
+- eleazar
+- emilien-puget
+- fatmaBouchekoua
+- fram
+- iqit-commerce
+- toar86

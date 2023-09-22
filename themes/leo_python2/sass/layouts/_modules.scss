@@ -1,0 +1,187 @@
+// modules.scss
+
+@import "vars/modules.vars";
+
+// top bar module dropdown
+
+#topbar .popup-over{
+    position: relative;
+    @include rtl-margin-right(20px);
+    z-index: 999;
+    .popup-title{
+        @include rtl-padding(0,20px,0,0px);
+        &:before{
+            content: "\f0d7";
+            position: absolute;
+            top: 0;
+            @include rtl-right(6px);
+            font-family: $font-icon;
+        }
+        .fa-cog{
+            @include rtl-margin-right(5px);
+        }
+        &:hover{
+            color: $theme-color-default;
+        }
+    }
+    .popup-content{
+        padding: 10px;
+        visibility: hidden;
+        position: absolute;
+        top: 50px;
+        @include rtl-left(0);
+        line-height: 30px;
+        background: $white;
+        color: $text-color !important;
+        @include box-shadow (0px 6px 15px rgba(0,0,0,0.12));
+        min-width: 150px;
+        z-index: 9;
+        a{
+            color: $text-color;
+            &:hover{
+                color: $link-hover-color;
+            }
+        }
+    }
+    &:hover{
+        cursor: pointer; 
+        z-index: 9999;
+        .popup-content{
+            visibility: visible;
+            z-index: 999;
+        }
+    }
+}  
+
+/* mini basket */
+.blockcart_top{
+    @include rtl-float-left();
+    @include rtl-margin-left(20px);
+}
+#cart{        
+    position: relative;
+    .title-cart{
+        color: $topbar-color;
+        font-family: $font-family-tertiary;
+        text-transform: uppercase;
+        line-height: 20px;
+        margin: 0;
+        display: block;
+        &:before{
+            content: "\f07a";
+            font-family: $font-icon;
+            font-size: 16px;    
+            position: absolute;
+            @include rtl-left(-20px);
+            top: 0px;
+            line-height: 50px;
+        }
+    }
+    .content {
+        clear: both;
+        display: block;
+        position: absolute;
+        top: 100%;
+        right: $cart-align-right;
+        left: auto;
+        padding: 15px;
+        min-height: 100px;      
+        height: 100px;
+        height: auto !important;      
+        background: $white;
+        border: $main-border;
+        z-index: 99999;
+        min-width: $cart-content-width;
+        @include rounded-corners(0px); 
+        @include box-shadow(none); 
+        display: none;
+
+    }  
+    &.active{
+        .content{
+            display: block;
+        }
+    }      
+    .heading {     
+        @include clearfix();  
+        position: relative;
+        overflow: visible;
+        .ajax_cart_quantity{
+            position: relative;
+            padding: 0 5px;
+            &:before, &:after{
+                content: "(";
+                position:absolute;
+                @include rtl-left(0);
+                top: -15px;
+            }
+             &:after{
+                 content: ")";
+                left: auto;
+                @include rtl-right(0);
+             }
+        }
+    }
+    .checkout {
+        text-align: right;
+        clear: both;
+    }
+    .empty {
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .mini-cart-total {
+        text-align: right;
+        td {
+            color: #000;
+            padding: 4px;
+        }
+        table {
+            border-collapse: collapse;
+            @include inline-block();
+            margin-bottom: 5px;
+        }
+    }
+    .mini-cart-info {
+        .quantity {
+            text-align: right;
+        }
+        .name {
+            small {
+                color: #666;
+            }
+            font-size: $cart-product-font-size;
+            font-weight: bold;
+        }
+        td {
+            color: #000;
+            vertical-align: top;
+            padding: 6px; 
+            border-bottom: $main-border;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-bottom: 5px;
+        }
+        .image {
+            width: 1px;
+            img {            
+                text-align: left;
+            }
+        }
+        .remove {
+            text-align: right;
+            img {
+                cursor: pointer;
+            }
+        }
+        td.total {
+            text-align: right;
+        }
+    }
+    &:hover{
+         .title-cart{color: $theme-color-default;}
+    }
+}

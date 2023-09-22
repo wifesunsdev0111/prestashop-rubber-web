@@ -1,0 +1,19 @@
+ 
+
+{shop_url}
+
+{firstname_friend} {lastname_friend}, Machen Sie mit!
+
+Ihr Freund {firstname} {lastname} möchte Sie auf [{shop_name}]({shop_url}) empfehlen!
+
+Wir freuen uns, Ihnen einen Gutschein im Wert von {discount} anbieten zu können, den Sie bei Ihrer nächsten Bestellung einlösen können. Lassen Sie sich empfehlen und erhalten Sie einen Rabattgutschein über {discount}!
+
+[Klicken Sie einfach hier, um sich anzumelden!]({link})
+
+Vergessen Sie bei der Anmeldung bitte nicht, die E-Mail-Adresse Ihres Freundes anzugeben: {email}.
+
+Mit freundlichen Grüßen,
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop.com/?utm_source=marchandprestashop&utm_medium=e-mail&utm_campaign=footer_1-7)

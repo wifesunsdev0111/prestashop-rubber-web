@@ -1,0 +1,77 @@
+@import "compass";
+@import "theme_variables";
+
+#header{
+	.top{
+		background-color: $white;
+	}
+}
+
+.manufacturers_block{
+	padding: 0px;
+}
+
+// testimonials
+.testimonials{
+	text-align: center;
+	&:before {
+	    left: 15px !important;
+	    right: auto !important;
+	    top: 0px;
+	    bottom: 0px;
+	    margin: auto;
+	    height: 50px;
+	}
+	&:after{
+		content: "";
+		position: absolute;
+		right: 15px;
+	    top: 0px;
+	    bottom: 0px;
+	    margin: auto;
+		height: 6px;
+	    content: "\f10d";
+	    font-family: $font-icon;
+	    @include rotate(180deg);
+	    font-size: 24px;
+	    color: #cccccc;
+	}
+	.title{
+		position: static;
+	}
+	.descript{
+		position: relative;
+		padding-bottom: 25px;
+		padding:0 10% 25px 10%;
+		max-height: 69px;
+    	overflow: hidden;
+		&:before{
+			@include size(30px,1px);
+			content: "";
+			position: absolute;
+			bottom: 0px;
+			left: 0px; right: 0px;
+			margin: auto;
+			background-color: $theme-color-default;
+			
+		}
+	}
+	img{
+		margin:0 auto 28px auto;
+	}
+}
+
+// about
+.about-home{
+	line-height: 1.6em;
+	p::first-letter{
+		font-size: 30px;
+		font-weight: 700;
+		margin-bottom: 20px;
+		@include border-radius(3px);
+		display: inline-block;
+	}
+	.title_block{
+		margin-bottom: 30px;
+	}
+}

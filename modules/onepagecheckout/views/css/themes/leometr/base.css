@@ -1,0 +1,46 @@
+#carriers_section .radio input[type="radio"], #payments_section  .radio input[type="radio"] {
+    margin-left: 0;
+    margin-top: 0;
+}
+
+input.confirm_button, #free_order_confirm {
+    min-width: 240px;
+}
+
+#new_account_form p.checkbox input {
+    margin-right: 4px;
+}
+
+
+#order-opc #center_column {
+    width: 940px;
+}
+
+
+#order-detail-content {
+    width: auto;
+}
+
+form.std h3, #new_account_form.std h3, #order-opc h2, #payments_section h3 {
+    background: none repeat scroll 0 0 #222222;
+}
+
+
+#order-opc #login_form a#openLoginFormBlock {
+    color: #FFFFFF;
+}
+
+@media only screen and (max-width:617px) {
+    #new_account_form p.checkbox input {
+        margin-left: 5px;
+    }
+}
+
+@media only screen and (max-width:430px) {
+    #new_account_form p.text input, #new_account_form p.password input, #new_account_form p.select input {
+        width: 230px;
+    }
+    
+
+    
+}

@@ -1,0 +1,9 @@
+Messaggio da {shop_name}
+
+
+Gentile cliente,
+
+Questa è una nuova rata della sottoscrizione n. {SUBSCRIPTION_ID}
+Puoi consultare i tuoi abbonamenti su {SUBSCRIPTION_URL}
+Ecco i dettagli dell'abbonamento:
+{SUBSCRIPTION_DESCRIPTION_TXT}

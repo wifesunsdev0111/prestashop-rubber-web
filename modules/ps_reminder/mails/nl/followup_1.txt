@@ -1,0 +1,23 @@
+ 
+
+{shop_url}
+
+Hallo {firstname} {lastname},
+
+Uw winkelwagen bij {shop_name}
+
+Bedankt voor uw bezoek. Helaas lijkt het erop dat u uw bestelling niet heeft afgerond.
+
+Uw winkelwagen is opgeslagen, u kan terug naar onze online shop om te bestellen: {shop_url}
+
+We willen u graag een korting aanbieden van {amount}% op uw volgende order! Deze aanbieding is {days} dagen geldig, dus twijfel niet te lang!
+
+Uw kortingscode op {shop_name}
+
+Hier is uw WAARDEBON: {voucher_num}
+
+Voer deze code in bij uw winkelwagen om uw korting te krijgen.
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop.com/?utm_source=marchandprestashop&utm_medium=e-mail&utm_campaign=footer_1-7)

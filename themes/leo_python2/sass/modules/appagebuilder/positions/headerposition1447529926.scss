@@ -1,0 +1,32 @@
+@import "compass";
+@import "theme_variables";
+
+.logo {
+    display: block;
+    margin: auto;
+}
+
+.top{
+	padding: 30px 0px 0px 0;
+}
+
+#leo-megamenu{
+	text-align: center;
+	.navbar-nav{
+		display: inline-flex;
+		@include rtl-text-align-left;
+		float: none;
+		> li > a{
+			padding: 31px 15px 20px 15px;
+		}
+	}
+}
+
+.leo-megamenu{
+	.dropdown-menu{
+		top: 72px;
+	}
+	.navbar-nav > li.aligned-fullwidth > .dropdown-menu{
+		top: 87px;
+	}
+}

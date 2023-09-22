@@ -1,0 +1,29 @@
+ 
+
+{shop_url}
+
+Hallo {firstname} {lastname},
+
+Vielen Dank für die Eröffnung Ihres Kundenkontos bei {shop_name}
+
+Ihre Anmeldedaten bei {shop_name}
+
+Hier sind Ihre Anmeldedaten:
+
+E-Mail-Adresse: {email}
+
+Sicherheitstipps:
+
+1. Schützen Sie Ihre Anmeldedaten.
+
+2. Geben Sie Ihre Anmeldedaten nicht an Dritte weiter.
+
+3. Ändern Sie regelmäßig Ihr Passwort.
+
+4. Falls Sie vermuten, dass jemand Ihr Konto unerlaubt benutzt, benachrichtigen Sie uns bitte sofort.
+
+Sie können nun Bestellungen auf unserer Webseite vornehmen: [{shop_name}]({shop_url}): [{shop_name}]({shop_url})
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop.com/?utm_source=marchandprestashop&utm_medium=e-mail&utm_campaign=footer_1-7)

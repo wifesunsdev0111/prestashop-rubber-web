@@ -1,0 +1,7 @@
+Messaggio da {shop_name}
+
+Il cliente ha richiesto la disattivazione dell'abbonamento n. {SUBSCRIPTION_ID}
+Questa azione richiede un'azione manuale nel tuo Backoffice Ingenico
+Puoi consultare gli abbonamenti su {SUBSCRIPTION_URL_BO}
+Ecco i dettagli del abbonamento:
+{SUBSCRIPTION_DESCRIPTION_TXT}

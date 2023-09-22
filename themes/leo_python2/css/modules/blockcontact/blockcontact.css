@@ -1,0 +1,103 @@
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/** CHECKOUT BY STEP */
+.shop-phone {
+  float: left;
+  margin: 6px 0;
+  margin: 6px 5px 6px 5px;
+}
+.rtl .shop-phone {
+  float: right;
+}
+.rtl .shop-phone {
+  margin: 6px 5px 6px 5px;
+}
+@media (max-width: 767px) {
+  .shop-phone {
+    display: none;
+  }
+}
+.shop-phone i {
+  color: #666666;
+}
+
+#contact-link {
+  float: right;
+  position: relative;
+}
+.rtl #contact-link {
+  float: left;
+}
+#contact-link:before {
+  content: "";
+  background: url("../../../img/default/icon-theme.png") no-repeat -20px 0 transparent;
+  position: absolute;
+  left: 0;
+  top: 5px;
+  width: 20px;
+  height: 21px;
+}
+.rtl #contact-link:before {
+  right: 0;
+  left: auto;
+}
+@media (max-width: 479px) {
+  #contact-link {
+    width: 25%;
+    text-align: center;
+  }
+}
+#contact-link h4 {
+  font-size: 13px;
+  font-family: "Raleway";
+  margin: 0 0 3px 30px;
+  font-weight: bold;
+}
+.rtl #contact-link h4 {
+  margin: 0 30px 3px 0;
+}
+#contact-link span {
+  font-size: 12px;
+  margin: 0 0 0 30px;
+}
+.rtl #contact-link span {
+  margin: 0 30px 0 0;
+}
+#contact-link strong {
+  color: #f75253;
+}
+
+@media (max-width: 767px) {
+  #contact_block {
+    margin-bottom: 20px;
+  }
+}
+#contact_block .label {
+  display: none;
+}
+#contact_block .block_content {
+  color: #888888;
+}
+#contact_block p {
+  margin-bottom: 4px;
+}
+#contact_block p.tel {
+  margin-bottom: 6px;
+}
+#contact_block p.tel i {
+  font-size: 25px;
+  vertical-align: -2px;
+  padding-right: 10px;
+}

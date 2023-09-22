@@ -1,0 +1,1 @@
+<li><a href="#idTab68" class="idTabManageWidget">{l s='Content' mod='leomanagewidgets'}</a></li>

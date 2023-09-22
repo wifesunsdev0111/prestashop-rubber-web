@@ -1,0 +1,21 @@
+ 
+
+{shop_url}
+
+Hallo {firstname} {lastname},
+
+Vielen Dank für Ihre Bestellung mit der Referenz {order_name} bei {shop_name}
+
+Artikel zum Herunterladen
+
+Sie haben {nbProducts} Produkt(e), die jetzt über die folgenden Links zum Download zur Verfügung stehen:
+
+{virtualProductsTxt}
+
+Verfolgen Sie Ihre Bestellung und laden Sie Ihre Rechnung in unserem Shop herunter. Gehen Sie hierzu zum Abschnitt "[Verlauf und Details Ihrer Bestellungen]({history_url})" Ihres Kundenkontos.
+
+Wenn Sie ein Gast-Konto haben, können Sie Ihre Bestellung im Abschnitt "[Bestellverfolgung]({guest_tracking_url})" in unserem Shop verfolgen.
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop.com/?utm_source=marchandprestashop&utm_medium=e-mail&utm_campaign=footer_1-7)

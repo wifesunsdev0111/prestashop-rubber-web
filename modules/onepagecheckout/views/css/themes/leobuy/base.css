@@ -1,0 +1,13 @@
+#order-detail-content {
+	width: auto;
+}
+
+
+#order-opc #center_column {
+    width: auto !important;
+    padding-left: 0;
+}
+
+.leo-padding {
+	padding: 0 20px;
+}

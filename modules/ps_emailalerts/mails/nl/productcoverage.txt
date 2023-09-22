@@ -1,0 +1,13 @@
+ 
+
+{shop_url}
+
+Hallo,
+
+Uw voorraaddekking is nu minder dan het gespecificeerde minimum van: {warning_coverage}
+
+Huidige voorraaddekking: {current_coverage}
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop.com/?utm_source=marchandprestashop&utm_medium=e-mail&utm_campaign=footer_1-7)

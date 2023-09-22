@@ -1,0 +1,12 @@
+.radio input[type="radio"] {
+   margin-left: 0px !important;
+}   
+
+#left_column {
+    display: none;
+}
+
+#order-opc #center_column {
+    margin-left: 0;
+    width: auto;
+}

@@ -1,0 +1,17 @@
+ 
+
+{shop_url}
+
+Hallo {firstname} {lastname},
+
+Bestellung {order_name} - Bestellung geändert
+
+Ihre Bestellung mit der Referenz {order_name} bei {shop_name} wurde vom Verkäufer storniert.
+
+Gehen Sie zu Ihrem Kundenkonto, um mehr darüber zu erfahren.
+
+Wenn Sie ein Gast-Konto haben, können Sie Ihre Bestellung im Abschnitt "[Bestellverfolgung]({guest_tracking_url})" in unserem Shop verfolgen.
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop.com/?utm_source=marchandprestashop&utm_medium=e-mail&utm_campaign=footer_1-7)

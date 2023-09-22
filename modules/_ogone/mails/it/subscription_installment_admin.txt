@@ -1,0 +1,6 @@
+Messaggio da {shop_name}
+
+Questa è una nuova rata della sottoscrizione # {SUBSCRIPTION_ID}
+Puoi consultare gli abbonamenti su {SUBSCRIPTION_URL_BO}
+Ecco i dettagli dell'abbonamento:
+{SUBSCRIPTION_DESCRIPTION_TXT}

@@ -1,0 +1,24 @@
+@import "compass";
+@import "theme_variables";
+
+$image-theme-base-path: "img/";
+
+$theme-color-default: 				#e5a559;
+$link-hover-color: 					$theme-color-default;
+$breadcrumb-active-color:           $theme-color-default;
+
+
+$topbar-outside-bg:                 $theme-color-default;
+$topbar-bg:                         $theme-color-default;
+$topbar-hover-link-color:          $theme-color-default; 
+
+$megamenu-link-hover-color:         $theme-color-default;
+$megamenu-sub-link-hover-color:     $theme-color-default;
+$vertical-menu-link-hover-color:    $theme-color-default;
+
+$product-price-color:               $theme-color-default;
+$product-name-hover-color:          $theme-color-default;
+$button-addtocart-bg-hover:         $theme-color-default;
+
+@import "../_skin";
+

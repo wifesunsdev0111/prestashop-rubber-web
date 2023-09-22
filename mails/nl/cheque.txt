@@ -1,0 +1,29 @@
+ 
+
+{shop_url}
+
+Hallo {firstname} {lastname},
+
+Bedankt voor het winkelen bij {shop_name}!
+
+Bestelling {order_name} - Wachtende op betaling met cheque
+
+Uw bestelling met referentie {order_name} is succesvol geplaatst en zal  verstuurd worden zodra wij uw betaling ontvangen hebben.
+
+Betaalmethode: Cheque
+
+U hebt ervoor gekozen om te betalen via cheque. Hier is de informatie die u nodig heeft om te betalen via cheque:
+
+Bedrag:  {total_paid}
+
+Totaalbedrag bestelling:  {check_name}
+
+Verschuldigd i.v.m. een bestelling aan:  {check_address_html}
+
+Volg uw bestelling en download uw factuur via onze online shop, ga naar [Bestellingen en details]({history_url}) in uw klantenaccount.
+
+Met een gast account kunt de bestelling volgen via ["Bestelling volgen"]({guest_tracking_url}) in onze online shop.
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop.com/?utm_source=marchandprestashop&utm_medium=e-mail&utm_campaign=footer_1-7)

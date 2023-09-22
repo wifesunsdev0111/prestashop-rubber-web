@@ -1,0 +1,9 @@
+Nachricht von {shop_name}
+
+
+Sehr geehrter Kunde,
+
+Ihr Abonnement # {SUBSCRIPTION_ID} wurde gestartet.
+Sie können Abos auf {SUBSCRIPTION_URL_BO} abrufen.
+Hier sind Details Ihres Abonnements:
+{SUBSCRIPTION_DESCRIPTION_TXT}

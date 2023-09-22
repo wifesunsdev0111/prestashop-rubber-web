@@ -1,0 +1,17 @@
+ 
+
+{shop_url}
+
+Hallo {firstname} {lastname},
+
+Bestelling {order_name} - Waardebon code aangemaakt
+
+We willen jouw graag informeren over een kortingscode die is aangemaakt op uw naam voor bestelling met referentie {order_name}.
+
+KORTINGSCODE: {voucher_num} voor een bedrag van {voucher_amount}
+
+Om deze te gebruiken, knip/plak deze code tijdens het bestellen.
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop.com/?utm_source=marchandprestashop&utm_medium=e-mail&utm_campaign=footer_1-7)

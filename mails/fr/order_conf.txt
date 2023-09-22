@@ -1,0 +1,45 @@
+ 
+
+{shop_url}
+
+Bonjour {firstname} {lastname},
+
+Merci d'avoir effectué vos achats sur {shop_name} !
+
+Détails de la commande
+
+Commande : {order_name} passée le {date}
+
+Paiement : {payment}
+
+Référence	Produit	Prix unitaire	Quantité	Prix total  {products_txt} {discounts_txt}
+Produits	{total_products}
+Réductions	{total_discounts}
+Paquet cadeau	{total_wrapping}
+Livraison	{total_shipping}
+Incluant un total de taxes	{total_tax_paid}
+Total payé	{total_paid}
+
+Livraison
+
+Transporteur : {carrier}
+
+Paiement : {payment}
+
+Emballage recyclé : {recycled_packaging_label}
+
+Adresse de livraison
+
+{delivery_block_txt}
+
+Adresse de facturation
+
+{invoice_block_txt}
+
+Suivez votre commande et téléchargez votre facture sur notre site, rendez-vous dans la section [Historique et détails de mes commandes]({history_url}) de votre compte client.
+
+Si vous avez un compte invité, vous pouvez suivre votre commande via la section [Suivi de commande]({guest_tracking_url}) sur notre boutique.
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop.com/?utm_source=marchandprestashop&utm_medium=e-mail&utm_campaign=footer_1-7)

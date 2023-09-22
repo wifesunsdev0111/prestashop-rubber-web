@@ -1,0 +1,6 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/CONGVIEC\/projects\/htdocs\/public\/brainos\/leo_tracy\/themes\/leotracy\/sass\/modules\/leomenusidebar\/leomenusidebar\.scss}line{font-family:\000032}}
+#leo-verticalmenu .megamenu li:hover > .dropdown-menu {
+  display: block;
+  top: -11px;
+  left: 100%;
+}

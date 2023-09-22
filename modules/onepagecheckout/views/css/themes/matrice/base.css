@@ -1,0 +1,45 @@
+/*
+Theme's customized CSS for better user feel on checkout form.
+*/
+
+#page div#opc_payment_methods {
+    border: none;
+    padding: 0;
+    width: auto;
+}
+
+div#opc_info_block {
+    background: white;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+
+#page span.validity {
+    padding-left: 8px;
+}
+
+#page #login_form p.text {
+    height: 2.4em;
+}
+
+#opc_new_account span.ex_blur, #offer_password span.ex_blur {
+    color: #ddd;
+}
+
+#opc_new_account span.ex_focus, #offer_password span.ex_focus {
+    color: #808387;
+}
+
+#page form#new_account_form fieldset {
+    width: 100%; /* Matrice theme 70% widht fix */
+}
+
+#page div#opc_account_form p.checkbox, form.std p.checkbox  {
+    padding-left: 5%; /* Matrice theme 32.5% padding left */
+}
+
+form#new_account_form fieldset div {
+    float: none;
+}
+

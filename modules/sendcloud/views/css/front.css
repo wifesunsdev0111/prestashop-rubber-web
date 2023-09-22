@@ -1,0 +1,136 @@
+.sendcloud-spp {
+  margin-bottom: 0.85em;
+}
+.sendcloud-spp--ps17 {
+  padding: 1rem;
+}
+.sendcloud-spp .form-group {
+  border: none;
+  padding: 0.5em;
+}
+.sendcloud-spp__selection {
+  display: flex;
+  flex-direction: column;
+}
+.sendcloud-spp__selection-btn {
+  text-align: center;
+  clear: both;
+  cursor: pointer;
+}
+.sendcloud-spp__point-details {
+  margin-top: 0.3em;
+  float: left;
+  clear: both;
+}
+.sendcloud-spp__point-details .description {
+  font-size: 0.8em;
+}
+.sendcloud-spp__point-details .description b {
+  font-size: 1em;
+}
+.sendcloud-spp__selection-details {
+  margin-top: 1rem;
+}
+.sendcloud-spp .form-group .alert-warning {
+  height: 47px;
+  padding:15px;
+}
+.sendcloud-spp .hidden {
+  display: none;
+}
+#carrier_area .delivery_option.disabled {
+  opacity: 0.5;
+}
+.sendcloudshipping-fullscreen {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+}
+.sendcloudshipping-overlay {
+  background: #222;
+  opacity: 0.7;
+  z-index: 2147483646;
+}
+.sendcloudshipping-map {
+  z-index: 2147483647;
+}
+
+/* PrestaShop 1.5 overrides */
+.sendcloudshipping-ps15 .alert {
+  margin-top: 0.7em;
+  padding: 0.5em 0.7em;
+}
+.sendcloudshipping-ps15 .alert-warning {
+  border:1px solid #fdd531;
+  background-color: lightyellow;
+  color: #666;
+}
+.sendcloud-spp__order-confirmation.box {
+  box-sizing:border-box;
+  width: 100%;
+  margin-top: 0.7em;
+  margin-bottom: 0.7em;
+  display: flex;
+  flex-direction: column;
+}
+.sendcloud-spp__order-confirmation .page-subheading {
+  font-weight: 600;
+  font-size: 1.1em;
+  margin:0;
+  padding:0;
+  margin-bottom: 0.5em;
+}
+.sendcloud-spp__point-details,
+.sendcloud-spp__point-details dl,
+.sendcloud-spp__point-details dl dt,
+.sendcloud-spp__point-details dl dd,
+.sendcloud-spp__point-details dl dd p {
+  padding: 0;
+  margin: 0;
+}
+
+.sendcloud-spp__point-details dl dt {
+  font-weight: 300;
+  font-size: 1.1em;
+}
+.sendcloud-spp__point-details dl dd {
+  font-size: 1em;
+}
+.sendcloudshipping-ps15.adresses_bloc .address_title .page-subheading {
+  font-size: 11px;
+}
+
+@media screen and (min-width:768px) {
+  .sendcloud-spp__selection {
+    flex-direction: row;
+  }
+  .sendcloud-spp__selection-details {
+    margin-top: 0;
+    margin-left: 1rem;
+  }
+  .sendcloud-spp__btn {
+    width: auto;
+    text-align: left;
+    clear: none;
+  }
+  .sendcloud-spp__point-details {
+    clear: none;
+    margin-left: 0.7em;
+    margin-top: 0;
+  }
+  .sendcloud-spp__point-details .description {
+    font-size: 0.9em;
+  }
+  .sendcloud-spp__point-details .description b {
+    font-size: 1.1em;
+  }
+
+}
+
+@media screen and (min-width: 993px) {
+  .sendcloud-spp--ps17 {
+    padding: 0;
+  }
+}

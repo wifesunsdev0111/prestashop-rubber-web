@@ -1,0 +1,34 @@
+{
+  "name": "3xcb-no-fees",
+  "config": {
+    "group": {
+      "code": "oney",
+      "label": "Oney"
+    },
+    "displayNameBO": "3x Carte Bancaire sans frais - Oney",
+    "displayName": {
+      "fr": "3x Carte Bancaire sans frais - Oney",
+      "en": "3x Credit card without fees - Oney"
+    },
+    "frontPosition": 2,
+    "activated": 0,
+    "displayConfigurationFields": [
+      "displayName",
+      "minAmount",
+      "maxAmount",
+      "countries",
+      "merchantPromotion"
+    ],
+    "countrySelectorReadOnly": 1,
+    "currencySelectorReadOnly": 1,
+    "minAmount": {
+      "EUR": 0
+    },
+    "maxAmount": {
+      "EUR": false
+    },
+    "logo": "3xcb-no-fees.png",
+    "merchantPromotion": false,
+    "maxLengthDescription": 50
+  }
+}

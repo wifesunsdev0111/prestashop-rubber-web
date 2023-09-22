@@ -1,0 +1,32 @@
+**********************************************************************************************************
+***   If you do not agree to the terms of this EULA, do not install or use One page checkout module.   ***
+**********************************************************************************************************
+
+ End User License Agreement for One page checkout module for Prestashop - legal agreement between
+ you and Peter Sliacky, owner of website canin[dot]sk[slash]prestashop. By downloading or purchasing
+ this module you agree to be bound by the terms of this EULA. 
+
+ 
+*** Copyright ***
+ The One page checkout module is protected by copyright laws and international copyright treaties, as well
+ as other intellectual property laws and treaties.
+
+*** Limitations ***
+ You may not redistribute, resell, reverse engineer or decompile this software.
+
+*** Warranty and limitation of liability ***
+ I expressly disclaims any warranty for One page checkout module. The module is provided 'As Is' without
+ any express or implied warranty of any kind.
+
+ In no event shall I be liable for any damages (including, without limitation, lost profits, business 
+ interruption, or lost information) rising out of 'Authorized Users' use of or inability to use the One
+ page checkout module, even if I have been advised of the possibility of such damages. In no event will 
+ I be liable for loss of data or for indirect, special, incidental, consequential (including lost profit), 
+ or other damages based in contract, tort or otherwise.
+
+ Otherwise, general site's Terms and Conditions apply.
+
+
+**********************************************************************************************************
+***   If you do not agree to the terms of this EULA, do not install or use One page checkout module.   ***
+**********************************************************************************************************

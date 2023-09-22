@@ -1,0 +1,43 @@
+{
+  "name": "prestashop/blockreassurance",
+  "description": "PrestaShop module blockreassurance",
+  "homepage": "https://github.com/PrestaShop/blockreassurance",
+  "license": "AFL-3.0",
+  "authors": [
+    {
+      "name": "PrestaShop SA",
+      "email": "contact@prestashop.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.6.0"
+  },
+  "require-dev": {
+    "prestashop/php-dev-tools": "^3.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "PrestaShop\\Module\\BlockReassurance\\": "src/"
+    },
+    "classmap": [
+      "blockreassurance.php",
+      "classes/ReassuranceActivity.php"
+    ],
+    "exclude-from-classmap": []
+  },
+  "config": {
+    "preferred-install": "dist",
+    "classmap-authoritative": true,
+    "optimize-autoloader": true,
+    "prepend-autoloader": false,
+    "platform": {
+      "php": "5.6"
+    }
+  },
+  "scripts": {
+    "lint": [
+      "php-cs-fixer fix --no-interaction --dry-run --diff"
+    ]
+  },
+  "type": "prestashop-module"
+}

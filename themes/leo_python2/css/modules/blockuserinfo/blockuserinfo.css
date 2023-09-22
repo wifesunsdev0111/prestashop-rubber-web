@@ -1,0 +1,107 @@
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/** CHECKOUT BY STEP */
+.header_user_info .header_info {
+  margin-right: 15px;
+  line-height: 38px;
+}
+.rtl .header_user_info .header_info {
+  margin-left: 15px;
+  margin-right: inherit;
+}
+.header_user_info .popup-title {
+  display: none;
+}
+.header_user_info .popup-content {
+  left: auto;
+  right: 0;
+}
+.rtl .header_user_info .popup-content {
+  right: auto;
+  left: auto;
+}
+.rtl .header_user_info .popup-content {
+  left: 0;
+  right: auto;
+}
+
+#topbar .header_user_info .popup-content {
+  left: auto;
+  right: 0;
+}
+.rtl #topbar .header_user_info .popup-content {
+  right: auto;
+  left: auto;
+}
+.rtl #topbar .header_user_info .popup-content {
+  left: 0;
+  right: auto;
+}
+#topbar .header_user_info ul {
+  margin-bottom: 0px;
+}
+#topbar .header_user_info .popup-title a {
+  color: white;
+}
+#topbar .header_user_info .popup-title a:hover {
+  color: #f75253;
+}
+#topbar .header_user_info .header_info a {
+  color: white;
+}
+#topbar .header_user_info .header_info a:hover {
+  color: #f75253;
+}
+#topbar .header_user_info li {
+  display: block;
+}
+#topbar .header_user_info li .fa {
+  margin-right: 6px;
+}
+.rtl #topbar .header_user_info li .fa {
+  margin-left: 6px;
+  margin-right: inherit;
+}
+#topbar .header_user_info li a {
+  padding: 0;
+  margin: 0px;
+}
+
+@media (min-width: 991px) {
+  #topbar .header_user_info {
+    margin: 0 20px;
+  }
+  #topbar .header_user_info li {
+    float: left;
+  }
+  .rtl #topbar .header_user_info li {
+    float: right;
+  }
+  #topbar .header_user_info li a {
+    padding: 0px 20px;
+    border-right: 1px solid #6f7074;
+  }
+  .rtl #topbar .header_user_info li a {
+    border-left: 1px solid #6f7074;
+    border-right: inherit;
+  }
+  #topbar .header_user_info li:first-child a {
+    border-left: 1px solid #6f7074;
+  }
+  .rtl #topbar .header_user_info li:first-child a {
+    border-right: 1px solid #6f7074;
+    border-left: inherit;
+  }
+}

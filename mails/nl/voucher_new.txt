@@ -1,0 +1,15 @@
+ 
+
+{shop_url}
+
+Hallo {firstname} {lastname},
+
+Waardebon code is aangemaakt
+
+Dit is uw nieuwe waardebon code: {voucher_num}
+
+Om deze te gebruiken, knip/plak deze code tijdens het bestellen.
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop.com/?utm_source=marchandprestashop&utm_medium=e-mail&utm_campaign=footer_1-7)

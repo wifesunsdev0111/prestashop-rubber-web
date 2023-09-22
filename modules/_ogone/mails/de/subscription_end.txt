@@ -1,0 +1,10 @@
+Nachricht von {shop_name}
+
+
+Sehr geehrter Kunde
+
+Sie haben die Deaktivierung Ihres Abonnements verlangt
+Die Überprüfung ist von unserem Kundendienst erforderlich und kann eine Weile dauern.
+Sie können Abonnements auf {SUBSCRIPTION_URL_BO} abrufen.
+Hier sind Details Ihres Abonnements:
+{SUBSCRIPTION_DESCRIPTION_TXT}

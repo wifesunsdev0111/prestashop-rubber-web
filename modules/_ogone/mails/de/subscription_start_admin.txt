@@ -1,0 +1,7 @@
+Nachricht von {shop_name}
+
+
+Das Abonnement # {SUBSCRIPTION_ID} wurde gestartet.
+Sie können Abonnements auf {SUBSCRIPTION_URL_BO} abrufen.
+Hier sind Details Ihres Abonnements:
+{SUBSCRIPTION_DESCRIPTION_TXT}

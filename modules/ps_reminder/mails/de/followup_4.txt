@@ -1,0 +1,21 @@
+ 
+
+{shop_url}
+
+Hallo {firstname} {lastname},
+
+Ihr Warenkorb bei {shop_name}
+
+Herzlichen Glückwunsch, Sie sind einer unserer besten Kunden! Es sieht jedoch so aus, als hätten Sie seit {days_threshold} Tagen keine Bestellung aufgegeben.
+
+Ihr Warenkorb wurde gespeichert, Sie können Ihre Bestellung abschließen, indem Sie auf unsere Shop-Seite gehen: {shop_url}
+
+Wir freuen uns, Ihnen einen Rabatt von {amount} % auf Ihre nächste Bestellung anbieten zu können. Dieses Angebot ist gültig für {days} Tage, also warten Sie nicht zu lange!
+
+Hier ist Ihr GUTSCHEIN-CODE: {voucher_num}
+
+Geben Sie diesen Code in Ihrem Warenkorb ein, um den Rabatt zu erhalten.
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop.com/?utm_source=marchandprestashop&utm_medium=e-mail&utm_campaign=footer_1-7)

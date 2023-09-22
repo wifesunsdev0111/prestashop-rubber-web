@@ -1,0 +1,31 @@
+.buttons{
+  @include clearfix();
+  padding: 20px 0; 
+  .left{
+       @include rtl-float-left();
+  }
+  .right{
+      @include rtl-float-right();
+  }
+
+}
+.btn-outline-inverse{
+  @include button-variant-outline($btn-default-color, $theme-color-default, $theme-color-default, $white, $theme-color-secondary , $theme-color-secondary );
+  &:hover{
+    background-color: #195E7B;
+    border-color: #195E7B;
+  }
+} 
+.btn-outline{
+  @include button-variant-outline(  $white, $theme-color-secondary , $theme-color-secondary , $btn-default-color, $theme-color-default, $theme-color-default );
+  @include background-image(linear-gradient(#3e3e3e, #2b2b2b)); 
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3e3e3e', endColorstr='#2b2b2b',GradientType=0 );
+  border-color: #3E3E3E;
+  @include box-shadow(inset 0px 1px 0px $theme-color-secondary);
+  &:hover{
+     @include background-image(linear-gradient(#2db6f1, #22a7e0)); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2db6f1', endColorstr='#22a7e0',GradientType=0 );
+    border-color: #1C8FC1;
+    @include box-shadow(inset 0px 1px 0px #6acbf5);
+  }
+} 

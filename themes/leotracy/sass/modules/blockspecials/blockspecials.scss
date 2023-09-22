@@ -1,0 +1,14 @@
+#special_block_right{
+	.title_block{
+		&:after{
+			width: 65px;
+			height: 65px;
+			background: url('icon_hot.png') no-repeat;
+			position: absolute;
+			content: "";
+			top: -4px;
+			right: -4px;
+			z-index: 9;
+		}
+	}
+}

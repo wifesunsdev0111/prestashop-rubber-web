@@ -1,0 +1,7 @@
+Nachricht von {shop_name}
+
+
+Dies ist eine neue Zahlung von Abonnement # {SUBSCRIPTION_ID}
+Sie können Abos auf {SUBSCRIPTION_URL_BO} abrufen.
+Hier sind Details Ihres Abonnements:
+{SUBSCRIPTION_DESCRIPTION_TXT}

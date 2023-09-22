@@ -1,0 +1,238 @@
+@media only screen and (min-width:1200px) {
+    #order-opc #center_column {
+        width: auto;
+        float: none;
+    }
+
+    #order-opc #right_column, #order-opc #left_column {
+        display: none
+    }
+
+    #opc_checkout #opc_new_account {
+        float: left;
+        width: 285px;
+        margin-right: 15px;
+    }
+
+    #order-detail-content, div#HOOK_SHOPPING_CART {
+        /*width: 557px;*/
+        width: auto;
+        margin-left: 300px;
+    }
+
+    #offer_password, #message_moved, #above_confirmation_msg {
+        margin-left: 300px;
+    }
+
+    #opc_checkout #opc_new_account p.text label,
+    #opc_checkout #opc_new_account p.password label,
+    #opc_checkout #opc_new_account p.select label,
+    #opc_checkout #opc_new_account p.submit label,
+    #opc_checkout #opc_new_account p.radio label:first-child,
+    #opc_checkout #opc_new_account p.textarea label {
+        width: 100%;
+        text-align: left;
+        padding: 1px 4px 3px 4px;
+        margin: 0;
+    }
+
+    #opc_checkout #opc_new_account p.text input,
+    #opc_checkout #opc_new_account p.password input,
+    #opc_checkout #opc_new_account p.select input,
+    #opc_checkout #opc_new_account p.textarea textarea {
+        width: 240px;
+        margin-left: 5px;
+        padding: 4px 6px;
+    }
+
+    #order-opc #login_form fieldset p.submit input {
+        margin-left: 5px;
+    }
+
+    #opc_checkout #opc_new_account p.select select {
+        width: 240px;
+        margin-left: 5px;
+    }
+
+    /*#carriers_section > fieldset, #order-opc #login_form > fieldset {*/
+        /*margin-top: 5px;*/
+    /*}*/
+
+    #opc_checkout #opc_new_account p.checkbox input {
+        margin-left: 5px;
+    }
+
+    #opc_checkout #opc_new_account p.select span {
+        width: 0px;
+    }
+
+    #opc_checkout #opc_new_account #login_form label {
+        width: 100%;
+        float: none;
+        padding: 0 5px 2px;
+        text-align: left;
+        display: block;
+    }
+
+    #new_account_form p.select select#days {
+        width: 48px;
+        padding: 4px 3px;
+    }
+
+    #new_account_form p.select select#months {
+        width: 102px;
+        padding: 4px 3px;
+    }
+
+    #new_account_form p.select select#years {
+        width: 66px;
+        padding: 4px 3px;
+    }
+
+    form#opc_new_account label, form.std p span {
+        float: none !important;
+    }
+
+    form.std {
+        clear: none !important;
+    }
+
+    #order .delivery_option label > table.resume, #order-opc .delivery_option label > table.resume {
+        width: auto;
+    }
+
+    .delivery_option_price {
+        white-space: nowrap;
+    }
+
+    div#shipping-payment-block ~ div.alert.alert-danger {
+        margin-left: 300px;
+    }
+
+
+    form#carriers_section {
+        float: left;
+        margin-right: 10px;
+        width: 50%;
+    }
+
+
+    #shipping-payment-block {
+        margin-left: 300px;
+    }
+
+    /*
+    #shipping-payment-block:after {
+        content: ".";
+        height: 0;
+        clear: both;
+        visibility: hidden;
+    }
+    */
+
+    #shipping-payment-block .inner-table {
+        display: table;
+        width: 100%;
+    }
+
+    #shipping-payment-block #carriers_section, #shipping-payment-block #payments_section {
+        display: table-cell;
+        width: 50%;
+        float: none;
+    }
+
+    #payments_section fieldset, #carriers_section fieldset {
+        border: 1px solid transparent;
+        margin-bottom: 0;
+    }
+
+    #shipping-payment-block table.std {
+        margin-bottom: 15px;
+    }
+
+    div#opc_payment_methods {
+        margin-bottom: 0;
+    }
+
+    #opc_checkout p.checkbox input {
+        margin: 0 2px;
+    }
+
+    #dlv_addresses_div > span, #inv_addresses_div > span {
+        display: none;
+    }
+
+    #order-opc #message {
+        margin-bottom: 5px;
+    }
+
+    input.confirm_button, #free_order_confirm {
+        margin: 50px 0 0 auto;
+        width: auto;
+        min-width: 350px;
+    }
+
+    div#opc_delivery_methods, div#opc_payment_methods {
+        padding: 0 0;
+    }
+
+    #order-opc #login_form fieldset, #new_account_form fieldset {
+        border: 1px solid transparent;
+    }
+
+    #center_column #new_account_form p {
+        margin: 0 0 5px 2px;
+    }
+
+    #opc_checkout #opc_new_account form.std h3 {
+        margin: 0 -8px 6px;
+    }
+    #order-opc h2, #carriers_section h3, #payments_section h3 {
+        margin: 0 -3px 6px; /* Due to overflow hidden of wrapper, we can't set negative margin - more negative than wrapper paddings */
+    }
+
+    div#tos_moved {
+        margin: 20px 20px 20px 300px;
+    }
+
+    #opc_tos_errors {
+        margin-left: 300px;
+    }
+
+    form.std fieldset {
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+    }
+
+    div#opc_new_account {
+        background: rgb(247,247,247); /* Old browsers */
+        background: -moz-linear-gradient(left,  rgba(247,247,247,1) 0%, rgba(234,234,234,1) 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(247,247,247,1)), color-stop(100%,rgba(234,234,234,1))); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(left,  rgba(247,247,247,1) 0%,rgba(234,234,234,1) 100%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(left,  rgba(247,247,247,1) 0%,rgba(234,234,234,1) 100%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(left,  rgba(247,247,247,1) 0%,rgba(234,234,234,1) 100%); /* IE10+ */
+        background: linear-gradient(to right,  rgba(247,247,247,1) 0%,rgba(234,234,234,1) 100%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#eaeaea',GradientType=1 ); /* IE6-9 */
+    }
+
+    div#opc_checkout-removed {
+        background: rgb(244,244,244); /* Old browsers */
+        background: -moz-linear-gradient(left,  rgba(244,244,244,1) 0%, rgba(255,255,255,1) 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(244,244,244,1)), color-stop(100%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(left,  rgba(244,244,244,1) 0%,rgba(255,255,255,1) 100%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(left,  rgba(244,244,244,1) 0%,rgba(255,255,255,1) 100%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(left,  rgba(244,244,244,1) 0%,rgba(255,255,255,1) 100%); /* IE10+ */
+        background: linear-gradient(to right,  rgba(244,244,244,1) 0%,rgba(255,255,255,1) 100%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4f4f4', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 */
+    }
+
+    #new_account_form, #opc_account_form {
+        padding-bottom: 0;
+    }
+
+    div#must_login_msg {
+        margin: 3px -2px 12px;
+    }
+
+}

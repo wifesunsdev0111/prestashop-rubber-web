@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>paypal</name>
+    <displayName><![CDATA[PayPal]]></displayName>
+    <version><![CDATA[5.8.0]]></version>
+    <description><![CDATA[Allow your customers to pay with PayPal - the safest, quickest and easiest way to pay online.]]></description>
+    <author><![CDATA[202 ecommerce]]></author>
+    <tab><![CDATA[payments_gateways]]></tab>
+	<confirmUninstall><![CDATA[Are you sure you want to delete your details?]]></confirmUninstall>
+    <is_configurable>1</is_configurable>
+    <need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

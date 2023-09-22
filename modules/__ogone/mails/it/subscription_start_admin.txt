@@ -1,0 +1,6 @@
+Messaggio da {shop_name}
+
+La sottoscrizione n. {SUBSCRIPTION_ID} è iniziata.
+Puoi consultare gli abbonamenti su {SUBSCRIPTION_URL_BO}
+Ecco i dettagli dell'abbonamento:
+{SUBSCRIPTION_DESCRIPTION_TXT}

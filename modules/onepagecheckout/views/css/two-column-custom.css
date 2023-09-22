@@ -1,0 +1,122 @@
+@media only screen and (min-width:1200px) {
+    #order-opc #center_column {
+        width: auto;
+        float: none;
+    }
+
+    #order-opc #right_column, #order-opc #left_column {
+        display: none
+    }
+
+    #opc_checkout #opc_new_account {
+        float: left;
+        width: 410px;
+        margin-right: 15px;
+    }
+
+    #order-detail-content, div#HOOK_SHOPPING_CART {
+        /*width: 557px;*/
+        width: auto;
+        margin-left: 425px;
+    }
+
+    #offer_password, #above_confirmation_msg, #message_moved {
+        margin-left: 425px;
+    }
+
+    #opc_checkout #opc_new_account p.text label,
+    #opc_checkout #opc_new_account p.password label,
+    #opc_checkout #opc_new_account p.select label,
+    #opc_checkout #opc_new_account p.submit label,
+    #opc_checkout #opc_new_account p.radio label:first-child,
+    #opc_checkout #opc_new_account p.textarea label {
+        width: 120px;
+        padding: 0;
+    }
+
+    #opc_checkout #opc_new_account p.text input,
+    #opc_checkout #opc_new_account p.password input,
+    #opc_checkout #opc_new_account p.select input {
+        width: 205px;
+        margin-left: 10px;
+    }
+
+    #order-opc #login_form fieldset p.submit input {
+        margin-left: 10px;
+    }
+
+    #opc_checkout #opc_new_account p.select select {
+        width: 205px;
+        margin-left: 10px;
+    }
+
+    /*#carriers_section > fieldset, #order-opc #login_form > fieldset {*/
+        /*margin-top: 5px;*/
+    /*}*/
+
+    #opc_checkout #opc_new_account p.checkbox input {
+        margin-left: 10px;
+    }
+
+    #opc_checkout #opc_new_account p.select span {
+        width: 0px;
+    }
+
+
+
+    p.checkbox {
+        padding-bottom: 9px;
+    }
+
+    #login_form label {
+        clear: none;
+    }
+
+    #opc_checkout #opc_new_account p.textarea textarea {
+        margin-left: 10px;
+        width: 205px;
+    }
+
+    #order-opc #opc_account_form #opc_new_account p.select select#days {
+        width: 45px;
+        margin-right: 0;
+    }
+
+    #order-opc #opc_account_form #opc_new_account p.select select#months {
+        width: 95px;
+        margin-right: 0;
+    }
+
+    #order-opc #opc_account_form #opc_new_account p.select select#years {
+        width: 62px;
+        margin-right: 0;
+    }
+
+    #payments_section, form#carriers_section {
+        margin-left: 425px;
+    }
+
+    form#opc_new_account label, form.std p span {
+        float: none !important;
+    }
+
+    form.std {
+        clear: none !important;
+    }
+
+    #order .delivery_option label > table.resume, #order-opc .delivery_option label > table.resume {
+        width: auto;
+    }
+
+    .delivery_option_price {
+        white-space: nowrap;
+    }
+
+    div#shipping-payment-block ~ div.alert.alert-danger {
+        margin-left: 425px;
+    }
+
+    div#tos_moved {
+        margin: 20px 20px 20px 425px;
+    }
+}

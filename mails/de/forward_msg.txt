@@ -1,0 +1,17 @@
+ 
+
+{shop_url}
+
+Hallo {firstname} {lastname},
+
+Kundenservice - Diskussion weitergeleitet
+
+{employee} möchte Ihnen diese Diskussion weiterleiten.
+
+Bisherige Beiträge: {messages}
+
+{employee} fügte {comment} hinzu
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop.com/?utm_source=marchandprestashop&utm_medium=e-mail&utm_campaign=footer_1-7)

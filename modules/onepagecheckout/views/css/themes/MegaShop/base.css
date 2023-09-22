@@ -1,0 +1,33 @@
+#order-detail-content {
+   /* width: 710px; */
+}
+ 
+#cart_voucher {
+    width: auto !important;
+    float: none !important;
+}
+
+  
+
+
+#new_account_form p.text label, #new_account_form p.password label, #new_account_form p.select label, #new_account_form p.textarea label, #new_account_form p.radio label:first-child {
+    float: left;
+    padding-right: 10px;
+    text-align: right;
+    width: 152px;
+}
+
+
+#new_account_form p.select span {
+    display: inline-block;
+    margin: 0 0 0 4px;
+}
+
+#new_account_form p.checkbox input {
+    margin-left: 163px;
+}
+
+
+.cart_voucher p {
+    float: left;
+}    

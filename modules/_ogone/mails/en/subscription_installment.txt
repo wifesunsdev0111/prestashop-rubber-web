@@ -1,0 +1,9 @@
+Message from {shop_name}
+
+
+Dear customer,
+
+This is a new installment of your subscription #{SUBSCRIPTION_ID}
+You can consult your subscriptions on {SUBSCRIPTION_URL}
+Here are details of subscription:
+{SUBSCRIPTION_DESCRIPTION_TXT}

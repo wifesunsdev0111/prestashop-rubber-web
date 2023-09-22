@@ -1,0 +1,28 @@
+{
+  "name": "giropay",
+  "config": {
+    "displayNameBO": "Giropay",
+    "displayName": {
+      "fr": "Giropay",
+      "en": "Giropay"
+    },
+    "frontPosition": 14,
+    "activated": 0,
+    "displayConfigurationFields": [
+      "displayName",
+      "minAmount",
+      "maxAmount",
+      "countries"
+    ],
+    "countrySelectorReadOnly": 1,
+    "currencySelectorReadOnly": 1,
+    "minAmount": {
+      "EUR": 0
+    },
+    "maxAmount": {
+      "EUR": false
+    },
+    "logo": "giropay.png",
+    "orderOnPending": true
+  }
+}

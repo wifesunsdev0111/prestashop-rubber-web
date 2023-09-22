@@ -1,0 +1,17 @@
+ 
+
+{shop_url}
+
+Hallo {firstname} {lastname},
+
+Nachricht von {shop_name}
+
+Sie haben eine neue Nachricht von {shop_name} zur Bestellung mit der Referenz {order_name} erhalten.
+
+Nachricht:
+
+{message}
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop.com/?utm_source=marchandprestashop&utm_medium=e-mail&utm_campaign=footer_1-7)

@@ -1,0 +1,90 @@
+@media only screen and (max-width:500px){
+/*    table#cart_summary, table#cart_summary thead, table#cart_summary tbody, table#cart_summary th, table#cart_summary td, table#cart_summary tr {
+        display: block;
+    }*/
+    table#cart_summary thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+    table#cart_summary td {
+        border: none;
+       /* border-bottom: 1px solid #eee;*/
+        position: relative;
+       /* padding-left: 50% !important;*/
+        /*width: auto !important;*/
+        text-align: left !important;
+        float: left;
+    }
+
+    table#cart_summary tbody td {
+        width: auto !important;
+    }
+
+    #tfoot_static > tr.summary-line td:nth-child(1) {
+        width: 75%;
+        text-align: right !important;
+    }
+
+    table#cart_summary input.cart_quantity_input {
+        float: none;
+    }
+
+    table#cart_summary .cart_total {
+        float: right;
+    }
+
+    table#cart_summary td.cart_description {
+        width: 200px !important;
+    }
+
+/*    table#cart_summary div#cart_quantity_button {
+        display: none;
+    }*/
+
+    /*table#cart_summary td:before {
+        position: absolute;
+        left: 6px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+    }*/
+    
+    table#cart_summary .cart_delete {
+        display: none;
+    }
+    
+    #new_account_form p.text label, #new_account_form p.password label, #new_account_form p.select label, #new_account_form p.textarea label, #new_account_form p.radio label:first-child {
+        text-align: left;
+    }
+    
+    #new_account_form p.checkbox input {
+        margin-left: 0;
+    }
+    #tfoot_static, #cart_summary {
+        display: block !important;
+    }
+
+    #cart_summary tr {
+        border-bottom: 1px solid #ddd;
+        width: 100%;
+        display: inline-block;
+        padding: 5px 0;
+    }
+    /*#cart_summary #tfoot_static > tr.summary-line > td:nth-child(1) {
+        display: block;
+        float: left !important;
+        padding: 3px !important;
+        text-align: right;
+        width: 45% !important;
+        z-index: 20;
+    }
+    #cart_summary #tfoot_static > tr.summary-line > td:nth-child(2) {
+        display: block;
+        padding: 3px !important;
+    }
+*/
+    #tfoot_static, #cart_summary {
+        display: block;
+    }
+}

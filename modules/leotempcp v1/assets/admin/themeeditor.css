@@ -1,0 +1,212 @@
+.adminleotempcptheme #header,.adminleotempcptheme  #footer,.adminleotempcptheme #nav-sidebar,.adminleotempcptheme .page-head{
+    display: none;
+}
+
+html,body,#content,#livethemeeditor{
+    height: 100%;
+    width: 100%;
+}
+.off-customize #main-preview{
+    margin-left: 0
+}
+.off-customize #leo-customize span{margin-left: 22px}
+.off-customize #leo-customize .btn-show{
+    right: -56px;
+    transition:all 0.2s;
+}
+.page-wrapper{
+    margin-left:300px;
+}
+.off-customize #leo-customize{
+    left: -330px;
+}
+
+#customize-form{
+    position: relative;
+}
+#main-preview {
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-left: 300px;
+    transition-duration: 0.2s;
+    transition-property: left, right, top, bottom, width, margin;
+}
+#main-preview iframe, #top_container, #container, #main,#content, body {
+    height: 100%;   
+    width: 100%;
+    border: none;
+    padding: 0;
+    margin: 0;
+
+}
+.colorpicker{
+    z-index: 9999
+}
+#leo-customize{
+    width: 320px;
+
+    position:absolute;
+    top: 0;
+    left:0px; 
+
+    z-index: 3;
+    box-shadow: 0 1px 3px #999;
+    transition-duration: 0.2s;
+    transition-property: left, right, top, bottom, width, margin;
+    background: none repeat scroll 0 0 #fff;
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+
+}
+
+#leo-customize .wrapper{
+
+    padding: 12px; 
+}
+#customize-body input[type="text"]{
+    line-height: 18px;
+    margin: 0;
+    width: 50px;
+    color: #FFF;
+    font-size: 11px;
+    border-radius: 3px 3px 3px 3px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #DFDFDF;
+    padding: 3px 5px;
+    margin-right: 6px;
+    display: inline-block;
+}
+.form-group  {
+    margin-right: 6px;
+}
+.form-group select{
+    width: 100px
+}
+.accordion-inner .form-group .clear-bg{
+    border-radius: 0;
+
+
+
+}
+
+.accordion-group label, .form-group label{
+    display: block;
+    font-size: 11px;
+    text-align: left;
+}
+.accordion-group label{
+    float: left;	
+    margin-right:7px;
+
+    font-weight: normal;
+}
+#leo-customize .btn{
+    padding: 4px 12px;
+    font-size: 11px;
+    font-weight: bold;
+}
+#leo-customize .btn-show{
+    position: absolute;
+    top: 39px;
+    padding:6px 18px;
+    background:#CCC;
+    right:11px;
+    z-index: 99;
+    transition:all 1.2s;
+    cursor: hand;
+    cursor: pointer;
+
+}
+#customize-body .nav-tabs, #customize-body .nav-tabs a{
+    border:none;
+}
+#customize-body .nav-tabs a{
+    background: transparent;
+    font-weight: bold;
+    font-size: 11px;	
+}
+#customize-body .nav-tabs .active a{
+    background: #FFF
+}
+.accordion-heading .accordion-toggle{
+    font-weight: bold;
+    font-family: arial;
+}
+.tab-content > .tab-pane, .pill-content > .pill-pane {
+    background: none repeat scroll 0 0 #FFFFFF;
+}
+.bi-wrapper > div{
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin: 3px 4px;
+    border: solid 1px #999;
+    cursor:hand; cursor:pointer;
+}
+.bi-wrapper > div.active{
+    border-color:red;
+}
+
+#content.bootstrap .panel, #content.bootstrap #dash_version, #content.bootstrap .message-item-initial .message-item-initial-body, #content.bootstrap .timeline .timeline-item .timeline-caption .timeline-panel {
+    padding: 0;
+}
+#content.bootstrap h3:not(.modal-title), #content.bootstrap .panel-heading {
+    margin: 0;
+    text-transform: inherit;
+}
+#customize-body .tab-content {
+    margin-top: 20px;
+}
+
+#leo-customize .bootstrap .label-success {
+    display: inline-block;
+    width: 92px;
+}
+#customize-body .bootstrap .label {
+    border-radius: 0;
+    color: #FFFFFF;
+    font-size: 100%;
+    font-weight: bold;
+    line-height: 1;
+    text-align: center;
+    vertical-align: baseline;
+    display: inline-block;
+}
+
+.page-sidebar  #content {
+    margin-left: 0;
+}
+.page-sidebar .bootstrap .row{float: left; width: 100%; height: 100%;}
+.page-sidebar .bootstrap .col-lg-12{width: 100%; height: 100%;}
+
+.page-sidebar #content.bootstrap {
+    padding-left: 0; 
+    padding-right: 0;
+    padding-top: 0;
+}
+
+#main-preview .paneltool {
+    display: none;
+}
+.page-sidebar #main-preview {
+    margin-left: 320px;
+}
+.off-customize.page-sidebar #main-preview {
+    margin-left:0;
+}
+
+#content.bootstrap .panel, 
+#content.bootstrap #dash_version, 
+#content.bootstrap .message-item-initial .message-item-initial-body, 
+#content.bootstrap .timeline .timeline-item .timeline-caption .timeline-panel {
+    margin-bottom: 10px;
+}
+select.input-setting{margin-right: 0!important}
+.bg-config{padding: 8px 15px;margin-bottom: 20px; list-style: none;}
+.bg-config>li {
+display: inline-block;
+}

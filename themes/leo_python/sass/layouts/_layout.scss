@@ -1,0 +1,330 @@
+/******************************************************
+ * $package Leo Theme Framework for Leo THeme 1.6.x
+ * $version 1.1
+ * $author http://www.leotheme.com
+ * $copyright   Copyright (C) Augus 2013 PavoThemes.com <$emai:leotheme$gmail.com>.All rights reserved.
+ * $license     GNU General Public License version 2
+ *******************************************************/
+ // layout.scss
+
+@import "vars/layout.vars";
+body{
+    &.layout-boxed-md{
+        background: $white;
+        #page{  
+            max-width: $container-desktop + 20px; 
+            @include box-shadow(0 0 5px lighten($gray, 50%));
+            margin: 0 auto;    
+            background: $white;
+            .container {
+                max-width: $container-desktop;
+            }
+        }  
+        
+    }
+    &.layout-boxed-lg{
+        background: $white;
+        #page{  
+            max-width: $container-lg + 20px; 
+            @include box-shadow(0 0 5px lighten($gray, 50%));
+            margin: 0 auto;    
+            background: $white;
+            .container {
+                max-width: $container-lg;
+            }
+        }
+    }
+} 
+
+.container{
+    position: relative;
+}
+// BANNER
+
+.banner{
+    @include size(100%,100%);
+    overflow: hidden;
+    background-color: #EEEDE9;
+    display: none;
+    #banner-bg{
+        -webkit-background-size: cover !important;
+        -moz-background-size: cover !important;
+        -o-background-size: cover !important;
+        background-size: cover !important;
+        pointer-events: none;
+        background-attachment: fixed !important;
+        @include size(100%,100%);
+        -webkit-backface-visibility: hidden;
+        -webkit-animation: imageAnimation 26s linear infinite 0s;
+        -moz-animation: imageAnimation 26s linear infinite 0s;
+        -o-animation: imageAnimation 26s linear infinite 0s;
+        -ms-animation: imageAnimation 26s linear infinite 0s;
+        animation: imageAnimation 26s linear infinite 0s;
+    }
+}
+
+.absolute_banner{
+    position:absolute;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+}
+
+.effect_banner_top{
+    height: 100%;
+    img{
+        position:absolute;
+        bottom: 30%;
+        left: 0px;
+    }
+}
+#page ,  #header{
+    clear: both;
+}
+
+/*
+* HEADER 
+*/
+
+#topbar  {
+    // min-height: $topbar-height;
+    font-size: $topbar-font-size;
+    background: $topbar-outside-bg;
+    color: $topbar-color;
+    line-height: 50px;
+    .container{
+        @include container-layout-variant($topbar-color, $topbar-bg);    
+    }
+    .links{  
+        padding: 6px 0;   
+    } 
+    a{
+        color: $topbar-color;
+        &:hover{color: $topbar-hover-link-color;}        
+    }
+    p{
+        margin: 0;
+        a{
+            color: #FFF;
+            font-family: $font-family-tertiary;
+            &:hover{
+                color: $topbar-hover-link-color;
+            }
+        }
+    }
+    .#{$block-selector} {
+        margin-bottom: 0;
+    }
+    .popup-title{
+        position: relative;
+        .fa{
+            @include rtl-margin-right(5px);
+        }
+        &:hover{
+            color: $topbar-hover-link-color;
+        }
+    }
+    .selected{
+        a{
+            color: $theme-color-default !important;
+        }
+    }
+}
+
+.header-container{
+    position: relative;
+    z-index: 10;
+    .top{
+        background: $headermain-outside-bg;
+        position: relative;
+        z-index: 9;
+        padding:30px 0px 25px 0;
+        border-bottom: 1px solid $border-color;
+       .container{
+            @include container-layout-variant($headermain-color, $headermain-bg); 
+       }
+    }
+} 
+
+#slideshow{
+
+}
+#center_column{
+    position: static;
+}
+/* FOOTER */
+#footer{
+    background-color: $white;
+    @include clearfix();
+    margin-top:80px;
+    font-size: 14px;
+    text-align: center;
+    @media (max-width: 768px) {
+        margin-top:0px;
+    }
+    .container{
+        @include container-layout-variant($footer-color, $footer-bg);   
+    } 
+    .#{$block-heading-selector}{
+        margin-bottom: 10px;
+        font-size: 15px;
+        a{
+            color: $theme-color-secondary;
+        }
+        &:before{
+            display: none;
+        }
+    }
+    a{
+        color: $footer-color;
+        @include transition (all 0.5s ease-out 0s);
+        &:hover{color: $link-hover-color;}
+    }
+    ul{
+        li{
+            margin: 5px 0;
+            padding: 6px 0px 6px 0;
+        }
+    }
+    .footer-block{
+        .toggle-footer{
+            display: block !important;
+        }
+    }
+    // Footer_bottom
+    .footer_bottom{
+        background-color:rgba(252, 252, 252, 0.05) ;
+        padding: 3px 0;
+        margin-top: 40px;
+        @include rtl-text-align-left;
+        a{
+            color: $theme-color-default;
+        }
+        .block{
+            margin-bottom: 0px;
+            line-height: 50px;
+        }
+        p{
+            margin: 0px;
+        }
+        .ApImage{
+            @include rtl-text-align-right;
+            img{
+                display: inline;
+            }
+        }
+    }
+}
+
+
+// BANNER 1
+@-webkit-keyframes imageAnimation { 
+    0% {
+        opacity: 0;
+        -webkit-animation-timing-function: ease-in;
+    }
+    8% {
+        opacity: 1;
+        -webkit-transform: scale(1.05);
+        -webkit-animation-timing-function: ease-out;
+    }
+    17% {
+        opacity: 1;
+        -webkit-transform: scale(1.1);
+    }
+    25% {
+        opacity: 0;
+        -webkit-transform: scale(1.1);
+    }
+    25% {
+        opacity: 0.5;
+        -webkit-transform: scale(1.05);
+    }
+    100% { opacity: 1 
+    
+    }
+}
+@-moz-keyframes imageAnimation { 
+    0% {
+        opacity: 0;
+        -moz-animation-timing-function: ease-in;
+    }
+    8% {
+        opacity: 1;
+        -moz-transform: scale(1.05);
+        -moz-animation-timing-function: ease-out;
+    }
+    17% {
+        opacity: 1;
+        -moz-transform: scale(1.1);
+    }
+    25% {
+        opacity: 0;
+        -moz-transform: scale(1.1);
+    }
+    25% {
+        opacity: 0.5;
+         -moz-transform: scale(1.05);
+    }
+    100% { opacity: 1 }
+}
+@-o-keyframes imageAnimation { 
+    0% {
+        opacity: 0;
+        -o-animation-timing-function: ease-in;
+    }
+    8% {
+        opacity: 1;
+        -o-transform: scale(1.05);
+        -o-animation-timing-function: ease-out;
+    }
+    17% {
+        opacity: 1;
+        -o-transform: scale(1.1);
+    }
+    25% {
+        opacity: 0;
+        -o-transform: scale(1.1);
+    }
+    100% { opacity: 1 }
+}
+@-ms-keyframes imageAnimation { 
+    0% {
+        opacity: 0;
+        -ms-animation-timing-function: ease-in;
+    }
+    8% {
+        opacity: 1;
+        -ms-transform: scale(1.05);
+        -ms-animation-timing-function: ease-out;
+    }
+    17% {
+        opacity: 1;
+        -ms-transform: scale(1.1);
+    }
+    25% {
+        opacity: 0;
+        -ms-transform: scale(1.1);
+    }
+    100% { opacity: 1 }
+}
+@keyframes imageAnimation { 
+    0% {
+        opacity: 0;
+        animation-timing-function: ease-in;
+    }
+    8% {
+        opacity: 1;
+        transform: scale(1.05);
+        animation-timing-function: ease-out;
+    }
+    17% {
+        opacity: 1;
+        transform: scale(1.1);
+    }
+    25% {
+        opacity: 0;
+        transform: scale(1.1);
+    }
+    100% { opacity: 1 }
+}

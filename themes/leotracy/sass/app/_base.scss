@@ -1,0 +1,199 @@
+/**
+ * BASE CSS STYLES
+ */
+html {
+    overflow-y: scroll;
+    margin: 0;
+    padding: 0;
+}
+body {
+  background: $body-bg;
+  color: $text-color;
+  font-size: $font-size-base;
+  margin: 0px;
+  padding: 0px;        
+  // overflow-x:hidden;
+
+}
+
+ul{
+    margin: 0;
+    padding:0;
+    li{
+        list-style: none
+    }
+}
+
+a{
+    color: $base-text-color;
+    &:hover,
+    &:focus {
+        color: $link-hover-color;
+    }
+    &:focus{
+        outline: none;
+    }
+}
+///******
+.bullet {
+    li {
+           @include rtl-padding(6px,0,6px,0);
+           position:relative;
+           border-top: 1px solid $border-color;
+           &:first-child{
+            border-top: none;
+           }
+
+          a {
+            @include rtl-padding(10px,5px,10px ,25px);
+            @include transition(all 0.1s ease 0.1s);
+            &:before {
+                background-image: url(#{$image-theme-base-path}arrow.png) ;
+                background-repeat: no-repeat;
+                @include size(13px,13px);
+                position: absolute;
+                top: 12px;
+                @include rtl-left(0);
+                content: "";
+            }
+            &:hover{
+                &:before{
+                    background-image: url(#{$image-theme-base-path}arrow-hover.png) ;
+                }
+            }
+          }
+          ul{
+            @include rtl-padding-left($block-module-padding);
+          }
+        }
+        > li {
+        @include rtl-padding(10px,0,10px,0);
+         > a{
+            text-transform: $block-module-heading-transform;
+         }
+    }
+}
+/* links style */
+ul{
+    &.links {    
+        margin: 0;
+        padding: 0;    
+        li{
+            display: inline;        
+            line-height: normal;     
+            a{
+                margin:0 $padding-base-vertical;      
+            } 
+            .fa,.icon{
+                @include rtl-margin-right(10px);
+            }       
+        }               
+    }
+    &.list{
+        li{
+            list-style: none;
+           @include rtl-padding(6px,0,6px,0);
+        }    
+    }
+    &.my-account{
+        li{
+            @include rtl-padding(6px,0,6px,0);
+            list-style: disc;
+            @include rtl-margin-left(14px);
+        }
+    }
+    &.inline{
+        li {
+              @include rtl-float-left();
+        }
+    }
+}
+
+.tree-menu {
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            font-size: 12px;
+        }
+        > ul > li {
+            @include size(100%,auto);
+            position: relative;
+            .caret,.head a{ 
+                position: absolute;
+                @include rtl-right(18px);
+                top: 13px;
+                background-color:$brand-primary;
+                color:$white;
+                @include rtl-padding(0px,6px,0px,6px);
+                 @include rtl-margin-right(-20px);
+                @include rounded-corners(10%);                                  
+            }
+            &:last-child a{
+                border:none;
+            }  
+        + li {
+             
+        }
+        > a {
+            display: block;
+            color: $vertical-menu-color;
+            font-size: $vertical-menu-font-size;                
+            @include rtl-padding(10px,0px,10px,0);
+            border-bottom: 1px solid #e0e0e0;   
+            &:hover,&:focus{                    
+               
+            }
+           
+        }
+
+        ul {
+            display: none;
+        }
+            a.active {
+                font-weight: bold;
+                color: #E02673;
+            + ul {
+                display: block;
+                @include rtl-padding(0,0,10px,10px);
+            }
+        }
+        ul > li {
+            @include rtl-padding-left(30px);
+            > a {
+                    text-decoration: none;
+                    display: block;
+                    @include rtl-padding(8px,0,8px,0px);
+                    color: $megamenu-sub-link-color;  
+                &.active {
+                    font-weight: bold;
+                    color:$megamenu-sub-link-hover-color;  
+                }
+            }
+        }
+    }
+}
+
+.panel-line{
+    @include clearfix();
+    .plabel{
+        width: 150px;
+        @include rtl-float-left();
+        font-weight: normal;
+        label{
+            font-weight: normal
+        }
+    }
+    .pcontent{
+        width:70%;
+        @include rtl-float-left();
+    }
+}
+.hasline{
+    border-bottom:solid 1px $border-color;
+    @include rtl-margin(10px,0,10px,0);
+}
+
+.nav-pills{
+    border-bottom: 1px solid $base-border-color;
+}

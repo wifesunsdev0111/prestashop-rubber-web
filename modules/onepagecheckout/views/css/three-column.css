@@ -1,0 +1,206 @@
+@media only screen and (min-width:1200px) {
+    #order-opc #center_column {
+        width: auto;
+    }
+
+    #order-opc #right_column, #order-opc #left_column {
+        display: none
+    }
+
+    #opc_checkout #opc_new_account {
+        float: left;
+        width: 285px;
+        margin-right: 15px;
+    }
+
+    #order-detail-content, div#HOOK_SHOPPING_CART {
+        /*width: 557px;*/
+        width: auto;
+        margin-left: 300px;
+    }
+
+    #offer_password, #message_moved, #above_confirmation_msg {
+        margin-left: 300px;
+    }
+
+    #new_account_form p.text label,
+    #new_account_form p.password label,
+    #new_account_form p.select label,
+    #new_account_form p.radio label:first-child,
+    #new_account_form p.textarea label {
+        width: 100%;
+        text-align: left;
+        padding: 0px 4px 0px 11px;
+        margin: 0;
+    }
+
+    #center_column #new_account_form p {
+        margin: 0 0 5px 2px;
+    }
+
+    #new_account_form p.text input,
+    #new_account_form p.password input,
+    #new_account_form p.select input {
+        width: 240px;
+        margin-left: 10px;
+    }
+
+    #new_account_form p.select select {
+        width: 240px;
+        margin-left: 10px;
+    }
+
+
+    #new_account_form p.checkbox input {
+        margin-left: 10px;
+    }
+
+    #new_account_form p.select span {
+        width: 0px;
+    }
+
+    form.std fieldset {
+        clear: none !important;
+    }
+
+    form.std h3, #new_account_form.std h3, #order-opc h2, #payments_section h3 {
+        margin: 0px 0px 6px; /* Due to overflow hidden of wrapper, we can't set negative margin */
+    }
+
+    p.checkbox {
+        padding-bottom: 9px;
+    }
+
+    #login_form label {
+        clear: none;
+    }
+
+    #login_form p.text {
+        height: auto;
+    }
+
+    #opc_checkout #opc_new_account #login_form label {
+        width: 100%;
+        float: none;
+        padding: 0 10px;
+        text-align: left;
+        display: block;
+    }
+
+    #opc_checkout #opc_new_account #login_form input {
+        width: 240px;
+        margin-left: 10px;
+    }
+
+    input#SubmitLoginOpc {
+        text-align: center;
+    }
+
+    #cart_summary {
+        border: 2px solid rgb(95, 95, 95);
+    }
+
+    #new_account_form p.textarea textarea {
+        margin-left: 10px;
+        width: 240px;
+    }
+
+    #order-opc #opc_account_form #new_account_form p.select select#days {
+        width: 45px;
+        margin-right: 0;
+    }
+
+    #order-opc #opc_account_form #new_account_form p.select select#months {
+        width: 95px;
+        margin-right: 0;
+    }
+
+    #order-opc #opc_account_form #new_account_form p.select select#years {
+        width: 62px;
+        margin-right: 0;
+    }
+
+    #paymentMethodsTable label {
+        text-align: left;
+        width: 100%;
+    }
+
+    form#new_account_form label, form.std p span {
+        float: none !important;
+    }
+
+    form.std {
+        clear: none !important;
+    }
+
+    #order .delivery_option label > table.resume, #order-opc .delivery_option label > table.resume {
+        width: auto;
+    }
+
+    .delivery_option_price {
+        white-space: nowrap;
+    }
+
+
+    form#carriers_section {
+        float: left;
+        margin-right: 10px;
+        width: 50%;
+    }
+
+    #shipping-payment-block {
+        margin-left: 300px;
+        overflow: hidden;
+    }
+
+    #shipping-payment-block .inner-table {
+        display: table;
+        width: 100%;
+    }
+
+    #shipping-payment-block #carriers_section, #shipping-payment-block #payments_section {
+        display: table-cell;
+        width: 50%;
+        float: none;
+    }
+
+    #payments_section fieldset, #carriers_section fieldset {
+        border: 1px solid transparent;
+        margin-bottom: 0;
+    }
+
+    #shipping-payment-block table.std {
+        margin-bottom: 15px;
+    }
+    
+    div#opc_payment_methods {
+        margin-bottom: 0;
+    }
+    
+    #opc_checkout p.checkbox input {
+        margin: 0 2px;
+    }
+
+    #dlv_addresses_div > span, #inv_addresses_div > span {
+        display: none;
+    }
+
+    #order-opc #message {
+        margin-bottom: 5px;
+    }
+
+    input.confirm_button, #free_order_confirm {
+        margin: 50px 0 0 auto;
+        width: auto;
+        min-width: 350px;
+    }
+
+    div#opc_delivery_methods, div#opc_payment_methods {
+        padding: 0 10px;
+    }
+
+    #order-opc #login_form fieldset, #new_account_form fieldset {
+        border: 1px solid transparent;
+    }
+
+}

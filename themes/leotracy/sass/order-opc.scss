@@ -1,0 +1,80 @@
+@import "compass";
+@import "theme_variables";
+
+/********************************************************
+			One-Page Checkout Styles
+********************************************************/
+
+#order-opc {
+	line-height: 20px;
+	.box {
+		padding-bottom: 20px;
+	}
+	.cart_navigation {
+		margin-bottom: 53px;	
+	}
+	.page-heading.step-num {
+		position: relative;
+		@include rtl-padding-left(45px);
+		overflow: visible;
+		span {
+			font-weight: bold;
+			font-size: 35px;
+			line-height: 46px;
+			font-style: italic;
+
+			position: absolute;
+			left: 10px;
+			top: -14px;
+		}
+	} 
+	.lost_password {
+		display: inline-block;
+		text-decoration: underline;
+		margin: 5px 0 14px;
+		&:hover {
+			text-decoration: none;
+		}
+	}
+	
+	.opc-button {
+		padding: 11px 0 0 0;
+	}
+	ul.bullet {
+		line-height: 22px;
+		margin-bottom: 5px;
+	}
+	.date-select {
+		padding-bottom: 10px;
+	}
+	.opc-add-save {
+		border-top: 1px solid $base-border-color;
+		margin-top: 20px;
+		padding-top: 20px;	
+	}
+	#message {
+		margin-bottom: 35px;
+	}
+	#opc_payment_methods {
+		margin-bottom: 30px;
+		p.warning{
+			color: #F13340;
+			font-weight: 700;
+		}
+	}
+	#opc_account {
+		margin-bottom: 30px;
+	}
+	.address_delivery.select {
+		margin-bottom: 15px;
+	}
+	#address_invoice_form.form-group {
+		margin-bottom: 30px;
+	}
+}
+
+#new_account_form .id_state, 
+#new_account_form .dni, 
+#new_account_form .postcode {
+	display: none;
+}

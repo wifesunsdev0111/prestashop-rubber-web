@@ -1,0 +1,19 @@
+ 
+
+{shop_url}
+
+Hallo {firstname} {lastname},
+
+Ihre Nachricht wurde erfolgreich gesendet. Danke, dass Sie sich die Zeit genommen haben zu schreiben!
+
+Bestell-Nr.:  {order_name}
+
+Artikel:  {product_name}
+
+Angehängte Datei: {attached_file}
+
+Wir werden so schnell wie möglich antworten.
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop.com/?utm_source=marchandprestashop&utm_medium=e-mail&utm_campaign=footer_1-7)

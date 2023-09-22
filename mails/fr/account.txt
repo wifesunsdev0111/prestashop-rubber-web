@@ -1,0 +1,29 @@
+ 
+
+{shop_url}
+
+Bonjour {firstname} {lastname},
+
+Merci d'avoir créé votre compte client sur {shop_name}.
+
+Vos identifiants de connexion sur {shop_name}
+
+Vos codes d'accès :
+
+Adresse e-mail : {email}
+
+Conseils de sécurité importants :
+
+1. Vos informations de compte doivent rester confidentielles.
+
+2. Ne les communiquez jamais à qui que ce soit.
+
+3. Changez votre mot de passe régulièrement.
+
+4. Si vous pensez que quelqu'un utilise votre compte illégalement, veuillez nous prévenir immédiatement.
+
+Vous pouvez dès à présent passer commande sur notre boutique : [{shop_name}]({shop_url})
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop.com/?utm_source=marchandprestashop&utm_medium=e-mail&utm_campaign=footer_1-7)

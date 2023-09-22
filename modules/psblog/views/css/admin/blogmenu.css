@@ -1,0 +1,35 @@
+ .icon-AdminPsblogManagement:before {
+ 		content: "\f040";
+ 		font-family: FontAwesome
+  }
+  
+#bloggeneralsetting .panel
+{
+	border-radius: 0px 0px 5px 5px !important;
+}
+.nav-tabs a:focus
+{
+	outline: none;
+}
+.psblog-globalconfig a:focus
+{
+	
+	border-top: 3px solid #25b9d7 !important;
+	border-bottom: none !important;
+}
+
+.psblog-globalconfig a:hover, .psblog-globalconfig li.active a
+{
+	border-top: 3px solid #25b9d7 !important;
+	border-bottom: none !important;
+}
+
+#bloggeneralsetting .panel
+{
+	display: none;
+}
+
+#bloggeneralsetting .panel.active
+{
+	display: block;
+}

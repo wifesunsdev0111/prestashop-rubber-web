@@ -1,0 +1,14 @@
+@import "compass";
+@import "theme_variables";
+
+@include make-grid(lg);
+@include make-grid(md);
+
+ .col-md-2-4 , .col-md-4-8,
+  .col-md-7-2, .col-md-9-6 {float: left;}
+
+  .col-md-2-4  { width: percentage((2.4 / $grid-columns)); }
+  .col-md-4-8  { width: percentage((4.8 / $grid-columns)); }
+  .col-md-7-2  { width: percentage((7.2 / $grid-columns)); }
+  .col-md-9-6  { width: percentage((9.6 / $grid-columns)); }
+  

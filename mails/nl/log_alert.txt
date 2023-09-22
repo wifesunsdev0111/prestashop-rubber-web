@@ -1,0 +1,15 @@
+ 
+
+{shop_url}
+
+Hallo,
+
+Nieuw alarm bericht opgeslagen
+
+OPGELET: er is een nieuwe waarschuwing in het logboek van de backoffice.
+
+U kan deze bekijken via Geavanceerde Paramaters > Logs in uw backoffice.
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop.com/?utm_source=marchandprestashop&utm_medium=e-mail&utm_campaign=footer_1-7)

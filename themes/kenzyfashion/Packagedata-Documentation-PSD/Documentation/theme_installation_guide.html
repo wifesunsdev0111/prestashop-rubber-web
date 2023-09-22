@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Theme Install Document Guide</title>	
+	<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+
+    <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <div class="wrapper" id="axtop">
+	
+        <!-- Sidebar  -->
+        <nav id="sidebar">
+		<div class="logo"><img src="images/logo.png" alt="logo"/></div>
+            <div class="sidebar-header">
+                <h3>kenzyfashion </h3>
+            </div>
+
+            <ul class="list-unstyled components">
+                <p><a href="#">Getting Started </a></p>
+                <li class="active">
+                    <a href="#installationway" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Installation way</a>
+                    <ul class="collapse list-unstyled" id="installationway">
+                        <li>
+                            <a href="#mthd1">Method 1</a>
+                        </li>
+                        <li>
+                            <a href="#mthd2">Method 2</a>
+                        </li>
+                        
+                    </ul>
+                </li>
+                <li>
+                    <a href="#active">Active Theme</a>
+                </li>
+                <li>
+                    <a href="#thememodules" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Theme Modules</a>
+                    <ul class="collapse list-unstyled" id="thememodules">
+                        <li>
+                            <a href="#imgslideshow">Ax Image slideshow</a>
+                        </li>
+                        <li>
+                            <a href="#newproduct">Ax New Product</a>
+                        </li>
+                        <li>
+                            <a href="#featured">Ax Feature Product</a>
+                        </li>
+                         <li>
+                            <a href="#bestseller">Ax Bestseller Product</a>
+                        </li>
+                         <li>
+                            <a href="#special">Ax Special Product</a>
+                        </li>
+						<!-- <li>
+                            <a href="#topseller">Ax Top seller Product</a>
+                        </li> -->
+						<li>
+                            <a href="#sidespecial">Ax Sidebar special</a>
+                        </li>
+						<li>
+                            <a href="#sidetopseller">Ax Sidebar Topseller Product</a>
+                        </li>
+						<li>
+                            <a href="#leftbanner">Ax Leftbanner</a>
+                        </li>
+						<li>
+                            <a href="#brandlogo">Ax Brandlogo</a>
+                        </li>
+						<li>
+                            <a href="#cmsservices">Ax Services CMS</a>
+                        </li>
+						<li>
+                            <a href="#cmsbanner">Ax Banner CMS</a>
+                        </li>
+						<li>
+                            <a href="#cmspayment">Ax payment CMS</a>
+                        </li>
+                        <li>
+                            <a href="#cmscategory">Ax Category CMS</a>
+                        </li> 
+                        <li>
+                            <a href="#testimony">Ax Testimony</a>
+                        </li>
+						<li>
+                            <a href="#cmstop">Ax CMS Top</a>
+                        </li>
+                        <li>
+                            <a href="#psblog">ps blog</a>
+                        </li>
+                        <li>
+                            <a href="#imagesetting">Image Setting</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="https://addons.prestashop.com/en/2_community-developer?contributor=1031150">Portfolio</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+
+            <!--<ul class="list-unstyled CTAs">
+                <li>
+                    <a href="#">Download source</a>
+                </li>
+                <li>
+                    <a href="#" class="article">Back to article</a>
+                </li>
+            </ul>-->
+        </nav>
+
+        <!-- Page Content  -->
+        <div id="content">
+			<div class="top-block">
+				<div class="top-title"> Welcome to Prestashop Theme kenzyfashion </div>
+			</div>
+			<div class="content-inner">
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+
+                    <button type="button" id="sidebarCollapse" class="btn btn-info">
+                        <i class="fas fa-window-maximize"></i>
+                        <span></span>
+                    </button>
+                    <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fas fa-align-justify"></i>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="nav navbar-nav ml-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="https://addons.prestashop.com/en/2_community-developer?contributor=1031150">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact">Contact us</a>
+                            </li>
+                            <!--<li class="nav-item">
+                                <a class="nav-link" href="#">Page</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Page</a>
+                            </li>-->
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+
+            <p><strong> Step by step documentation for install theme and customize theme modules. </strong> <p>
+            <p class="note"> Note : Please read carefully and follow the document , before attempting to install the theme, IT IS RECOMMENDED TO ALWAYS BACKUP YOUR CURRENT STORE BEFORE MAKING ANY UPGRADES OR CHANGES !</p>
+            
+            <div class="line"></div>
+
+			<h3 id="installationway"> Installation Way<a class="top" title="Go to Top" href="#axtop">Back to Top</a></h2>
+
+            <h4 id="mthd1" class="title4" >Method 1</h4>
+			
+            <p>Please Log in to your Prestashop Store Admin panel, Go to <strong> Design >> Theme & Logo </strong>,  Now click on <strong> "Add new theme" </strong> to add theme.</p>
+			<p><a href="images/classic.jpg"><img src="images/classic.jpg" width="1000"/></a></p>
+
+			<div class="line"></div>
+
+			<p><a href="images/select-theme.jpg"><img src="images/select-theme.jpg" width="1000"/></a></p>
+            <div class="line"></div>
+
+            <h4 id="mthd2" class="title4" >Method 2</h4>
+            
+			<p>Direct Upload <strong> modules, themes </strong> folder (Provided in our Theme Package) to your prestashop <strong> root </strong> installation by <strong> FTP tool </strong>( ex : FILEZILA, CUTEFTP ) or from your <strong> cpanel. </strong> </p>
+			<p><a href="images/fileupload.jpg"><img src="images/fileupload.jpg" width="1000"/></a></p>
+			  	
+            <div class="line"></div>
+
+			<h4 id="active" class="title4" >Active Theme</h4>
+            
+			<p> After successfully uploading theme on your current store now you have to active theme from the admin side , Go to <strong> Design >> Theme & Logo </strong>. From Bottom Select our theme <strong> "kenzyfashion" </strong> by click on <strong> "Use this theme" </strong>. </p>
+			<p><a href="images/active.jpg"><img src="images/active.jpg" width="1000"/></a></p>
+			  	
+            <div class="line"></div>
+            
+			<h3 id="thememodules"> Theme Modules Configuration <a class="top" title="Go to Top" href="#axtop">Back to Top</a></h3>
+			<p> After activate  our theme you need to edit some of theme module for make your store same as our demo store , refer below modules settings. </p>
+			<p> Go to <strong> Modules >> Modules & Services </strong>, Installed modules tab > now search and configure all the modules provided by Aeipix. </p>
+			
+			<!-- Image slideshow Module -->
+			
+            <h4 id="imgslideshow" class="title4" >1. AX Image slideshow</h4>
+			
+            <p> Find Image Slideshow ,<strong> Click on Configure </strong></p>
+			<p><a href="images/slideshow1.jpg"><img src="images/slideshow1.jpg" width="1000"/></a></p>
+			
+			<p> Click on <strong> Edit </strong> ,To upload your image in particular slide </p>
+			<p><a href="images/slideshow2.jpg"><img src="images/slideshow2.jpg" width="1000"/></a></p>
+			
+			<p> Upload your image here and <strong> enable >> save </strong></p>
+			<p><a href="images/slideshow3.jpg"><img src="images/slideshow3.jpg" width="1000"/></a></p>
+
+			<p> Click on <strong> Source code </strong> button display in screenshot , copy and paste below <strong> HTML </strong>code for <strong> AX Image slideshow </strong> and click on Ok button than <strong> Save </strong>.</p>
+			<p><a href="images/slideshow4.jpg"><img src="images/slideshow4.jpg" width="1000"/></a></p>
+
+			<p> Code for  <strong> First </strong> image Slide. </p>
+			
+			<p class="codebox"> 
+			&lt;p&gt;&lt;span class="slider-text1"&gt;Men Collection&lt;/span&gt; <br />
+			&lt;span class="slider-text2"&gt;Get Up To 35% off&lt;/span&gt; <br />
+			&lt;a href="#" class="btn btn-primary"&gt;shop now&lt;/a&gt;&lt;/p&gt;<br />
+			</p>
+			
+			<p> Make your changes than <strong> save </strong>.
+			
+			<p> Code for <strong> Second </strong> image Slide. </p>
+			
+			<p class="codebox"> 
+			&lt;p&gt;&lt;span class="slider-text1"&gt;Women fashion&lt;/span&gt; <br />
+			&lt;span class="slider-text2"&gt;Extra 100% cashback&lt;/span&gt;<br />
+			 &lt;a href="#" class="btn btn-primary"&gt;shop now&lt;/a&gt;&lt;/p&gt;<br />
+			</p>
+			
+			<p> Make your changes than <strong> save </strong>.
+
+			<!-- New Product Module -->
+			
+			<h4 id="newproduct" class="title4" >2. AX New Product</h4>
+			
+            <p> Find AX New Product ,<strong> Click on Configure </strong></p>
+			<p><a href="images/newproduct.jpg"><img src="images/newproduct.jpg" width="1000"/></a></p>
+			
+			<p> Make your changes than <strong> save </strong>.
+			
+			<!-- Featured Module -->
+			
+			<h4 id="featured" class="title4" >3. AX Featured Product</h4>
+			
+			<p> Find AX Featured Product ,<strong> Click on Configure </strong></p>
+			<p><a href="images/featuredproduct.jpg"><img src="images/featuredproduct.jpg" width="1000"/></a></p>
+			
+			<p> Make your changes than <strong> save </strong>.
+
+			<!-- Bestseller Module -->
+			
+			<h4 id="bestseller" class="title4" >4. AX Bestseller Product</h4>
+			
+			<p> Find AX Bestseller Product ,<strong> Click on Configure </strong></p>
+			<p><a href="images/bestsellerproduct.jpg"><img src="images/bestsellerproduct.jpg" width="1000"/></a></p>
+			
+			<p> Make your changes than <strong> save </strong>.
+
+			<!-- Special Product Module -->
+			
+			<h4 id="special" class="title4" >5. AX Special Product</h4>
+			
+			<p> Find AX Special Product ,<strong> Click on Configure </strong></p>
+			<p><a href="images/specialproduct.jpg"><img src="images/specialproduct.jpg" width="1000"/></a></p>
+			
+			<p> Make your changes than <strong> save </strong>.
+			
+			<!-- Top seller Module -->
+			
+			<!-- <h4 id="topseller" class="title4" >3. AX Topseller Product</h4>
+			
+			<p> Find AX Top seller Product ,<strong> Click on Configure </strong></p>
+			<p><a href="images/topseller.jpg"><img src="images/topseller.jpg" width="1000"/></a></p>
+			
+			<p> Make your changes than <strong> save </strong>. -->
+			
+			<!-- Sidebar special Module -->
+			
+			<h4 id="sidespecial" class="title4" >6. AX Sidebar special Product</h4>
+			
+			<p> Find AX Sidebar special Product ,<strong> Click on Configure </strong></p>
+			<p><a href="images/sidespecial.jpg"><img src="images/sidespecial.jpg" width="1000"/></a></p>
+			
+			<p> Make your changes than <strong> save </strong>.
+			
+			<!-- Sidebar Top seller Module -->
+			
+			<h4 id="sidetopseller" class="title4" >7. AX Sidebar Topseller Product</h4>
+			
+			<p> Find Sidebar Topseller Product ,<strong> Click on Configure </strong></p>
+			<p><a href="images/sidetopsell.jpg"><img src="images/sidetopsell.jpg" width="1000"/></a></p>
+			
+			<p> Make your changes than <strong> save </strong>.
+			
+			<!-- Leftbanner Module -->
+			
+			<h4 id="leftbanner" class="title4" >8. AX Leftbanner</h4>
+			
+			<p> Find Ax Leftbanner ,<strong> Click on Configure </strong></p>
+			<p><a href="images/leftbanner.jpg"><img src="images/leftbanner.jpg" width="1000"/></a></p>
+			
+			<p> Make your changes than <strong> save </strong>.
+			
+			<!-- Brandlogo Module -->
+			
+			<h4 id="brandlogo" class="title4" >9. AX Brandlogo </h4>
+			
+			<p> Find AX Brandlogo ,<strong> Click on Configure </strong></p>
+			<p><a href="images/brandlogo.jpg"><img src="images/brandlogo.jpg" width="1000"/></a></p>
+			
+			<p> Make your changes than <strong> save </strong>.
+			
+			<!-- Service CMS Module -->
+			
+			<h4 id="cmsservices" class="title4" >10. AX Service CMS </h4>
+			
+			<p> Find AX Service CMS ,<strong> Click on Configure </strong></p>
+			<p><a href="images/servicecms.jpg"><img src="images/servicecms.jpg" width="1000"/></a></p>
+			
+			<p> Click on <strong> Source code </strong> button display in screenshot , copy and paste below <strong> HTML </strong>code for <strong> Serivce CMS </strong> and click on Ok button than <strong> Save </strong>.
+
+			<p><a href="images/source-code.jpg"><img src="images/source-code.jpg" width="1000"/></a></p>
+
+            <p> Code for <strong> AX Service CMS </strong> </p>
+			
+			<p class="codebox"> 
+			&lt;ul&gt;<br />
+			&lt;li class="aei-service-item first"&gt;<br />
+			&lt;div class="aei-service-item-inner"&gt;<br />
+			&lt;div class="aei-image-block"&gt;&lt;div class="aei-image-icon"&gt;&amp;nbsp;&lt;/div&gt;&lt;/div&gt;<br />
+			&lt;div class="service-right"&gt;<br />
+			&lt;span class="aei-service-title"&gt;Free World Delivery&lt;/span&gt;<br />
+			&lt;/div&gt;<br />
+			&lt;/div&gt;<br />
+			&lt;/li&gt;<br />
+			&lt;li class="aei-service-item second"&gt;<br />
+			&lt;div class="aei-service-item-inner"&gt;<br />
+			&lt;div class="aei-image-block"&gt;&lt;div class="aei-image-icon"&gt;&amp;nbsp;&lt;/div&gt;&lt;/div&gt;<br />
+			&lt;div class="service-right"&gt;<br />
+			&lt;span class="aei-service-title"&gt;Money Back Gurantee&lt;/span&gt;<br />
+			&lt;/div&gt;<br />
+			&lt;/div&gt;<br />
+			&lt;/li&gt;<br />
+			&lt;li class="aei-service-item third"&gt;<br />
+			&lt;div class="aei-service-item-inner"&gt;<br />
+			&lt;div class="aei-image-block"&gt;&lt;div class="aei-image-icon"&gt;&amp;nbsp;&lt;/div&gt;&lt;/div&gt;<br />
+			&lt;div class="service-right"&gt;<br />
+			&lt;span class="aei-service-title"&gt;24 X 7 Customer Support&lt;/span&gt;<br />
+			&lt;/div&gt;<br />
+			&lt;/div&gt;<br />
+			&lt;/li&gt;<br />
+			&lt;li class="aei-service-item fourth"&gt;<br />
+			&lt;div class="aei-service-item-inner"&gt;<br />
+			&lt;div class="aei-image-block"&gt;&lt;div class="aei-image-icon"&gt;&amp;nbsp;&lt;/div&gt;&lt;/div&gt;<br />
+			&lt;div class="service-right"&gt;<br />
+			&lt;span class="aei-service-title"&gt;Gift And Vouchers&lt;/span&gt;<br />
+			&lt;/div&gt;<br />
+			&lt;/div&gt;<br />
+			&lt;/li&gt;<br />
+			&lt;/ul&gt;<br />
+
+			</p>
+			
+			<p> Make your changes than <strong> save </strong>.
+			
+			<!-- Banner CMS Module -->
+			
+			<h4 id="cmsbanner" class="title4" >11. AX Banner CMS </h4>
+			
+			<p> Find AX Banner CMS ,<strong> Click on Configure </strong></p>
+			<p><a href="images/bannercms.jpg"><img src="images/bannercms.jpg" width="1000"/></a></p>
+			
+			<p> Code for <strong> AX BAnner CMS </strong> </p>
+			
+			<p class="codebox"> 
+			&lt;div class="aeibannerblock"&gt;<br />
+			&lt;div class="banner-left"&gt;<br />
+			&lt;div class="banner-inner first"&gt;<br />
+			&lt;div class="banner-inner-main"&gt;<br />
+			&lt;a href="#"&gt;&lt;img src="https://demoprestashop.aeipix.com/AX01/kenzy13/modules/aei_cmsbanner/views/img/banner1.jpg" alt="" /&gt;&lt;/a&gt;<br />
+			&lt;div class="banner-description"&gt;<br />
+			&lt;a href="#" class="banner-text-first"&gt;Luxury &lt;span&gt;Watch&lt;/span&gt;&lt;/a&gt;
+			&lt;span class="banner-text-second"&gt;New Profation Watch&lt;/span&gt;<br />
+			&lt;a href="#" class="btn btn-primary"&gt;shop now&lt;/a&gt;<br />
+			&lt;/div&gt;<br />
+			&lt;/div&gt;<br />
+			&lt;/div&gt;<br />
+			&lt;div class="banner-inner second"&gt;<br />
+			&lt;div class="banner-inner-main"&gt;<br />
+			&lt;a href="#"&gt;&lt;img src="https://demoprestashop.aeipix.com/AX01/kenzy13/modules/aei_cmsbanner/views/img/banner2.jpg" alt="" /&gt;&lt;/a&gt;<br />
+			&lt;div class="banner-description"&gt;<br />
+			&lt;a href="#" class="banner-text-first"&gt;Designer &lt;span&gt;Sandel&lt;/span&gt;&lt;/a&gt;
+			&lt;span class="banner-text-second"&gt;New Profation Watch&lt;/span&gt;<br />
+			&lt;a href="#" class="btn btn-primary"&gt;shop now&lt;/a&gt;<br />
+			&lt;/div&gt;<br />
+			&lt;/div&gt;<br />
+			&lt;/div&gt;<br />
+			&lt;/div&gt;<br />
+			&lt;/div&gt;<br />	
+
+			</p>
+			
+			<p> Make your changes than <strong> save </strong>.
+			
+			<!-- Payment Module -->
+			
+			<h4 id="cmspayment" class="title4" >12. AX Payment CMS </h4>
+			
+			<p> Find AX Payment CMS ,<strong> Click on Configure </strong></p>
+			<p><a href="images/paymentcms.jpg"><img src="images/paymentcms.jpg" width="1000"/></a></p>
+			
+			<p> Code for <strong> AX Payment CMS </strong> </p>
+			
+			<p class="codebox"> 
+			&lt;ul class="payment-block-inner"&gt;<br />
+			&lt;li class="discover icon"&gt;&lt;a href="#"&gt;&lt;img src="https://demoprestashop.aeipix.com/AX01/kenzy13/modules/aei_cmspayment/views/img/p1.jpg" alt="" /&gt;&lt;/a&gt;&lt;/li&gt;<br />
+			&lt;li class="master icon"&gt;&lt;a href="#"&gt;&lt;img src="https://demoprestashop.aeipix.com/AX01/kenzy13/modules/aei_cmspayment/views/img/p2.jpg" alt="" /&gt;&lt;/a&gt;&lt;/li&gt;<br />
+			&lt;li class="visa icon"&gt;&lt;a href="#"&gt;&lt;img src="https://demoprestashop.aeipix.com/AX01/kenzy13/modules/aei_cmspayment/views/img/p3.jpg" alt="" /&gt;&lt;/a&gt;&lt;/li&gt;<br />
+			&lt;li class="paypal icon"&gt;&lt;a href="#"&gt;&lt;img src="https://demoprestashop.aeipix.com/AX01/kenzy13/modules/aei_cmspayment/views/img/p4.jpg" alt="" /&gt;&lt;/a&gt;&lt;/li&gt;<br />
+			&lt;li class="maestro icon"&gt;&lt;a href="#"&gt;&lt;img src="https://demoprestashop.aeipix.com/AX01/kenzy13/modules/aei_cmspayment/views/img/p5.jpg" alt="" /&gt;&lt;/a&gt;&lt;/li&gt;<br />
+			&lt;/ul&gt;<br />
+			</p>
+			
+			<p> Make your changes than <strong> save </strong>.
+
+			<!-- AX Category CMS -->
+
+			 <h4 id="cmscategory" class="title4" >13. AX Category CMS </h4>
+			
+			<p> Find AX Category CMS ,<strong> Click on Configure </strong></p>
+			<p><a href="images/categorycms.jpg"><img src="images/categorycms.jpg" width="1000"/></a></p>
+			
+			<p> Code for <strong> AX Category CMS </strong> </p>
+			
+			<p class="codebox"> 
+			&lt;ul class="aei-cmscategory-inner"&gt;<br />
+			&lt;li class="aei-cat-item"&gt;<br />
+			&lt;div class="aei-cat-item-inner"&gt;<br />
+			&lt;div class="category-image"&gt;<br />
+			&lt;a href="#"&gt;&lt;img src="https://demoprestashop.aeipix.com/AX01/kenzy13/modules/aei_cmscategory/views/img/cat1.jpg" alt="" /&gt;&lt;/a&gt;<br />
+			&lt;/div&gt;<br />
+			&lt;div class="aei-cat-details"&gt; <br />
+			&lt;a class="aei-cat-name" href="#"&gt;Leather &lt;span&gt;Bags&lt;/span&gt;&lt;/a&gt;
+			&lt;span class="aei-cat-desc"&gt;Up To 20% Off&lt;/span&gt;<br />
+			&lt;a class="btn btn-primary" href="#"&gt;Shop Now&lt;/a&gt; <br />
+			&lt;/div&gt;<br />
+			&lt;/div&gt;<br />
+			&lt;/li&gt;<br />
+			&lt;li class="aei-cat-item"&gt;<br />
+			&lt;div class="aei-cat-item-inner"&gt;<br />
+			&lt;div class="category-image"&gt;<br />
+			&lt;a href="#"&gt;&lt;img src="https://demoprestashop.aeipix.com/AX01/kenzy13/modules/aei_cmscategory/views/img/cat2.jpg" alt="" /&gt;&lt;/a&gt;<br />
+			&lt;/div&gt;<br />
+			&lt;div class="aei-cat-details"&gt; <br />
+			&lt;span class="aei-cat-name" href="#"&gt;On Selected&lt;/span&gt;<br />
+			&lt;span class="aei-cat-desc"&gt;50% Off&lt;/span&gt;<br />
+			&lt;a class="btn btn-primary" href="#"&gt;View More&lt;/a&gt; <br />
+			&lt;/div&gt;<br />
+			&lt;/div&gt;<br />
+			&lt;/li&gt;<br />
+			&lt;li class="aei-cat-item"&gt;<br />
+			&lt;div class="aei-cat-item-inner"&gt;<br />
+			&lt;div class="category-image"&gt;<br />
+			&lt;a href="#"&gt;&lt;img src="https://demoprestashop.aeipix.com/AX01/kenzy13/modules/aei_cmscategory/views/img/cat3.jpg" alt="" /&gt;&lt;/a&gt;<br />
+			&lt;/div&gt;<br />
+			&lt;div class="aei-cat-details"&gt; <br />
+			&lt;a class="aei-cat-name" href="#"&gt;Flat &lt;span&gt;Shoes&lt;/span&gt;&lt;/a&gt;<br />
+			&lt;span class="aei-cat-desc"&gt;Up To 40% Off&lt;/span&gt;<br />
+			&lt;a class="btn btn-primary" href="#"&gt;Shop Now&lt;/a&gt; <br />
+			&lt;/div&gt;<br />
+			&lt;/div&gt;<br />
+			&lt;/li&gt;<br />
+			&lt;/ul&gt;<br />
+			</p>
+			
+			<p> Make your changes than <strong> save </strong>.
+			
+			<!-- AX Testimony -->
+
+			 <h4 id="testimony" class="title4" >14. AX Testimony </h4>
+			
+			<p> Find AX Testimony ,<strong> Click on Configure </strong></p>
+			<p><a href="images/testimony.jpg"><img src="images/testimony.jpg" width="1000"/></a></p>
+			
+			<p> Code for <strong> AX Testimony </strong> </p>
+			
+			<p class="codebox"> 
+			&lt;div id="aeicmstestimony" class="testimony-block"&gt;<br />
+			&lt;h1 class="h1 ax-product-title"&gt;What People Says&lt;/h1&gt;<br />
+			&lt;ul id="aeitestimony-carousel" class="aeitestimony-carousel product_list"&gt;<br />
+			&lt;li class="item"&gt;<br />
+			&lt;div class="owl-item"&gt;<br />
+			&lt;div class="item cms_face"&gt;<br />
+			&lt;div class="test-left"&gt;<br />
+			&lt;div class="testmonial-image"&gt;<br />
+			&lt;img alt="testmonial" title="testmonial" src="https://demoprestashop.aeipix.com/AX01/kenzy13/modules/aei_cmstestimony/views/img/person1.png" /&gt;<br />
+			&lt;/div&gt;<br />
+			&lt;div class="test-image-desc"&gt;<br />
+			&lt;div class="icon"&gt;&lt;img src="https://demoprestashop.aeipix.com/AX01/kenzy13/modules/aei_cmstestimony/views/img/icon.png""&gt;&lt;/div&gt;<br />
+			&lt;div class="name"&gt;&lt;a href="#"&gt;Mack Jeckno&lt;/a&gt;&lt;/div&gt;<br />
+			&lt;div class="designation"&gt;&lt;a title="Iphone Developer" href="#"&gt;Designer&lt;/a&gt;&lt;/div&gt;<br />
+			&lt;/div&gt;<br />
+			&lt;/div&gt;<br />
+			&lt;div class="product_inner_cms"&gt;<br />
+			&lt;div class="desc"&gt;<br />
+			&lt;p&gt;We have compiled few guidelines for you to keep your bags in its best possible state and retain its stunning, antique look even after many years of usage.&lt;/p&gt;<br />
+			&lt;/div&gt;<br />
+			&lt;/div&gt;<br />
+			&lt;/div&gt;<br />
+			&lt;/div&gt;<br />
+			&lt;/li&gt;<br />
+			&lt;li class="item"&gt;<br />
+			&lt;div class="owl-item"&gt;<br />
+			&lt;div class="item cms_face"&gt;<br />
+			&lt;div class="test-left"&gt;<br />
+			&lt;div class="testmonial-image"&gt;<br />
+			&lt;img alt="testmonial" title="testmonial" src="https://demoprestashop.aeipix.com/AX01/kenzy13/modules/aei_cmstestimony/views/img/person2.png" /&gt;<br />
+			&lt;/div&gt;<br />
+			&lt;div class="test-image-desc"&gt;<br />
+			&lt;div class="icon"&gt;&lt;img src="https://demoprestashop.aeipix.com/AX01/kenzy13/modules/aei_cmstestimony/views/img/icon.png""&gt;&lt;/div&gt;<br />
+
+			&lt;div class="name"&gt;&lt;a href="#"&gt;leesa charls&lt;/a&gt;&lt;/div&gt;<br />
+			&lt;div class="designation"&gt;&lt;a title="Iphone Developer" href="#"&gt;Iphone Developer&lt;/a&gt;&lt;/div&gt;<br />
+			&lt;/div&gt;<br />
+
+			&lt;/div&gt;<br />
+			&lt;div class="product_inner_cms"&gt;<br />
+			&lt;div class="desc"&gt;<br />
+			&lt;p&gt;We have compiled few guidelines for you to keep your bags in its best possible state and retain its stunning, antique look even after many years of usage.&lt;/p&gt;<br />
+			&lt;/div&gt;<br />
+			&lt;/div&gt;<br />
+			&lt;/div&gt;<br />
+			&lt;/div&gt;<br />
+			&lt;/li&gt;<br />
+			&lt;li class="item"&gt;<br />
+			&lt;div class="owl-item"&gt;<br />
+			&lt;div class="item cms_face"&gt;<br />
+			&lt;div class="test-left"&gt;<br />
+			&lt;div class="testmonial-image"&gt;<br />
+			&lt;img alt="testmonial" title="testmonial" src="https://demoprestashop.aeipix.com/AX01/kenzy13/modules/aei_cmstestimony/views/img/person3.png" /&gt;<br />
+			&lt;/div&gt;<br />
+			&lt;div class="test-image-desc"&gt;<br />
+			&lt;div class="icon"&gt;&lt;img src="https://demoprestashop.aeipix.com/AX01/kenzy13/modules/aei_cmstestimony/views/img/icon.png""&gt;&lt;/div&gt;<br />
+
+			&lt;div class="name"&gt;&lt;a href="#"&gt;jecob goeckno&lt;/a&gt;&lt;/div&gt;<br />
+			&lt;div class="designation"&gt;&lt;a title="Iphone Developer" href="#"&gt;Web Developer&lt;/a&gt;&lt;/div&gt;<br />
+			&lt;/div&gt;<br />
+
+			&lt;/div&gt;<br />
+			&lt;div class="product_inner_cms"&gt;<br />
+			&lt;div class="desc"&gt;<br />
+			&lt;p&gt;We have compiled few guidelines for you to keep your bags in its best possible state and retain its stunning, antique look even after many years of usage.&lt;/p&gt;<br />
+			&lt;/div&gt;<br />
+			&lt;/div&gt;<br />
+			&lt;/div&gt;<br />
+			&lt;/div&gt;<br />
+			&lt;/li&gt;<br />
+
+			&lt;/ul&gt; <br /> 
+			&lt;/div&gt;<br />
+			</p>
+			
+			<p> Make your changes than <strong> save </strong>.
+			<!-- CMS Top -->
+
+			<h4 id="cmstop" class="title4" >15. AX CMS Top </h4>
+			
+			<p> Find AX CMS Top ,<strong> Click on Configure </strong></p>
+			<p><a href="images/cmstop.jpg"><img src="images/cmstop.jpg" width="1000"/></a></p>
+			
+			<p> Code for <strong> AX CMS Top </strong> </p>
+			
+			<p class="codebox"> 
+			&lt;div class="cmstop"&gt;<br />
+			&lt;div class="customtext"&gt;Get upto 25% Cashback on first order :&lt;a href="#"&gt; GET25OFF&lt;/a&gt;&lt;/div&gt;<br />
+			&lt;/div&gt;<br />
+			</p>
+			
+			<p> Make your changes than <strong> save </strong>.
+			<!-- end cms top -->
+			<!-- CMS Top -->
+
+			<h4 id="psblog" class="title4" >16. Ps Blog </h4>
+
+			<p>Find psblog module inside theme package extra module directory ,  upload module and click on Configure</p>
+			<p> Find  psblog ,<strong> Click on Configure </strong></p>
+			<p><a href="images/psblog.jpg"><img src="images/psblog.jpg" width="1000"/></a></p>
+
+			<p> After install module you need to edit some height & width , refer below Ps Blog Management settings. </p>
+
+			<p> Go to <strong> Ps Blog Management >> Blog dashboard >> Listing Blog Setting</strong> </p>
+
+			<p> Listing Blog Setting</p>
+			<p><a href="images/listningblog.jpg"><img src="images/listningblog.jpg" width="1000"/></a></p>
+
+			<p> Go to <strong> Ps Blog Management >> Blog dashboard >> Item Blog Setting</strong> </p>
+			<p> Item Blog Setting</p>
+			<p><a href="images/itemblogsetting.jpg"><img src="images/itemblogsetting.jpg" width="1000"/></a></p>
+
+			<p> If you want to change blog description & title settings, refer below settings. </p>
+			<p> Go to <strong> Ps Blog Management >> Blogs Management</strong> </p>
+			
+			<p><a href="images/blogmanagement.jpg"><img src="images/blogmanagement.jpg" width="1000"/></a></p>
+			<p><a href="images/blogmanagementsetting.jpg"><img src="images/blogmanagementsetting.jpg" width="1000"/></a></p>
+
+			<p> To add <strong>blog link</strong> in main menu</p>
+			<p> Go to <strong> Module >> Main Menu >> Add New Link</strong> </p>
+			<p><a href="images/bloglik.jpg"><img src="images/bloglik.jpg" width="1000"/></a></p>
+			<p>add below code after  your store url, for example</p>
+			<p>https://demoprestashop.aeipix.com/AX01/kenzyfashion09/index.php?fc=module&module=psblog&controller=list</p>
+			<p class="codebox"> 
+				?fc=module&amp;module=psblog&amp;controller=list
+			</p>
+			<p> Make your changes than <strong> save </strong>.
+
+			<!-- Image Setting -->
+
+			<h4 id="imagesetting" class="title4" >17. Image Setting </h4>
+			
+			<p> To change image setting</p>
+			<p> Go to <strong> Design >> Image Setting</strong> </p>
+			<p><a href="images/imagesetting.jpg"><img src="images/imagesetting.jpg" width="1000"/></a></p>
+			<p> After change image setting regenerate thumbnails</p>
+			<p><a href="images/regenerate.jpg"><img src="images/regenerate.jpg" width="1000"/></a></p>
+			<p> Make your changes than <strong> save </strong>.
+
+
+            <div class="line"></div>
+			<h3 id="contact"> How to Contact us ?<a class="top" title="Go to Top" href="#axtop">Back to Top</a></h3>
+			<p> You can contact us from our template page at <strong> prestashop addon </strong> site.</p>
+			<p> If you have find any difficulties in configuring theme or edit any theme modules , please do not heistate to contact us. we will get back to you asap. Also <strong> do not  forget to add your store details </strong> when you contact us for any theme issue.</p>
+			
+			<p> We would like to thank you for puechase our theme and yes if you like it than do not forget to rate it with <strong> " 5 star " and precious comment</strong>, we appreciate your valuable <strong>reviews</strong>.
+			it mean us a lot :) </p>
+            
+            <div class="line"></div>
+			</div>
+        </div>
+    </div>
+
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- Popper.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <!-- jQuery Custom Scroller CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#sidebar").mCustomScrollbar({
+                theme: "minimal"
+            });
+
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar, #content').toggleClass('active');
+                $('.collapse.in').toggleClass('in');
+                $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+            });
+        });
+		
+    </script>
+	
+</body>
+
+</html>

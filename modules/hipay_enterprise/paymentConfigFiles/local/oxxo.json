@@ -1,0 +1,31 @@
+{
+  "name": "oxxo",
+  "config": {
+    "group": {
+      "code": "astropay",
+      "label": "Astropay"
+    },
+    "displayNameBO": "Oxxo",
+    "displayName":  {
+      "fr": "Oxxo",
+      "en": "Oxxo"
+    },
+    "frontPosition": 19,
+    "activated": 0,
+    "displayConfigurationFields": [
+      "displayName",
+      "minAmount",
+      "maxAmount",
+      "countries"
+    ],
+    "countrySelectorReadOnly": 1,
+    "currencySelectorReadOnly": 1,
+    "minAmount": {
+      "EUR": 0
+    },
+    "maxAmount": {
+      "EUR": false
+    },
+    "logo": "oxxo.png"
+  }
+}

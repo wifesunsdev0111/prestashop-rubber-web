@@ -1,0 +1,338 @@
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/**
+ * Product Item Selectors
+ */
+/***********************************************************************/
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/** CHECKOUT BY STEP */
+/*  
+ * LAYOUT VARIABLES 
+ */
+@media (max-width: 1196px) and (min-width: 992px) {
+  .editortool .label-customize {
+    display: none;
+  }
+}
+@media (min-width: 1200px) {
+  #guestTracking .form-group {
+    overflow: hidden;
+  }
+  #guestTracking .form-group i {
+    padding-left: 10px;
+  }
+  .rtl #guestTracking .form-group i {
+    padding-right: 10px;
+    padding-left: inherit;
+  }
+  #guestTracking .form-control {
+    float: left;
+  }
+  .rtl #guestTracking .form-control {
+    float: right;
+  }
+  #guestTracking label {
+    float: left;
+    clear: both;
+    width: 100%;
+  }
+  .rtl #guestTracking label {
+    float: right;
+  }
+}
+@media (max-width: 1199px) {
+  .zoomdiv {
+    display: none !important;
+  }
+}
+@media (max-width: 991px) {
+  #header-main .inner {
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 30px;
+  }
+
+  .form-control.search_query {
+    width: 100% !important;
+  }
+
+  .leo-megamenu .navbar-nav > li.aligned-left .dropdown-menu {
+    width: 535px !important;
+  }
+  .leo-megamenu .navbar-nav > li > a {
+    font-size: 12px;
+    padding: 16px;
+  }
+
+  .float-vertical.active > .block_content {
+    position: relative;
+  }
+
+  #leo-verticalmenu .open > .dropdown-menu {
+    max-width: 100%;
+    position: relative;
+    left: auto !important;
+    width: 100% !important;
+    top: 100%;
+  }
+
+  div.verticalmenu .navbar-nav {
+    margin: 0;
+  }
+
+  .header_user_info .dropdown-toggle {
+    display: block;
+  }
+
+  .dropdown-menu > li > a {
+    padding: 3px 0;
+  }
+
+  .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+    background: transparent;
+  }
+
+  ul.links li .fa, ul.links li .icon {
+    width: 10px;
+  }
+
+  #footer #newsletter_block_left .newsletter-input {
+    width: 200px;
+  }
+
+  #footer #newsletter_block_left.block .title_block {
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 767px) {
+  form#searchbox {
+    width: 100%;
+  }
+
+  html {
+    background: none;
+  }
+
+  .navbar-header .navbar-toggle {
+    display: block;
+    float: left;
+    margin: 0;
+    width: 40px;
+  }
+  .rtl .navbar-header .navbar-toggle {
+    float: right;
+  }
+
+  .collapse.navbar-collapse {
+    display: none !important;
+  }
+
+  .navbar-nav {
+    float: none;
+  }
+
+  header .g-dropdown {
+    position: relative;
+  }
+  header .g-dropdown .groupe-btn {
+    padding: 5px;
+    float: left;
+    cursor: pointer;
+  }
+  .rtl header .g-dropdown .groupe-btn {
+    float: right;
+  }
+  header .g-dropdown ul.links li {
+    display: block;
+  }
+
+  #topbar .languages_block_top .quick-setting {
+    min-width: 61px;
+  }
+
+  #header_logo {
+    max-height: 100px;
+    min-height: 100px;
+    line-height: 67px;
+  }
+  #header_logo a {
+    display: inline-block;
+  }
+
+  #header-main .inner {
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  #header-main #search_block_top, #header-main .blockcart_top {
+    position: absolute;
+    bottom: -33px;
+    z-index: 9;
+  }
+  #header-main .search_block_top {
+    right: 0;
+  }
+  .rtl #header-main .search_block_top {
+    left: 0;
+    right: auto;
+  }
+  #header-main #search_block_top {
+    right: 17%;
+  }
+  .rtl #header-main #search_block_top {
+    left: 17%;
+    right: auto;
+  }
+  #header-main #search_block_top form#searchbox .input-group-btn .btn {
+    background-color: #21a6df;
+  }
+  #header-main .blockcart_top {
+    padding: 0px 0px 0px 0px;
+    right: 0;
+    bottom: -37px;
+    width: 40px;
+  }
+  .rtl #header-main .blockcart_top {
+    left: 0;
+    right: auto;
+  }
+  #header-main .blockcart_top .cart_block {
+    display: none !important;
+  }
+  #header-main .blockcart_top #cart .heading {
+    min-width: 10px;
+    padding-left: 0px;
+  }
+  #header-main .blockcart_top #cart h4, #header-main .blockcart_top #cart span, #header-main .blockcart_top #cart .ajax_cart_no_product {
+    display: none;
+  }
+  #header-main .blockcart_top #cart .ajax_cart_quantity {
+    display: block;
+    width: 24px;
+    height: 24px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    background-color: #f25d3c;
+    text-align: center;
+    line-height: 24px;
+    position: absolute;
+    left: -15px;
+    top: -10px;
+    color: white;
+  }
+  .rtl #header-main .blockcart_top #cart .ajax_cart_quantity {
+    right: -15px;
+    left: auto;
+  }
+  #header-main .blockcart_top #cart .title-cart {
+    height: 37px;
+    width: 40px;
+    -webkit-border-radius: 0 0 0 0;
+    -moz-border-radius: 0 0 0 0;
+    -ms-border-radius: 0 0 0 0;
+    -o-border-radius: 0 0 0 0;
+    border-radius: 0 0 0 0;
+  }
+
+  #send_friend_form {
+    width: 280px;
+  }
+
+  #poweredby {
+    text-align: center;
+  }
+
+  .widget-manufacture {
+    height: 100px;
+    overflow: hidden;
+  }
+
+  .functional-buttons .btn {
+    bottom: 0 !important;
+  }
+
+  #footnav {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .effect {
+    text-align: center;
+  }
+
+  #leosearchtopbox {
+    margin-right: 8px;
+  }
+  #leosearchtopbox select {
+    width: 40%;
+  }
+  #leosearchtopbox input {
+    width: 60%;
+  }
+
+  .product-block .quick-view {
+    display: none;
+  }
+}
+@media (max-width: 480px) {
+  #cart .heading {
+    display: inline-block;
+  }
+
+  .box-services {
+    display: none;
+  }
+
+  .product-block .functional-buttons {
+    left: 0;
+  }
+
+  #layer_cart .layer_cart_cart .button-container {
+    text-align: center;
+  }
+
+  #layer_cart .layer_cart_cart .button-container .btn {
+    float: none !important;
+    margin-bottom: 10px;
+  }
+
+  .footer-top .widget-manufacture {
+    height: 100px;
+    overflow: hidden;
+  }
+
+  #header-main .media > .pull-left {
+    margin-right: 0;
+  }
+  .rtl #header-main .media > .pull-left {
+    margin-left: 0;
+    margin-right: inherit;
+  }
+  #header-main #search_block_top {
+    right: 50px;
+  }
+  .rtl #header-main #search_block_top {
+    left: 50px;
+    right: auto;
+  }
+  #header-main .blockcart_top {
+    bottom: -41px;
+  }
+
+  .showall {
+    margin-bottom: 10px;
+  }
+}

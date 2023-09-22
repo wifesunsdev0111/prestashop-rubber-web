@@ -1,0 +1,61 @@
+.carousel-control{
+    z-index: 10;
+    height: 35px;
+    width: 35px;
+    color: $black;
+    font-size: 16px;
+    line-height: 33px;
+    background: #f8f8f8;
+    @include rtl-left(auto);
+    @include rtl-right(0);
+    @include border-radius(50%);
+    background-image: none !important;
+    top: -90px;
+    &.left{
+      @include rtl-right(45px);
+    }
+    &.right{
+      @include rtl-right(0px);
+    }
+    &:hover{
+      background: $theme-color-default !important;
+      color: #FFF;
+      border-color: $theme-color-default;
+    }
+}
+.form-control:focus{
+  @include box-shadow(none);
+}
+//@mixin button-variant-outline($color, $background, $border, $colorhover, $bghover, $borderhover ) {
+.btn-inverse{
+  @include button-variant-outline($white, $theme-color-default, $theme-color-default, $text-color, $nocolor , $border-color);
+} 
+.btn-outline{
+  @include button-variant-outline($white, $theme-color-default, $theme-color-default, $white, $yellow-light, $yellow-light);
+}
+.btn{
+  background: #3c3d3d;
+  text-transform: uppercase;
+  font-family: $font-family-secondary;
+  color: $white;
+  @include border-radius(3px);
+  font-size: 12px;
+  color: #FFF;
+  padding: 9px 30px;
+  @include transition(all 0.5s ease 0s);
+  &:focus, &:active:focus, &.active:focus{
+    outline: none;
+  }
+  &:hover{
+    color: $white;
+    border-color: $theme-color-default;
+    background: $theme-color-default;
+  }
+  &.disabled{
+    color: $theme-color-secondary;
+  }
+}
+
+.radio input[type="radio"], .radio-inline input[type="radio"], .checkbox input[type="checkbox"], .checkbox-inline input[type="checkbox"]{
+  margin: 2px 4px 0 0 !important;
+}

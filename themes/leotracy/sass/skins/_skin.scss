@@ -1,0 +1,327 @@
+
+//base
+a{
+    color: $base-text-color;
+    &:hover,
+    &:focus {
+        color: $link-hover-color;
+    }
+}
+.sidebar{
+      .block {
+        .lnk{
+            a{
+                &:hover{
+                    color: $theme-color-default;
+                }
+            }
+        }
+    }
+}
+
+.bg-black{
+    .block_content{
+        .bullet li{
+            a{
+                &:hover{
+                     color: $theme-color-default;
+                }
+            }
+        }
+    }
+}
+// form
+.btn-outline-inverse{
+  @include button-variant-outline($btn-default-color, $theme-color-default, $theme-color-default, $white, $theme-color-secondary , $theme-color-secondary );
+} 
+.btn-outline{
+  @include button-variant-outline(  $white, $theme-color-secondary , $theme-color-secondary , $btn-default-color, $theme-color-default, $theme-color-default );
+} 
+.btn-success {
+  @include button-variant($btn-success-color, $btn-success-bg, $btn-success-border);
+  border-color: $nocolor;
+}
+//block
+.#{$block-selector} { 
+    .#{$block-heading-selector}{
+        color: $white;
+        a{
+            color: $white;
+        }         
+        background:$block-module-heading-bg;  
+        border: $block-module-heading-border; 
+        &:before{
+          border-color: $block-module-heading-bg transparent transparent;
+        }
+    }
+
+}
+.page-subheading{
+    span{
+      background-color: $block-module-heading-bg;
+      &:before{
+        border-color: $block-module-heading-bg $nocolor $nocolor;
+      }
+    }
+    &:before{
+        border-color:$nocolor  $block-module-heading-bg $block-module-heading-bg $nocolor;
+    }
+  }
+
+// Contextual variations
+.#{$block-prefix}-default {
+  @include block-variant($panel-default-border, $panel-default-text, $panel-default-heading-bg, $panel-default-border);
+}
+.#{$block-prefix}-primary {
+  @include block-variant($panel-primary-border, $panel-primary-text, $panel-primary-heading-bg, $panel-primary-border);
+}
+.#{$block-prefix}-success {
+  @include block-variant($panel-success-border, $panel-success-text, $panel-success-heading-bg, $panel-success-border);
+}
+.#{$block-prefix}-info {
+  @include block-variant($panel-info-border, $panel-info-text, $panel-info-heading-bg, $panel-info-border);
+}
+.#{$block-prefix}-warning {
+  @include block-variant($panel-warning-border, $panel-warning-text, $panel-warning-heading-bg, $panel-warning-border);
+}
+.#{$block-prefix}-danger {
+  @include block-variant($panel-danger-border, $panel-danger-text, $panel-danger-heading-bg, $panel-danger-border);
+}
+
+
+// block-variant($border, $heading-text-color, $heading-bg-color, $heading-border)
+.#{$block-prefix}-highlighted {
+    @include block-variant($block-module-highlighted-border, $white, $block-module-highlighted-bg, $block-module-highlighted-bg);
+}
+
+
+//layout
+#topbar  { 
+    .container > .inner{
+        @include container-layout-variant( $topbar-color, $topbar-bg, $topbar-link-color, $topbar-link-hover-color ); 
+    }    
+    .links-outline{
+        a{ color: $topbar-link-hover-color; }
+    }
+    .languages_block_top{
+      background-color: $theme-color-default;
+      border-color: $theme-color-default;
+      .quick-setting{
+        background-color: $theme-color-default;
+      }
+    }
+}
+form#searchbox {
+  .input-group-btn .btn{
+    &:hover{
+    color: $theme-color-default;
+  }
+}
+}
+#header-main{
+   .container > .inner{
+        @include container-layout-variant($headermain-color, $headermain-bg, $headermain-color, $headermain-color-hover );   
+   }
+}
+
+#footer{
+  a{
+    &:hover{
+      color: $footer-color-hover ;
+    }
+  }
+  li{
+    &:hover{
+    em{
+        background-color: $footer-color-hover ;
+    }
+        
+    }
+  }
+}
+
+// prestashop module
+.bullet.bullet-icon{
+  li a{   
+    &:hover:before{
+      background: $footer-center-color-hover;
+    }
+  }
+}
+#footer{
+  #newsletter_block_left{
+    &.block{    
+      .title_block{
+          color: $footer-top-color-hover;          
+      }
+    }
+  }
+}
+
+.box-services { 
+  &:hover{    
+    h4,
+    .iconbox{
+      color: $link-hover-color;
+    }
+  }
+}
+// menu
+.#{$app-brand-prefix}-megamenu {  
+  .navbar-nav{
+    a{
+      color: $megamenu-link-hover-color;  
+    }
+    > li {
+      &.active , &:hover{
+         background-color: $megamenu-link-bg-hover-color;
+        > a{   
+          background-color: $megamenu-link-bg-hover-color;
+          &:before{
+                border-color: $megamenu-link-bg-hover-color $nocolor $nocolor;  
+            }  
+        }
+      }
+    }
+  }
+    .dropdown-menu{
+        background-color:  $megamenu-sub-bg-color;
+        &:after{
+          border-bottom: 6px solid $megamenu-sub-bg-color;
+        }
+    } 
+    .ct_menu{
+      background-color: $background-custom-menu;
+    }    
+}
+
+
+// Tab nav pills
+.block{
+  .nav-pills {
+    > li.active {
+      > a{
+		&,
+		&:hover,
+		&:focus {
+			background-color: $nav-pills-active-link-hover-bg;
+		}
+        &:before{
+          color: $nav-pills-active-link-hover-bg;
+        }
+      }    
+    }
+  }  
+}
+
+//prestashop page
+.content_sortPagiBar{
+	.display{
+    .selected{
+  		a{		
+  			
+  			    background-color: $theme-color-default;
+  			    border: 1px solid $theme-color-default; 
+  			    .fa {
+  			         color: $white; 
+  			    }   
+  		}
+    }
+	}
+} 
+// BREADCRUMB
+.breadcrumb {
+	color: $breadcrumb-active-color;       
+	a {
+	  &:hover {
+	      color: $breadcrumb-active-color;
+	  }
+	}
+
+}
+
+// module
+#cart{        
+    h4{
+        color: $cart-heading-color;
+    }
+}
+// product
+.product-label{
+  background-color: $theme-color-default;
+  &.product-label-new , &.new-box{
+      background-color: $theme-color-default;
+  }
+}
+
+.price-percent-reduction{
+   border:1px solid $theme-color-default;
+   color: $theme-color-default;
+}
+.product-block{
+  .functional-buttons{
+    .btn{
+      border: none;
+      &:hover{
+        background-color: $background-custom-menu;
+      }
+    }
+  }
+} 
+#off-canvas-nav .offcanvas-mainnav {
+    background-color: $theme-color-default;
+  }
+  // product
+.product-block{
+      .name{    
+        a {                                    
+            &:hover{
+                color: $product-name-hover-color;
+            }
+        }
+    }
+  }
+  // 
+table#product_comparison {
+  .remove {
+    a {
+      &:hover {
+          color: $link-hover-color;  
+      }
+    }
+  }
+}
+//
+#wishlist_block{
+    .ajax_cart_block_remove_link {
+    &:hover {
+      color: $link-hover-color;
+    }
+  }
+}
+.bullet {
+    li {
+        a {
+          &:hover{
+            &:before{
+              background-image: url(#{$image-theme-base-path}arrow-hover.png) ;
+        }
+      }
+    }
+  }
+}
+//
+
+.#{$block-content-selector}{ 
+    .carousel-control{
+        &:hover{
+            color: $theme-color-default;
+        }
+    }
+}
+// .functional-buttons{
+//     .lnk_view{
+//         background-color: $theme-color-default;     
+//     }
+
+// }

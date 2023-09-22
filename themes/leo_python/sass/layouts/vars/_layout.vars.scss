@@ -1,0 +1,23 @@
+
+/*  
+ * LAYOUT VARIABLES 
+ */
+
+// Topbar 
+$topbar-outside-bg: 				#34353b !default;
+$topbar-bg: 						#34353b !default;
+$topbar-color: 						#cccccc !default;
+$topbar-hover-link-color:           $theme-color-default;     
+$topbar-font-size: 					14px;
+$topbar-height:                     38px !default;
+
+// header main
+$headermain-outside-bg :			$white !default; 
+$headermain-bg: 			 		$nocolor !default;
+$headermain-color:					$text-color !default;
+$headermain-padding:                30px !default;
+
+// Footer
+$footer-outside-bg :				$theme-color-secondary !default;
+$footer-bg: 						$nocolor !default;
+$footer-color: 						$text-color !default;

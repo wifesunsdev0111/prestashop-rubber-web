@@ -1,0 +1,12 @@
+/*
+Theme's customized CSS for better user feel on checkout form.
+*/
+
+#opc_new_account span.ex_blur, #offer_password span.ex_blur {
+    color: #bbb;
+}
+
+#opc_new_account span.ex_focus, #offer_password span.ex_focus {
+    color: #333;
+}
+

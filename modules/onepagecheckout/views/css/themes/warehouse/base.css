@@ -1,0 +1,40 @@
+.cart_voucher .submit input.button {
+	padding: 0 6px 1px;
+	font-size: 16px;
+}
+
+#order-opc #login_form fieldset {
+	border-bottom: 1px solid #CECECE;
+}
+
+tr.cart_total_wrapping {
+	text-align: right;
+}
+
+/*#order-opc #login_form_content label {
+	width: 204px !important;
+}	
+*/
+#login_form label  {
+	clear: none !important;
+}
+
+div#login_form_content {
+	padding-top: 5px;
+}
+
+/*#login_form p.submit {
+	padding-left: 229px !important;
+}*/
+
+#opc_account_form {
+	padding-bottom: 0px;
+}
+
+table#cart_summary th {
+    font-weight: normal;
+}
+
+table#cart_summary {
+	font-size: 14px;
+}

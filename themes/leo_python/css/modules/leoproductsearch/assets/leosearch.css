@@ -1,0 +1,85 @@
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/** CHECKOUT BY STEP */
+#leo_search_block_top {
+  background-color: rgba(43, 45, 54, 0.8);
+  padding: 30px;
+}
+#leo_search_block_top .title_block {
+  font-size: 18px;
+  color: white;
+  padding: 5px 0 10px 0;
+  border: none;
+}
+#leo_search_block_top .block_content {
+  position: relative;
+  margin-bottom: 20px;
+  background-color: white;
+}
+#leo_search_block_top .form-control {
+  float: left;
+  height: 44px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.rtl #leo_search_block_top .form-control {
+  float: right;
+}
+#leo_search_block_top .form-select {
+  width: 35%;
+  border: none 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+  background-color: transparent;
+}
+#leo_search_block_top .form-select:focus {
+  outline: none;
+}
+#leo_search_block_top .search_query {
+  width: 65%;
+  border-style: solid;
+  border-color: #eaebec;
+  border-width: 0 1px;
+  padding-right: 50px;
+}
+.rtl #leo_search_block_top .search_query {
+  padding-left: 50px;
+  padding-right: inherit;
+}
+#leo_search_block_top #leo_search_top_button {
+  position: absolute;
+  top: 0px;
+  border: none 0;
+  right: 0;
+  width: 44px;
+  height: 44px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+}
+.rtl #leo_search_block_top #leo_search_top_button {
+  left: 0;
+  right: auto;
+}

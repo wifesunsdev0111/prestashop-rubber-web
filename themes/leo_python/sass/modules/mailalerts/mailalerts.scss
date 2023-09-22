@@ -1,0 +1,22 @@
+@import "compass";
+@import "theme_variables";
+
+
+#mailalerts_block_account {
+	li {
+		&.last_item {
+			border-bottom:none;
+			margin-bottom:0;	
+		}
+		.products-block-image {
+			@include rtl-float-left();
+			@include rtl-margin-right(19px);
+		}	
+		.remove {
+			@include rtl-float-right();
+			i {
+				cursor:pointer;	
+			}
+		}
+	}
+}

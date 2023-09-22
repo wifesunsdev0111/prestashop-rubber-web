@@ -1,0 +1,105 @@
+#opc_checkout #opc_new_account {
+    text-align: center;
+    width: 100% !important;
+}
+
+
+#opc_checkout #opc_new_account fieldset {
+    text-align: center;
+}
+
+#opc_checkout #opc_new_account fieldset h3 {
+    text-align: left;
+}
+
+#opc_checkout #opc_new_account div.account_fields, #opc_checkout #opc_new_account div.address_fields {
+    margin: 0 auto;
+    max-width: 685px;
+    text-align: left;
+    border: 0;
+}
+
+
+
+/* Wide screens */
+@media (min-width: 1200px) {
+    #opc_checkout #opc_new_account div.account_fields, #opc_checkout #opc_new_account div.address_fields {
+        max-width: 920px;
+    }
+    #opc_checkout #opc_new_account p.text input, #opc_checkout #opc_new_account p.select select, #opc_checkout #opc_new_account p.textarea textarea {
+        width: 370px;
+    }
+    #opc_checkout #opc_new_account p.text label, #opc_checkout #opc_new_account p.select label, #opc_checkout #opc_new_account p.textarea label {
+        width: 240px;
+    }
+    div.account_fields p.checkbox, div.address_fields p.checkbox {
+        padding-left: 240px
+    }
+}
+
+
+/* Semi-wide screens */
+@media (min-width: 768px) and (max-width: 1199px) {
+    div.account_fields p.checkbox, div.address_fields p.checkbox {
+        padding-left: 195px
+    }
+}
+
+
+
+
+#cart_summary {
+    border-radius: 5px;
+}
+#login_form_content > p.lost_password > a {
+    color: #999;
+}
+fieldset {
+}
+
+#carrierTable tr, #paymentsTable tr {
+}
+
+#carrierTable tr.alternate_item td {
+    border-top: 1px solid red;
+}
+#paymentMethodsTable tr {
+    padding-left: 16px !important;
+}
+#paymentMethodsTable tr td {
+    vertical-align: middle !important;
+}
+#carrierTable td.carrier_name > label {
+    min-width: 80px;
+}
+#paymentMethodsTable td.payment_action.radio {
+    padding: 0 15px 0px 15px;
+}
+
+/*input:focus {*/
+    /*box-shadow: 0 0 1px 1px blue;*/
+/*}*/
+/*input:focus, select:focus, textarea:focus {*/
+    /*box-shadow: 0 0 1px 1px rgb(105, 105, 255);*/
+/*}*/
+
+/*#new_account_form p.radio label {*/
+    /*font-weight: bold;*/
+    /*margin-left: 12px;*/
+/*}*/
+/*#new_account_form p.radio {*/
+    /*padding-left: 0;*/
+/*}*/
+
+
+
+
+/*#opc_new_account p.radio > label:first-child {*/
+    /*border: 1px dotted;*/
+    /*margin-right: 10px;*/
+    /*font-weight: bold;*/
+    /*font-size: 1em;*/
+/*}*/
+/*#opc_new_account p.radio {*/
+    /*padding-left: 0;*/
+/*}*/

@@ -1,0 +1,6 @@
+[09-Oct-2015 10:00:52 Europe/Amsterdam] PHP Fatal error:  Uncaught exception 'PrestaShopException' with message 'Can't load Order status' in /mnt/webb/b2/88/54052188/htdocs/Prestashop_02/classes/PaymentModule.php:174
+Stack trace:
+#0 /mnt/webb/b2/88/54052188/htdocs/Prestashop_02/modules/idealcheckoutpaypal/idealcheckoutpaypal.php(82): PaymentModuleCore->validateOrder(91, 1000, 8.75, 'PayPal', 'Betaling wordt ...', Array, false, false, '11c2b4666b07ed6...')
+#1 /mnt/webb/b2/88/54052188/htdocs/Prestashop_02/modules/idealcheckoutpaypal/payment.php(13): Idealcheckoutpaypal->execPayment(Object(Cart))
+#2 {main}
+  thrown in /mnt/webb/b2/88/54052188/htdocs/Prestashop_02/classes/PaymentModule.php on line 174

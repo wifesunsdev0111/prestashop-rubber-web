@@ -1,0 +1,160 @@
+div#emailLangFile {
+    border: 1px solid green;
+    margin: 20px 25% 10px;
+    padding: 10px 64px;
+    text-align: center;
+}
+
+input#emailFrom, textarea#emailMessage {
+    width: 460px;
+    margin-bottom: 6px;
+}
+
+textarea#emailMessage {
+    height: 150px;
+}
+
+div#opc-support {
+    display: none;
+    border: 1px solid green;
+    margin: 10px;
+    padding: 13px 20px;
+    width: 750px;
+}
+
+
+#display_support_anchor {
+    border: 1px solid green;
+    margin: 5px;
+    padding: 5px 5%;
+}
+
+
+#submitSupportEmailForm input[type="button"] {
+    padding: 2px 30px;
+}
+
+a.highlight_anchor {
+    border-bottom: 1px solid green;
+    padding: 1px 4px;
+    cursor: pointer;
+}
+
+a.highlight_anchor:hover {
+    background: #ffd;
+}
+
+p.bigger_margins {
+    margin: 5px 46px 12px;
+}
+
+a.settings_anchor {
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #585A69;
+    display: block;
+}
+
+a.settings_anchor:hover {
+    text-decoration: underline;
+}
+
+span.monosp {
+    font-family: courier new;
+}
+
+div#system_settings {
+    display: none;
+}
+
+div.settings_group {
+    border: 1px solid #DDDDDD;
+    margin: 6px 0 10px;
+    padding: 12px 3px 0;
+}
+
+input.button {
+    font-weight: bold;
+    height: 30px;
+    width: 200px;
+}
+
+.conf-line {
+    padding-top: 10px;
+}
+
+legend.config-title {
+    font-size: 1.3em;
+    font-style: italic;
+    padding: 3px 31px 9px 25px;
+}
+
+div.alert {
+    background: none repeat scroll 0 0 #FF9999;
+    border: 2px solid #FF0000;
+    font-size: 1.2em;
+    margin-bottom: 14px;
+    padding: 14px;
+}
+
+input.hidden {
+    display: none;
+}
+
+.button.floating-save {
+    margin-left: 30px;
+    margin-top: -10px;
+    position: absolute;
+}
+
+div#help-topics {
+    display: none;
+    border: 1px solid #bbbbbb;
+    margin: 5px 10px 12px;
+    padding: 10px;
+    box-shadow: 0 0 4px 0 #FF0000;
+}
+
+div#help-topics-header {
+    display: none;
+    text-align: left;
+}
+
+
+div.help-topic {
+    padding: 5px;
+    text-align: left;
+}
+
+div.help-topic:hover {
+    background: rgba(254, 255, 215, 0.94);
+}
+
+div.help-topic a span.question {
+    font-weight: bold;
+}
+
+
+div.help-topic a {
+    text-decoration: none;
+}
+
+
+div.help-topic a span.answer {
+    color: #888888;
+    font-style: italic;
+}
+
+div.help-topic span.score {
+    display: none;
+}
+
+div.alert.alert-onboarding {
+    display: none;
+}
+
+/* Addons restrictions */
+a#display_support_anchor {
+    display: none;
+}

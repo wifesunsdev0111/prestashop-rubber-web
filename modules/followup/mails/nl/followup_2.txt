@@ -1,0 +1,17 @@
+ 
+
+{shop_url}
+
+Hallo {firstname} {lastname},
+
+Bedankt voor uw bestelling.
+
+We willen u graag een korting aanbieden van {amount}% op uw volgende order! Deze aanbieding is {days} dagen geldig, dus twijfel niet te lang!
+
+Hier is uw WAARDEBON: {voucher_num}
+
+Voer deze code in bij uw winkelwagen om uw korting te krijgen.
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop.com/?utm_source=marchandprestashop&utm_medium=e-mail&utm_campaign=footer_1-7)

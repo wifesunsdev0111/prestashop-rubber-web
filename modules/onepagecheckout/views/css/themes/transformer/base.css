@@ -1,0 +1,35 @@
+#cart_summary .cart_quantity_up, #cart_summary .cart_quantity_down {
+	position: relative;
+	border: none;
+}
+
+#cart_summary .cart_quantity .cart_quantity_button {
+	height: auto;
+}
+
+input.confirm_button, #free_order_confirm {
+    background-color: #fbbd19;
+    border: medium none;
+}
+
+input.confirm_button:hover, #free_order_confirm:hover {
+	background-color: #E6A700;
+}
+
+#paymentMethodsTable td.payment_description {
+    font-weight: normal;
+}
+
+#paymentMethodsTable .payment_description .banks_block img {
+    height: auto;
+}
+
+#cart_voucher {
+    border: 0 !important;
+    float: none;
+    text-align: right;
+}
+
+p.checkbox div.checker {
+    margin-left: 5px !important;
+}

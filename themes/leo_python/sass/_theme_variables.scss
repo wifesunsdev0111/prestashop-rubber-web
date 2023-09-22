@@ -1,0 +1,88 @@
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
+@import "mixins/theme";
+
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+$app-brand-prefix        : leo !default;
+
+/**
+ *   Blocks Layout Selectors 
+ */
+$block-prefix 			 : block!default;
+$block-selector          : block !default;
+$block-heading-selector  : title_block !default;
+$block-content-selector  : block_content !default;
+
+//------- Path Variables
+$image-path:                   "images/"!default; 
+$font-custom-path:             "../fonts/"!default; 
+$image-theme-base-path:        "../img/"!default;
+$image-base-path:              "../../../img/"!default;
+$image-module-path:            "../../../img/icon/"!default; 
+$module-path:                  "../../../modules/"!default;  
+
+$theme-font-path	   :          	 "../fonts/" !default; 
+
+
+/***********************************************************************/
+// some basic colors
+
+$white:			 				    #FFFFFF !default; 
+$black:							    #000000 !default;
+$blue:                              #00a9e0 !default;  // Skin blue
+$wild-sand:                         #ffffff !default;  
+$silver:                            #f5f5f5 !default;  
+$red:            					#ff0000!default;
+$red-light:            				#ff9999!default;
+$yellow-light:           			#ebb04e!default;
+$purple:                            #6b3de5 !default;
+$green:                             #68B235 !default;
+$pink:                              #e881ff !default;
+
+$nocolor:							transparent!default;
+
+// Variables paths 
+// ========================================================================
+$font-family-secondary:              "Roboto" !default;         // font for title product
+$font-family-tertiary  :             "Raleway" !default;		// font for menu
+$font-family-septenary : 			 "Raleway" !default; 		// font for slideshow
+$font-family-senary    : 		 	 "Roboto" !default;		// font for Price
+
+$font-icon 	   : 			 "FontAwesome" !default;
+
+//////////////////// Variables defined for Themes + Skins //////////////// 
+
+$theme-color-default : 			    #f75253 !default;
+$theme-color-secondary :			#000000 !default;
+$theme-color-tertiary:              #272727 !default;
+
+
+//-------- BORDERS
+$border-color:						#eaeaea !default;
+$main-border:						1px solid $border-color !default;
+$main-border-hover:                 1px solid $theme-color-secondary!default;
+
+//--------- BACKGROUNDS
+$dark-background:                   $black!default;
+$light-background:                  $white!default;
+
+/** CHECKOUT BY STEP */
+$checkout-step-container-border : solid 1px  $border-color!default;
+$checkout-step-container-margin : 30px !default;
+$checkout-step-font-size:18px !default;
+$checkout-step-font-color : $black !default;
+$checkout-step-button-bg: $nocolor !default; 
+$checkout-step-button-padding: 10px 15px;  
+
+// product page
+
+// product list
+
+//
+// Variables
+// --------------------------------------------------
+$rtl-left : left;
+$rtl-right : right;
+

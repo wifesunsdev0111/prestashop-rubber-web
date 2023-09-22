@@ -1,0 +1,34 @@
+{
+  "name": "4xcb",
+  "config": {
+    "group": {
+      "code": "oney",
+      "label": "Oney"
+    },
+    "displayNameBO": "4x Carte Bancaire - Oney",
+    "displayName": {
+      "fr": "4x Carte Bancaire - Oney",
+      "en": "4x Credit card - Oney"
+    },
+    "frontPosition": 5,
+    "activated": 0,
+    "displayConfigurationFields": [
+      "displayName",
+      "minAmount",
+      "maxAmount",
+      "countries",
+      "merchantPromotion"
+    ],
+    "countrySelectorReadOnly": 1,
+    "currencySelectorReadOnly": 1,
+    "minAmount": {
+      "EUR": 0
+    },
+    "maxAmount": {
+      "EUR": false
+    },
+    "logo": "4xcb.png",
+    "merchantPromotion": false,
+    "maxLengthDescription": 50
+  }
+}

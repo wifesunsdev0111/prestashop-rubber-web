@@ -1,0 +1,15 @@
+ 
+
+{shop_url}
+
+Gefeliciteerd!
+
+Uw doorverwezen vriend {sponsored_firstname} {sponsored_lastname} heeft zijn/haar eerste bestelling geplaatst op [{shop_name}]({shop_url})!
+
+We bieden u graag een waardebon aan ter waarde van {discount_display} (WAARDEBON# {discount_name}) die u bij uw volgende bestelling kunt gebruiken.
+
+Met vriendelijke groet,
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop.com/?utm_source=marchandprestashop&utm_medium=e-mail&utm_campaign=footer_1-7)

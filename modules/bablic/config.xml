@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>bablic</name>
+	<displayName><![CDATA[Bablic Localization]]></displayName>
+	<version><![CDATA[1.0.8]]></version>
+	<description><![CDATA[Connects your Prestashop to every language instantly]]></description>
+	<author><![CDATA[Ishai Jaffe]]></author>
+	<tab><![CDATA[i18n_localization]]></tab>
+	<confirmUninstall><![CDATA[Please note, this will not delete your account. Please visit Bablic.com in order to delete your account or cancel your subscription if need be. Do you wish to continue?]]></confirmUninstall>
+	<is_configurable>1</is_configurable>
+	<need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

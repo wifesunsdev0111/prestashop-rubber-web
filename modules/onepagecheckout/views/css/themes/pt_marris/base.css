@@ -1,0 +1,36 @@
+.two_column .grid_20 .cart_voucher input.discount_name {
+	width: auto;
+}
+
+#left_column {
+  display: none;
+}
+
+#opc_new_account {
+	padding-top: 0;
+}
+
+#opc_checkout > div#container_express_checkout {
+    display: none;
+}
+
+#order-opc h2, #carriers_section h3, #payments_section h3, #order-opc #login_form fieldset h3 {
+    color: white;
+}
+
+#opc_checkout table {
+	padding: 10px !important;
+}
+
+form.std h3, #new_account_form.std h3, #order-opc h2, #payments_section h3, #cart_summary th {
+	background: #033b6f !important;
+	font-weight: bold;
+}
+
+#cart_summary .cart_quantity .cart_quantity_up, #cart_summary .cart_quantity .cart_quantity_down {
+	position: initial;
+}
+
+div.confirm_button_div {
+	margin-bottom: 20px;
+}

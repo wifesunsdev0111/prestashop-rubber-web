@@ -1,0 +1,13 @@
+{
+  "name": "visa",
+  "config": {
+    "displayName": "Visa",
+    "activated": 1,
+    "minAmount": {
+      "EUR": 0
+    },
+    "maxAmount": {
+      "EUR": false
+    }
+  }
+}

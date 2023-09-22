@@ -1,0 +1,14 @@
+#sample-style-definition {
+  font-weight: normal;
+}
+
+#new_account_form p.select span.validity {
+    margin: 1px 0 0;
+    padding: 0;
+    width: 16px;
+}
+
+#new_account_form p.select select {
+    margin-right: 2px;
+    width: 332px;
+}

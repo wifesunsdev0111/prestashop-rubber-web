@@ -1,0 +1,10 @@
+
+TEXT: Database check completed, status: OK
+FILE: /mnt/webb/b2/88/54052188/htdocs/Prestashop_02/idealcheckout/install/includes/install.php
+LINE: 582
+
+
+TEXT: Fetching peer certificate for: https://www.ideal-checkout.nl:443
+FILE: /mnt/webb/b2/88/54052188/htdocs/Prestashop_02/idealcheckout/includes/library.php
+LINE: 664
+

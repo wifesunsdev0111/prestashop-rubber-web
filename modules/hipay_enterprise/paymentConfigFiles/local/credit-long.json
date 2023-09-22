@@ -1,0 +1,34 @@
+{
+  "name": "credit-long",
+  "config": {
+    "group": {
+      "code": "oney",
+      "label": "Oney"
+    },
+    "displayNameBO": "Credit Long Primary - Oney",
+    "displayName": {
+      "fr": "Credit Long Primaire - Oney",
+      "en": "Credit Long Primary - Oney"
+    },
+    "frontPosition": 33,
+    "activated": 0,
+    "displayConfigurationFields": [
+      "displayName",
+      "minAmount",
+      "maxAmount",
+      "countries",
+      "merchantPromotion"
+    ],
+    "countrySelectorReadOnly": 1,
+    "currencySelectorReadOnly": 1,
+    "minAmount": {
+      "EUR": 0
+    },
+    "maxAmount": {
+      "EUR": false
+    },
+    "logo": "oney-credit-long.png",
+    "merchantPromotion": false,
+    "maxLengthDescription": 50
+  }
+}

@@ -1,0 +1,18 @@
+/*
+Theme's customized CSS for better user feel on checkout form.
+*/
+
+div#opc_info_block { 
+    background: white;
+}
+
+#carrierTable {
+    border-width: 0px;
+    border-bottom: 1px solid #73BFF3;
+}
+
+
+#cart_block {
+    background-color: white;
+}
+

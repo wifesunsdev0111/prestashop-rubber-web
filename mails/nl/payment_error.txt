@@ -1,0 +1,19 @@
+ 
+
+{shop_url}
+
+Hallo {firstname} {lastname},
+
+Bestelling {order_name} - Betalingsfout
+
+We ondervonden een probleem bij het verwerken van uw betaling voor bestelling met referentie {order_name} op {shop_name}. Gelieve ons zo snel mogelijk te contacteren.
+
+U kan een levering verwachten van zodra wij uw betaling ontvangen hebben.
+
+Volg uw bestelling en download uw factuur via onze online shop, ga naar [Bestellingen en details]({history_url}) in uw klantenaccount.
+
+Met een gast account kunt de bestelling volgen via ["Bestelling volgen"]({guest_tracking_url}) in onze online shop.
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop.com/?utm_source=marchandprestashop&utm_medium=e-mail&utm_campaign=footer_1-7)

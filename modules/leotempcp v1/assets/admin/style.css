@@ -1,0 +1,227 @@
+.clearfix:before,.clearfix:after{content:".";display:block;height:0;overflow:hidden}.clearfix:after{clear:both}.clearfix{zoom:1}
+	.leotheme-layout{
+		background:#f2f2f2;
+		width:800px;
+		margin:10 auto;padding:12px
+	}
+	.leotheme-layout > div, .leotheme-layout > div div{
+		position:relative;
+	}
+	.leo-container{ background:#dcdcdc; margin:8px 0px; position:relative; }
+	#leo-displaynav, #leo-header .topbar, #leo-menu, #leo-slideshow, #leo-displayTopColumn,#leo-bottom ,#leo-hfooter{
+		min-height:40px;
+		padding-top:26px;
+		padding-bottom:9px;
+	}
+
+
+	#leo-content {
+		clear:both;
+		display:block;
+		background:#dcdcdc
+	}
+	#leo-content #leo-left,#leo-content #leo-right{ width:25%;float:left;  min-height:200px}
+	#leo-content .leo-container,#leo-hheaderright {margin:0; padding-top:26px; padding-bottom:9px }
+		#leo-center{
+		 background: #dcdcdc;
+			
+			float: left;
+			min-height: 200px;
+			width: 50%;
+		}
+		#leo-center .leo-container{
+			border-left: 1px solid #CCCCCC;
+			border-right: 1px solid #CCCCCC;
+			height:100%;
+		}
+		
+	#leologo{  width:18%;float:left; min-height:60px}
+	#leo-hheaderright{
+		display:block;
+		float:right;
+		width:80%;
+		min-height:60px;
+	}
+	.placeholder{
+		background:#FFFFBB;
+	}
+	.module-pos{
+		max-width:299px;
+		margin:6px; 
+		cursor:move;
+	}
+	.leo-editmodule{
+		background:#FFF;
+	 
+		padding:5px 8px;
+		border:solid 1px #CCC;
+		font-size:10px;
+	}
+	.leo-editmodule img{width:14px}
+	.leo-container > div{
+		position:relative; 
+	}
+	.module-pos  .edithook{
+		position:absolute;
+		top:3px;
+		right:28px;
+		width:27px;
+		height:20px;
+		z-index:9;
+		display:none;
+		cursor:pointer;
+		cursor:hand;
+		background:url(config.png) no-repeat center center #F2DEDE;
+	}
+	.overridehook    .edithook{
+		display:block;
+	}
+
+	.module-pos .editmod{
+		background: url(edit.png) no-repeat center center #DFF0D8;
+		padding: 10px;
+		position: absolute;
+		right: 4px;
+		top: 3px;
+		z-index: 10;
+	}
+
+	#leo-page .pos{
+		font-size: 11px;
+		font-weight: bold;
+		left: 0;
+		padding: 4px 12px;
+		position: absolute;
+		top: 0;
+		background:#FFF;
+		z-index:10
+	}
+	.leotheme-layout{
+		width:68%;
+		float:left
+	}
+	.holdposition{
+		width:28%;
+		float:left;
+		min-height:600px;
+		background:#e1e1e1;
+		padding-top:24px;
+		margin-top:14px
+	}
+#overidehook{
+	background:#EEE;
+	padding:12px;
+	position:absolute;
+	z-index:99;
+	-webkit-box-shadow: 0 1px 2px #000;
+	-moz-box-shadow: 0 1px 2px #000;
+	box-shadow:0 1px 2px #000;
+	border:solid 1px #666
+}	
+#overidehook  #oh-close{
+	font-size:10px; font-weight:bold;
+	cursor:hand; cursor:pointer
+}
+#leo-copyright{
+	float:left;
+	width:50%;
+	margin-top:40px
+}
+#leo-footnav{
+	min-height:50px; 
+	padding-top:24px;
+	 float:right;
+	 width:48%
+}
+#leo-footer-buider{
+
+	background:#DCDCDC;
+	padding: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center
+
+}
+.form-fonts .group-fields{
+	border: solid 1px #EBEDF4;
+	margin-bottom: 12px;
+	padding: 12px;
+}
+.help-context-adminmodules{
+	display: none!important;
+}
+.process-icon-liveedit{
+  background-image: url("live-edit.png");
+}
+.process-icon-livethemeeditor {
+  background-image: url("theme-editor.png");
+}
+.process-icon-controlpanel {
+  background-image: url("control-panel.png");
+}
+ .note, #leo-page .note ul li{
+	font-size:10px; font-weight:normal;
+}
+
+.vtab-mode > ul{
+	display: block;
+	width: 220px;
+	float: left;
+
+}
+.vtab-mode > ul li {
+	background: #bdc3c7;
+	display: block;
+	width: 100%;
+	padding:10px 0;
+	margin-bottom: 1px;
+}
+.vtab-mode > ul li a{ padding: 12px; color: #FFF }
+.vtab-mode > ul li.active{ background:#7f8c8d; }
+.vtab-mode > div{
+	overflow: hidden;
+	border: #f3f3f3 solid 1px;
+	padding: 12px;
+	margin:12px 0;
+}
+
+
+/**
+ *
+ */
+ h2{ color: #F0776C; font-size: 18px  }
+ h3 b{ color:#20AAE5; text-transform: uppercase;}
+ .custom-form .toolbarBox .pageTitle h3{
+ 	font-size: 12px; 
+ }
+ 
+ .custom-form .ui-widget-header{
+ 	background: none;
+ 	border: none;
+ 	margin-top: -39px; 
+ }
+ .custom-form fieldset{ border: none; }
+.ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited{
+	background-image:none;
+}
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active{
+	border-color: #E6E6E6
+}
+.ui-tabs .ui-tabs-nav li a{
+	padding:7px 28px;
+	font-size: 13px;
+}
+.ui-widget-content, .custom-form .toolbarBox {
+	border-color: #E6E6E6
+}
+.inner   li {
+	line-height:18px;
+ }
+#leo-form-setting { margin-top: 60px; font-size: 13px  }
+#leo-form-setting label { font-size: 12px }
+#leo-form-setting .separation { border-collapse: #E6E6E6 } 
+ #leo-form-setting .inner {padding: 12px }
+ #themecontrol-form,  #themecontrol-form   label,  #themecontrol-form  input,  #themecontrol-form  textarea  {
+ 	font-size:12px;
+ }
+ 

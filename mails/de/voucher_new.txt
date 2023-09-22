@@ -1,0 +1,15 @@
+ 
+
+{shop_url}
+
+Hallo {firstname} {lastname},
+
+Gutscheincode wurde erstellt
+
+Hier ist Ihr neuer Gutscheincode: {voucher_num}
+
+Um ihn zu verwenden, kopieren Sie einfach diesen Code und fügen ihn beim Kaufvorgang ein.
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop.com/?utm_source=marchandprestashop&utm_medium=e-mail&utm_campaign=footer_1-7)

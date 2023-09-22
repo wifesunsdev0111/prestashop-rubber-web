@@ -1,0 +1,298 @@
+.slideshow-container {
+  position: relative;
+  float: left;
+  width: 100%;
+}
+.slider-menu {
+  text-align: center;
+}
+.slider-menu #slideshow {
+    display: inline-block;
+    vertical-align: top;
+}
+.aeihomeslider {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.aeihomeslider li {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
+.aeihomeslider img {
+  display: block;
+  position: relative;
+  z-index: 1;
+  height: auto;
+  width: 100%;
+  border: 0;
+}
+
+.aeihomeslider .caption {
+  display: block;
+  position: absolute;
+  z-index: 2;
+  font-size: 1em;
+  text-shadow: none;
+  color: #fff;
+  background: #000;
+  background: rgba(0,0,0, .6);
+  left: 50px;
+  right: 0;
+  bottom: 100px;
+  padding: 10px 20px;
+  margin: 0;
+  max-width: none;
+  width:50%;
+}
+
+.aeisliders_nav {
+  position: absolute;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  top: 45%;
+  left: 0;
+  opacity: 0;
+  z-index: 3;
+  text-indent: -9999px;
+  overflow: hidden;
+  text-decoration: none;
+  height: 45px;
+  width: 45px;
+  background: transparent url("../homeslider.gif") no-repeat left top;
+  
+  border-radius: 50%;
+  border: 1px solid #000000;
+}
+.slider-menu:hover .aeisliders_nav{
+  opacity: 1;
+}
+.aeisliders_nav:active {
+  opacity: 1.0;
+}
+
+.aeisliders_nav.next {
+  left: auto;
+  background-position: right top;
+  right: 0;
+  background: transparent url("../img/slider-next.svg") no-repeat scroll center;
+  background-size: 20px;
+    transition: all 300ms ease;
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+}
+.slider-menu:hover .aeisliders_nav.next{
+  right: 30px;
+}
+.aeisliders_nav.next:hover {  
+  background: #f04f06 url("../img/slider-next-hover.svg") no-repeat scroll center;
+  background-size: 20px;
+  border: 1px solid #f04f06;
+}
+
+.aeisliders_nav.prev {
+  left: 0;
+  background-position: right top;
+  right: auto;
+  background: transparent url("../img/slider-prev.svg") no-repeat scroll center;
+  background-size: 20px;
+  transition: all 300ms ease;
+  -webkit-transition: all 300ms ease;
+  -moz-transition: all 300ms ease;
+  -ms-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+}
+.slider-menu:hover .aeisliders_nav.prev{
+  left: 30px;
+}
+.aeisliders_nav.prev:hover { 
+  background: #f04f06 url("../img/slider-prev-hover.svg") no-repeat scroll center;
+  background-size: 20px;
+  border: 1px solid #f04f06;
+ }
+
+.aeisliders_tabs {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    text-align: center;
+    display: none;
+    margin: 0;
+}
+.slider-text .caption-description p {
+    display: inline-block;
+    vertical-align: top;
+}
+.aeisliders_tabs li {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 5px;
+    width: 15px;
+    height: 15px;
+    font-size: 0;
+    background-color: #000000;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.aeisliders_tabs li.aeisliders_here {
+    background-color: #f04f06;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+.aeisliders_tabs li a {
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    line-height: 15px;
+}
+.slider-text.caption {
+    position: absolute;
+    top: 36%;
+    left: 7%;
+    text-align: center;
+    z-index: 2;
+}
+
+.slider-text h2 {
+  font-size: 80px;
+  font-weight: 600;
+  color: #f04f06;
+  letter-spacing: 0;
+  padding: 0 0 18px;
+  margin: 0;
+  position: relative;
+  font-family: 'Great Vibes', cursive;
+  text-transform: capitalize;
+    transition: all 300ms ease;
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+}
+.slider-text h2:hover{
+  color: #000000;
+}
+.slider-text .caption-description {
+  padding: 0 0 0 6px;
+}
+.slider-text .caption-description span {
+  display: block;
+  font-size: 20px;
+  font-weight: 500;
+  color: #000000;
+  line-height: 25px;
+  letter-spacing: 0.8px;
+  margin: 0 0 80px;
+  padding: 0 10px;
+  background-color: #f7f7f7;
+  text-transform: capitalize;
+}
+.slider-text .caption-description span::after{
+  position: absolute;
+  content: "";
+  width: 413px;
+  height: 1px;
+  background-color: #d2d2d2;
+  left: -60%;
+  right: 0;
+  margin: 0 auto;
+  top: 46%;
+  z-index: -1;
+}
+.slider-text .caption-description span.slider-text2::after{
+  left: 0;
+}
+.slider-text .caption-description .slider-text1 {
+  position: absolute;
+  top: -50px;
+  left: 123px;
+  text-align: center;
+}
+.slider-text .btn {
+    background-color: #f04f06;
+    padding: 7px 25px;
+    transition: all 300ms ease;
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+}
+.slider-text .btn:hover {
+    background-color: #000000;
+}
+@media (max-width:1349px){
+  
+}
+@media (max-width:991px){
+  .slider-text.caption{
+    top:33%;
+  }
+  .slider-text h2 {
+      font-size: 60px;
+  }
+  .slider-text .caption-description span{
+    font-size: 15px;
+  }
+  .slider-text .caption-description .slider-text1{
+    left: 0;
+    right: 0;
+  }
+  .slider-text .caption-description span::after{
+    display: none;
+  }
+}
+@media (max-width:767px){
+  .slider-text .caption-description span{
+    margin: 0 0 40px;
+  }
+  .aeisliders_tabs{
+    display: block;
+  }
+  .aeisliders_nav.prev,.aeisliders_nav.next{
+    display: none;
+  }
+  .slider-text.caption{
+    top: 30%;
+  }
+}
+@media (max-width:600px){
+  .slider-text .caption-description span{
+    display: none;
+  }
+  .slider-text h2 {
+      font-size: 35px;
+      padding: 0 0 10px;
+  }
+  .slider-text .caption-description span{
+      margin: 0 0 10px;
+      font-size: 12px;
+      letter-spacing: 2.56px;
+  }
+}
+@media (max-width:479px){
+}
+@media (max-width:380px){
+  .slider-text.caption{
+    top: 20%;
+  }
+  .slider-text h2 {
+      font-size: 30px;
+      padding: 0 0 10px;
+  }
+  .slider-text .btn{
+    padding: 2px 18px;
+  }
+}

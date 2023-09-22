@@ -1,0 +1,130 @@
+{
+    "id1": {
+        "id": "id1",
+        "pm": "CreditCard",
+        "brand": "American Express",
+        "name": "American Express",
+        "logo": "americanexpress.png",
+        "description": ""
+    },
+    "id2": {
+        "id": "id2",
+        "pm": "CreditCard",
+        "brand": "MasterCard",
+        "name": "MasterCard",
+        "logo": "mastercard.png",
+        "description": ""
+    },
+    "id3": {
+        "id": "id3",
+        "pm": "CreditCard",
+        "brand": "VISA",
+        "name": "VISA",
+        "logo": "visa.png",
+        "description": ""
+    },
+    "id4": {
+        "id": "id4",
+        "pm": "CreditCard",
+        "brand": "BCMC",
+        "name": "BCMC",
+        "logo": "bancontactmistercash.png",
+        "description": ""
+    },
+    "id5": {
+        "id": "id5",
+        "pm": "CreditCard",
+        "brand": "Maestro",
+        "name": "Maestro",
+        "logo": "maestro.png",
+        "description": ""
+    },
+    "id6": {
+        "id": "id6",
+        "pm": "UNEUROCOM",
+        "brand": "UNEUROCOM",
+        "name": "UNEUROCOM",
+        "logo": "1eurocom.png",
+        "description": ""
+    },
+    "id7": {
+        "id": "id7",
+        "pm": "Belfius Direct Net",
+        "brand": "Belfius Direct Net",
+        "name": "Belfius Direct Net",
+        "logo": "belfius.png",
+        "description": ""
+    },
+    "id8": {
+        "id": "id8",
+        "pm": "giropay",
+        "brand": "giropay",
+        "name": "giropay",
+        "logo": "giropay.png",
+        "description": ""
+    },
+    "id9": {
+        "id": "id9",
+        "pm": "ING HomePay",
+        "brand": "ING HomePay",
+        "name": "ING HomePay",
+        "logo": "ing.png",
+        "description": ""
+    },
+    "id10": {
+        "id": "id10",
+        "pm": "KBC Online",
+        "brand": "KBC Online",
+        "name": "KBC Online",
+        "logo": "kbconline.png",
+        "description": ""
+    },
+    "id11": {
+        "id": "id11",
+        "pm": "paysafecard",
+        "brand": "paysafecard",
+        "name": "paysafecard",
+        "logo": "paysafecard.png",
+        "description": ""
+    },
+    "id12": {
+        "id": "id12",
+        "pm": "Direct Debits DE",
+        "brand": "Direct Debits DE",
+        "name": "Direct Debits DE",
+        "logo": "elv.png",
+        "description": ""
+    },
+    "id13": {
+        "id": "id13",
+        "pm": "Direct Debits NL",
+        "brand": "Direct Debits NL",
+        "name": "Direct Debits NL",
+        "logo": "elv.png",
+        "description": ""
+    },
+    "id14": {
+        "id": "id14",
+        "pm": "Open Invoice DE",
+        "brand": "Open Invoice DE",
+        "name": "Open Invoice DE",
+        "logo": "kaufaufrechnung.png",
+        "description": ""
+    },
+    "id15": {
+        "id": "id15",
+        "pm": "Open Invoice NL",
+        "brand": "Open Invoice NL",
+        "name": "Open Invoice NL",
+        "logo": "paybyinvoice.png",
+        "description": ""
+    },
+    "id15": {
+        "id": "id15",
+        "pm": "CreditCard",
+        "brand": "Cofinoga",
+        "name": "Cofinoga",
+        "logo": "cofinoga.png",
+        "description": ""
+    }
+}

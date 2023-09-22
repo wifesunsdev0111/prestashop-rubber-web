@@ -1,0 +1,8 @@
+Messaggio da {shop_name}
+
+Gentile cliente,
+
+La tua iscrizione # {SUBSCRIPTION_ID} è iniziata.
+Puoi consultare i tuoi abbonamenti su {SUBSCRIPTION_URL}
+Ecco i dettagli dell'abbonamento:
+{SUBSCRIPTION_DESCRIPTION_TXT}

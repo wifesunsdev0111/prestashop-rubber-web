@@ -1,0 +1,132 @@
+
+@import "vars/bootstrap";
+@import "mixins/bootstrap";
+
+@import "vars/app.vars"; 
+@import "mixins/app";
+
+
+//------- FONTS
+$font-family:				  		$font-family-base!default;
+$font:						  		normal 14px/24px $font-family!default;
+$font-custom:                 		$font-family-base!default;
+$font-icon:                   		"FontAwesome"!default;
+ 
+//-------- BORDERS
+$base-border-color:					#e5e5e5!default;
+$base-hover-border-color:			$theme-color-secondary;
+$base-border-arrow:                 $white!default;
+$base-border-line:                  #ddd!default;
+$main_border:						1px solid $base-border-color!default;
+$main_boder_hover:                  1px solid $theme-color-secondary!default;
+$dark-border-color:					#333!default;
+$light-border-color:				$black!default;
+$homepage-footer-border:            #d9d9d9!default;         
+$thumb-border-color:                $base-border-color!default; 
+$headings-border-color:				$theme-color-secondary!default;     // using variable  for ThemeSkin 	
+
+//--------- BACKGROUNDS
+$page-subheading-bg:                #f5f5f5!default;
+$base-box-bg:                       #fbfbfb!default;
+$table-background:                  $base-box-bg!default;
+$dark-background:                   $black!default;
+$light-background:                  $white!default;
+$homepage-footer-bg:                #f2f2f2!default;
+$background-color:                  $theme-bg-secondary!default;// using variable  for ThemeSkin
+
+//--------- COLORS
+$base-body-color:                   #7e7f80!default;
+$base-text-color:                   $base-body-color!default;
+$base-heading-color:				#535353!default;
+$block-heading-color:               $base-heading-color!default;
+$base-title-color:					$base-text-color!default;
+$light-text-color:                  $black!default;
+$link-color:						$base-text-color;
+$link-hover-color:                  $theme-color-secondary!default;  // using variable  for ThemeSkin
+$description-color:					$base-text-color!default;
+
+//---------- ICON
+$base-icon-color:                   #535353!default;
+$base-icon-home: 				    $black!default;
+
+//--------- Indents
+$base-page-indent:                 	$grid-gutter-width!default;
+$base-box-padding:                  14px 18px 13px!default;
+$base-box-indent:                  	0 0 30px 0!default;
+
+
+
+
+
+
+
+		// product tab home
+		$home-page-tabs-bg:         $gray-lighter!default;
+
+		// product list
+
+		$product-image-border:		$theme-color-secondary!default;
+		$product-bg-image-color:    $white!default;
+		$product-bg-reduced:        $red-light!default;
+		$product-bg-old-price:      $gray!default;
+		$product-text-price:        $black!default;
+		$product-bg-price-red-color:    $theme-color-secondary!default;
+		$product-bg-price-yellow-color: $theme-bg-secondary!default;
+
+
+//---------- Buttons
+//---------- Buttons
+$button-text-color:					$light-text-color!default;
+$button-default-color:              $theme-bg-secondary!default; // using variable  for ThemeSkin
+$button-default-hover-color:        #434343!default;            
+//------ Buttons +/- ---
+$button-pm-color:			#c0c0c0!default;
+$button-pm-hover-color:		$base-text-color!default;
+
+//------ Button Small --
+$button-small-bg:			#6f6f6f!default;
+$button-small-hover-bg:		#575757!default;
+
+//-------Button exclusive-medium
+$button-em-color:			$base-text-color!default;
+
+
+//---------- Product Listing
+
+$base-listing-border-color:					$base-border-color!default;
+$base-listing-grid-padding:					$base-box-padding!default;
+		
+		//-------------- Grid/List vars
+		$GL-text-color:								#808080!default;
+		$GL-title-color:							$base-text-color!default;
+		$GL-icon-color:								$link-color!default;
+		$GL-icon-color-hover:						$base-text-color!default;
+		
+		//-------------- Pagination vars
+		$pagination-active-bg:  $theme-bg-secondary!default;
+
+//---------- Product Info
+$scroll-button-color:								$black!default;
+$list-info-bg:										$white!default;
+$scroll-button-hover-color:							$theme-color-secondary!default;
+$tr-even-bg:										#fdfdfd!default;
+
+
+
+/** CHECKOUT BY STEP */
+$checkout-step-container-border : solid 1px  #fdfdfd !default;
+$checkout-step-container-margin : 30px !default;
+$checkout-step-font-size:18px !default;
+$checkout-step-font-color : $black !default;
+$checkout-step-button-bg: $page-subheading-bg !default; 
+$checkout-step-button-padding: 10px 15px;
+$checkout-step-button-active-bg: $theme-color-secondary !default;
+$checkout-step-button-active-font-color: $white !default;
+
+$checkout-caret-color: #FFF !default;
+$checkout-caret-width-base: 2px !default;
+
+
+@import "vars/modules.vars";
+@import "vars/product.vars";
+@import "vars/layout.vars";

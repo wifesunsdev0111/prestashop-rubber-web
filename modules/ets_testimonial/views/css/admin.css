@@ -1,0 +1,226 @@
+@import url(https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+.ets_ttn_avatar,.ets_ttn_additional{
+    width: 80px;
+}
+#list-ttn_reviews .avatar > img {
+  width: 60px;
+}
+th.rate input {
+  max-width: 76px;
+}
+td.rate {
+    max-width: 140px;
+}
+.ac_results img {
+    width: 30px;
+    vertical-align: middle;
+}
+.ac_results ul {
+    max-height: 300px;
+    overflow: auto;
+}
+.ac_results ul li {
+    cursor: pointer;
+}
+.form_search_product .product_selected {
+    border: 1px solid #ddd;
+    color: #333;
+    padding: 4px 25px 4px 5px;
+    position: relative;
+    z-index: 10;
+    border-radius: 2px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: block;
+    margin-top: 10px;
+    line-height: 25px;
+    vertical-align: middle;
+}
+.ets_ttn_star_content .star {
+    display: inline-block;
+    font-size: 0;
+    vertical-align: middle;
+    margin-right: 3px;
+}
+
+.ets_ttn_star_content .star a:before {
+    color: #f1b746;
+    content: "\f006";
+    font-family: 'FontAwesome';
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+.ets_ttn_star_content {
+    display: inline-block;
+    vertical-align: -7px;
+    line-height: 1;
+}
+
+.ets_ttn_star_content .star a {
+    display: block;
+    cursor: pointer;
+    outline: none!important;
+    text-decoration: none!important;
+}
+
+.ets_ttn_star_content .star.star-hover a:before,.ets_ttn_star_content .star.star_hover a:before,
+.ets_ttn_star_content .star.star_on a:before{
+    content: "\f005";
+    color: #f1b746;
+}
+.list-ttn_reviews .btn-group-action ul.dropdown-menu .btn.btn-default {
+    border: none;
+    text-align: left;
+    border-radius: 0;
+}
+.list-ttn_reviews .btn-group-action ul.dropdown-menu li:not(:last-child) .btn.btn-default {
+    border-bottom: 1px solid #ddd;
+}
+select#bulk_action_ttn_reviews {
+    display: inline-block;
+    width: auto;
+    margin-bottom: -5px;
+    margin-top: 4px;
+    margin-right: 10px;
+}
+.btn, button, a {
+    outline: none!important;
+}
+.form_search_product .product_selected span.delete_product_search:hover {
+    background: rgba(255,255,255,0.2);
+}
+.form_search_product .product_selected span.delete_product_search:before {
+    content: "+";
+    color: #666;
+    font-size: 24px;
+    font-family: Arial;
+}
+.list-ttn_reviews .product_image img {
+    width: 60px;
+}
+.form_search_product .product_selected span.delete_product_search {
+    text-align: center;
+    position: absolute;
+    right: 7px;
+    font-size: 0;
+    transform: rotate(45deg);
+    top: 12px;
+    line-height: 16px;
+    cursor: pointer;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+}
+.product_selected ~ input#product_name {
+    pointer-events: none;
+}
+.panel-heading-action .add_new_link {
+    font-size: 0;
+}
+.limit.results {
+    display: flex;
+    align-items: center;
+    float: right;
+}
+.ets_ttn_paggination .results:not(.limit) {
+    display: inline-block;
+    margin-top: 6px;
+}
+.limit.results label {
+    font-weight: normal;
+    margin-right: 5px;
+}
+.list-ttn_reviews tr.filter.row_hover label {
+    font-weight: normal;
+}
+.list-ttn_reviews tr.filter.row_hover .product_name input {
+    width: 100%!important;
+}
+.list-ttn_reviews th.rate input[type="text"] {
+    max-width: 50px;
+}
+.list-ttn_reviews .rate {
+    text-align: center;
+}
+.list-ttn_reviews tr.filter.row_hover .id_ets_ttn_review {
+    width: 60px;
+}
+.list-ttn_reviews .id_ets_ttn_review {
+    text-align: center;
+}
+.id_ets_ttn_review input.filter {
+    margin: 0 auto!important;
+}
+p.help-block {
+    clear: both;
+    margin: 0!important;
+    padding: 5px;
+}
+.form-group ~ p.help-block {
+    margin-top: -12px!important;
+}
+.list-ttn_reviews .enabled {
+    text-align: center;
+}
+#additional-images-thumbnails a.btn.btn-default,
+#avatar-images-thumbnails a.btn.btn-default{
+    position: absolute;
+    left: 95px;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    font-size: 0;
+}
+label.uploaded_image_label {
+    display: none;
+}
+.uploaded_img_wrapper {
+    padding: 10px 0!important;
+}
+.uploaded_img_wrapper i.process-icon-delete {
+    color: #999;
+    line-height: 27px;
+}
+.uploaded_img_wrapper a.delete_url:hover i.process-icon-delete {
+    color: #333;
+}
+#ps_ets_ttn_review_form textarea {
+    min-height: 100px;
+}
+input#license {
+    max-width: 33%;
+}
+.growl-title{
+    display:none;
+}
+.enabled a[name="ttn_reviews"] .fa.fa-remove:before {
+    content: "+";
+    font-weight: 600;
+    font-size: 30px;
+    display: inline-block;
+    transform: rotate(45deg);
+    width: 23px;
+    height: 23px;
+    line-height: 20px;
+    text-align: center;
+    vertical-align: -4px;
+}
+.bootstrap .list-action-enable:hover .fa.fa-remove:before,
+.list-action-enable:hover .fa.fa-remove:before {
+    color: #e01010;
+}
+.enabled a[name="ttn_reviews"] .fa.fa-check:before {
+    content: "";
+    width: 7px;
+    height: 12px;
+    border-bottom: 3px solid #72c279;
+    border-right: 3px solid #72c279;
+    display: inline-block;
+    transform: rotate(45deg);
+}
+.product_selected > img {
+  width: 32px;
+  margin-right: 2px;
+}

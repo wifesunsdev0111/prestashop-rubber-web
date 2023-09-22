@@ -1,0 +1,19 @@
+ 
+
+{shop_url}
+
+Bonjour,
+
+Message d'un client
+
+Vous avez reçu un nouveau message concernant la commande ayant pour référence : {order_name}.
+
+Client : {firstname} {lastname} ({email})
+
+Message du client :
+
+{message}
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop.com/?utm_source=marchandprestashop&utm_medium=e-mail&utm_campaign=footer_1-7)
